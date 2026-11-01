@@ -1,0 +1,18 @@
+---
+import Img from './Img.astro';
+import { type Lang, href, pick, priceLabel, ui } from '../lib/i18n';
+interface Props { s: any; lang: Lang }
+const { s, lang } = Astro.props;
+const d = s.data;
+const t = ui[lang];
+const first = d.price_from || d.prices.find((p: any) => p.price)?.price || '';
+---
+<article class="program">
+  <a href={href(lang, `/services/${s.id}/`)} class="program-link">
+    <div class="program-media"><Img src={d.image} alt={d.name_en} ratio="4 / 5" /></div>
+    <h3 class="program-title">{d.name_en}</h3>
+    {lang === 'th' && d.name_th && <p class="program-th">{d.name_th}</p>}
+    <p class="program-summary">{pick(d, 'summary', lang)}</p>
+    <p class={`program-price ${first ? '' : 'is-ask'}`}>{first ? `${t.from} ${priceLabel(first, lang)}` : t.askPrice}</p>
+  </a>
+</article>

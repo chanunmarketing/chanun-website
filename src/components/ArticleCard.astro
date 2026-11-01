@@ -1,0 +1,20 @@
+---
+import Img from './Img.astro';
+import { type Lang, formatDate, href, pick, ui } from '../lib/i18n';
+interface Props { a: any; lang: Lang }
+const { a, lang } = Astro.props;
+const d = a.data;
+const t = ui[lang];
+const title = pick(d, 'title', lang);
+---
+<article class="card" data-type={d.type}>
+  <a href={href(lang, `/articles/${a.id}/`)} class="card-link">
+    <div class="card-media">
+      <Img src={d.cover} alt={title} ratio="3 / 2" />
+      {d.youtube && <span class="card-video" aria-hidden="true"></span>}
+    </div>
+    <p class="card-meta"><span>{(t.type as any)[d.type] ?? d.type}</span><time datetime={d.date.toISOString()}>{formatDate(d.date, lang)}</time></p>
+    <h3 class="card-title">{title}</h3>
+    {pick(d, 'excerpt', lang) && <p class="card-excerpt">{pick(d, 'excerpt', lang)}</p>}
+  </a>
+</article>

@@ -1,0 +1,9 @@
+---
+import View from '../../../views/ArticleDetail.astro';
+import { getArticles } from '../../../lib/data';
+export async function getStaticPaths() {
+  return (await getArticles()).map((item) => ({ params: { slug: item.id }, props: { item } }));
+}
+const { item } = Astro.props;
+---
+<View lang="en" a={item} />

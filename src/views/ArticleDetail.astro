@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import Img from '../components/Img.astro';
+import YouTube from '../components/YouTube.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import site from '../data/site.json';
+import { type Lang, formatDate, href, pick, ui } from '../lib/i18n';
+import { md } from '../lib/md';
+import { getArticles } from '../lib/data';
+interface Props { lang: Lang; a: any }
+const { lang, a } = Astro.props;
+const d = a.data;
+const t = ui[lang];
+const title = pick(d, 'title', lang);
+const body = lang === 'en' && d.body_en ? d.body_en : a.body;
+const related = (await getArticles()).filter((x) => x.id !== a.id).slice(0, 2);
+const origin = Astro.site?.toString().replace(/\/$/, '');
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': d.type === 'news' ? 'NewsArticle' : 'Article',
+  headline: title,
+  datePublished: d.date.toISOString(),
+  image: d.cover ? origin + d.cover : undefined,
+  inLanguage: lang,
+  publisher: { '@type': 'MedicalClinic', name: site.clinic_name_en },
+};
+---
+<Base lang={lang} title={title} description={pick(d, 'excerpt', lang)} image={d.cover} type="article" jsonld={jsonld}>
+  <article class="wrap article">
+    <header class="article-head">
+      <a class="text-link back" href={href(lang, '/articles/')}>{t.back}</a>
+      <p class="card-meta"><span>{(t.type as any)[d.type] ?? d.type}</span><time datetime={d.date.toISOString()}>{formatDate(d.date, lang)}</time></p>
+      <h1 class="h-article">{title}</h1>
+      {pick(d, 'excerpt', lang) && <p class="lede">{pick(d, 'excerpt', lang)}</p>}
+    </header>
+    {d.youtube ? (
+      <YouTube url={d.youtube} title={title} class="article-media" />
+    ) : (
+      d.cover && <div class="article-media"><Img src={d.cover} alt={title} ratio="16 / 9" eager /></div>
+    )}
+    <div class="prose article-body" set:html={md(body)} />
+    {d.sources.filter(Boolean).length > 0 && (
+      <section class="sources">
+        <h2 class="h-small">{t.sources}</h2>
+        <ol>{d.sources.filter(Boolean).map((s: string) => <li>{s}</li>)}</ol>
+      </section>
+    )}
+    <p class="fineprint">{pick(site, 'disclaimer', lang)}</p>
+  </article>
+  {related.length > 0 && (
+    <section class="section section-tight">
+      <div class="wrap">
+        <h2 class="h-section">{t.latest}</h2>
+        <div class="journal">{related.map((r) => <ArticleCard a={r} lang={lang} />)}</div>
+      </div>
+    </section>
+  )}
+</Base>

@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import Img from '../components/Img.astro';
+import YouTube from '../components/YouTube.astro';
+import site from '../data/site.json';
+import { type Lang, href, pick, priceLabel, ui } from '../lib/i18n';
+import { md } from '../lib/md';
+interface Props { lang: Lang; s: any }
+const { lang, s } = Astro.props;
+const d = s.data;
+const t = ui[lang];
+const body = lang === 'en' && d.body_en ? d.body_en : s.body;
+const summary = pick(d, 'summary', lang);
+---
+<Base lang={lang} title={d.name_en} description={summary} image={d.image}>
+  <article class="wrap detail">
+    <div class="detail-media">
+      <Img src={d.image} alt={d.name_en} ratio="4 / 5" eager />
+    </div>
+    <div class="detail-body">
+      <a class="text-link back" href={href(lang, '/services/')}>{t.back}</a>
+      <p class="detail-cat">{(t.cat as any)[d.category] ?? d.category}</p>
+      <h1 class="h-page is-latin">{d.name_en}</h1>
+      {lang === 'th' && d.name_th && <p class="detail-th">{d.name_th}</p>}
+      <p class="lede">{summary}</p>
+
+      {d.prices.length > 0 && (
+        <section class="price-box">
+          <h2 class="h-small">{t.priceList}</h2>
+          <ul class="menu-list compact">
+            {d.prices.map((p: any) => (
+              <li class="menu-row"><span class="menu-line">
+                <span class="menu-name"><span class="menu-item">{pick(p, 'item', lang)}</span></span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class={`menu-price ${p.price ? '' : 'is-ask'}`}>{priceLabel(p.price, lang)}</span>
+              </span></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <div class="two-notes">
+        {pick(d, 'suits', lang) && <div><h2 class="h-small">{t.suits}</h2><p>{pick(d, 'suits', lang)}</p></div>}
+        {pick(d, 'avoid', lang) && <div><h2 class="h-small">{t.avoid}</h2><p>{pick(d, 'avoid', lang)}</p></div>}
+      </div>
+
+      {body && <div class="prose" set:html={md(body)} />}
+      {d.youtube && <YouTube url={d.youtube} title={d.name_en} class="mt" />}
+
+      <div class="actions mt">
+        <a class="btn btn-solid" href={site.line_url} target="_blank" rel="noopener">{t.book}</a>
+        <a class="btn btn-line" href={`tel:${site.phone.replace(/\s/g, '')}`}>{t.call} {site.phone}</a>
+      </div>
+      <p class="fineprint">{pick(site, 'disclaimer', lang)}</p>
+    </div>
+  </article>
+</Base>

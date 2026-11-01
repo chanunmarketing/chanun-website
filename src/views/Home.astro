@@ -1,0 +1,134 @@
+---
+import Base from '../layouts/Base.astro';
+import Img from '../components/Img.astro';
+import YouTube from '../components/YouTube.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import site from '../data/site.json';
+import home from '../data/home.json';
+import { type Lang, href, pick, ui } from '../lib/i18n';
+import { md } from '../lib/md';
+import { getArticles, getServices } from '../lib/data';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const services = await getServices();
+const featuredAll = services.filter((s) => s.data.featured);
+const featured = (featuredAll.length ? featuredAll : services).slice(0, 4);
+const articles = (await getArticles()).slice(0, 3);
+const videoUrl = home.featured_video || articles.find((a) => a.data.youtube)?.data.youtube || '';
+const pillars = (home.pillars ?? []).filter((p: any) => p.title_th || p.title_en);
+const origin = Astro.site?.toString().replace(/\/$/, '');
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalClinic',
+  name: site.clinic_name_en,
+  alternateName: site.clinic_name_th,
+  url: origin,
+  telephone: '+66' + site.phone.replace(/\s/g, '').replace(/^0/, ''),
+  image: origin + site.og_image,
+  address: { '@type': 'PostalAddress', streetAddress: site.address_en, addressLocality: 'Bangkok', addressCountry: 'TH' },
+  sameAs: [site.instagram_url, site.facebook_url, site.tiktok_url, site.youtube_url].filter(Boolean),
+};
+---
+<Base lang={lang} jsonld={jsonld}>
+  <section class="hero">
+    <Img src={home.hero_image} alt={pick(home, 'hero_image_alt', lang)} class="hero-img" ratio="auto" eager />
+    <div class="hero-text">
+      <p class="hero-kicker">{pick(home, 'hero_kicker', lang)}</p>
+      <h1 class="hero-title">{pick(home, 'hero_title', lang)}</h1>
+    </div>
+  </section>
+
+  <section class="welcome sand">
+    <div class="wrap">
+      <h2 class="h-hero">{pick(home, 'welcome_title', lang)}</h2>
+      <p class="welcome-sub">{pick(home, 'welcome_subtitle', lang)}</p>
+      <p class="welcome-text">{pick(home, 'hero_text', lang)}</p>
+      <div class="actions">
+        <a class="btn btn-ghost" href={href(lang, '/about/')}>{lang === 'th' ? 'รู้จัก CHANUN' : 'Discover CHANUN'}</a>
+      </div>
+    </div>
+    {home.banner_image && (
+      <div class="wrap">
+        <figure class="banner">
+          <Img src={home.banner_image} alt="" ratio="auto" />
+          <figcaption>
+            <span class="banner-small">{pick(home, 'banner_small', lang)}</span>
+            <span class="banner-title">{pick(home, 'banner_title', lang)}</span>
+          </figcaption>
+        </figure>
+      </div>
+    )}
+  </section>
+
+  {pillars.length > 0 && (
+    <section class="pillars" aria-label={lang === 'th' ? 'สิ่งที่เรายึดถือ' : 'What we stand for'}>
+      {pillars.map((p: any) => (
+        <article class="pillar">
+          <Img src={p.image} alt="" ratio="auto" />
+          <div class="pillar-text">
+            <h3>{pick(p, 'title', lang)}</h3>
+            <p>{pick(p, 'text', lang)}</p>
+          </div>
+        </article>
+      ))}
+    </section>
+  )}
+
+  <section class="statement">
+    <div class="wrap split">
+      <h2 class="h-statement">{pick(home, 'philosophy_title', lang)}</h2>
+      <div class="statement-body">
+        <span class="rule" aria-hidden="true"></span>
+        <div class="prose" set:html={md(pick(home, 'philosophy_text', lang))} />
+      </div>
+    </div>
+  </section>
+
+  {home.interior_image && (
+    <figure class="full-photo">
+      <Img src={home.interior_image} alt={pick(home, 'interior_image_alt', lang)} ratio="auto" />
+    </figure>
+  )}
+
+  <section class="section">
+    <div class="wrap">
+      <h2 class="h-center">{lang === 'th' ? 'โปรแกรมแนะนำ' : 'Highlighted programmes'}</h2>
+      <div class="programs">
+        {featured.map((s) => <ServiceCard s={s} lang={lang} />)}
+      </div>
+      <div class="actions center">
+        <a class="btn btn-ghost" href={href(lang, '/services/')}>{t.allServices}</a>
+      </div>
+    </div>
+  </section>
+
+  {articles.length > 0 && (
+    <section class="section sand">
+      <div class="wrap">
+        <h2 class="h-center">{lang === 'th' ? 'เรื่องผิวที่หมออยากเล่า' : 'Notes from our doctors'}</h2>
+        <div class="journal">
+          {articles.map((a) => <ArticleCard a={a} lang={lang} />)}
+        </div>
+        <div class="actions center">
+          <a class="btn btn-ghost" href={href(lang, '/articles/')}>{t.allArticles}</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {videoUrl && (
+    <section class="section video-band">
+      <div class="wrap split split-video">
+        <div>
+          <h2 class="h-statement">{pick(home, 'featured_video_title', lang)}</h2>
+          <p class="lede">{pick(home, 'featured_video_text', lang)}</p>
+          {site.youtube_url && <a class="btn btn-ghost-inv" href={site.youtube_url} target="_blank" rel="noopener">YouTube</a>}
+        </div>
+        <YouTube url={videoUrl} title={pick(home, 'featured_video_title', lang)} />
+      </div>
+    </section>
+  )}
+</Base>

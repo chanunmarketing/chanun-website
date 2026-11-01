@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import Img from '../components/Img.astro';
+import site from '../data/site.json';
+import home from '../data/home.json';
+import { type Lang, pick, ui } from '../lib/i18n';
+import { md } from '../lib/md';
+import { getDoctors } from '../lib/data';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const doctors = await getDoctors();
+---
+<Base lang={lang} title={t.about}>
+  <section class="page-head sand">
+    <div class="wrap">
+      <h1 class="h-page">{pick(site, 'clinic_name', lang)}</h1>
+      <p class="lede">{pick(site, 'tagline', lang)}</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap split">
+      <h2 class="h-display">{pick(home, 'philosophy_title', lang)}</h2>
+      <div class="prose" set:html={md(pick(home, 'philosophy_text', lang))} />
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <h2 class="h-section">{t.ourDoctors}</h2>
+      <div class="doctors">
+        {doctors.map((doc) => {
+          const dd = doc.data;
+          const bio = lang === 'en' && dd.body_en ? dd.body_en : doc.body;
+          return (
+            <article class="doctor">
+              <Img src={dd.photo} alt={pick(dd, 'name', lang)} ratio="4 / 5" />
+              <div>
+                <h3 class="h-display">{pick(dd, 'name', lang)}</h3>
+                <p class="detail-cat">{pick(dd, 'role', lang)}</p>
+                {dd.license && <p class="muted">{t.license} {dd.license}</p>}
+                <div class="prose" set:html={md(bio)} />
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+</Base>

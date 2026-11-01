@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { type Lang, ui } from '../lib/i18n';
+import { getArticles } from '../lib/data';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const articles = await getArticles();
+const types = ['all', 'article', 'news', 'video'].filter((ty) => ty === 'all' || articles.some((a) => a.data.type === ty));
+const intro = lang === 'th'
+  ? 'ความรู้เรื่องผิวจากแพทย์ ข่าวของคลินิก และวิดีโอจากช่อง YouTube ของเรา'
+  : 'Skin science from our doctors, clinic news, and videos from our YouTube channel.';
+---
+<Base lang={lang} title={t.articles} description={intro}>
+  <section class="page-head sand">
+    <div class="wrap">
+      <h1 class="h-page">{t.articles}</h1>
+      <p class="lede">{intro}</p>
+      {types.length > 2 && (
+        <div class="chips" role="group" aria-label={t.articles}>
+          {types.map((ty, i) => (
+            <button type="button" class="chip" data-filter={ty} aria-pressed={i === 0 ? 'true' : 'false'}>{(t.type as any)[ty]}</button>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+  <div class="section-tight"><div class="wrap">
+    <div class="journal journal-all">
+      {articles.map((a) => <ArticleCard a={a} lang={lang} />)}
+    </div>
+    <p class="empty" hidden>{t.noArticles}</p>
+  </div></div>
+  <script>
+    const chips = document.querySelectorAll<HTMLButtonElement>('[data-filter]');
+    const cards = document.querySelectorAll<HTMLElement>('.journal-all .card');
+    const empty = document.querySelector<HTMLElement>('.empty');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      const f = c.dataset.filter;
+      chips.forEach((x) => x.setAttribute('aria-pressed', String(x === c)));
+      let shown = 0;
+      cards.forEach((card) => {
+        const ok = f === 'all' || card.dataset.type === f;
+        card.hidden = !ok;
+        if (ok) shown++;
+      });
+      if (empty) empty.hidden = shown > 0;
+    }));
+  </script>
+</Base>

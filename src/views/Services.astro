@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import site from '../data/site.json';
+import { type Lang, pick, ui } from '../lib/i18n';
+import { categoryOrder, getServices } from '../lib/data';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const services = await getServices();
+const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.category)])]
+  .map((c) => ({ id: c, label: (t.cat as any)[c] ?? c, items: services.filter((s) => s.data.category === c) }))
+  .filter((c) => c.items.length);
+const intro = lang === 'th'
+  ? 'ทุกโปรแกรมเริ่มจากการพบแพทย์เพื่อประเมินผิวก่อน ราคาด้านล่างเป็นราคาเริ่มต้น ราคาจริงขึ้นอยู่กับแผนการดูแลของแต่ละคน'
+  : 'Every programme starts with an assessment by the doctor. Prices shown are starting prices; your final price depends on your treatment plan.';
+---
+<Base lang={lang} title={t.services}>
+  <section class="page-head sand">
+    <div class="wrap">
+      <h1 class="h-page">{t.services}</h1>
+      <p class="lede">{intro}</p>
+      <nav class="chips" aria-label={t.services}>
+        {cats.map((c) => <a class="chip" href={`#${c.id}`}>{c.label}</a>)}
+      </nav>
+    </div>
+  </section>
+  <div class="wrap services-page">
+    {cats.map((c) => (
+      <section class="menu-group" id={c.id}>
+        <h2 class="menu-group-title">{c.label}</h2>
+        <div class="programs programs-3">{c.items.map((s) => <ServiceCard s={s} lang={lang} />)}</div>
+      </section>
+    ))}
+    <p class="fineprint">{pick(site, 'disclaimer', lang)}</p>
+  </div>
+</Base>

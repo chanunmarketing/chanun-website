@@ -1,0 +1,40 @@
+---
+import site from '../data/site.json';
+import { type Lang, href, switchHref, ui } from '../lib/i18n';
+interface Props { lang: Lang; path: string }
+const { lang, path } = Astro.props;
+const t = ui[lang];
+const other: Lang = lang === 'th' ? 'en' : 'th';
+const links = [
+  { label: t.about, to: '/about/' },
+  { label: t.services, to: '/services/' },
+  { label: t.articles, to: '/articles/' },
+  { label: t.contact, to: '/contact/' },
+];
+const norm = (p: string) => p.replace(/\/$/, '');
+const isActive = (to: string) => norm(path).startsWith(norm(href(lang, to)));
+---
+<header class="site-header">
+  <div class="header-row">
+    <a class="wordmark" href={href(lang, '/')} aria-label="CHANUN">
+      <span class="wordmark-name">CHANUN</span>
+      <span class="wordmark-sub">Aesthetic Wellness &amp; Surgery</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      {links.map((l) => (
+        <a href={href(lang, l.to)} aria-current={isActive(l.to) ? 'page' : undefined}>{l.label}</a>
+      ))}
+    </nav>
+    <div class="header-actions">
+      <a class="lang" href={switchHref(path, other)} hreflang={other} lang={other}>{t.otherLang}</a>
+      <a class="btn btn-ghost-inv btn-sm hide-sm" href={site.line_url} target="_blank" rel="noopener">{t.book}</a>
+      <details class="menu">
+        <summary aria-label={t.menu}><span></span><span></span></summary>
+        <div class="menu-panel">
+          {links.map((l) => <a href={href(lang, l.to)}>{l.label}</a>)}
+          <a href={site.line_url} target="_blank" rel="noopener">{t.book}</a>
+        </div>
+      </details>
+    </div>
+  </div>
+</header>

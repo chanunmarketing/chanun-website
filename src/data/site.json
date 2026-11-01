@@ -1,0 +1,33 @@
+{
+  "site_url": "https://chanunclinic.pages.dev",
+  "clinic_name_th": "ชนัญ เอสเธติก เวลเนส แอนด์ เซอร์เจอรี",
+  "clinic_name_en": "CHANUN Aesthetic Wellness & Surgery",
+  "tagline_th": "คลินิกผิวพรรณและความงาม สุขุมวิท 61 ดูแลโดยแพทย์",
+  "tagline_en": "A doctor-led aesthetic clinic on Sukhumvit 61, Bangkok",
+  "seo_description_th": "CHANUN คลินิกความงามบนสุขุมวิท 61 ดูแลผิวและโครงหน้าโดยแพทย์ เน้น derma longevity และการดูแลโครงสร้างผิว ECM ดูบริการ ราคา และบทความความรู้ได้ที่นี่",
+  "seo_description_en": "CHANUN is a doctor-led aesthetic clinic on Sukhumvit 61, Bangkok, focused on derma longevity and the skin's extracellular matrix. See treatments, prices and articles.",
+  "phone": "098 428 9669",
+  "line_id": "@Chanun.aesthetic",
+  "line_url": "https://line.me/R/ti/p/@chanun.aesthetic",
+  "instagram_url": "https://www.instagram.com/chanunclinic/",
+  "facebook_url": "",
+  "tiktok_url": "",
+  "youtube_url": "",
+  "email": "",
+  "address_th": "ซอยสุขุมวิท 61 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ (กรุณาแก้เป็นที่อยู่เต็ม)",
+  "address_en": "Sukhumvit Soi 61, Khlong Tan Nuea, Watthana, Bangkok (please update full address)",
+  "transport_th": "ใกล้ BTS เอกมัย",
+  "transport_en": "Near BTS Ekkamai",
+  "map_url": "https://maps.google.com/?q=Sukhumvit+61+Bangkok",
+  "map_embed": "https://www.google.com/maps?q=Sukhumvit+61+Bangkok&output=embed",
+  "hours": [
+    { "day_th": "อังคาร – อาทิตย์", "day_en": "Tuesday – Sunday", "time": "11:00 – 20:00" },
+    { "day_th": "จันทร์", "day_en": "Monday", "time": "ปิด / Closed" }
+  ],
+  "license_th": "ใบอนุญาตประกอบกิจการสถานพยาบาล เลขที่ [รอใส่]",
+  "license_en": "Healthcare facility licence no. [to be added]",
+  "ad_permit": "ฆสพ. [รอใส่]",
+  "disclaimer_th": "ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล การทำหัตถการทุกชนิดควรผ่านการประเมินโดยแพทย์ก่อน",
+  "disclaimer_en": "Results vary from person to person. Every procedure starts with an assessment by a doctor.",
+  "og_image": "/uploads/og-default.jpg"
+}

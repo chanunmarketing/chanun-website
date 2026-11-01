@@ -1,0 +1,81 @@
+---
+import '../styles/global.css';
+import site from '../data/site.json';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { type Lang, pick, switchHref, ui } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+  image?: string;
+  jsonld?: Record<string, any> | Record<string, any>[];
+  type?: 'website' | 'article';
+}
+const { lang, title, description, image, jsonld, type = 'website' } = Astro.props;
+const path = Astro.url.pathname;
+const siteName = pick(site, 'clinic_name', lang);
+const fullTitle = title ? `${title} | CHANUN` : `CHANUN | ${pick(site, 'tagline', lang)}`;
+const desc = description || pick(site, 'seo_description', lang);
+const origin = Astro.site?.toString().replace(/\/$/, '') ?? '';
+const ogImage = new URL(image || site.og_image, Astro.site).toString();
+const thPath = switchHref(path, 'th');
+const enPath = switchHref(path, 'en');
+const t = ui[lang];
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={origin + path} />
+    <link rel="alternate" hreflang="th" href={origin + thPath} />
+    <link rel="alternate" hreflang="en" href={origin + enPath} />
+    <link rel="alternate" hreflang="x-default" href={origin + thPath} />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={lang === 'th' ? 'th_TH' : 'en_US'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#1E2337" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500&family=Noto+Serif+Thai:wght@300;400;500&display=swap"
+    />
+    {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+  </head>
+  <body>
+    <a class="skip" href="#main">{t.skip}</a>
+    <Header lang={lang} path={path} />
+    <main id="main"><slot /></main>
+    <Footer lang={lang} />
+    <div class="float-chat" aria-label={t.book}>
+      <a href={site.line_url} target="_blank" rel="noopener" aria-label={`LINE ${site.line_id}`}><span class="float-line">LINE</span></a>
+      <a href={`tel:${site.phone.replace(/\s/g, '')}`} aria-label={`${t.call} ${site.phone}`}>
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+      </a>
+    </div>
+    <script>
+      // Click-to-load YouTube: keeps pages fast until a visitor actually presses play.
+      document.addEventListener('click', (e) => {
+        const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-yt]');
+        if (!btn) return;
+        const id = btn.dataset.yt;
+        const f = document.createElement('iframe');
+        f.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+        f.title = btn.getAttribute('aria-label') || 'YouTube video';
+        f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        f.allowFullscreen = true;
+        btn.replaceWith(f);
+      });
+    </script>
+  </body>
+</html>

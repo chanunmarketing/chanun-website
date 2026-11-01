@@ -1,0 +1,49 @@
+---
+import site from '../data/site.json';
+import home from '../data/home.json';
+import { type Lang, href, pick, ui } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const tel = `tel:${site.phone.replace(/\s/g, '')}`;
+const socials = [
+  { label: 'Instagram', url: site.instagram_url },
+  { label: 'Facebook', url: site.facebook_url },
+  { label: 'TikTok', url: site.tiktok_url },
+  { label: 'YouTube', url: site.youtube_url },
+].filter((s) => s.url);
+---
+<footer class="site-footer">
+  <div class="wrap contact-band">
+    <div>
+      <h2 class="footer-title">{pick(home, 'cta_title', lang)}</h2>
+      <p class="footer-lede">{pick(home, 'cta_text', lang)}</p>
+      <div class="actions">
+        <a class="btn btn-solid-inv" href={site.line_url} target="_blank" rel="noopener">{t.book}</a>
+        <a class="btn btn-ghost-inv" href={tel}>{t.call} {site.phone}</a>
+      </div>
+    </div>
+    <dl class="footer-facts">
+      <dt>{t.address}</dt>
+      <dd>{pick(site, 'address', lang)}<br /><span class="muted-inv">{pick(site, 'transport', lang)}</span><br /><a href={site.map_url} target="_blank" rel="noopener">{t.openMap}</a></dd>
+      <dt>{t.hours}</dt>
+      <dd>{site.hours.map((h) => <span class="hours-line"><span>{pick(h, 'day', lang)}</span><span>{h.time}</span></span>)}</dd>
+      <dt>LINE</dt>
+      <dd><a href={site.line_url} target="_blank" rel="noopener">{site.line_id}</a></dd>
+    </dl>
+  </div>
+  <div class="wrap footer-bottom">
+    <a class="wordmark" href={href(lang, '/')}>
+      <span class="wordmark-name">CHANUN</span>
+      <span class="wordmark-sub">Aesthetic Wellness &amp; Surgery</span>
+    </a>
+    <ul class="footer-social">
+      {socials.map((s) => <li><a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}
+    </ul>
+  </div>
+  <div class="wrap footer-legal">
+    <p>{pick(site, 'disclaimer', lang)}</p>
+    <p>{pick(site, 'license', lang)}{site.ad_permit && <span>&nbsp;/&nbsp;{site.ad_permit}</span>}</p>
+    <p>© {new Date().getFullYear()} {site.clinic_name_en}</p>
+  </div>
+</footer>

@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+import { type Lang, pick, ui } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+---
+<Base lang={lang} title={t.contact}>
+  <section class="page-head sand">
+    <div class="wrap">
+      <h1 class="h-page">{t.contact}</h1>
+      <p class="lede">{lang === 'th' ? 'นัดหมายหรือสอบถามได้ทาง LINE หรือโทรหาเรา' : 'Book or ask us anything on LINE, or give us a call.'}</p>
+      <div class="actions">
+        <a class="btn btn-solid" href={site.line_url} target="_blank" rel="noopener">{t.book}</a>
+        <a class="btn btn-line" href={`tel:${site.phone.replace(/\s/g, '')}`}>{t.call} {site.phone}</a>
+      </div>
+    </div>
+  </section>
+  <section class="section section-tight">
+    <div class="wrap split contact">
+      <dl class="facts">
+        <dt>{t.address}</dt>
+        <dd>{pick(site, 'address', lang)}<br /><span class="muted">{pick(site, 'transport', lang)}</span><br /><a class="text-link" href={site.map_url} target="_blank" rel="noopener">{t.openMap}</a></dd>
+        <dt>{t.hours}</dt>
+        <dd>{site.hours.map((h) => <span class="hours-line"><span>{pick(h, 'day', lang)}</span><span>{h.time}</span></span>)}</dd>
+        <dt>LINE</dt>
+        <dd><a href={site.line_url} target="_blank" rel="noopener">{site.line_id}</a></dd>
+        <dt>{t.call}</dt>
+        <dd><a href={`tel:${site.phone.replace(/\s/g, '')}`}>{site.phone}</a></dd>
+      </dl>
+      {site.map_embed && (
+        <iframe class="map" src={site.map_embed} title={t.address} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      )}
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,14 @@
+---
+import { youtubeId } from '../lib/i18n';
+interface Props { url: string; title: string; class?: string }
+const { url, title, class: cls = '' } = Astro.props;
+const id = youtubeId(url);
+---
+{id && (
+  <div class={`yt ${cls}`}>
+    <button type="button" data-yt={id} aria-label={title}>
+      <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" />
+      <span class="yt-play" aria-hidden="true"></span>
+    </button>
+  </div>
+)}

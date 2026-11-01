@@ -1,0 +1,288 @@
+# หน้าแอดมินของเว็บ CHANUN (Pages CMS — https://app.pagescms.org)
+# ช่องที่ลงท้ายด้วย (TH) คือภาษาไทย (EN) คือภาษาอังกฤษ
+# ถ้าเว้นช่อง EN ว่างไว้ หน้าเว็บภาษาอังกฤษจะแสดงข้อความภาษาไทยแทน
+
+media:
+  input: public/uploads
+  output: /uploads
+  rename: safe
+  categories: [image]
+
+content:
+  - name: services
+    label: บริการและราคา
+    type: collection
+    path: src/content/services
+    filename: "{fields.name_en}.md"
+    view:
+      fields: [name_en, category, price_from, featured, published]
+      primary: name_en
+      sort: [order, name_en]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: name_en
+        label: ชื่อโปรแกรม (ภาษาอังกฤษ ใช้เป็นชื่อหลัก)
+        type: string
+        required: true
+      - name: name_th
+        label: ชื่อภาษาไทย (บรรทัดเล็กใต้ชื่อ)
+        type: string
+      - name: category
+        label: หมวด
+        type: select
+        options:
+          values:
+            - { name: lifting, label: ยกกระชับ }
+            - { name: skin, label: ดูแลผิว }
+            - { name: injectables, label: งานฉีด }
+            - { name: scar, label: แผลเป็นและหลุมสิว }
+            - { name: wellness, label: ดูแลจากภายใน }
+      - name: image
+        label: รูปประกอบ (แนวตั้ง 4:5)
+        type: image
+      - name: summary_th
+        label: คำอธิบายสั้น (TH)
+        type: text
+      - name: summary_en
+        label: คำอธิบายสั้น (EN)
+        type: text
+      - name: price_from
+        label: ราคาเริ่มต้น (ใส่แค่ตัวเลข เช่น 4900 ถ้าเว้นว่างจะขึ้นว่า "สอบถามราคา")
+        type: string
+      - name: prices
+        label: ตารางราคา
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{item_th}  {price}"
+        fields:
+          - { name: item_th, label: รายการ (TH), type: string }
+          - { name: item_en, label: รายการ (EN), type: string }
+          - { name: price, label: ราคา (ตัวเลข หรือเว้นว่าง), type: string }
+      - name: suits_th
+        label: เหมาะกับใคร (TH)
+        type: text
+      - name: suits_en
+        label: เหมาะกับใคร (EN)
+        type: text
+      - name: avoid_th
+        label: ไม่ควรทำถ้า (TH)
+        type: text
+      - name: avoid_en
+        label: ไม่ควรทำถ้า (EN)
+        type: text
+      - name: youtube
+        label: ลิงก์ YouTube (ถ้ามี)
+        type: string
+      - name: featured
+        label: แสดงในหน้าแรก
+        type: boolean
+        default: false
+      - name: order
+        label: ลำดับ (เลขน้อยขึ้นก่อน)
+        type: number
+        default: 50
+      - name: published
+        label: แสดงบนเว็บ
+        type: boolean
+        default: true
+      - name: body
+        label: รายละเอียด (TH)
+        type: rich-text
+        options:
+          format: markdown
+      - name: body_en
+        label: รายละเอียด (EN)
+        type: rich-text
+        options:
+          format: markdown
+
+  - name: articles
+    label: บทความ ข่าว และวิดีโอ
+    type: collection
+    path: src/content/articles
+    filename: "{fields.slug}.md"
+    view:
+      fields: [title_th, type, date, published]
+      primary: title_th
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: slug
+        label: ชื่อลิงก์ (ภาษาอังกฤษตัวเล็ก ใช้ - แทนช่องว่าง เช่น pn-skin-repair)
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: ใช้ได้เฉพาะ a-z 0-9 และ -
+      - name: type
+        label: ประเภท
+        type: select
+        options:
+          values:
+            - { name: article, label: บทความ }
+            - { name: news, label: ข่าวคลินิก }
+            - { name: video, label: วิดีโอ }
+      - name: date
+        label: วันที่
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: title_th
+        label: หัวข้อ (TH)
+        type: string
+        required: true
+      - name: title_en
+        label: หัวข้อ (EN)
+        type: string
+      - name: cover
+        label: รูปปก (แนวนอน 3:2)
+        type: image
+      - name: youtube
+        label: ลิงก์ YouTube (ถ้าใส่ จะแสดงวิดีโอแทนรูปปกในหน้าบทความ)
+        type: string
+      - name: excerpt_th
+        label: เกริ่นนำ 1–2 ประโยค (TH)
+        type: text
+      - name: excerpt_en
+        label: เกริ่นนำ 1–2 ประโยค (EN)
+        type: text
+      - name: sources
+        label: แหล่งอ้างอิง
+        type: string
+        list: true
+      - name: published
+        label: แสดงบนเว็บ
+        type: boolean
+        default: true
+      - name: body
+        label: เนื้อหา (TH)
+        type: rich-text
+        options:
+          format: markdown
+      - name: body_en
+        label: เนื้อหา (EN)
+        type: rich-text
+        options:
+          format: markdown
+
+  - name: doctors
+    label: แพทย์
+    type: collection
+    path: src/content/doctors
+    filename: "{fields.name_en}.md"
+    view:
+      fields: [name_th, role_th]
+      primary: name_th
+    fields:
+      - { name: name_th, label: ชื่อ (TH), type: string, required: true }
+      - { name: name_en, label: ชื่อ (EN), type: string }
+      - { name: role_th, label: ตำแหน่ง (TH), type: string }
+      - { name: role_en, label: ตำแหน่ง (EN), type: string }
+      - { name: license, label: เลขใบประกอบวิชาชีพ, type: string }
+      - { name: photo, label: รูป (แนวตั้ง 4:5), type: image }
+      - { name: order, label: ลำดับ, type: number, default: 1 }
+      - { name: body, label: ประวัติ (TH), type: rich-text, options: { format: markdown } }
+      - { name: body_en, label: ประวัติ (EN), type: rich-text, options: { format: markdown } }
+
+  - name: home
+    label: หน้าแรก
+    type: file
+    path: src/data/home.json
+    format: json
+    fields:
+      - { name: hero_kicker_th, label: "รูปใหญ่บนสุด: ข้อความเล็ก (TH)", type: string }
+      - { name: hero_kicker_en, label: "รูปใหญ่บนสุด: ข้อความเล็ก (EN)", type: string }
+      - { name: hero_title_th, label: "รูปใหญ่บนสุด: หัวข้อ (TH) กด Enter เพื่อขึ้นบรรทัดใหม่", type: text }
+      - { name: hero_title_en, label: "รูปใหญ่บนสุด: หัวข้อ (EN)", type: text }
+      - { name: hero_image, label: "รูปใหญ่บนสุด (แนวนอน กว้าง 2000px ขึ้นไป)", type: image }
+      - { name: hero_image_alt_th, label: คำอธิบายรูป (TH), type: string }
+      - { name: hero_image_alt_en, label: คำอธิบายรูป (EN), type: string }
+      - { name: welcome_title_th, label: "ส่วนต้อนรับ: หัวข้อ (TH)", type: string }
+      - { name: welcome_title_en, label: "ส่วนต้อนรับ: หัวข้อ (EN)", type: string }
+      - { name: welcome_subtitle_th, label: "ส่วนต้อนรับ: บรรทัดรอง (TH)", type: string }
+      - { name: welcome_subtitle_en, label: "ส่วนต้อนรับ: บรรทัดรอง (EN)", type: string }
+      - { name: hero_text_th, label: "ส่วนต้อนรับ: ข้อความ (TH)", type: text }
+      - { name: hero_text_en, label: "ส่วนต้อนรับ: ข้อความ (EN)", type: text }
+      - { name: banner_image, label: "แบนเนอร์รูปกว้าง (แนวนอน)", type: image }
+      - { name: banner_small_th, label: "แบนเนอร์: ข้อความเล็ก (TH)", type: string }
+      - { name: banner_small_en, label: "แบนเนอร์: ข้อความเล็ก (EN)", type: string }
+      - { name: banner_title_th, label: "แบนเนอร์: หัวข้อ (TH)", type: string }
+      - { name: banner_title_en, label: "แบนเนอร์: หัวข้อ (EN)", type: string }
+      - name: pillars
+        label: "3 ช่องรูปพร้อมข้อความ (จุดเด่นของคลินิก)"
+        type: object
+        list:
+          max: 3
+          collapsible:
+            collapsed: true
+            summary: "{title_th}"
+        fields:
+          - { name: title_th, label: หัวข้อ (TH), type: string }
+          - { name: title_en, label: หัวข้อ (EN), type: string }
+          - { name: text_th, label: ข้อความ (TH), type: text }
+          - { name: text_en, label: ข้อความ (EN), type: text }
+          - { name: image, label: "รูป (แนวตั้ง)", type: image }
+      - { name: philosophy_title_th, label: "แนวคิดคลินิก: หัวข้อ (TH)", type: string }
+      - { name: philosophy_title_en, label: "แนวคิดคลินิก: หัวข้อ (EN)", type: string }
+      - { name: philosophy_text_th, label: "แนวคิดคลินิก: ข้อความ (TH)", type: text }
+      - { name: philosophy_text_en, label: "แนวคิดคลินิก: ข้อความ (EN)", type: text }
+      - { name: interior_image, label: "รูปเต็มจอ (บรรยากาศคลินิก แนวนอน)", type: image }
+      - { name: interior_image_alt_th, label: คำอธิบายรูป (TH), type: string }
+      - { name: interior_image_alt_en, label: คำอธิบายรูป (EN), type: string }
+      - { name: featured_video, label: ลิงก์ YouTube ที่จะโชว์หน้าแรก, type: string }
+      - { name: featured_video_title_th, label: "วิดีโอ: หัวข้อ (TH)", type: string }
+      - { name: featured_video_title_en, label: "วิดีโอ: หัวข้อ (EN)", type: string }
+      - { name: featured_video_text_th, label: "วิดีโอ: ข้อความ (TH)", type: text }
+      - { name: featured_video_text_en, label: "วิดีโอ: ข้อความ (EN)", type: text }
+      - { name: cta_title_th, label: "ท้ายเว็บ: หัวข้อชวนนัดหมาย (TH)", type: string }
+      - { name: cta_title_en, label: "ท้ายเว็บ: หัวข้อชวนนัดหมาย (EN)", type: string }
+      - { name: cta_text_th, label: "ท้ายเว็บ: ข้อความชวนนัดหมาย (TH)", type: text }
+      - { name: cta_text_en, label: "ท้ายเว็บ: ข้อความชวนนัดหมาย (EN)", type: text }
+
+  - name: site
+    label: ข้อมูลคลินิก (ที่อยู่ เวลา โซเชียล)
+    type: file
+    path: src/data/site.json
+    format: json
+    fields:
+      - { name: site_url, label: ที่อยู่เว็บ (เช่น https://chanunclinic.com), type: string }
+      - { name: clinic_name_th, label: ชื่อคลินิก (TH), type: string }
+      - { name: clinic_name_en, label: ชื่อคลินิก (EN), type: string }
+      - { name: tagline_th, label: คำอธิบายคลินิกสั้นๆ (TH), type: string }
+      - { name: tagline_en, label: คำอธิบายคลินิกสั้นๆ (EN), type: string }
+      - { name: seo_description_th, label: คำอธิบายที่โชว์ใน Google (TH), type: text }
+      - { name: seo_description_en, label: คำอธิบายที่โชว์ใน Google (EN), type: text }
+      - { name: phone, label: เบอร์โทร, type: string }
+      - { name: line_id, label: LINE ID, type: string }
+      - { name: line_url, label: ลิงก์ LINE, type: string }
+      - { name: instagram_url, label: ลิงก์ Instagram, type: string }
+      - { name: facebook_url, label: ลิงก์ Facebook, type: string }
+      - { name: tiktok_url, label: ลิงก์ TikTok, type: string }
+      - { name: youtube_url, label: ลิงก์ช่อง YouTube, type: string }
+      - { name: email, label: อีเมล, type: string }
+      - { name: address_th, label: ที่อยู่ (TH), type: text }
+      - { name: address_en, label: ที่อยู่ (EN), type: text }
+      - { name: transport_th, label: การเดินทาง (TH), type: string }
+      - { name: transport_en, label: การเดินทาง (EN), type: string }
+      - { name: map_url, label: ลิงก์ Google Maps, type: string }
+      - { name: map_embed, label: "ลิงก์ฝังแผนที่ (Google Maps > แชร์ > ฝังแผนที่ > คัดลอกเฉพาะ src)", type: string }
+      - name: hours
+        label: เวลาทำการ
+        type: object
+        list: true
+        fields:
+          - { name: day_th, label: วัน (TH), type: string }
+          - { name: day_en, label: วัน (EN), type: string }
+          - { name: time, label: เวลา, type: string }
+      - { name: license_th, label: เลขใบอนุญาตสถานพยาบาล (TH), type: string }
+      - { name: license_en, label: เลขใบอนุญาตสถานพยาบาล (EN), type: string }
+      - { name: ad_permit, label: เลขที่ ฆสพ., type: string }
+      - { name: disclaimer_th, label: ข้อความท้ายหน้า (TH), type: text }
+      - { name: disclaimer_en, label: ข้อความท้ายหน้า (EN), type: text }
+      - { name: og_image, label: รูปตอนแชร์ลิงก์ (1200×630), type: image }
