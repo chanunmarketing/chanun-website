@@ -2,26 +2,45 @@
 import Base from '../layouts/Base.astro';
 import Img from '../components/Img.astro';
 import site from '../data/site.json';
-import { type Lang, href, pick } from '../lib/i18n';
+import Lightbox from '../components/Lightbox.astro';
+import { type Lang, href, pick, ui } from '../lib/i18n';
 import { getCases } from '../lib/data';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const cases = await getCases();
 const muses = cases.filter((c) => c.data.kind === 'muse');
 const notes = cases.filter((c) => c.data.kind !== 'muse');
+const cat = ui[lang].cat as Record<string, string>;
+// Gallery: only approved before/after images (approval number filled in)
+const gallery = cases.flatMap((c) => {
+  const d = c.data;
+  if (!d.approval_no) return [];
+  const imgs = d.ba_images;
+  return imgs.map((src: string) => ({ src, c, category: d.category || 'other' }));
+});
+const galleryCats = [...new Set(gallery.map((g) => g.category))];
 const t = lang === 'th'
   ? {
       intro: 'เรื่องเล่าจากห้องตรวจ ทุกเคสเขียนโดยคุณหมอปิงปอง เล่าว่าเห็นอะไร เลือกวิธีไหน และดูแลต่ออย่างไร เหมือนได้นั่งฟังคุณหมออธิบายด้วยตัวเอง',
       muses: 'Muses', musesSub: 'muse ของ CHANUN Clinic กับแผนการดูแลที่ออกแบบเฉพาะแต่ละคน',
       notes: 'Case Notes', notesSub: 'เคสคนไข้ที่ยินยอมให้เล่า โดยไม่เปิดเผยใบหน้า',
       read: 'อ่านบันทึกของคุณหมอ', empty: 'บันทึกเคสแรกกำลังจะมาเร็วๆ นี้',
+      gallery: 'Before & After', gallerySub: 'ภาพจริงของคนไข้และ muse ที่ยินยอมให้เผยแพร่ กดที่ภาพเพื่อดูขยายและอ่านบันทึกของคุณหมอ', all: 'ทั้งหมด',
+      galleryNote: 'ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล ภาพไม่ได้ผ่านการตกแต่ง และได้รับอนุญาตจากผู้รับบริการแล้ว', approval: 'เลขที่อนุมัติ',
     }
   : {
       intro: 'Stories from the consulting room. Every case is written by Dr. PP: what was seen, which approach was chosen and how care continued, as if the doctor were explaining it to you in person.',
       muses: 'Muses', musesSub: "CHANUN Clinic's muses and the care plans made for each of them",
       notes: 'Case Notes', notesSub: 'Cases shared with patient consent, without showing faces',
       read: "Read the doctor's notes", empty: 'The first case notes are coming soon.',
+      gallery: 'Before & After', gallerySub: 'Real patients and muses who agreed to share. Tap an image to enlarge it and read the doctor’s notes.', all: 'All',
+      galleryNote: 'Results vary from person to person. Images are unretouched and shared with consent.', approval: 'Approval no.',
     };
+const jumps = [
+  ...(gallery.length ? [{ href: '#before-after', label: t.gallery }] : []),
+  ...(muses.length ? [{ href: '#muses', label: t.muses }] : []),
+  ...(notes.length ? [{ href: '#case-notes', label: t.notes }] : []),
+];
 ---
 <Base lang={lang} title="Atelier of Muses" description={t.intro}>
   <section class="page-head sand">
@@ -29,16 +48,46 @@ const t = lang === 'th'
       <p class="hero-kicker dark">CHANUN Clinic</p>
       <h1 class="h-page is-latin">Atelier of Muses</h1>
       <p class="lede">{t.intro}</p>
-      {muses.length > 0 && notes.length > 0 && (
+      {jumps.length > 1 && (
         <nav class="chips" aria-label="Atelier of Muses">
-          <a class="chip" href="#muses">{t.muses}</a>
-          <a class="chip" href="#case-notes">{t.notes}</a>
+          {jumps.map((j) => <a class="chip" href={j.href}>{j.label}</a>)}
         </nav>
       )}
     </div>
   </section>
 
   {cases.length === 0 && <div class="wrap section-tight"><p class="empty">{t.empty}</p></div>}
+
+  {gallery.length > 0 && (
+    <section class="section" id="before-after">
+      <div class="wrap">
+        <div class="section-head-plain">
+          <h2 class="h-section is-latin">{t.gallery}</h2>
+          <p class="muted">{t.gallerySub}</p>
+        </div>
+        {galleryCats.length > 1 && (
+          <div class="chips" role="group" aria-label={t.gallery}>
+            <button type="button" class="chip" data-gfilter="all" aria-pressed="true">{t.all}</button>
+            {galleryCats.map((k) => <button type="button" class="chip" data-gfilter={k} aria-pressed="false">{cat[k] ?? k}</button>)}
+          </div>
+        )}
+        <div class="ba-gallery">
+          {gallery.map((g) => (
+            <button type="button" class="ba-tile" data-gcat={g.category}
+              data-lightbox={g.src}
+              data-caption={`${pick(g.c.data, 'title', lang)} · ${g.c.data.treatment_date ? g.c.data.treatment_date + ' · ' : ''}${t.approval} ${g.c.data.approval_no}`}
+              data-link={href(lang, `/atelier-of-muses/${g.c.id}/`)} data-link-label={t.read}
+              aria-label={pick(g.c.data, 'title', lang)}>
+              <img src={g.src} alt="" loading="lazy" />
+            </button>
+          ))}
+        </div>
+        <p class="fineprint">{t.galleryNote}</p>
+      </div>
+    </section>
+  )}
+
+
 
   {muses.length > 0 && (
     <section class="section" id="muses">
@@ -87,4 +136,13 @@ const t = lang === 'th'
   )}
 
   <div class="wrap"><p class="fineprint">{pick(site, 'disclaimer', lang)}</p></div>
+  <Lightbox />
+  <script>
+    const gchips = document.querySelectorAll<HTMLButtonElement>('[data-gfilter]');
+    gchips.forEach((c) => c.addEventListener('click', () => {
+      const f = c.dataset.gfilter;
+      gchips.forEach((x) => x.setAttribute('aria-pressed', String(x === c)));
+      document.querySelectorAll<HTMLElement>('.ba-tile').forEach((t) => { t.hidden = !(f === 'all' || t.dataset.gcat === f); });
+    }));
+  </script>
 </Base>

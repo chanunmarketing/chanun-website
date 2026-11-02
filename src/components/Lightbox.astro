@@ -1,0 +1,27 @@
+---
+// Shared lightbox: any <button data-lightbox="url" data-caption="..." data-link="url" data-link-label="..."> opens it.
+---
+<dialog class="lightbox" aria-label="Image">
+  <button class="lightbox-close" type="button" aria-label="Close">×</button>
+  <img class="lightbox-img" alt="" />
+  <div class="lightbox-caption"><p class="lightbox-text"></p><a class="text-link lightbox-link" hidden></a></div>
+</dialog>
+<script>
+  const dlg = document.querySelector<HTMLDialogElement>('.lightbox');
+  if (dlg) {
+    const img = dlg.querySelector<HTMLImageElement>('.lightbox-img')!;
+    const text = dlg.querySelector<HTMLElement>('.lightbox-text')!;
+    const link = dlg.querySelector<HTMLAnchorElement>('.lightbox-link')!;
+    document.addEventListener('click', (e) => {
+      const b = (e.target as HTMLElement).closest<HTMLElement>('[data-lightbox]');
+      if (!b) return;
+      img.src = b.dataset.lightbox || '';
+      img.alt = b.getAttribute('aria-label') || '';
+      text.textContent = b.dataset.caption || '';
+      if (b.dataset.link) { link.href = b.dataset.link; link.textContent = b.dataset.linkLabel || ''; link.hidden = false; } else { link.hidden = true; }
+      dlg.showModal();
+    });
+    dlg.querySelector('.lightbox-close')!.addEventListener('click', () => dlg.close());
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  }
+</script>

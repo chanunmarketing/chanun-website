@@ -210,6 +210,16 @@ content:
           values:
             - { name: muse, label: "Muses (มีภาพ portrait)" }
             - { name: note, label: "Case Notes (ไม่เปิดเผยใบหน้า)" }
+      - name: category
+        label: หมวดโปรแกรม (ใช้กรองในแกลเลอรี)
+        type: select
+        options:
+          values:
+            - { name: lifting, label: ยกกระชับ }
+            - { name: skin, label: ดูแลผิว }
+            - { name: injectables, label: งานฉีด }
+            - { name: scar, label: แผลเป็นและหลุมสิว }
+            - { name: wellness, label: ดูแลจากภายใน }
       - { name: title_th, label: หัวข้อเคส (TH), type: string, required: true }
       - { name: title_en, label: หัวข้อเคส (EN), type: string }
       - { name: muse_name, label: ชื่อ muse, description: "เฉพาะหมวด Muses", type: string }

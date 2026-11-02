@@ -1,6 +1,7 @@
 ---
 slug: khopkhet-precision-point-restructure
 kind: muse
+category: lifting
 title_th: "คุณ Khopkhet กับ Program Precision Point Restructure"
 title_en: "Khopkhet and Program Precision Point Restructure"
 muse_name: "Khopkhet"

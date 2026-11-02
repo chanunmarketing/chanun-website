@@ -67,6 +67,7 @@ const cases = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/cases' }),
   schema: z.object({
     kind: z.string().default('note'),
+    category: str,
     title_th: z.string(),
     title_en: str,
     muse_name: str,

@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Img from '../components/Img.astro';
+import Lightbox from '../components/Lightbox.astro';
 import site from '../data/site.json';
 import { type Lang, href, pick } from '../lib/i18n';
 import { md } from '../lib/md';
@@ -76,7 +77,11 @@ const t = lang === 'th'
           )}
           {showSets && (
             <div class="ba-sets">
-              {d.ba_images.map((src: string, i: number) => <Img src={src} alt={`${t.before} / ${t.afterImg} ${i + 1}: ${title}`} ratio="1 / 1" />)}
+              {d.ba_images.map((src: string, i: number) => (
+                <button type="button" class="ba-tile" data-lightbox={src} data-caption={`${title} · ${t.approval} ${d.approval_no}`} aria-label={`${t.before} / ${t.afterImg} ${i + 1}: ${title}`}>
+                  <img src={src} alt="" loading="lazy" />
+                </button>
+              ))}
             </div>
           )}
           <p class="fineprint ba-meta">
@@ -103,4 +108,5 @@ const t = lang === 'th'
       <p class="fineprint">{isMuse ? t.muse : t.note} {pick(site, 'disclaimer', lang)}</p>
     </div>
   </article>
+  <Lightbox />
 </Base>
