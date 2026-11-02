@@ -12,7 +12,9 @@ const isMuse = d.kind === 'muse';
 const title = pick(d, 'title', lang);
 const services = await getServices();
 const programs = d.programs.map((r: string) => services.find((s) => s.id === refToId(r))).filter(Boolean);
-const showBeforeAfter = !!(d.approval_no && d.before_image && d.after_image);
+const showPair = !!(d.approval_no && d.before_image && d.after_image);
+const showSets = !!(d.approval_no && d.ba_images.length);
+const showBeforeAfter = showPair || showSets;
 const extra = lang === 'en' && d.body_en ? d.body_en : c.body;
 const t = lang === 'th'
   ? {
@@ -66,10 +68,17 @@ const t = lang === 'th'
 
       {showBeforeAfter && (
         <section class="case-block">
-          <div class="before-after">
-            <figure><Img src={d.before_image} alt={`${t.before}: ${title}`} ratio="4 / 5" /><figcaption>{t.before}</figcaption></figure>
-            <figure><Img src={d.after_image} alt={`${t.afterImg}: ${title}`} ratio="4 / 5" /><figcaption>{t.afterImg}</figcaption></figure>
-          </div>
+          {showPair && (
+            <div class="before-after">
+              <figure><Img src={d.before_image} alt={`${t.before}: ${title}`} ratio="4 / 5" /><figcaption>{t.before}</figcaption></figure>
+              <figure><Img src={d.after_image} alt={`${t.afterImg}: ${title}`} ratio="4 / 5" /><figcaption>{t.afterImg}</figcaption></figure>
+            </div>
+          )}
+          {showSets && (
+            <div class="ba-sets">
+              {d.ba_images.map((src: string, i: number) => <Img src={src} alt={`${t.before} / ${t.afterImg} ${i + 1}: ${title}`} ratio="1 / 1" />)}
+            </div>
+          )}
           <p class="fineprint ba-meta">
             {d.treatment_date && <span>{t.treated} {d.treatment_date}</span>}
             {d.photo_date && <span>{t.photo} {d.photo_date}</span>}

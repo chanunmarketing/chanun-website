@@ -232,6 +232,7 @@ content:
       - { name: aftercare_en, label: หลังทำและการดูแลต่อ (EN), type: text }
       - { name: before_image, label: ภาพก่อน, description: "จะแสดงเฉพาะเมื่อใส่เลขอนุมัติ สบส. แล้ว ห้ามตกแต่งภาพ", type: image }
       - { name: after_image, label: ภาพหลัง, type: image }
+      - { name: ba_images, label: "ภาพก่อน–หลังแบบโพสต์ที่ได้รับอนุมัติ", description: "ใส่ภาพตามที่ สบส. อนุมัติทั้งภาพ (ไม่ต้องแยกก่อน/หลัง) จะแสดงเมื่อใส่เลขอนุมัติแล้ว", type: image, options: { multiple: { max: 6 } } }
       - { name: treatment_date, label: วันที่รับบริการ, description: "เช่น 12 ต.ค. 2569", type: string }
       - { name: photo_date, label: วันที่ถ่ายภาพหลัง, type: string }
       - { name: approval_no, label: เลขที่อนุมัติโฆษณา (สบส.), description: "ถ้าว่าง ภาพก่อน–หลังจะไม่แสดง", type: string }

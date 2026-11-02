@@ -82,6 +82,7 @@ const cases = defineCollection({
     aftercare_en: str,
     before_image: str,
     after_image: str,
+    ba_images: z.array(z.string().nullish().transform((v) => v ?? '')).nullish().transform((v) => (v ?? []).filter(Boolean)),
     treatment_date: str,
     photo_date: str,
     approval_no: str,

@@ -54,7 +54,7 @@ const t = lang === 'th'
                 <div class="program-media"><Img src={c.data.portrait} alt={c.data.muse_name || pick(c.data, 'title', lang)} ratio="4 / 5" /></div>
                 {c.data.muse_name && <p class="muse-name">{c.data.muse_name}</p>}
                 <h3 class="program-title case-title">{pick(c.data, 'title', lang)}</h3>
-                <p class="program-summary">“{pick(c.data, 'concern', lang)}”</p>
+                {pick(c.data, 'concern', lang) && <p class="program-summary">“{pick(c.data, 'concern', lang)}”</p>}
                 <p class="program-price">{t.read}</p>
               </a>
             </article>
@@ -76,7 +76,7 @@ const t = lang === 'th'
             <li>
               <a href={href(lang, `/atelier-of-muses/${c.id}/`)}>
                 <h3 class="case-title">{pick(c.data, 'title', lang)}</h3>
-                <p class="note-quote">“{pick(c.data, 'concern', lang)}”</p>
+                {pick(c.data, 'concern', lang) && <p class="note-quote">“{pick(c.data, 'concern', lang)}”</p>}
                 <span class="text-link">{t.read}</span>
               </a>
             </li>
