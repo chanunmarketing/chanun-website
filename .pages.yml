@@ -193,6 +193,8 @@ content:
     fields:
       - { name: name_th, label: ชื่อ (TH), type: string, required: true }
       - { name: name_en, label: ชื่อ (EN), type: string }
+      - { name: fullname_th, label: ชื่อ-นามสกุลเต็ม (TH), description: "บรรทัดใต้ชื่อ เช่น นายแพทย์...", type: string }
+      - { name: fullname_en, label: ชื่อ-นามสกุลเต็ม (EN), type: string }
       - { name: role_th, label: ตำแหน่ง (TH), type: string }
       - { name: role_en, label: ตำแหน่ง (EN), type: string }
       - { name: license, label: เลขใบประกอบวิชาชีพ, type: string }

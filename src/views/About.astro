@@ -36,6 +36,7 @@ const doctors = await getDoctors();
               <Img src={dd.photo} alt={pick(dd, 'name', lang)} ratio="4 / 5" />
               <div>
                 <h3 class="h-display">{pick(dd, 'name', lang)}</h3>
+                {pick(dd, 'fullname', lang) && <p class="doctor-fullname">{pick(dd, 'fullname', lang)}</p>}
                 <p class="detail-cat">{pick(dd, 'role', lang)}</p>
                 {dd.license && <p class="muted">{t.license} {dd.license}</p>}
                 <div class="prose" set:html={md(bio)} />

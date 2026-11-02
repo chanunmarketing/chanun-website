@@ -52,6 +52,8 @@ const doctors = defineCollection({
   schema: z.object({
     name_th: z.string(),
     name_en: str,
+    fullname_th: str,
+    fullname_en: str,
     role_th: str,
     role_en: str,
     license: str,

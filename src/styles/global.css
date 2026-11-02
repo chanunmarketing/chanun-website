@@ -376,3 +376,4 @@ html .is-latin { font-family: var(--f-display); }
 @media (max-width: 1080px) { .tiers { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) { .steps { grid-template-columns: 1fr; } }
 @media (max-width: 600px) { .tiers { grid-template-columns: 1fr; } .member-card { max-width: 360px; } }
+.doctor-fullname { font-family: var(--f-thai-display); font-size: 1.15rem; color: var(--text); margin: 0 0 0.6rem; }

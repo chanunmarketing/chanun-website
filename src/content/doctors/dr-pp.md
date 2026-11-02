@@ -1,6 +1,8 @@
 ---
-name_th: คุณหมอปิงปอง นายแพทย์ชณันวัชร์ ธนัชเจริญวิทย์
-name_en: Dr. Chanunwat Thanatcharoenwit (Dr. PP)
+name_th: คุณหมอปิงปอง
+fullname_th: นายแพทย์ชณันวัชร์ ธนัชเจริญวิทย์
+name_en: Dr. PP
+fullname_en: Dr. Chanunwat Thanatcharoenwit
 role_th: แพทย์และผู้บริหาร CHANUN Clinic
 role_en: Physician and Managing Director, CHANUN Clinic
 license: ว. 78055
