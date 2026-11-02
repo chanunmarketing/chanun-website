@@ -1,19 +1,19 @@
 {
   "site_url": "https://chanunclinic.pages.dev",
-  "clinic_name_th": "ชนัญ เอสเธติก เวลเนส แอนด์ เซอร์เจอรี",
-  "clinic_name_en": "CHANUN Aesthetic Wellness & Surgery",
-  "tagline_th": "Atelier of Longevity ดูแลตั้งแต่ผิวหน้าจนถึงร่างกาย โดยแพทย์ สุขุมวิท 61",
-  "tagline_en": "Atelier of Longevity: doctor-led care from skin to body on Sukhumvit 61, Bangkok",
-  "seo_description_th": "CHANUN Atelier of Longevity คลินิกบนสุขุมวิท 61 แพทย์ออกแบบแผนการดูแลเฉพาะคน ตั้งแต่ผิวหน้า โครงหน้า จนถึงการดูแลร่างกายจากภายใน ดูโปรแกรม ราคา และบทความได้ที่นี่",
-  "seo_description_en": "CHANUN, an atelier of longevity on Sukhumvit 61, Bangkok. Doctors design a plan for each person, from skin and facial structure to care from within. See programmes, prices and articles.",
+  "clinic_name_th": "CHANUN Clinic",
+  "clinic_name_en": "CHANUN Clinic",
+  "tagline_th": "Atelier of Longevity ดูแลคุณแบบ couture จากภายในสู่ภายนอก",
+  "tagline_en": "Atelier of Longevity. Couture care, from the inside out.",
+  "seo_description_th": "ทุกแผนการดูแลที่ CHANUN เริ่มจากการตรวจประเมินโดยแพทย์ ให้เข้าใจทั้งผิวและสุขภาพของคุณ ก่อนออกแบบการรักษาเฉพาะบุคคล เพื่อผลลัพธ์ที่เป็นธรรมชาติและเหมาะกับคุณในระยะยาว",
+  "seo_description_en": "Every plan at CHANUN begins with a doctor's assessment of your skin and your health, before we design personalise treatment for natural results that suit you over the long term.",
   "phone": "098 428 9669",
   "line_id": "@Chanun.aesthetic",
   "line_url": "https://line.me/R/ti/p/@chanun.aesthetic",
   "instagram_url": "https://www.instagram.com/chanunclinic/",
-  "facebook_url": "",
-  "tiktok_url": "",
-  "youtube_url": "",
-  "email": "",
+  "facebook_url": "https://www.facebook.com/ChanunClinic",
+  "tiktok_url": "https://www.tiktok.com/@iampongping",
+  "youtube_url": "https://www.youtube.com/@Justtalkwithdrpp",
+  "email": "CHANUN.Thailand@gmail.com",
   "address_th": "CHANUN Clinic โครงการ Park Lane เอกมัย เลขที่ 18 ชั้น 1-2 ซอยสุขุมวิท 61 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
   "address_en": "CHANUN Clinic, Park Lane Ekamai, 18 Sukhumvit Soi 61, 1st–2nd Floor, Khlong Tan Nuea, Watthana, Bangkok 10110",
   "transport_th": "ใกล้ BTS เอกมัย",
@@ -24,30 +24,26 @@
     {
       "day_th": "จันทร์, พุธ – อาทิตย์",
       "day_en": "Monday, Wednesday – Sunday",
-      "time": "11:00 – 20:00",
-      "time_en": ""
+      "time": "11:00 – 20:00"
     },
     {
       "day_th": "แพทย์ออกตรวจ",
       "day_en": "Doctor available",
-      "time": "13:00 – 20:00",
-      "time_en": ""
+      "time": "13:00 – 20:00"
     },
     {
       "day_th": "ทุกวันอังคาร",
       "day_en": "Every Tuesday",
-      "time": "ปิด",
-      "time_en": "Closed"
+      "time": "ปิด"
     },
     {
       "day_th": "วันพุธของสัปดาห์ที่ 3 ของเดือน",
       "day_en": "Wednesday of the 3rd week of each month",
-      "time": "ปิด",
-      "time_en": "Closed"
+      "time": "ปิด"
     }
   ],
-  "license_th": "ใบอนุญาตประกอบกิจการสถานพยาบาล เลขที่ [รอใส่]",
-  "license_en": "Healthcare facility licence no. [to be added]",
+  "license_th": "ใบอนุญาตประกอบกิจการสถานพยาบาล เลขที่ 10101015358",
+  "license_en": "Healthcare facility licence no. 10101015358",
   "ad_permit": "ฆสพ. [รอใส่]",
   "disclaimer_th": "ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล ทุกโปรแกรมเริ่มจากการประเมินโดยแพทย์",
   "disclaimer_en": "Results vary from person to person. Every programme starts with an assessment by a doctor.",
