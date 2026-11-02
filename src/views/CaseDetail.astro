@@ -13,10 +13,10 @@ const isMuse = d.kind === 'muse';
 const title = pick(d, 'title', lang);
 const services = await getServices();
 const programs = d.programs.map((r: string) => services.find((s) => s.id === refToId(r))).filter(Boolean);
-const showPair = !!(d.approval_no && d.before_image && d.after_image);
+const showPair = !!(d.before_image && d.after_image);
 const linked = (await getGallery()).filter((g) => refToId(g.data.case) === c.id);
 const sets = [
-  ...(d.approval_no ? d.ba_images.map((src: string) => ({ src, no: d.approval_no })) : []),
+  ...d.ba_images.map((src: string) => ({ src, no: d.approval_no })),
   ...linked.flatMap((g) => g.data.images.map((src: string) => ({ src, no: g.data.approval_no }))),
 ];
 const showSets = sets.length > 0;
@@ -83,7 +83,7 @@ const t = lang === 'th'
           {showSets && (
             <div class="ba-sets">
               {sets.map(({ src, no }: { src: string; no: string }, i: number) => (
-                <button type="button" class="ba-tile" data-lightbox={src} data-caption={`${title} · ${t.approval} ${no}`} aria-label={`${t.before} / ${t.afterImg} ${i + 1}: ${title}`}>
+                <button type="button" class="ba-tile" data-lightbox={src} data-caption={no ? `${title} · ${t.approval} ${no}` : title} aria-label={`${t.before} / ${t.afterImg} ${i + 1}: ${title}`}>
                   <img src={src} alt="" loading="lazy" />
                 </button>
               ))}
@@ -92,7 +92,7 @@ const t = lang === 'th'
           <p class="fineprint ba-meta">
             {d.treatment_date && <span>{t.treated} {d.treatment_date}</span>}
             {d.photo_date && <span>{t.photo} {d.photo_date}</span>}
-            <span>{t.approval} {d.approval_no || [...new Set(sets.map((x) => x.no))].join(', ')}</span>
+            {(() => { const nos = [...new Set([d.approval_no, ...sets.map((x) => x.no)].filter(Boolean))]; return nos.length > 0 && <span>{t.approval} {nos.join(', ')}</span>; })()}
           </p>
           <p class="fineprint">{t.vary}</p>
         </section>

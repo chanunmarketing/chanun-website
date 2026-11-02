@@ -188,7 +188,7 @@ content:
     path: src/content/gallery
     filename: "{year}-{month}-{day}-{hour}{minute}{second}.md"
     view:
-      fields: [program, person, category, approval_no, published]
+      fields: [program, person, category, published]
       primary: program
       sort: [order]
       default:
@@ -216,7 +216,6 @@ content:
       - { name: person, label: ชื่อคนไข้หรือ muse, description: "ไม่ใส่ก็ได้", type: string }
       - { name: is_muse, label: เป็น muse ของคลินิก, type: boolean, default: false }
       - { name: treatment_date, label: วันที่รับบริการ, description: "เช่น 07/04/2025", type: string }
-      - { name: approval_no, label: เลขที่อนุมัติโฆษณา (สบส.), description: "จำเป็น ถ้าว่างภาพจะไม่ขึ้นเว็บ", type: string, required: true }
       - name: case
         label: เชื่อมกับบันทึกของคุณหมอ
         description: "ไม่ใส่ก็ได้ ถ้าเลือก ภาพจะมีลิงก์ไปที่เคสนั้น"
@@ -291,7 +290,7 @@ content:
       - { name: ba_images, label: "ภาพก่อน–หลังแบบโพสต์ที่ได้รับอนุมัติ", description: "ใส่ภาพตามที่ สบส. อนุมัติทั้งภาพ (ไม่ต้องแยกก่อน/หลัง) จะแสดงเมื่อใส่เลขอนุมัติแล้ว", type: image, options: { multiple: { max: 6 } } }
       - { name: treatment_date, label: วันที่รับบริการ, description: "เช่น 12 ต.ค. 2569", type: string }
       - { name: photo_date, label: วันที่ถ่ายภาพหลัง, type: string }
-      - { name: approval_no, label: เลขที่อนุมัติโฆษณา (สบส.), description: "ถ้าว่าง ภาพก่อน–หลังจะไม่แสดง", type: string }
+      - { name: approval_no, label: เลขที่อนุมัติโฆษณา (ถ้ามีแยก), description: "ไม่ต้องใส่ เว็บใช้เลข ฆสพ. ของทั้งเว็บที่ footer", type: string }
       - { name: date, label: วันที่เผยแพร่, type: date, options: { format: yyyy-MM-dd } }
       - { name: order, label: ลำดับ, type: number, default: 10 }
       - { name: published, label: แสดงบนเว็บ, description: "เปิดเมื่อพร้อมและได้รับความยินยอมเป็นลายลักษณ์อักษรแล้ว", type: boolean, default: false }

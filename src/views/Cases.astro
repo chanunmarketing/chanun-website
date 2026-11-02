@@ -41,7 +41,7 @@ const t = lang === 'th'
       notes: 'Case Notes', notesSub: 'Cases shared with patient consent, without showing faces',
     };
 const caption = (g: any) =>
-  [g.data.program, g.data.person, g.data.treatment_date, `${t.approval} ${g.data.approval_no}`].filter(Boolean).join(' · ');
+  [g.data.program, g.data.person, g.data.treatment_date, g.data.approval_no ? `${t.approval} ${g.data.approval_no}` : ''].filter(Boolean).join(' · ');
 const caseLink = (g: any) => {
   const id = refToId(g.data.case);
   return id && caseIds.has(id) ? href(lang, `/atelier-of-muses/${id}/`) : '';

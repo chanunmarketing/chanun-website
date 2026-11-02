@@ -29,9 +29,9 @@ export function refToId(ref: string): string {
   return (ref || '').split('/').pop()!.replace(/\.md$/, '');
 }
 
-/** Before & After gallery: only published items that carry an advertising approval number. */
+/** Before & After gallery: published items with at least one image (the whole website carries one สบส. approval, shown in the footer). */
 export async function getGallery() {
-  return (await getCollection('gallery', (g) => g.data.published && !!g.data.approval_no && g.data.images.length > 0)).sort(
+  return (await getCollection('gallery', (g) => g.data.published && g.data.images.length > 0)).sort(
     (a, b) => a.data.order - b.data.order || a.id.localeCompare(b.id),
   );
 }
