@@ -23,11 +23,13 @@ content:
         order: asc
     fields:
       - name: name_en
-        label: ชื่อโปรแกรม (ภาษาอังกฤษ ใช้เป็นชื่อหลัก)
+        label: ชื่อโปรแกรม
+        description: ภาษาอังกฤษ ใช้เป็นชื่อหลักบนเว็บ เช่น Program Skin Trio
         type: string
         required: true
       - name: name_th
-        label: ชื่อภาษาไทย (บรรทัดเล็กใต้ชื่อ)
+        label: ชื่อภาษาไทย
+        description: บรรทัดเล็กใต้ชื่อโปรแกรม
         type: string
       - name: category
         label: หมวด
@@ -40,7 +42,8 @@ content:
             - { name: scar, label: แผลเป็นและหลุมสิว }
             - { name: wellness, label: ดูแลจากภายใน }
       - name: image
-        label: รูปประกอบ (แนวตั้ง 4:5)
+        label: รูปประกอบ
+        description: แนวตั้ง สัดส่วน 4:5 กว้างไม่เกิน 2000px
         type: image
       - name: summary_th
         label: คำอธิบายสั้น (TH)
@@ -49,7 +52,8 @@ content:
         label: คำอธิบายสั้น (EN)
         type: text
       - name: price_from
-        label: ราคาเริ่มต้น (ใส่แค่ตัวเลข เช่น 4900 ถ้าเว้นว่างจะขึ้นว่า "สอบถามราคา")
+        label: ราคาเริ่มต้น
+        description: ใส่แค่ตัวเลข เช่น 4900 ถ้าเว้นว่างจะขึ้นว่า "สอบถามราคา"
         type: string
       - name: prices
         label: ตารางราคา
@@ -61,7 +65,7 @@ content:
         fields:
           - { name: item_th, label: รายการ (TH), type: string }
           - { name: item_en, label: รายการ (EN), type: string }
-          - { name: price, label: ราคา (ตัวเลข หรือเว้นว่าง), type: string }
+          - { name: price, label: ราคา, description: "ใส่แค่ตัวเลข หรือเว้นว่าง", type: string }
       - name: suits_th
         label: เหมาะกับใคร (TH)
         type: text
@@ -75,14 +79,16 @@ content:
         label: ไม่ควรทำถ้า (EN)
         type: text
       - name: youtube
-        label: ลิงก์ YouTube (ถ้ามี)
+        label: ลิงก์ YouTube
+        description: ถ้ามี วางลิงก์ได้ทุกแบบ
         type: string
       - name: featured
         label: แสดงในหน้าแรก
         type: boolean
         default: false
       - name: order
-        label: ลำดับ (เลขน้อยขึ้นก่อน)
+        label: ลำดับ
+        description: เลขน้อยขึ้นก่อน
         type: number
         default: 50
       - name: published
@@ -114,7 +120,8 @@ content:
         order: desc
     fields:
       - name: slug
-        label: ชื่อลิงก์ (ภาษาอังกฤษตัวเล็ก ใช้ - แทนช่องว่าง เช่น pn-skin-repair)
+        label: ชื่อลิงก์
+        description: ภาษาอังกฤษตัวเล็ก ใช้ - แทนช่องว่าง เช่น pn-skin-repair
         type: string
         required: true
         pattern:
@@ -141,16 +148,20 @@ content:
         label: หัวข้อ (EN)
         type: string
       - name: cover
-        label: รูปปก (แนวนอน 3:2)
+        label: รูปปก
+        description: แนวนอน สัดส่วน 3:2
         type: image
       - name: youtube
-        label: ลิงก์ YouTube (ถ้าใส่ จะแสดงวิดีโอแทนรูปปกในหน้าบทความ)
+        label: ลิงก์ YouTube
+        description: ถ้าใส่ จะแสดงวิดีโอแทนรูปปกในหน้าบทความ
         type: string
       - name: excerpt_th
-        label: เกริ่นนำ 1–2 ประโยค (TH)
+        label: เกริ่นนำ (TH)
+        description: 1–2 ประโยค
         type: text
       - name: excerpt_en
-        label: เกริ่นนำ 1–2 ประโยค (EN)
+        label: เกริ่นนำ (EN)
+        description: 1–2 ประโยค
         type: text
       - name: sources
         label: แหล่งอ้างอิง
