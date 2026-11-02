@@ -117,6 +117,7 @@
     "ระดับสมาชิกคิดจากยอดชำระ 12 เดือนล่าสุด เมื่อได้ระดับแล้วจะคงระดับอย่างน้อย 12 เดือน และต่ออายุเมื่อยอด 12 เดือนถึง 80% ของเกณฑ์",
     "ราคาสมาชิกใช้กับราคาปกติรายครั้ง ใช้ร่วมกับราคาพิเศษอื่นไม่ได้ และใช้ได้เฉพาะเจ้าของบัตร",
     "การใช้ดาวรับสิทธิ์ทำที่เคาน์เตอร์คลินิก และไม่สามารถแลกเป็นเงินสด",
+    "กรณีคืนเงิน ดาวที่ได้จากรายการนั้นจะถูกหักคืน",
     "ระบบสมาชิกเก็บเฉพาะชื่อ เบอร์โทร วันเกิด และยอดชำระ ไม่เก็บข้อมูลหัตถการหรือข้อมูลสุขภาพ",
     "คลินิกขอสงวนสิทธิ์ในการปรับเงื่อนไข โดยจะแจ้งสมาชิกล่วงหน้าทาง LINE OA"
   ],
@@ -127,6 +128,7 @@
     "Your tier is based on the last 12 months of spending. Once reached, it is kept for at least 12 months and renewed when your 12-month total reaches 80% of the threshold.",
     "Member pricing applies to regular single-treatment prices, cannot be combined with other special pricing, and is for the card holder only.",
     "Stars are used at the clinic counter and cannot be exchanged for cash.",
+    "If a payment is refunded, the stars earned from it are deducted.",
     "The membership system stores only your name, phone number, birthday and payment totals. It does not store treatment or health information.",
     "The clinic may update these terms and will notify members in advance via LINE OA."
   ]
