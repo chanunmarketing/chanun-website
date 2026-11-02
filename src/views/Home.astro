@@ -66,7 +66,7 @@ const jsonld = {
   </section>
 
   {pillars.length > 0 && (
-    <section class="pillars" aria-label={lang === 'th' ? 'สิ่งที่เรายึดถือ' : 'What we stand for'}>
+    <section class="pillars" aria-label={lang === 'th' ? 'วิธีทำงานของ Atelier' : 'How the Atelier works'}>
       {pillars.map((p: any) => (
         <article class="pillar">
           <Img src={p.image} alt="" ratio="auto" />
@@ -97,7 +97,7 @@ const jsonld = {
 
   <section class="section">
     <div class="wrap">
-      <h2 class="h-center">{lang === 'th' ? 'โปรแกรมแนะนำ' : 'Highlighted programmes'}</h2>
+      <h2 class="h-center">{lang === 'th' ? 'โปรแกรมจาก Atelier' : 'From the Atelier'}</h2>
       <div class="programs">
         {featured.map((s) => <ServiceCard s={s} lang={lang} />)}
       </div>
@@ -110,7 +110,7 @@ const jsonld = {
   {articles.length > 0 && (
     <section class="section sand">
       <div class="wrap">
-        <h2 class="h-center">{lang === 'th' ? 'เรื่องผิวที่หมออยากเล่า' : 'Notes from our doctors'}</h2>
+        <h2 class="h-center">{lang === 'th' ? 'เรื่อง Longevity ที่หมออยากเล่า' : 'Longevity notes from our doctors'}</h2>
         <div class="journal">
           {articles.map((a) => <ArticleCard a={a} lang={lang} />)}
         </div>

@@ -2,8 +2,8 @@
 name_en: Program Inside-Out Duo
 name_th: ดูแลจากภายในคู่กับเลเซอร์
 category: wellness
-summary_th: ให้วิตามินทางหลอดเลือดดำควบคู่กับเลเซอร์หน้า ดูแลทั้งร่างกายและผิวในการมาครั้งเดียว
-summary_en: An IV vitamin drip paired with a facial laser, caring for body and skin in one visit.
+summary_th: "ดูแลจากภายในด้วยวิตามินทางหลอดเลือดดำ คู่กับเลเซอร์หน้า แพทย์เลือกสูตรตามสุขภาพของคุณ"
+summary_en: "Care from within with an IV vitamin drip, paired with a facial laser. The doctor chooses the formula for your health."
 image: /uploads/service-inside-out.jpg
 price_from: ""
 prices:

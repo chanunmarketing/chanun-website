@@ -2,8 +2,8 @@
 name_en: Perfect V-Lift
 name_th: ปรับกรอบหน้าให้ดูเรียว
 category: lifting
-summary_th: วางแผนปรับกรอบหน้าตามโครงหน้าจริงของแต่ละคน ให้กรอบหน้าดูเรียวและคมขึ้นอย่างเป็นธรรมชาติ
-summary_en: A jawline plan built around your own facial structure, for a slimmer, more defined contour that still looks like you.
+summary_th: "วางแผนปรับกรอบหน้าตามโครงหน้าจริงของแต่ละคน ให้กรอบหน้าดูเรียวและคมขึ้นอย่างเป็นธรรมชาติ"
+summary_en: "A contour plan cut to your own facial structure, for a slimmer, more defined jawline that still looks like you."
 image: /uploads/service-vlift.jpg
 price_from: ""
 prices:

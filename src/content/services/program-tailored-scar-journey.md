@@ -2,8 +2,8 @@
 name_en: Program Tailored Scar Journey
 name_th: ดูแลหลุมสิวแบบผสมผสาน
 category: scar
-summary_th: หลุมสิวแต่ละแบบต้องใช้วิธีต่างกัน หมอจะดูชนิดของหลุมแล้วผสมเทคนิคให้เหมาะกับผิวของคุณ
-summary_en: Different acne scars need different methods. We identify your scar types and combine techniques to match.
+summary_th: "หลุมสิวแต่ละแบบต้องใช้วิธีต่างกัน แพทย์ดูชนิดของหลุม แล้วผสมเทคนิคให้พอดีกับผิวของคุณ"
+summary_en: "Different acne scars need different methods. The doctor identifies your scar types and combines techniques to fit your skin."
 image: /uploads/service-scar.jpg
 price_from: ""
 prices:

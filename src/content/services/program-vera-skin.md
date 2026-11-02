@@ -2,8 +2,8 @@
 name_en: Program Vera Skin
 name_th: โปรแกรมดูแลผิวต่อเนื่อง
 category: skin
-summary_th: โปรแกรมดูแลผิวรายเดือนสำหรับคนที่ผิวไม่ได้มีปัญหาใหญ่ แต่อยากรักษาผิวให้ดีแบบนี้ต่อไป
-summary_en: A monthly maintenance programme for skin without major concerns that you want to keep in good shape.
+summary_th: "โปรแกรมดูแลผิวรายเดือน สำหรับคนที่อยากรักษาผิวดีๆ ให้อยู่กับตัวไปนาน"
+summary_en: "A monthly programme for keeping good skin good, for the long run."
 image: /uploads/service-vera-skin.jpg
 price_from: ""
 prices:

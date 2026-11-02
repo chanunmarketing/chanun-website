@@ -2,8 +2,8 @@
 name_en: ATELIER HIFU
 name_th: ยกกระชับด้วยคลื่นอัลตราซาวด์
 category: lifting
-summary_th: คลื่นอัลตราซาวด์ความเข้มสูงส่งพลังงานไปที่ชั้นใต้ผิว ช่วยกระตุ้นคอลลาเจนให้หน้าดูกระชับขึ้น โดยไม่มีแผล
-summary_en: High-intensity focused ultrasound reaches beneath the skin to stimulate collagen for a firmer look, with no incisions.
+summary_th: "ยกกระชับด้วยคลื่นอัลตราซาวด์ แพทย์วางแนวและความลึกตามโครงหน้าของแต่ละคน ช่วยกระตุ้นคอลลาเจนโดยไม่มีแผล"
+summary_en: "Focused ultrasound lifting, with lines and depths mapped by the doctor to your facial structure, to stimulate collagen with no incisions."
 image: /uploads/service-hifu.jpg
 price_from: ""
 prices:

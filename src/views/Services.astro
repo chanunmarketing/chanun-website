@@ -12,8 +12,8 @@ const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.catego
   .map((c) => ({ id: c, label: (t.cat as any)[c] ?? c, items: services.filter((s) => s.data.category === c) }))
   .filter((c) => c.items.length);
 const intro = lang === 'th'
-  ? 'ทุกโปรแกรมเริ่มจากการพบแพทย์เพื่อประเมินผิวก่อน ราคาด้านล่างเป็นราคาเริ่มต้น ราคาจริงขึ้นอยู่กับแผนการดูแลของแต่ละคน'
-  : 'Every programme starts with an assessment by the doctor. Prices shown are starting prices; your final price depends on your treatment plan.';
+  ? 'ทุกโปรแกรมของ Atelier ออกแบบเฉพาะคนหลังพบแพทย์ ราคาด้านล่างเป็นราคาเริ่มต้น ราคาจริงขึ้นอยู่กับแผนการดูแลของแต่ละคน'
+  : 'Every Atelier programme is made to measure after you see the doctor. Prices shown are starting prices; your final price depends on your plan.';
 ---
 <Base lang={lang} title={t.services}>
   <section class="page-head sand">
