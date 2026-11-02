@@ -13,7 +13,7 @@
 | ใช้ที่ | TH | EN |
 |---|---|---|
 | Brand line | Atelier of Longevity | Atelier of Longevity |
-| หัวข้อหลัก (คู่กับ Brand line เสมอ) | ความงามที่ออกแบบเฉพาะคุณ | Beauty, made to measure |
+| หัวข้อหลัก (คู่กับ Brand line เสมอ) | ความงามที่ออกแบบเฉพาะคุณ | Allure, tailored to you |
 | ประโยครอง (เมื่อต้องการพูดถึงการดูแลทั้งตัว) | สวยได้นาน ดูแลตั้งแต่หัวจรดเท้า | Beauty that lasts, care from head to toe |
 | ชวนนัด (CTA) | เริ่ม Longevity Journey ของคุณ | Begin your longevity journey |
 | คำอธิบายคลินิก | Atelier of Longevity บนสุขุมวิท 61 ที่แพทย์ดูแลคุณตั้งแต่ผิวหน้าจนถึงร่างกาย | An atelier of longevity on Sukhumvit 61, where doctors care for you from skin to body |
