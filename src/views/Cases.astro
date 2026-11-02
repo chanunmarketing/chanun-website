@@ -25,7 +25,7 @@ const cats = categoryOrder.filter((k) => tiles.some((t) => t.g.data.category ===
 
 const t = lang === 'th'
   ? {
-      intro: 'ผลลัพธ์จริงจากคนไข้และ muse ของ CHANUN ที่ยินยอมให้เผยแพร่ กดที่ภาพเพื่อดูขยาย และอ่านบันทึกของคุณหมอปิงปองว่าทำไมเลือกวิธีนี้',
+      intro: 'ทุกใบหน้ามีแผนของตัวเอง ชวนดูผลลัพธ์จริงจาก muse และคนไข้ของ CHANUN พร้อมเหตุผลของคุณหมอปิงปองในแต่ละเคส',
       all: 'ทั้งหมด', muse: 'Muse', approval: 'เลขที่อนุมัติ', read: 'อ่านบันทึกของคุณหมอ',
       galleryNote: 'ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล ภาพไม่ได้ผ่านการตกแต่ง และได้รับอนุญาตจากผู้รับบริการแล้ว',
       soon: 'แกลเลอรี Before & After กำลังจะมาเร็วๆ นี้',
@@ -33,7 +33,7 @@ const t = lang === 'th'
       notes: 'Case Notes', notesSub: 'เคสคนไข้ที่ยินยอมให้เล่า โดยไม่เปิดเผยใบหน้า',
     }
   : {
-      intro: 'Real results from CHANUN patients and muses who agreed to share. Tap an image to enlarge it and read Dr. PP’s notes on why each approach was chosen.',
+      intro: 'Every face has its own plan. See real results from CHANUN’s muses and patients, and Dr. PP’s reasons behind each one.',
       all: 'All', muse: 'Muse', approval: 'Approval no.', read: "Read the doctor's notes",
       galleryNote: 'Results vary from person to person. Images are unretouched and shared with consent.',
       soon: 'The Before & After gallery is coming soon.',
@@ -50,7 +50,7 @@ const caseLink = (g: any) => {
 <Base lang={lang} title="Atelier of Muses" description={t.intro}>
   <section class="page-head sand">
     <div class="wrap">
-      <p class="hero-kicker dark">Before &amp; After</p>
+      <p class="hero-kicker dark">Real Results</p>
       <h1 class="h-page is-latin">Atelier of Muses</h1>
       <p class="lede">{t.intro}</p>
     </div>
