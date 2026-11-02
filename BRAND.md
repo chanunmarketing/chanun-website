@@ -13,7 +13,8 @@
 | ใช้ที่ | TH | EN |
 |---|---|---|
 | Brand line | Atelier of Longevity | Atelier of Longevity |
-| หัวข้อหลัก (คู่กับ Brand line เสมอ) | ความงามที่ออกแบบเฉพาะคุณ | Allure, tailored to you |
+| หัวข้อหลัก (คู่กับ Brand line เสมอ) | เสน่ห์ที่ออกแบบเฉพาะคุณ | Allure, tailored to you |
+| คำว่า "ความมั่นใจ" | ใช้ในเนื้อหา/แคปชันเพื่อบอกสิ่งที่คนไข้ได้กลับไป เช่น "ออกจากคลินิกด้วยความมั่นใจในแบบของคุณ" (ไม่ใช้เป็นหัวข้อหลัก) | Confidence (body copy only) |
 | ประโยครอง (เมื่อต้องการพูดถึงการดูแลทั้งตัว) | สวยได้นาน ดูแลตั้งแต่หัวจรดเท้า | Beauty that lasts, care from head to toe |
 | ชวนนัด (CTA) | เริ่ม Longevity Journey ของคุณ | Begin your longevity journey |
 | คำอธิบายคลินิก | Atelier of Longevity บนสุขุมวิท 61 ที่แพทย์ดูแลคุณตั้งแต่ผิวหน้าจนถึงร่างกาย | An atelier of longevity on Sukhumvit 61, where doctors care for you from skin to body |
