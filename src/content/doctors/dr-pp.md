@@ -3,7 +3,7 @@ name_th: หมอปิงปอง
 name_en: Dr. PP
 role_th: แพทย์ผู้ดูแลคลินิก
 role_en: Medical director
-license: "ว. [รอใส่]"
+license: "ว. 78055"
 photo: /uploads/doctor-pp.jpg
 order: 1
 body_en: |

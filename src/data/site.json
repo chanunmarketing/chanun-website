@@ -14,15 +14,23 @@
   "tiktok_url": "",
   "youtube_url": "",
   "email": "",
-  "address_th": "ซอยสุขุมวิท 61 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ (กรุณาแก้เป็นที่อยู่เต็ม)",
-  "address_en": "Sukhumvit Soi 61, Khlong Tan Nuea, Watthana, Bangkok (please update full address)",
+  "address_th": "CHANUN Clinic โครงการ Park Lane เอกมัย เลขที่ 18 ชั้น 1-2 ซอยสุขุมวิท 61 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
+  "address_en": "CHANUN Clinic, Park Lane Ekamai, 18 Sukhumvit Soi 61, 1st–2nd Floor, Khlong Tan Nuea, Watthana, Bangkok 10110",
   "transport_th": "ใกล้ BTS เอกมัย",
   "transport_en": "Near BTS Ekkamai",
-  "map_url": "https://maps.google.com/?q=Sukhumvit+61+Bangkok",
-  "map_embed": "https://www.google.com/maps?q=Sukhumvit+61+Bangkok&output=embed",
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Park+Lane+Ekamai+Sukhumvit+61+Bangkok",
+  "map_embed": "https://www.google.com/maps?q=Park+Lane+Ekamai+Sukhumvit+61+Bangkok&output=embed",
   "hours": [
-    { "day_th": "อังคาร – อาทิตย์", "day_en": "Tuesday – Sunday", "time": "11:00 – 20:00" },
-    { "day_th": "จันทร์", "day_en": "Monday", "time": "ปิด / Closed" }
+    {
+      "day_th": "อังคาร – อาทิตย์",
+      "day_en": "Tuesday – Sunday",
+      "time": "11:00 – 20:00"
+    },
+    {
+      "day_th": "จันทร์",
+      "day_en": "Monday",
+      "time": "ปิด / Closed"
+    }
   ],
   "license_th": "ใบอนุญาตประกอบกิจการสถานพยาบาล เลขที่ [รอใส่]",
   "license_en": "Healthcare facility licence no. [to be added]",
