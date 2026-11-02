@@ -18,8 +18,8 @@
   "address_en": "CHANUN Clinic, Park Lane Ekamai, 18 Sukhumvit Soi 61, 1st–2nd Floor, Khlong Tan Nuea, Watthana, Bangkok 10110",
   "transport_th": "ใกล้ BTS เอกมัย",
   "transport_en": "Near BTS Ekkamai",
-  "map_url": "https://www.google.com/maps/search/?api=1&query=Park+Lane+Ekamai+Sukhumvit+61+Bangkok",
-  "map_embed": "https://www.google.com/maps?q=Park+Lane+Ekamai+Sukhumvit+61+Bangkok&output=embed",
+  "map_url": "https://maps.google.com/?cid=3606243662701840587",
+  "map_embed": "https://maps.google.com/maps?q=13.7232174,100.5837644&z=17&output=embed",
   "hours": [
     {
       "day_th": "อังคาร – อาทิตย์",

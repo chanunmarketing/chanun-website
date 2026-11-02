@@ -29,6 +29,8 @@ const jsonld = {
   telephone: '+66' + site.phone.replace(/\s/g, '').replace(/^0/, ''),
   image: origin + site.og_image,
   address: { '@type': 'PostalAddress', streetAddress: site.address_en, addressLocality: "Bangkok", postalCode: "10110", addressCountry: "TH" },
+  geo: { '@type': 'GeoCoordinates', latitude: 13.7232174, longitude: 100.5837644 },
+  hasMap: site.map_url,
   sameAs: [site.instagram_url, site.facebook_url, site.tiktok_url, site.youtube_url].filter(Boolean),
 };
 ---
