@@ -94,4 +94,20 @@ const cases = defineCollection({
   }),
 });
 
-export const collections = { services, articles, doctors, cases };
+const gallery = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/gallery' }),
+  schema: z.object({
+    images: z.array(z.string().nullish().transform((v) => v ?? '')).nullish().transform((v) => (v ?? []).filter(Boolean)),
+    program: str,
+    category: str,
+    person: str,
+    is_muse: bool(false),
+    treatment_date: str,
+    approval_no: str,
+    case: str,
+    order: z.number().nullish().transform((v) => v ?? 10),
+    published: bool(true),
+  }),
+});
+
+export const collections = { services, articles, doctors, cases, gallery };

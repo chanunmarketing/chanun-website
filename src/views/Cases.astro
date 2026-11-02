@@ -1,102 +1,106 @@
 ---
 import Base from '../layouts/Base.astro';
 import Img from '../components/Img.astro';
-import site from '../data/site.json';
 import Lightbox from '../components/Lightbox.astro';
-import { type Lang, href, pick, ui } from '../lib/i18n';
-import { getCases } from '../lib/data';
+import site from '../data/site.json';
+import { type Lang, href, pick } from '../lib/i18n';
+import { categoryOrder, getCases, getGallery, refToId } from '../lib/data';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const cases = await getCases();
+const gallery = await getGallery();
 const muses = cases.filter((c) => c.data.kind === 'muse');
 const notes = cases.filter((c) => c.data.kind !== 'muse');
-const cat = ui[lang].cat as Record<string, string>;
-// Gallery: only approved before/after images (approval number filled in)
-const gallery = cases.flatMap((c) => {
-  const d = c.data;
-  if (!d.approval_no) return [];
-  const imgs = d.ba_images;
-  return imgs.map((src: string) => ({ src, c, category: d.category || 'other' }));
-});
-const galleryCats = [...new Set(gallery.map((g) => g.category))];
+const caseIds = new Set(cases.map((c) => c.id));
+
+const CATS: Record<string, { en: string; th: string }> = {
+  lifting: { en: 'Lifting & Contour', th: 'ยกกระชับและปรับกรอบหน้า' },
+  skin: { en: 'Skin Quality', th: 'คุณภาพผิว' },
+  injectables: { en: 'Injectables', th: 'งานฉีด' },
+  scar: { en: 'Acne Scar', th: 'แผลเป็นและหลุมสิว' },
+  wellness: { en: 'Inside-Out Wellness', th: 'ดูแลจากภายใน' },
+};
+const tiles = gallery.flatMap((g) => g.data.images.map((src: string) => ({ src, g })));
+const cats = categoryOrder.filter((k) => tiles.some((t) => t.g.data.category === k));
+
 const t = lang === 'th'
   ? {
-      intro: 'เรื่องเล่าจากห้องตรวจ ทุกเคสเขียนโดยคุณหมอปิงปอง เล่าว่าเห็นอะไร เลือกวิธีไหน และดูแลต่ออย่างไร เหมือนได้นั่งฟังคุณหมออธิบายด้วยตัวเอง',
+      intro: 'ผลลัพธ์จริงจากคนไข้และ muse ของ CHANUN ที่ยินยอมให้เผยแพร่ กดที่ภาพเพื่อดูขยาย และอ่านบันทึกของคุณหมอปิงปองว่าทำไมเลือกวิธีนี้',
+      all: 'ทั้งหมด', muse: 'Muse', approval: 'เลขที่อนุมัติ', read: 'อ่านบันทึกของคุณหมอ',
+      galleryNote: 'ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล ภาพไม่ได้ผ่านการตกแต่ง และได้รับอนุญาตจากผู้รับบริการแล้ว',
+      soon: 'แกลเลอรี Before & After กำลังจะมาเร็วๆ นี้',
       muses: 'Muses', musesSub: 'muse ของ CHANUN Clinic กับแผนการดูแลที่ออกแบบเฉพาะแต่ละคน',
       notes: 'Case Notes', notesSub: 'เคสคนไข้ที่ยินยอมให้เล่า โดยไม่เปิดเผยใบหน้า',
-      read: 'อ่านบันทึกของคุณหมอ', empty: 'บันทึกเคสแรกกำลังจะมาเร็วๆ นี้',
-      gallery: 'Before & After', gallerySub: 'ภาพจริงของคนไข้และ muse ที่ยินยอมให้เผยแพร่ กดที่ภาพเพื่อดูขยายและอ่านบันทึกของคุณหมอ', all: 'ทั้งหมด',
-      galleryNote: 'ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล ภาพไม่ได้ผ่านการตกแต่ง และได้รับอนุญาตจากผู้รับบริการแล้ว', approval: 'เลขที่อนุมัติ',
     }
   : {
-      intro: 'Stories from the consulting room. Every case is written by Dr. PP: what was seen, which approach was chosen and how care continued, as if the doctor were explaining it to you in person.',
+      intro: 'Real results from CHANUN patients and muses who agreed to share. Tap an image to enlarge it and read Dr. PP’s notes on why each approach was chosen.',
+      all: 'All', muse: 'Muse', approval: 'Approval no.', read: "Read the doctor's notes",
+      galleryNote: 'Results vary from person to person. Images are unretouched and shared with consent.',
+      soon: 'The Before & After gallery is coming soon.',
       muses: 'Muses', musesSub: "CHANUN Clinic's muses and the care plans made for each of them",
       notes: 'Case Notes', notesSub: 'Cases shared with patient consent, without showing faces',
-      read: "Read the doctor's notes", empty: 'The first case notes are coming soon.',
-      gallery: 'Before & After', gallerySub: 'Real patients and muses who agreed to share. Tap an image to enlarge it and read the doctor’s notes.', all: 'All',
-      galleryNote: 'Results vary from person to person. Images are unretouched and shared with consent.', approval: 'Approval no.',
     };
-const jumps = [
-  ...(gallery.length ? [{ href: '#before-after', label: t.gallery }] : []),
-  ...(muses.length ? [{ href: '#muses', label: t.muses }] : []),
-  ...(notes.length ? [{ href: '#case-notes', label: t.notes }] : []),
-];
+const caption = (g: any) =>
+  [g.data.program, g.data.person, g.data.treatment_date, `${t.approval} ${g.data.approval_no}`].filter(Boolean).join(' · ');
+const caseLink = (g: any) => {
+  const id = refToId(g.data.case);
+  return id && caseIds.has(id) ? href(lang, `/atelier-of-muses/${id}/`) : '';
+};
 ---
 <Base lang={lang} title="Atelier of Muses" description={t.intro}>
   <section class="page-head sand">
     <div class="wrap">
-      <p class="hero-kicker dark">CHANUN Clinic</p>
+      <p class="hero-kicker dark">Before &amp; After</p>
       <h1 class="h-page is-latin">Atelier of Muses</h1>
       <p class="lede">{t.intro}</p>
-      {jumps.length > 1 && (
-        <nav class="chips" aria-label="Atelier of Muses">
-          {jumps.map((j) => <a class="chip" href={j.href}>{j.label}</a>)}
-        </nav>
+    </div>
+  </section>
+
+  <section class="section section-tight" id="before-after">
+    <div class="wrap">
+      {tiles.length === 0 ? (
+        <p class="empty">{t.soon}</p>
+      ) : (
+        <>
+          {cats.length > 1 && (
+            <div class="cat-filter" role="group" aria-label="Before & After">
+              <button type="button" class="cat-btn" data-gfilter="all" aria-pressed="true"><span class="cat-en">{t.all}</span></button>
+              {cats.map((k) => (
+                <button type="button" class="cat-btn" data-gfilter={k} aria-pressed="false">
+                  <span class="cat-en">{CATS[k]?.en ?? k}</span>
+                  <span class="cat-th">{CATS[k]?.th ?? ''}</span>
+                </button>
+              ))}
+            </div>
+          )}
+          <div class="ba-gallery">
+            {tiles.map(({ src, g }) => (
+              <figure class="ba-item" data-gcat={g.data.category}>
+                <button type="button" class="ba-tile" data-lightbox={src} data-caption={caption(g)}
+                  data-link={caseLink(g)} data-link-label={t.read} aria-label={caption(g)}>
+                  <img src={src} alt="" loading="lazy" />
+                </button>
+                <figcaption>
+                  <span class="ba-program">{g.data.program}</span>
+                  {g.data.person && <span class="ba-person">{g.data.is_muse ? `${t.muse} · ` : ''}{g.data.person}</span>}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+          <p class="fineprint">{t.galleryNote}</p>
+        </>
       )}
     </div>
   </section>
 
-  {cases.length === 0 && <div class="wrap section-tight"><p class="empty">{t.empty}</p></div>}
-
-  {gallery.length > 0 && (
-    <section class="section" id="before-after">
-      <div class="wrap">
-        <div class="section-head-plain">
-          <h2 class="h-section is-latin">{t.gallery}</h2>
-          <p class="muted">{t.gallerySub}</p>
-        </div>
-        {galleryCats.length > 1 && (
-          <div class="chips" role="group" aria-label={t.gallery}>
-            <button type="button" class="chip" data-gfilter="all" aria-pressed="true">{t.all}</button>
-            {galleryCats.map((k) => <button type="button" class="chip" data-gfilter={k} aria-pressed="false">{cat[k] ?? k}</button>)}
-          </div>
-        )}
-        <div class="ba-gallery">
-          {gallery.map((g) => (
-            <button type="button" class="ba-tile" data-gcat={g.category}
-              data-lightbox={g.src}
-              data-caption={`${pick(g.c.data, 'title', lang)} · ${g.c.data.treatment_date ? g.c.data.treatment_date + ' · ' : ''}${t.approval} ${g.c.data.approval_no}`}
-              data-link={href(lang, `/atelier-of-muses/${g.c.id}/`)} data-link-label={t.read}
-              aria-label={pick(g.c.data, 'title', lang)}>
-              <img src={g.src} alt="" loading="lazy" />
-            </button>
-          ))}
-        </div>
-        <p class="fineprint">{t.galleryNote}</p>
-      </div>
-    </section>
-  )}
-
-
-
   {muses.length > 0 && (
-    <section class="section" id="muses">
+    <section class="section sand" id="muses">
       <div class="wrap">
         <div class="section-head-plain">
           <h2 class="h-section is-latin">{t.muses}</h2>
           <p class="muted">{t.musesSub}</p>
         </div>
-        <div class="programs programs-3">
+        <div class="programs">
           {muses.map((c) => (
             <article class="program">
               <a class="program-link" href={href(lang, `/atelier-of-muses/${c.id}/`)}>
@@ -114,7 +118,7 @@ const jumps = [
   )}
 
   {notes.length > 0 && (
-    <section class={`section ${muses.length ? 'sand' : ''}`} id="case-notes">
+    <section class="section" id="case-notes">
       <div class="wrap">
         <div class="section-head-plain">
           <h2 class="h-section is-latin">{t.notes}</h2>
@@ -138,11 +142,15 @@ const jumps = [
   <div class="wrap"><p class="fineprint">{pick(site, 'disclaimer', lang)}</p></div>
   <Lightbox />
   <script>
-    const gchips = document.querySelectorAll<HTMLButtonElement>('[data-gfilter]');
-    gchips.forEach((c) => c.addEventListener('click', () => {
-      const f = c.dataset.gfilter;
-      gchips.forEach((x) => x.setAttribute('aria-pressed', String(x === c)));
-      document.querySelectorAll<HTMLElement>('.ba-tile').forEach((t) => { t.hidden = !(f === 'all' || t.dataset.gcat === f); });
-    }));
+    const btns = document.querySelectorAll<HTMLButtonElement>('[data-gfilter]');
+    const items = document.querySelectorAll<HTMLElement>('.ba-item');
+    const apply = (f: string) => {
+      btns.forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.gfilter === f)));
+      items.forEach((it) => { it.hidden = !(f === 'all' || it.dataset.gcat === f); });
+    };
+    btns.forEach((b) => b.addEventListener('click', () => apply(b.dataset.gfilter || 'all')));
+    // Allow links like /atelier-of-muses/?category=lifting (e.g. from a programme page)
+    const q = new URLSearchParams(location.search).get('category');
+    if (q && [...btns].some((b) => b.dataset.gfilter === q)) apply(q);
   </script>
 </Base>

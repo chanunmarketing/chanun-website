@@ -28,3 +28,10 @@ export async function getCases() {
 export function refToId(ref: string): string {
   return (ref || '').split('/').pop()!.replace(/\.md$/, '');
 }
+
+/** Before & After gallery: only published items that carry an advertising approval number. */
+export async function getGallery() {
+  return (await getCollection('gallery', (g) => g.data.published && !!g.data.approval_no && g.data.images.length > 0)).sort(
+    (a, b) => a.data.order - b.data.order || a.id.localeCompare(b.id),
+  );
+}

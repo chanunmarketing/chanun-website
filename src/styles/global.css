@@ -421,3 +421,17 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
 .lightbox .text-link { color: #E3C98F; }
 .lightbox-close { position: absolute; top: -44px; right: 0; width: 40px; height: 40px; border: 0; border-radius: 50%; background: rgba(244, 241, 234, .15); color: #fff; font-size: 1.6rem; cursor: pointer; }
 @media (max-width: 760px) { .ba-gallery { grid-template-columns: repeat(2, 1fr); } .ba-sets { grid-template-columns: 1fr; } }
+/* Muses gallery (DSK-style) */
+.cat-filter { display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; padding-bottom: 1.25rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+.cat-btn { all: unset; cursor: pointer; display: flex; flex-direction: column; gap: 0.15rem; padding: 0.4rem 0; border-bottom: 1px solid transparent; min-height: 44px; justify-content: center; }
+.cat-btn .cat-en { font-family: "Marcellus", serif; font-size: 1.05rem; color: var(--text); }
+.cat-btn .cat-th { font-size: 0.8rem; color: var(--muted); }
+.cat-btn[aria-pressed="true"] { border-color: var(--text); }
+.cat-btn:hover .cat-en { color: var(--accent-ink); }
+.cat-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.ba-item { margin: 0; }
+.ba-item[hidden] { display: none; }
+.ba-item figcaption { display: flex; justify-content: space-between; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.6rem; font-size: 0.88rem; }
+.ba-program { font-weight: 500; }
+.ba-person { color: var(--accent-ink); }
+.ba-gallery { margin-top: 0; }

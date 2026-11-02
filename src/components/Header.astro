@@ -1,12 +1,12 @@
 ---
 import site from '../data/site.json';
 import { type Lang, href, switchHref, ui } from '../lib/i18n';
-import { getCases } from '../lib/data';
+import { getCases, getGallery } from '../lib/data';
 interface Props { lang: Lang; path: string }
 const { lang, path } = Astro.props;
 const t = ui[lang];
 const other: Lang = lang === 'th' ? 'en' : 'th';
-const hasCases = (await getCases()).length > 0;
+const hasCases = (await getCases()).length > 0 || (await getGallery()).length > 0;
 const links = [
   { label: t.about, to: '/about/' },
   { label: t.services, to: '/services/' },

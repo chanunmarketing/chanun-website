@@ -27,10 +27,7 @@ aftercare_th: ""
 aftercare_en: ""
 before_image: ""
 after_image: ""
-ba_images:
-  - /uploads/muses/khopkhet-ba-34-right.jpg
-  - /uploads/muses/khopkhet-ba-34-left.jpg
-  - /uploads/muses/khopkhet-ba-profile-right.jpg
+ba_images: []
 treatment_date: "07/04/2025"
 photo_date: "07/04/2025"
 approval_no: ""

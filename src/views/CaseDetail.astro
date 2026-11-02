@@ -5,7 +5,7 @@ import Lightbox from '../components/Lightbox.astro';
 import site from '../data/site.json';
 import { type Lang, href, pick } from '../lib/i18n';
 import { md } from '../lib/md';
-import { getServices, refToId } from '../lib/data';
+import { getGallery, getServices, refToId } from '../lib/data';
 interface Props { lang: Lang; c: any }
 const { lang, c } = Astro.props;
 const d = c.data;
@@ -14,7 +14,12 @@ const title = pick(d, 'title', lang);
 const services = await getServices();
 const programs = d.programs.map((r: string) => services.find((s) => s.id === refToId(r))).filter(Boolean);
 const showPair = !!(d.approval_no && d.before_image && d.after_image);
-const showSets = !!(d.approval_no && d.ba_images.length);
+const linked = (await getGallery()).filter((g) => refToId(g.data.case) === c.id);
+const sets = [
+  ...(d.approval_no ? d.ba_images.map((src: string) => ({ src, no: d.approval_no })) : []),
+  ...linked.flatMap((g) => g.data.images.map((src: string) => ({ src, no: g.data.approval_no }))),
+];
+const showSets = sets.length > 0;
 const showBeforeAfter = showPair || showSets;
 const extra = lang === 'en' && d.body_en ? d.body_en : c.body;
 const t = lang === 'th'
@@ -77,8 +82,8 @@ const t = lang === 'th'
           )}
           {showSets && (
             <div class="ba-sets">
-              {d.ba_images.map((src: string, i: number) => (
-                <button type="button" class="ba-tile" data-lightbox={src} data-caption={`${title} · ${t.approval} ${d.approval_no}`} aria-label={`${t.before} / ${t.afterImg} ${i + 1}: ${title}`}>
+              {sets.map(({ src, no }: { src: string; no: string }, i: number) => (
+                <button type="button" class="ba-tile" data-lightbox={src} data-caption={`${title} · ${t.approval} ${no}`} aria-label={`${t.before} / ${t.afterImg} ${i + 1}: ${title}`}>
                   <img src={src} alt="" loading="lazy" />
                 </button>
               ))}
@@ -87,7 +92,7 @@ const t = lang === 'th'
           <p class="fineprint ba-meta">
             {d.treatment_date && <span>{t.treated} {d.treatment_date}</span>}
             {d.photo_date && <span>{t.photo} {d.photo_date}</span>}
-            <span>{t.approval} {d.approval_no}</span>
+            <span>{t.approval} {d.approval_no || [...new Set(sets.map((x) => x.no))].join(', ')}</span>
           </p>
           <p class="fineprint">{t.vary}</p>
         </section>

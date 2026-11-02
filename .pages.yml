@@ -182,8 +182,54 @@ content:
         options:
           format: markdown
 
+  - name: gallery
+    label: Before & After (แกลเลอรี)
+    type: collection
+    path: src/content/gallery
+    filename: "{year}-{month}-{day}-{hour}{minute}{second}.md"
+    view:
+      fields: [program, person, category, approval_no, published]
+      primary: program
+      sort: [order]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: images
+        label: ภาพ Before & After
+        description: "อัปภาพตามที่ สบส. อนุมัติ ใส่ได้สูงสุด 6 ภาพ ห้ามตกแต่งภาพ"
+        type: image
+        required: true
+        options: { multiple: { max: 6 } }
+      - { name: program, label: ชื่อโปรแกรม, description: "เช่น Program Precision Point Restructure", type: string, required: true }
+      - name: category
+        label: หมวด
+        type: select
+        required: true
+        options:
+          values:
+            - { name: lifting, label: "Lifting & Contour (ยกกระชับและปรับกรอบหน้า)" }
+            - { name: skin, label: "Skin Quality (คุณภาพผิว)" }
+            - { name: injectables, label: "Injectables (งานฉีด)" }
+            - { name: scar, label: "Acne Scar (แผลเป็นและหลุมสิว)" }
+            - { name: wellness, label: "Inside-Out Wellness (ดูแลจากภายใน)" }
+      - { name: person, label: ชื่อคนไข้หรือ muse, description: "ไม่ใส่ก็ได้", type: string }
+      - { name: is_muse, label: เป็น muse ของคลินิก, type: boolean, default: false }
+      - { name: treatment_date, label: วันที่รับบริการ, description: "เช่น 07/04/2025", type: string }
+      - { name: approval_no, label: เลขที่อนุมัติโฆษณา (สบส.), description: "จำเป็น ถ้าว่างภาพจะไม่ขึ้นเว็บ", type: string, required: true }
+      - name: case
+        label: เชื่อมกับบันทึกของคุณหมอ
+        description: "ไม่ใส่ก็ได้ ถ้าเลือก ภาพจะมีลิงก์ไปที่เคสนั้น"
+        type: reference
+        options:
+          collection: cases
+          value: "{path}"
+          label: "{title_th}"
+      - { name: order, label: ลำดับ, description: "เลขน้อยขึ้นก่อน", type: number, default: 10 }
+      - { name: published, label: แสดงบนเว็บ, type: boolean, default: true }
+
   - name: cases
-    label: Atelier of Muses (เคส)
+    label: Atelier of Muses (บันทึกเคส)
     type: collection
     path: src/content/cases
     filename: "{fields.slug}.md"
