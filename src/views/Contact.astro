@@ -23,7 +23,7 @@ const t = ui[lang];
         <dt>{t.address}</dt>
         <dd>{pick(site, 'address', lang)}<br /><span class="muted">{pick(site, 'transport', lang)}</span><br /><a class="text-link" href={site.map_url} target="_blank" rel="noopener">{t.openMap}</a></dd>
         <dt>{t.hours}</dt>
-        <dd>{site.hours.map((h) => <span class="hours-line"><span>{pick(h, 'day', lang)}</span><span>{h.time}</span></span>)}</dd>
+        <dd>{site.hours.map((h) => <span class="hours-line"><span>{pick(h, 'day', lang)}</span><span>{lang === 'en' && h.time_en ? h.time_en : h.time}</span></span>)}</dd>
         <dt>LINE</dt>
         <dd><a href={site.line_url} target="_blank" rel="noopener">{site.line_id}</a></dd>
         <dt>{t.call}</dt>

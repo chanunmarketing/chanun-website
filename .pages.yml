@@ -286,11 +286,15 @@ content:
       - name: hours
         label: เวลาทำการ
         type: object
-        list: true
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{day_th}  {time}"
         fields:
           - { name: day_th, label: วัน (TH), type: string }
           - { name: day_en, label: วัน (EN), type: string }
-          - { name: time, label: เวลา, type: string }
+          - { name: time, label: เวลา, description: "เช่น 11:00 – 20:00 หรือ ปิด", type: string }
+          - { name: time_en, label: เวลา (EN), description: "ใส่เฉพาะถ้าต่างจากภาษาไทย เช่น Closed", type: string }
       - { name: license_th, label: เลขใบอนุญาตสถานพยาบาล (TH), type: string }
       - { name: license_en, label: เลขใบอนุญาตสถานพยาบาล (EN), type: string }
       - { name: ad_permit, label: เลขที่ ฆสพ., type: string }
