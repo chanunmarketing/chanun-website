@@ -256,6 +256,46 @@ content:
       - { name: cta_text_th, label: "ท้ายเว็บ: ข้อความชวนนัดหมาย (TH)", type: text }
       - { name: cta_text_en, label: "ท้ายเว็บ: ข้อความชวนนัดหมาย (EN)", type: text }
 
+  - name: membership
+    label: สมาชิก (The Atelier Circle)
+    type: file
+    path: src/data/membership.json
+    format: json
+    fields:
+      - { name: kicker_th, label: ข้อความเล็กด้านบน (TH), type: string }
+      - { name: kicker_en, label: ข้อความเล็กด้านบน (EN), type: string }
+      - { name: title_th, label: ชื่อโปรแกรม (TH), type: string }
+      - { name: title_en, label: ชื่อโปรแกรม (EN), type: string }
+      - { name: intro_th, label: คำแนะนำโปรแกรม (TH), type: text }
+      - { name: intro_en, label: คำแนะนำโปรแกรม (EN), type: text }
+      - { name: liff_url, label: ลิงก์บัตรสมาชิก LINE (LIFF), type: string }
+      - { name: button_th, label: ข้อความบนปุ่ม (TH), type: string }
+      - { name: button_en, label: ข้อความบนปุ่ม (EN), type: string }
+      - name: steps
+        label: ขั้นตอนสะสมดาว
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{title_th}" } }
+        fields:
+          - { name: title_th, label: หัวข้อ (TH), type: string }
+          - { name: title_en, label: หัวข้อ (EN), type: string }
+          - { name: text_th, label: ข้อความ (TH), type: text }
+          - { name: text_en, label: ข้อความ (EN), type: text }
+      - name: tiers
+        label: ระดับสมาชิก
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{name}" } }
+        fields:
+          - { name: name, label: ชื่อระดับ, type: string }
+          - { name: color, label: สีบัตร, description: "รหัสสี เช่น #182E56", type: string }
+          - { name: threshold_th, label: เกณฑ์ (TH), type: string }
+          - { name: threshold_en, label: เกณฑ์ (EN), type: string }
+          - { name: desc_th, label: คำอธิบายสั้น (TH), type: string }
+          - { name: desc_en, label: คำอธิบายสั้น (EN), type: string }
+          - { name: privileges_th, label: สิทธิพิเศษ (TH), description: "เลี่ยงการระบุ % หรือชื่อหัตถการที่ได้ฟรี", type: string, list: true }
+          - { name: privileges_en, label: สิทธิพิเศษ (EN), type: string, list: true }
+      - { name: terms_th, label: เงื่อนไข (TH), type: text, list: true }
+      - { name: terms_en, label: เงื่อนไข (EN), type: text, list: true }
+
   - name: site
     label: ข้อมูลคลินิก (ที่อยู่ เวลา โซเชียล)
     type: file

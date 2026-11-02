@@ -339,3 +339,40 @@ html[lang="en"] .card-title { font-family: var(--f-display); font-size: 1.3rem; 
   .float-chat a { width: 48px; height: 48px; }
 }
 html .is-latin { font-family: var(--f-display); }
+
+/* Membership — The Atelier Circle */
+.hero-kicker.dark { color: var(--accent-ink); text-shadow: none; }
+.narrow { max-width: 860px; }
+.center-text { text-align: center; margin-left: auto; margin-right: auto; }
+.steps { list-style: none; counter-reset: step; display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(24px, 3vw, 48px); margin: 2rem 0 0; padding: 0; }
+.steps li { counter-increment: step; border-top: 1px solid var(--line); padding-top: 1.25rem; }
+.steps li::before { content: counter(step, decimal-leading-zero); display: block; font-family: "Marcellus", serif; font-size: 1.6rem; color: var(--accent-ink); margin-bottom: 0.6rem; }
+.steps h3 { font-family: var(--f-thai-display); font-size: 1.25rem; margin-bottom: 0.4rem; }
+.steps p { color: var(--muted); font-size: 0.97rem; margin: 0; }
+.tiers { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(20px, 2.4vw, 32px); }
+.tier { display: flex; flex-direction: column; }
+.member-card {
+  position: relative; aspect-ratio: 1.586; border-radius: 14px; padding: 18px 20px;
+  display: flex; flex-direction: column; justify-content: space-between;
+  color: #1E2337; box-shadow: 0 18px 36px -22px rgba(20, 22, 32, .55), inset 0 0 0 1px rgba(0, 0, 0, .06);
+  overflow: hidden;
+}
+.member-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(125deg, rgba(255,255,255,.22), rgba(255,255,255,0) 45%); pointer-events: none; }
+.member-card.on-dark { color: #F4F1EA; }
+.member-card-brand { font-family: "Marcellus", serif; letter-spacing: 0.22em; font-size: 0.82rem; opacity: .85; }
+.member-card-name { font-family: "Marcellus", serif; letter-spacing: 0.16em; font-size: clamp(1.25rem, 1.8vw, 1.55rem); }
+.member-card-circle { font-family: "Marcellus", serif; font-size: 0.72rem; letter-spacing: 0.08em; opacity: .75; }
+.tier-threshold { margin: 1.1rem 0 0.2rem; font-weight: 500; font-size: 0.95rem; }
+.tier-desc { margin: 0 0 0.8rem; color: var(--muted); font-size: 0.95rem; }
+.tier-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.tier-list li { padding: 0.6rem 0; border-bottom: 1px solid var(--line); font-size: 0.93rem; line-height: 1.6; }
+.terms { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1rem 0; }
+.terms summary { cursor: pointer; font-family: var(--f-thai-display); font-size: 1.2rem; list-style: none; display: flex; justify-content: space-between; align-items: center; min-height: 44px; }
+.terms summary::-webkit-details-marker { display: none; }
+.terms summary::after { content: "+"; font-size: 1.4rem; color: var(--accent-ink); transition: transform .2s; }
+.terms[open] summary::after { transform: rotate(45deg); }
+.terms ol { margin: 1rem 0 0.5rem; padding-left: 1.25em; color: var(--muted); font-size: 0.95rem; }
+.terms li { margin-bottom: 0.5rem; }
+@media (max-width: 1080px) { .tiers { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { .steps { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .tiers { grid-template-columns: 1fr; } .member-card { max-width: 360px; } }

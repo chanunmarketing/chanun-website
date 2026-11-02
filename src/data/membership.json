@@ -1,0 +1,133 @@
+{
+  "kicker_th": "CHANUN Membership",
+  "kicker_en": "CHANUN Membership",
+  "title_th": "The Atelier Circle",
+  "title_en": "The Atelier Circle",
+  "intro_th": "สิทธิพิเศษสำหรับคนไข้ที่ดูแลตัวเองกับเราอย่างต่อเนื่อง สะสมดาวจากการใช้บริการทุกครั้ง แล้วรับสิทธิ์ที่เพิ่มขึ้นตามระดับสมาชิก ตั้งแต่ของขวัญเดือนเกิดไปจนถึงการวางแผนผิวรายปีกับแพทย์",
+  "intro_en": "Privileges for patients who care for themselves with us over time. Collect stars every visit and unlock more as your membership grows, from birthday gifts to a yearly skin plan with your doctor.",
+  "liff_url": "https://liff.line.me/2012246583-gTIDAHa2",
+  "button_th": "สมัครหรือดูบัตรสมาชิกใน LINE",
+  "button_en": "Join or view your card in LINE",
+  "steps": [
+    {
+      "title_th": "สมัครผ่าน LINE OA",
+      "title_en": "Join on LINE OA",
+      "text_th": "กดปุ่มด้านบน กรอกชื่อและเบอร์โทร ใช้เวลาไม่ถึงหนึ่งนาที บัตรสมาชิกจะอยู่ใน LINE ของคุณทันที",
+      "text_en": "Tap the button above and enter your name and phone number. It takes under a minute, and your card lives in your LINE."
+    },
+    {
+      "title_th": "สะสมดาว",
+      "title_en": "Collect stars",
+      "text_th": "ทุกยอดใช้บริการ 5,000 บาท รับ 1 ดาว แสดง QR ในบัตรที่เคาน์เตอร์ทุกครั้งที่มาคลินิก",
+      "text_en": "Every 5,000 THB you spend earns one star. Show the QR code on your card at the counter each visit."
+    },
+    {
+      "title_th": "รับสิทธิ์ตามระดับ",
+      "title_en": "Enjoy your privileges",
+      "text_th": "ใช้ดาวรับสิทธิ์พิเศษที่เคาน์เตอร์ และรับสิทธิ์เพิ่มขึ้นเมื่อเลื่อนระดับ ดูรายละเอียดทั้งหมดได้ในบัตรสมาชิก",
+      "text_en": "Use your stars for privileges at the counter, and unlock more as you move up a tier. Full details are on your card."
+    }
+  ],
+  "tiers": [
+    {
+      "name": "CLASSIC",
+      "color": "#F5F2EC",
+      "threshold_th": "เริ่มต้นทันทีเมื่อสมัคร",
+      "threshold_en": "From the day you join",
+      "desc_th": "จุดเริ่มต้นของผิวที่ได้รับการดูแลอย่างใส่ใจ",
+      "desc_en": "Where attentive care begins",
+      "privileges_th": [
+        "สะสมดาวทุก 5,000 บาท",
+        "ใช้ดาวรับสิทธิ์พิเศษได้ทันทีที่มีดาว",
+        "ของขวัญต้อนรับสมาชิกใหม่ และของขวัญเดือนเกิด",
+        "ราคาสมาชิกสำหรับ Seasonal Wellness"
+      ],
+      "privileges_en": [
+        "One star for every 5,000 THB",
+        "Use stars for privileges as soon as you have them",
+        "A welcome gift and a birthday-month gift",
+        "Member pricing for Seasonal Wellness"
+      ]
+    },
+    {
+      "name": "SIGNATURE",
+      "color": "#9B918D",
+      "threshold_th": "ยอดใช้บริการ 12 เดือน 50,000 บาท (10 ดาว)",
+      "threshold_en": "50,000 THB in 12 months (10 stars)",
+      "desc_th": "ความงามที่เป็นเอกลักษณ์ในแบบของคุณ",
+      "desc_en": "Beauty with a signature of your own",
+      "privileges_th": [
+        "ราคาสมาชิกสำหรับบริการเครื่อง IV เลเซอร์ และพลาสม่า",
+        "รู้ข่าว Edition ใหม่ก่อน 24 ชั่วโมง และจองคิวก่อน",
+        "ของขวัญเมื่อเลื่อนระดับ และของขวัญเดือนเกิด",
+        "ใช้ดาวรับสิทธิ์ Seasonal Wellness"
+      ],
+      "privileges_en": [
+        "Member pricing on devices, IV, laser and plasma",
+        "Hear about new Editions 24 hours early, with priority booking",
+        "A gift when you reach the tier, and a birthday-month gift",
+        "Use stars for Seasonal Wellness"
+      ]
+    },
+    {
+      "name": "PRESTIGE",
+      "color": "#182E56",
+      "threshold_th": "ยอดใช้บริการ 12 เดือน 100,000 บาท (20 ดาว)",
+      "threshold_en": "100,000 THB in 12 months (20 stars)",
+      "desc_th": "การดูแลที่ออกแบบมาเพื่อคุณโดยเฉพาะ",
+      "desc_en": "Care designed around you",
+      "privileges_th": [
+        "ราคาสมาชิกระดับสูงขึ้น ทั้งบริการรายครั้งและคอร์ส",
+        "สิทธิ์พิเศษเพิ่มเติมปีละ 2 ครั้ง และ Priority booking",
+        "วางแผนผิวรายปีกับแพทย์ ปีละ 2 ครั้ง",
+        "Seasonal Wellness และ Wellness Check ประจำปี"
+      ],
+      "privileges_en": [
+        "Higher member pricing on single treatments and courses",
+        "Two extra privileges a year, with priority booking",
+        "A yearly skin plan with your doctor, twice a year",
+        "Annual Seasonal Wellness and Wellness Check"
+      ]
+    },
+    {
+      "name": "PRIVATE",
+      "color": "#141414",
+      "threshold_th": "ยอดใช้บริการ 12 เดือน 150,000 บาท (30 ดาว)",
+      "threshold_en": "150,000 THB in 12 months (30 stars)",
+      "desc_th": "ความใส่ใจระดับส่วนตัว จากแพทย์ถึงคุณ",
+      "desc_en": "Personal attention, from doctor to you",
+      "privileges_th": [
+        "ราคาสมาชิกระดับสูงสุด",
+        "สิทธิ์พิเศษเพิ่มเติมปีละ 4 ครั้ง และ Price Protection 14 วัน",
+        "ปรึกษาหมอปิงปองก่อนใคร พร้อม Personal concierge ทาง LINE และนัดนอกเวลาทำการได้",
+        "Wellness ประจำปี ดูแลถึงคนในครอบครัว 1 ท่าน"
+      ],
+      "privileges_en": [
+        "Our highest member pricing",
+        "Four extra privileges a year, plus 14-day price protection",
+        "Priority consultations with Dr. PP, a personal concierge on LINE and out-of-hours appointments",
+        "Annual wellness care, extended to one family member"
+      ]
+    }
+  ],
+  "terms_th": [
+    "สมาชิกภาพเป็นสิทธิ์เฉพาะบุคคล โอนให้ผู้อื่นไม่ได้",
+    "ดาวคิดจากยอดที่ชำระจริง ทุก 5,000 บาท ได้ 1 ดาว เศษยอดสะสมต่อรอบถัดไป",
+    "ดาวมีอายุ 24 เดือนนับจากวันที่ได้รับ",
+    "ระดับสมาชิกคิดจากยอดชำระ 12 เดือนล่าสุด เมื่อได้ระดับแล้วจะคงระดับอย่างน้อย 12 เดือน และต่ออายุเมื่อยอด 12 เดือนถึง 80% ของเกณฑ์",
+    "ราคาสมาชิกใช้กับราคาปกติรายครั้ง ใช้ร่วมกับราคาพิเศษอื่นไม่ได้ และใช้ได้เฉพาะเจ้าของบัตร",
+    "การใช้ดาวรับสิทธิ์ทำที่เคาน์เตอร์คลินิก และไม่สามารถแลกเป็นเงินสด",
+    "ระบบสมาชิกเก็บเฉพาะชื่อ เบอร์โทร วันเกิด และยอดชำระ ไม่เก็บข้อมูลหัตถการหรือข้อมูลสุขภาพ",
+    "คลินิกขอสงวนสิทธิ์ในการปรับเงื่อนไข โดยจะแจ้งสมาชิกล่วงหน้าทาง LINE OA"
+  ],
+  "terms_en": [
+    "Membership is personal and cannot be transferred.",
+    "Stars are based on the amount actually paid: one star per 5,000 THB, with any remainder carried forward.",
+    "Stars are valid for 24 months from the date they are earned.",
+    "Your tier is based on the last 12 months of spending. Once reached, it is kept for at least 12 months and renewed when your 12-month total reaches 80% of the threshold.",
+    "Member pricing applies to regular single-treatment prices, cannot be combined with other special pricing, and is for the card holder only.",
+    "Stars are used at the clinic counter and cannot be exchanged for cash.",
+    "The membership system stores only your name, phone number, birthday and payment totals. It does not store treatment or health information.",
+    "The clinic may update these terms and will notify members in advance via LINE OA."
+  ]
+}

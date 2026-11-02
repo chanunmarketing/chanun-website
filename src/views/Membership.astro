@@ -1,0 +1,80 @@
+---
+import Base from '../layouts/Base.astro';
+import m from '../data/membership.json';
+import { type Lang, pick } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const list = (o: any, key: string): string[] => {
+  const v = o?.[`${key}_${lang}`];
+  return Array.isArray(v) && v.length ? v : (o?.[`${key}_th`] ?? []);
+};
+const isDark = (hex: string) => {
+  const h = (hex || '#ffffff').replace('#', '');
+  const [r, g, b] = [0, 2, 4].map((i) => parseInt(h.slice(i, i + 2), 16));
+  return 0.299 * r + 0.587 * g + 0.114 * b < 150;
+};
+const t = lang === 'th'
+  ? { how: 'สะสมดาวอย่างไร', tiers: 'ระดับสมาชิก', terms: 'เงื่อนไขสมาชิก', more: 'รายละเอียดสิทธิ์ทั้งหมดดูได้ในบัตรสมาชิกบน LINE' }
+  : { how: 'How it works', tiers: 'Membership tiers', terms: 'Membership terms', more: 'Full privilege details are shown on your membership card in LINE.' };
+---
+<Base lang={lang} title={pick(m, 'title', lang)} description={pick(m, 'intro', lang)}>
+  <section class="page-head sand">
+    <div class="wrap">
+      <p class="hero-kicker dark">{pick(m, 'kicker', lang)}</p>
+      <h1 class="h-page is-latin">{pick(m, 'title', lang)}</h1>
+      <p class="lede">{pick(m, 'intro', lang)}</p>
+      <div class="actions">
+        <a class="btn btn-solid" href={m.liff_url} target="_blank" rel="noopener">{pick(m, 'button', lang)}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="wrap">
+      <h2 class="h-section">{t.how}</h2>
+      <ol class="steps">
+        {m.steps.map((s: any) => (
+          <li>
+            <h3>{pick(s, 'title', lang)}</h3>
+            <p>{pick(s, 'text', lang)}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section sand">
+    <div class="wrap">
+      <h2 class="h-center">{t.tiers}</h2>
+      <div class="tiers">
+        {m.tiers.map((tier: any) => (
+          <article class="tier">
+            <div class={`member-card ${isDark(tier.color) ? 'on-dark' : ''}`} style={`background:${tier.color}`}>
+              <span class="member-card-brand">CHANUN</span>
+              <span class="member-card-name">{tier.name}</span>
+              <span class="member-card-circle">The Atelier Circle</span>
+            </div>
+            <p class="tier-threshold">{pick(tier, 'threshold', lang)}</p>
+            <p class="tier-desc">{pick(tier, 'desc', lang)}</p>
+            <ul class="tier-list">
+              {list(tier, 'privileges').map((p) => <li>{p}</li>)}
+            </ul>
+          </article>
+        ))}
+      </div>
+      <p class="fineprint center-text">{t.more}</p>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="wrap narrow">
+      <details class="terms">
+        <summary>{t.terms}</summary>
+        <ol>{list(m, 'terms').map((x) => <li>{x}</li>)}</ol>
+      </details>
+      <div class="actions center">
+        <a class="btn btn-solid" href={m.liff_url} target="_blank" rel="noopener">{pick(m, 'button', lang)}</a>
+      </div>
+    </div>
+  </section>
+</Base>

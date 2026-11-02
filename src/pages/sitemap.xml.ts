@@ -3,7 +3,7 @@ import { getArticles, getServices } from '../lib/data';
 
 export const GET: APIRoute = async ({ site }) => {
   const origin = site!.toString().replace(/\/$/, '');
-  const base = ['/', '/services/', '/articles/', '/about/', '/contact/'];
+  const base = ['/', '/services/', '/articles/', '/membership/', '/about/', '/contact/'];
   const services = (await getServices()).map((s) => `/services/${s.id}/`);
   const articles = (await getArticles()).map((a) => `/articles/${a.id}/`);
   const paths = [...base, ...services, ...articles];
