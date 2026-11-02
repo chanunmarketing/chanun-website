@@ -19,6 +19,8 @@ body_en: >-
   **The Star Room**, and shares lifestyle and a personal outlook on living well
   in **PP Point**.
 
+  Follow all the shows on [YouTube](https://www.youtube.com/@Justtalkwithdrpp) and [TikTok](https://www.tiktok.com/@iampongping).
+
 
   *The astrology in The Star Room is entertainment and personal belief, not
   medical advice.*
@@ -26,5 +28,7 @@ body_en: >-
 คุณหมอปิงปองดูแลผิวและสุขภาพด้วยแนวคิด derma longevity คือการดูแลโครงสร้างใต้ผิวและร่างกายให้ทำงานได้ดีไปอีกนาน คุณหมอไม่หยุดเรียนรู้ ติดตามงานวิจัยและแนวทางการรักษาใหม่ๆ อย่างสม่ำเสมอ เลือกใช้เฉพาะวิธีที่มีหลักฐานทางการแพทย์รองรับ และวางแผนการรักษาโดยเน้นผลลัพธ์ที่ประเมินได้ตามหลักการทางการแพทย์
 
 นอกห้องตรวจ คุณหมอเล่าเรื่อง longevity และวิทยาศาสตร์ของผิวให้เข้าใจง่ายในรายการ **Just Talk With Dr.PP** ชวนคุยเรื่องความงามกับศาสตร์แห่งดวงดาวแบบสบายๆ ใน **The Star Room** และแบ่งปันไลฟ์สไตล์และมุมมองการใช้ชีวิตในแบบของคุณหมอผ่านรายการ **PP Point**
+
+ติดตามทุกรายการได้ทาง [YouTube](https://www.youtube.com/@Justtalkwithdrpp) และ [TikTok](https://www.tiktok.com/@iampongping)
 
 *ส่วนโหราศาสตร์ใน The Star Room เป็นความบันเทิงและความเชื่อส่วนบุคคล ไม่ใช่คำแนะนำทางการแพทย์*
