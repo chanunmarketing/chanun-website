@@ -6,10 +6,11 @@ interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = ui[lang];
 ---
-<Base lang={lang} title={t.contact}>
+<Base lang={lang} title={`${t.contactTitle} | ${t.contactSub}`}>
   <section class="page-head sand">
     <div class="wrap">
-      <h1 class="h-page">{t.contact}</h1>
+      <p class="hero-kicker dark">{t.contactSub}</p>
+      <h1 class="h-page is-latin">{t.contactTitle}</h1>
       <p class="lede">{lang === 'th' ? 'นัดหมายหรือสอบถามได้ทาง LINE หรือโทรหาเรา' : 'Book or ask us anything on LINE, or give us a call.'}</p>
       <div class="actions">
         <a class="btn btn-solid" href={site.line_url} target="_blank" rel="noopener">{t.book}</a>

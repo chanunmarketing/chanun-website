@@ -11,11 +11,12 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const doctors = await getDoctors();
 ---
-<Base lang={lang} title={t.about}>
+<Base lang={lang} title={`${t.about} | ${t.aboutSub}`}>
   <section class="page-head sand">
     <div class="wrap">
-      <h1 class="h-page">{pick(site, 'clinic_name', lang)}</h1>
-      <p class="lede">{pick(site, 'tagline', lang)}</p>
+      <p class="hero-kicker dark">{t.aboutSub}</p>
+      <h1 class="h-page is-latin">{t.about}</h1>
+      <p class="lede">{pick(site, 'clinic_name', lang)}<br />{pick(site, 'tagline', lang)}</p>
     </div>
   </section>
   <section class="section">

@@ -404,3 +404,4 @@ html .is-latin { font-family: var(--f-display); }
 .ba-meta { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; margin-top: 0.75rem; }
 .case-sign { margin-top: 2.5rem; font-family: "Marcellus", var(--f-thai-display); font-size: 1.1rem; color: var(--accent-ink); }
 @media (max-width: 860px) { .case.has-portrait { grid-template-columns: 1fr; } .case-portrait { position: static; max-width: 420px; } .note-list { grid-template-columns: 1fr; } }
+html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f-body); font-size: 0.98rem; font-weight: 400; }

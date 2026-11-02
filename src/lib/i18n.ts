@@ -27,9 +27,9 @@ export function formatDate(d: Date, lang: Lang): string {
 
 export const ui = {
   th: {
-    home: 'หน้าแรก', muses: 'Atelier of Muses', membership: 'สมาชิก', services: 'บริการและราคา', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'เกี่ยวกับเรา', contact: 'ติดต่อ',
+    home: 'หน้าแรก', muses: 'Muses', membership: 'The Circle', services: 'The Collection', servicesSub: 'โปรแกรมและราคา', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'The Atelier', aboutSub: 'เกี่ยวกับ CHANUN', contact: 'Visit', contactTitle: 'Visit the Atelier', contactSub: 'ติดต่อและการเดินทาง',
     book: 'นัดหมายทาง LINE', call: 'โทร', askPrice: 'สอบถามราคา', from: 'เริ่มต้น', baht: 'บาท',
-    allServices: 'ดูบริการทั้งหมด', allArticles: 'อ่าน The Atelier Journal', readMore: 'อ่านต่อ',
+    allServices: 'ดู The Collection ทั้งหมด', allArticles: 'อ่าน The Atelier Journal', readMore: 'อ่านต่อ',
     viewDetails: 'ดูรายละเอียด', priceList: 'ราคา', suits: 'เหมาะกับใคร', avoid: 'ไม่ควรทำถ้า',
     watch: 'ดูวิดีโอ', sources: 'แหล่งอ้างอิง', hours: 'เวลาทำการ', address: 'ที่อยู่',
     openMap: 'เปิดใน Google Maps', followUs: 'ติดตามเรา', latest: 'อัปเดตล่าสุด',
@@ -40,9 +40,9 @@ export const ui = {
     noArticles: 'ยังไม่มีเรื่องในหมวดนี้',
   },
   en: {
-    home: 'Home', muses: 'Atelier of Muses', membership: 'Membership', services: 'Treatments & prices', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'About', contact: 'Contact',
+    home: 'Home', muses: 'Muses', membership: 'The Circle', services: 'The Collection', servicesSub: 'Programmes & prices', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'The Atelier', aboutSub: 'About CHANUN', contact: 'Visit', contactTitle: 'Visit the Atelier', contactSub: 'Contact & directions',
     book: 'Book on LINE', call: 'Call', askPrice: 'Price on request', from: 'From', baht: 'THB',
-    allServices: 'See all treatments', allArticles: 'Read the Atelier Journal', readMore: 'Read',
+    allServices: 'Explore the Collection', allArticles: 'Read the Atelier Journal', readMore: 'Read',
     viewDetails: 'Details', priceList: 'Prices', suits: 'Who it suits', avoid: 'Not suitable if',
     watch: 'Watch', sources: 'References', hours: 'Opening hours', address: 'Address',
     openMap: 'Open in Google Maps', followUs: 'Follow us', latest: 'Latest',

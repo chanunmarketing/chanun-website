@@ -15,10 +15,11 @@ const intro = lang === 'th'
   ? 'ทุกโปรแกรมของ Atelier ออกแบบเฉพาะคนหลังพบแพทย์ ราคาด้านล่างเป็นราคาเริ่มต้น ราคาจริงขึ้นอยู่กับแผนการดูแลของแต่ละคน'
   : 'Every Atelier programme is made to measure after you see the doctor. Prices shown are starting prices; your final price depends on your plan.';
 ---
-<Base lang={lang} title={t.services}>
+<Base lang={lang} title={`${t.services} | ${t.servicesSub}`}>
   <section class="page-head sand">
     <div class="wrap">
-      <h1 class="h-page">{t.services}</h1>
+      <p class="hero-kicker dark">{t.servicesSub}</p>
+      <h1 class="h-page is-latin">{t.services}</h1>
       <p class="lede">{intro}</p>
       <nav class="chips" aria-label={t.services}>
         {cats.map((c) => <a class="chip" href={`#${c.id}`}>{c.label}</a>)}
