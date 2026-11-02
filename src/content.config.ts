@@ -63,4 +63,33 @@ const doctors = defineCollection({
   }),
 });
 
-export const collections = { services, articles, doctors };
+const cases = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/cases' }),
+  schema: z.object({
+    kind: z.string().default('note'),
+    title_th: z.string(),
+    title_en: str,
+    muse_name: str,
+    portrait: str,
+    concern_th: str,
+    concern_en: str,
+    assessment_th: str,
+    assessment_en: str,
+    plan_th: str,
+    plan_en: str,
+    programs: z.array(z.string().nullish().transform((v) => v ?? '')).nullish().transform((v) => (v ?? []).filter(Boolean)),
+    aftercare_th: str,
+    aftercare_en: str,
+    before_image: str,
+    after_image: str,
+    treatment_date: str,
+    photo_date: str,
+    approval_no: str,
+    date: z.coerce.date(),
+    order: z.number().nullish().transform((v) => v ?? 99),
+    published: bool(false),
+    body_en: str,
+  }),
+});
+
+export const collections = { services, articles, doctors, cases };

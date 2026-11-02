@@ -1,12 +1,14 @@
 import type { APIRoute } from 'astro';
-import { getArticles, getServices } from '../lib/data';
+import { getArticles, getCases, getServices } from '../lib/data';
 
 export const GET: APIRoute = async ({ site }) => {
   const origin = site!.toString().replace(/\/$/, '');
   const base = ['/', '/services/', '/articles/', '/membership/', '/about/', '/contact/'];
   const services = (await getServices()).map((s) => `/services/${s.id}/`);
   const articles = (await getArticles()).map((a) => `/articles/${a.id}/`);
-  const paths = [...base, ...services, ...articles];
+  const cases = await getCases();
+  const caseUrls = cases.length ? ['/atelier-of-muses/', ...cases.map((c) => `/atelier-of-muses/${c.id}/`)] : [];
+  const paths = [...base, ...services, ...articles, ...caseUrls];
   const url = (p: string) => {
     const th = origin + p;
     const en = origin + (p === '/' ? '/en/' : `/en${p}`);

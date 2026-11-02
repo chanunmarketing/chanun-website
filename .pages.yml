@@ -182,6 +182,65 @@ content:
         options:
           format: markdown
 
+  - name: cases
+    label: Atelier of Muses (เคส)
+    type: collection
+    path: src/content/cases
+    filename: "{fields.slug}.md"
+    view:
+      fields: [title_th, kind, published, date]
+      primary: title_th
+      sort: [order, date]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: slug
+        label: ชื่อลิงก์
+        description: ภาษาอังกฤษตัวเล็ก ใช้ - แทนช่องว่าง เช่น muse-mint-skin-trio
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: ใช้ได้เฉพาะ a-z 0-9 และ -
+      - name: kind
+        label: หมวด
+        type: select
+        options:
+          values:
+            - { name: muse, label: "Muses (มีภาพ portrait)" }
+            - { name: note, label: "Case Notes (ไม่เปิดเผยใบหน้า)" }
+      - { name: title_th, label: หัวข้อเคส (TH), type: string, required: true }
+      - { name: title_en, label: หัวข้อเคส (EN), type: string }
+      - { name: muse_name, label: ชื่อ muse, description: "เฉพาะหมวด Muses", type: string }
+      - { name: portrait, label: ภาพ portrait ของ muse, description: "แนวตั้ง 4:5 ห้ามใช้ภาพระหว่างทำหัตถการ", type: image }
+      - { name: concern_th, label: สิ่งที่คนไข้กังวล (TH), description: "เขียนเป็นคำพูดของคนไข้", type: text }
+      - { name: concern_en, label: สิ่งที่คนไข้กังวล (EN), type: text }
+      - { name: assessment_th, label: คุณหมอเห็นอะไร (TH), description: "ประเมินทีละชั้น", type: text }
+      - { name: assessment_en, label: คุณหมอเห็นอะไร (EN), type: text }
+      - { name: plan_th, label: แผนที่ออกแบบ (TH), type: text }
+      - { name: plan_en, label: แผนที่ออกแบบ (EN), type: text }
+      - name: programs
+        label: โปรแกรมที่ใช้
+        type: reference
+        options:
+          collection: services
+          multiple: true
+          value: "{path}"
+          label: "{name_en}"
+      - { name: aftercare_th, label: หลังทำและการดูแลต่อ (TH), type: text }
+      - { name: aftercare_en, label: หลังทำและการดูแลต่อ (EN), type: text }
+      - { name: before_image, label: ภาพก่อน, description: "จะแสดงเฉพาะเมื่อใส่เลขอนุมัติ สบส. แล้ว ห้ามตกแต่งภาพ", type: image }
+      - { name: after_image, label: ภาพหลัง, type: image }
+      - { name: treatment_date, label: วันที่รับบริการ, description: "เช่น 12 ต.ค. 2569", type: string }
+      - { name: photo_date, label: วันที่ถ่ายภาพหลัง, type: string }
+      - { name: approval_no, label: เลขที่อนุมัติโฆษณา (สบส.), description: "ถ้าว่าง ภาพก่อน–หลังจะไม่แสดง", type: string }
+      - { name: date, label: วันที่เผยแพร่, type: date, options: { format: yyyy-MM-dd } }
+      - { name: order, label: ลำดับ, type: number, default: 10 }
+      - { name: published, label: แสดงบนเว็บ, description: "เปิดเมื่อพร้อมและได้รับความยินยอมเป็นลายลักษณ์อักษรแล้ว", type: boolean, default: false }
+      - { name: body, label: บันทึกเพิ่มเติม (TH), type: rich-text, options: { format: markdown } }
+      - { name: body_en, label: บันทึกเพิ่มเติม (EN), type: rich-text, options: { format: markdown } }
+
   - name: doctors
     label: แพทย์
     type: collection

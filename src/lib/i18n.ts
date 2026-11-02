@@ -27,7 +27,7 @@ export function formatDate(d: Date, lang: Lang): string {
 
 export const ui = {
   th: {
-    home: 'หน้าแรก', membership: 'สมาชิก', services: 'บริการและราคา', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'เกี่ยวกับเรา', contact: 'ติดต่อ',
+    home: 'หน้าแรก', muses: 'Atelier of Muses', membership: 'สมาชิก', services: 'บริการและราคา', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'เกี่ยวกับเรา', contact: 'ติดต่อ',
     book: 'นัดหมายทาง LINE', call: 'โทร', askPrice: 'สอบถามราคา', from: 'เริ่มต้น', baht: 'บาท',
     allServices: 'ดูบริการทั้งหมด', allArticles: 'อ่าน The Atelier Journal', readMore: 'อ่านต่อ',
     viewDetails: 'ดูรายละเอียด', priceList: 'ราคา', suits: 'เหมาะกับใคร', avoid: 'ไม่ควรทำถ้า',
@@ -40,7 +40,7 @@ export const ui = {
     noArticles: 'ยังไม่มีเรื่องในหมวดนี้',
   },
   en: {
-    home: 'Home', membership: 'Membership', services: 'Treatments & prices', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'About', contact: 'Contact',
+    home: 'Home', muses: 'Atelier of Muses', membership: 'Membership', services: 'Treatments & prices', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'About', contact: 'Contact',
     book: 'Book on LINE', call: 'Call', askPrice: 'Price on request', from: 'From', baht: 'THB',
     allServices: 'See all treatments', allArticles: 'Read the Atelier Journal', readMore: 'Read',
     viewDetails: 'Details', priceList: 'Prices', suits: 'Who it suits', avoid: 'Not suitable if',

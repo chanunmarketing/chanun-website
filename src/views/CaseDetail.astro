@@ -1,0 +1,97 @@
+---
+import Base from '../layouts/Base.astro';
+import Img from '../components/Img.astro';
+import site from '../data/site.json';
+import { type Lang, href, pick } from '../lib/i18n';
+import { md } from '../lib/md';
+import { getServices, refToId } from '../lib/data';
+interface Props { lang: Lang; c: any }
+const { lang, c } = Astro.props;
+const d = c.data;
+const isMuse = d.kind === 'muse';
+const title = pick(d, 'title', lang);
+const services = await getServices();
+const programs = d.programs.map((r: string) => services.find((s) => s.id === refToId(r))).filter(Boolean);
+const showBeforeAfter = !!(d.approval_no && d.before_image && d.after_image);
+const extra = lang === 'en' && d.body_en ? d.body_en : c.body;
+const t = lang === 'th'
+  ? {
+      concern: 'สิ่งที่คนไข้กังวล', saw: 'คุณหมอเห็นอะไร', plan: 'แผนที่ออกแบบ', after: 'หลังทำและการดูแลต่อ',
+      programs: 'โปรแกรมที่ใช้', before: 'ก่อน', afterImg: 'หลัง', treated: 'วันที่รับบริการ', photo: 'วันที่ถ่ายภาพ',
+      approval: 'เลขที่อนุมัติโฆษณา', vary: 'ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล ภาพนี้ไม่ได้ผ่านการตกแต่ง และผลของคุณอาจแตกต่างจากภาพ',
+      muse: 'ภาพในเคสนี้เป็น muse ของ CHANUN Clinic ซึ่งยินยอมให้เผยแพร่', note: 'เคสนี้เผยแพร่โดยได้รับความยินยอมจากคนไข้ และไม่เปิดเผยตัวตน',
+      sign: 'บันทึกโดย คุณหมอปิงปอง', back: 'กลับไปที่ Atelier of Muses', book: 'นัดหมายทาง LINE',
+    }
+  : {
+      concern: 'What the patient was worried about', saw: 'What the doctor saw', plan: 'The plan', after: 'Afterwards and ongoing care',
+      programs: 'Programmes used', before: 'Before', afterImg: 'After', treated: 'Treatment date', photo: 'Photo date',
+      approval: 'Advertising approval no.', vary: 'Results vary from person to person. These photos are unretouched and your result may differ.',
+      muse: 'The person in this case is a CHANUN Clinic muse who agreed to share it.', note: 'Shared with the patient’s consent, without revealing their identity.',
+      sign: 'Notes by Dr. PP', back: 'Back to Atelier of Muses', book: 'Book on LINE',
+    };
+---
+<Base lang={lang} title={title} description={pick(d, 'concern', lang)} image={d.portrait || d.after_image} type="article">
+  <article class={`wrap case ${isMuse && d.portrait ? 'has-portrait' : ''}`}>
+    {isMuse && d.portrait && (
+      <div class="case-portrait"><Img src={d.portrait} alt={d.muse_name || title} ratio="4 / 5" eager /></div>
+    )}
+    <div class="case-body">
+      <a class="text-link back" href={href(lang, '/atelier-of-muses/')}>{t.back}</a>
+      <p class="detail-cat">{isMuse ? `Muse${d.muse_name ? ' · ' + d.muse_name : ''}` : 'Case Notes'}</p>
+      <h1 class="h-article">{title}</h1>
+
+      {pick(d, 'concern', lang) && (
+        <section class="case-block">
+          <h2 class="h-small">{t.concern}</h2>
+          <blockquote class="case-quote">“{pick(d, 'concern', lang)}”</blockquote>
+        </section>
+      )}
+      {pick(d, 'assessment', lang) && (
+        <section class="case-block">
+          <h2 class="h-small">{t.saw}</h2>
+          <div class="prose" set:html={md(pick(d, 'assessment', lang))} />
+        </section>
+      )}
+      {pick(d, 'plan', lang) && (
+        <section class="case-block">
+          <h2 class="h-small">{t.plan}</h2>
+          <div class="prose" set:html={md(pick(d, 'plan', lang))} />
+          {programs.length > 0 && (
+            <p class="case-programs">{t.programs}: {programs.map((s: any, i: number) => (
+              <>{i > 0 && ', '}<a class="text-link" href={href(lang, `/services/${s.id}/`)}>{s.data.name_en}</a></>
+            ))}</p>
+          )}
+        </section>
+      )}
+
+      {showBeforeAfter && (
+        <section class="case-block">
+          <div class="before-after">
+            <figure><Img src={d.before_image} alt={`${t.before}: ${title}`} ratio="4 / 5" /><figcaption>{t.before}</figcaption></figure>
+            <figure><Img src={d.after_image} alt={`${t.afterImg}: ${title}`} ratio="4 / 5" /><figcaption>{t.afterImg}</figcaption></figure>
+          </div>
+          <p class="fineprint ba-meta">
+            {d.treatment_date && <span>{t.treated} {d.treatment_date}</span>}
+            {d.photo_date && <span>{t.photo} {d.photo_date}</span>}
+            <span>{t.approval} {d.approval_no}</span>
+          </p>
+          <p class="fineprint">{t.vary}</p>
+        </section>
+      )}
+
+      {pick(d, 'aftercare', lang) && (
+        <section class="case-block">
+          <h2 class="h-small">{t.after}</h2>
+          <div class="prose" set:html={md(pick(d, 'aftercare', lang))} />
+        </section>
+      )}
+      {extra && extra.trim() && <div class="prose case-block" set:html={md(extra)} />}
+
+      <p class="case-sign">{t.sign}</p>
+      <div class="actions">
+        <a class="btn btn-solid" href={site.line_url} target="_blank" rel="noopener">{t.book}</a>
+      </div>
+      <p class="fineprint">{isMuse ? t.muse : t.note} {pick(site, 'disclaimer', lang)}</p>
+    </div>
+  </article>
+</Base>

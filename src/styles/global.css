@@ -377,3 +377,30 @@ html .is-latin { font-family: var(--f-display); }
 @media (max-width: 760px) { .steps { grid-template-columns: 1fr; } }
 @media (max-width: 600px) { .tiers { grid-template-columns: 1fr; } .member-card { max-width: 360px; } }
 .doctor-fullname { font-family: var(--f-thai-display); font-size: 1.15rem; color: var(--text); margin: 0 0 0.6rem; }
+
+/* Atelier of Muses */
+.section-head-plain { margin-bottom: 2rem; }
+.section-head-plain .muted { margin: 0.5rem 0 0; }
+.muse-name { font-family: "Marcellus", serif; letter-spacing: 0.12em; font-size: 0.85rem; color: var(--accent-ink); margin: 0 0 0.3rem; }
+.case-title { font-family: var(--f-thai-display); font-size: 1.2rem; line-height: 1.5; }
+.note-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 clamp(24px, 4vw, 64px); }
+.note-list li { border-top: 1px solid var(--line); }
+.note-list a { display: block; padding: 1.5rem 0; text-decoration: none; color: inherit; }
+.note-list a:hover .case-title { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+.note-quote { color: var(--muted); font-size: 0.97rem; margin: 0.5rem 0 0.75rem; }
+.case { max-width: 880px; padding-top: clamp(40px, 6vw, 88px); padding-bottom: var(--space); }
+.case.has-portrait { max-width: var(--wrap); display: grid; grid-template-columns: 4fr 7fr; gap: clamp(32px, 6vw, 88px); }
+.case-portrait { position: sticky; top: 110px; align-self: start; }
+.case-portrait .img { border-radius: 6px; }
+.case-body .h-article { margin-bottom: 0.5rem; }
+.case-block { margin-top: 2.25rem; }
+.case-block .h-small { color: var(--accent-ink); font-weight: 500; }
+.case-quote { margin: 0; padding-left: 1.25rem; border-left: 1px solid var(--accent); font-family: var(--f-thai-display); font-size: 1.2rem; line-height: 1.7; }
+.case-programs { margin-top: 0.75rem; font-size: 0.95rem; }
+.before-after { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.before-after figure { margin: 0; }
+.before-after .img { border-radius: 6px; }
+.before-after figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem; }
+.ba-meta { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; margin-top: 0.75rem; }
+.case-sign { margin-top: 2.5rem; font-family: "Marcellus", var(--f-thai-display); font-size: 1.1rem; color: var(--accent-ink); }
+@media (max-width: 860px) { .case.has-portrait { grid-template-columns: 1fr; } .case-portrait { position: static; max-width: 420px; } .note-list { grid-template-columns: 1fr; } }
