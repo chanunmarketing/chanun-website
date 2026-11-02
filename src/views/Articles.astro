@@ -9,16 +9,16 @@ const t = ui[lang];
 const articles = await getArticles();
 const types = ['all', 'article', 'news', 'video'].filter((ty) => ty === 'all' || articles.some((a) => a.data.type === ty));
 const intro = lang === 'th'
-  ? 'ความรู้เรื่องผิวจากแพทย์ ข่าวของคลินิก และวิดีโอจากช่อง YouTube ของเรา'
-  : 'Skin science from our doctors, clinic news, and videos from our YouTube channel.';
+  ? 'บันทึกจาก Atelier เรื่องผิวและ longevity ที่หมอปิงปองกลั่นจากงานวิจัย เล่าให้เข้าใจได้ในไม่กี่นาที พร้อมคลิปจาก Just Talk With Dr.PP'
+  : 'Notes from the Atelier on skin and longevity, distilled from research by Dr. PP and told in a few minutes, with episodes from Just Talk With Dr.PP.';
 ---
-<Base lang={lang} title={t.articles} description={intro}>
+<Base lang={lang} title={t.journalTitle} description={intro}>
   <section class="page-head sand">
     <div class="wrap">
-      <h1 class="h-page">{t.articles}</h1>
+      <h1 class="h-page is-latin">{t.journalTitle}</h1>
       <p class="lede">{intro}</p>
       {types.length > 2 && (
-        <div class="chips" role="group" aria-label={t.articles}>
+        <div class="chips" role="group" aria-label={t.journalTitle}>
           {types.map((ty, i) => (
             <button type="button" class="chip" data-filter={ty} aria-pressed={i === 0 ? 'true' : 'false'}>{(t.type as any)[ty]}</button>
           ))}
