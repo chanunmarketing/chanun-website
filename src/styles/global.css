@@ -448,3 +448,5 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
 .menu-sub-head { margin-bottom: 1.25rem; }
 .menu-sub-title { font-family: var(--f-display); font-weight: 400; font-size: 1.3rem; margin: 0 0 0.25rem; }
 .menu-sub-head p { margin: 0; font-size: 0.92rem; }
+.menu-ask-sm { padding: 1rem 1.25rem; }
+.menu-ask-sm p { font-size: 0.92rem; }

@@ -16,7 +16,7 @@ const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.catego
       ? [
           ...defs.map((g) => ({ id: g.id, name: g.name, desc: lang === 'en' ? g.desc_en || g.desc_th : g.desc_th, items: items.filter((s) => s.data.subgroup === g.id) })),
           { id: 'other', name: '', desc: '', items: items.filter((s) => !defs.some((g) => g.id === s.data.subgroup)) },
-        ].filter((g) => g.items.length)
+        ].filter((g) => g.items.length || g.id !== 'other')
       : [];
     return { id: c, label: catName(c), desc: catDesc(c, lang), items, groups };
   })
@@ -55,7 +55,14 @@ const ask = lang === 'th'
                   {g.desc && <p class="muted">{g.desc}</p>}
                 </div>
               )}
-              <div class="programs programs-3">{g.items.map((s) => <ServiceCard s={s} lang={lang} />)}</div>
+              {g.items.length > 0 ? (
+                <div class="programs programs-3">{g.items.map((s) => <ServiceCard s={s} lang={lang} />)}</div>
+              ) : (
+                <div class="menu-ask menu-ask-sm">
+                  <p>{ask.text}</p>
+                  <a class="btn btn-ghost btn-sm" href={site.line_url} target="_blank" rel="noopener">{ask.btn}</a>
+                </div>
+              )}
             </div>
           ))
         ) : c.items.length > 0 ? (
