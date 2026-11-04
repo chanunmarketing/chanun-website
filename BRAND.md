@@ -95,7 +95,7 @@
 | หมวด | มีอะไรบ้าง |
 |---|---|
 | Facial Contour | ยกกระชับและปรับรูปหน้า: HIFU, V-Lift, ฟิลเลอร์, งานฉีดปรับรูปหน้า, Precision Point Restructure, Masculine Line, Italy Filler Jawline |
-| Derma Longevity | คุณภาพผิวและ ECM: Skin Trio, Vera Skin, EPN, งานฉีดบำรุงผิว |
+| Derma Longevity | คุณภาพผิวและ ECM ด้วยเทคนิค Triple Derma Layer: Skin Trio, Vera Skin, EPN, งานฉีดบำรุงผิว, รักษาสิว |
 | Scar Revision & Dermatosurgery | หลุมสิว แผลเป็น ผ่าตัดแผลนูน/คีลอยด์ ศัลยกรรมผิวหนัง: Tailored Scar Journey |
 | Hair & Scalp Longevity | ผมร่วง ผมบาง หนังศีรษะ |
 | Figure Contour | ปรับสัดส่วนรูปร่าง |
