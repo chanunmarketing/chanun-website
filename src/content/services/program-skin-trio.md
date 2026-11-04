@@ -8,16 +8,16 @@ summary_th: "สูตรเฉพาะของคุณหมอปิงป�
 summary_en: "Dr. PP’s own formula: PN, high-molecular-weight HA with glycerol, and long- and middle-chain HA in a single treatment, following the Triple Derma Layer technique. Your skin gets plumpness, hydration and support for the ECM beneath it, and every case is treated by Dr. PP."
 price_from: "20900"
 prices:
-  - item_th: Skin Trio · PN Luna (4 cc)
-    item_en: Skin Trio · PN Luna (4 cc)
+  - item_th: Skin Trio · Luna Healer PN2% (4 cc)
+    item_en: Skin Trio · Luna Healer PN2% (4 cc)
     price: "21900"
-    note_th: Ejal40 + Definisse Italy Hydrobooster + PN Luna 4 cc
-    note_en: Ejal40 + Definisse Italy Hydrobooster + PN Luna 4 cc
-  - item_th: Skin Trio · PN Vitaran (2 cc)
-    item_en: Skin Trio · PN Vitaran (2 cc)
+    note_th: Ejal40 Italy Bioremodeling + Definisse Italy Hydrobooster + Luna Healer PN2% 4 cc
+    note_en: Ejal40 Italy Bioremodeling + Definisse Italy Hydrobooster + Luna Healer PN2% 4 cc
+  - item_th: Skin Trio · Vitaran PN2% (2 cc)
+    item_en: Skin Trio · Vitaran PN2% (2 cc)
     price: "20900"
-    note_th: Ejal40 + Definisse Italy Hydrobooster + PN Vitaran 2 cc
-    note_en: Ejal40 + Definisse Italy Hydrobooster + PN Vitaran 2 cc
+    note_th: Ejal40 Italy Bioremodeling + Definisse Italy Hydrobooster + Vitaran PN2% 2 cc
+    note_en: Ejal40 Italy Bioremodeling + Definisse Italy Hydrobooster + Vitaran PN2% 2 cc
 suits_th: ผิวที่เริ่มแห้งและขาดน้ำ ผิวดูโทรมหรือไม่อิ่มฟูเหมือนเดิม รูขุมขนกว้าง หรืออยากให้ผิวแข็งแรงและดูแน่นขึ้นจากโครงสร้างด้านใน
 suits_en: Skin that is becoming dry and dehydrated, looks tired or less plump than before, has visible pores, or needs strength and firmness from the structure within.
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ไฮยาลูรอนิก ยาชา หรือแพ้ปลาและอาหารทะเล (PN สกัดจากปลาแซลมอน) มีการติดเชื้อ สิวอักเสบ หรือเริมบริเวณที่จะฉีด มีแนวโน้มเกิดแผลเป็นนูน และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือดหรือยาต้านเกล็ดเลือด มีโรคภูมิคุ้มกัน หรือเพิ่งทำเลเซอร์หรือพีลลึก
@@ -32,7 +32,7 @@ body_en: |
 
   - **PN (Polynucleotide)** supports skin repair and renewal, so the skin looks stronger with a better texture.
   - **High-molecular-weight HA with glycerol** (Definisse Italy Hydrobooster): the large HA molecules hold water and the glycerol locks in moisture, so the skin looks plumper and more hydrated.
-  - **Long- and middle-chain HA** (Ejal40): a concentrated, non-cross-linked HA that encourages the skin to build collagen and supports the ECM beneath it.
+  - **Long- and middle-chain HA** (Ejal40 Italy Bioremodeling): a concentrated, non-cross-linked HA that encourages the skin to build collagen and supports the ECM beneath it.
 
   **Why Dr. PP recommends this formula**
 
@@ -40,7 +40,7 @@ body_en: |
 
   **Two versions**
 
-  Both versions contain Ejal40 and Definisse Italy Hydrobooster. They differ in the PN: PN Luna 4 cc or PN Vitaran 2 cc. The doctor will help you choose the version that suits your skin.
+  Both versions contain Ejal40 Italy Bioremodeling and Definisse Italy Hydrobooster. They differ in the PN: Luna Healer PN2% 4 cc or Vitaran PN2% 2 cc. The doctor will help you choose the version that suits your skin.
 
   **During and after**
 
@@ -55,7 +55,7 @@ Program Skin Trio คือสูตรที่คุณหมอปิงป�
 
 - **PN (Polynucleotide)** ช่วยฟื้นฟูและสนับสนุนการซ่อมแซมของผิว ผิวจึงดูแข็งแรงและเนื้อผิวดีขึ้น
 - **HMW-HA กับกลีเซอรอล** (Definisse Italy Hydrobooster) ไฮยาลูรอนิกโมเลกุลใหญ่ช่วยอุ้มน้ำ กลีเซอรอลช่วยเก็บความชุ่มชื้นไว้ในผิว ผิวจึงดูอิ่มฟูและชุ่มชื้นขึ้น
-- **HA สายยาวผสมสายกลาง** (Ejal40) ไฮยาลูรอนิกเข้มข้นที่ไม่ผ่านการเชื่อมโมเลกุล ช่วยกระตุ้นให้ผิวสร้างคอลลาเจน และดูแลโครงสร้าง ECM ใต้ผิว
+- **HA สายยาวผสมสายกลาง** (Ejal40 Italy Bioremodeling) ไฮยาลูรอนิกเข้มข้นที่ไม่ผ่านการเชื่อมโมเลกุล ช่วยกระตุ้นให้ผิวสร้างคอลลาเจน และดูแลโครงสร้าง ECM ใต้ผิว
 
 **ทำไมคุณหมอแนะนำสูตรนี้**
 
@@ -63,7 +63,7 @@ Program Skin Trio คือสูตรที่คุณหมอปิงป�
 
 **เลือกได้ 2 สูตร**
 
-ทั้งสองสูตรมี Ejal40 และ Definisse Italy Hydrobooster เหมือนกัน ต่างกันที่ PN คือ PN Luna 4 cc หรือ PN Vitaran 2 cc คุณหมอจะช่วยเลือกสูตรที่เหมาะกับผิวของคุณ
+ทั้งสองสูตรมี Ejal40 Italy Bioremodeling และ Definisse Italy Hydrobooster เหมือนกัน ต่างกันที่ PN คือ Luna Healer PN2% 4 cc หรือ Vitaran PN2% 2 cc คุณหมอจะช่วยเลือกสูตรที่เหมาะกับผิวของคุณ
 
 **ระหว่างทำและหลังทำ**
 
