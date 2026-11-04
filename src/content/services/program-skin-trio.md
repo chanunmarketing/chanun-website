@@ -4,8 +4,8 @@ name_th: 3 สารในครั้งเดียว ดูแลผิว�
 category: skin
 subgroup: signature
 image: /uploads/service-skin-trio.jpg
-summary_th: "สูตรเฉพาะของคุณหมอปิงปอง รวม PN, HMW-HA กับกลีเซอรอล และ HA สายยาวผสมสายกลางไว้ในการฉีดครั้งเดียว ตามเทคนิค Triple Derma Layer ผิวจึงได้ทั้งความอิ่มฟู ความชุ่มชื้น และการดูแลโครงสร้าง ECM ใต้ผิว ทำโดยคุณหมอปิงปองทุกเคส"
-summary_en: "Dr. PP’s own formula: PN, high-molecular-weight HA with glycerol, and long- and middle-chain HA in a single treatment, following the Triple Derma Layer technique. Your skin gets plumpness, hydration and support for the ECM beneath it, and every case is treated by Dr. PP."
+summary_th: "เทคนิคเฉพาะของคุณหมอปิงปอง รวม PN, HMW-HA กับกลีเซอรอล และ HA สายยาวผสมสายกลางไว้ในการฉีดครั้งเดียว ด้วยหลัก Triple Derma Layer ผิวจึงได้ทั้งความอิ่มฟู ความชุ่มชื้น และการดูแลโครงสร้าง ECM ใต้ผิว ทำโดยคุณหมอปิงปองทุกเคส"
+summary_en: "Dr. PP’s own technique: PN, high-molecular-weight HA with glycerol, and long- and middle-chain HA in a single treatment, built on the Triple Derma Layer principle. Your skin gets plumpness, hydration and support for the ECM beneath it, and every case is treated by Dr. PP."
 price_from: "20900"
 prices:
   - item_th: Skin Trio · Luna Healer PN2% (4 cc)
