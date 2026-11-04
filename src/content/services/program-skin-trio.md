@@ -6,13 +6,10 @@ subgroup: signature
 image: /uploads/service-skin-trio.jpg
 summary_th: "ฉีดบำรุงผิว 3 ชนิดในครั้งเดียว แต่ละตัวทำงานคนละชั้น แพทย์ปรับสัดส่วนให้พอดีกับผิวของคุณ"
 summary_en: "Three skin injectables in one visit, each working at a different depth, blended by the doctor to suit your skin."
-price_from: "9900"
+price_from: "19900"
 prices:
-  - item_th: 1 ครั้ง
-    item_en: 1 session
-    price: "9900"
-  - item_th: คอร์ส 3 ครั้ง
-    item_en: Course of 3
+  - item_th: Program Skin Trio
+    item_en: Program Skin Trio
     price: "19900"
 suits_th: ผิวแห้ง ขาดน้ำ ผิวดูโทรม รูขุมขนกว้าง หรืออยากให้เนื้อผิวดูแน่นขึ้น
 suits_en: Dry or dehydrated skin, dull texture, visible pores, or skin that

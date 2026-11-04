@@ -2,7 +2,6 @@
 name_en: Program Vera Skin
 name_th: โปรแกรมดูแลผิวต่อเนื่อง
 category: skin
-subgroup: signature
 summary_th: "โปรแกรมดูแลผิวรายเดือน สำหรับคนที่อยากรักษาผิวดีๆ ให้อยู่กับตัวไปนาน"
 summary_en: "A monthly programme for keeping good skin good, for the long run."
 image: /uploads/service-vera-skin.jpg
@@ -16,9 +15,9 @@ suits_en: People whose skin is already in fair shape and who want steady care on
 avoid_th: มีแผลเปิด ผิวอักเสบรุนแรง หรือกำลังใช้ยาที่ทำให้ผิวบอบบาง (หมอจะสอบถามก่อนทำ)
 avoid_en: Open wounds, severe inflammation, or medicines that make skin fragile (the doctor will ask before treatment).
 youtube: ""
-featured: true
+featured: false
 order: 2
-published: true
+published: false
 body_en: |
   Program Vera Skin is our entry-level maintenance programme. It suits people whose skin has no major problems but who want to keep it hydrated and even, with a routine they can sustain month after month.
 ---
