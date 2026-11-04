@@ -1,6 +1,6 @@
 ---
 name_en: Program Skin Trio
-name_th: 3 สารในครั้งเดียว ดูแลผิวครบทั้ง 3 ชั้น
+name_th: ดูแลผิวครบทั้ง 3 ชั้นในครั้งเดียว
 category: skin
 subgroup: signature
 image: /uploads/service-skin-trio.jpg
