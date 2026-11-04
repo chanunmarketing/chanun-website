@@ -30,8 +30,8 @@ prices:
     price: "29900"
     note_th: Mono-RF ทั่วหน้าและคอ สูงสุดสัปดาห์ละ 1 ครั้ง + HIFU 500 shots ใช้ได้ตลอดปี
     note_en: Full-face and neck Mono-RF up to once a week + 500 HIFU shots across the year
-suits_th: ผิวเริ่มหย่อน รูขุมขนกว้าง ริ้วรอยตื้นๆ และคนที่ไม่อยากหยุดงาน
-suits_en: Skin that is starting to loosen, visible pores, fine lines, and anyone who cannot take time off.
+suits_th: ผิวที่เริ่มหย่อนคล้อย รูขุมขนกว้าง หรือมีริ้วรอยตื้นๆ และคนที่ไม่อยากพักหน้า ทำเสร็จแล้วกลับไปใช้ชีวิตได้ตามปกติ
+suits_en: Skin that is starting to loosen, visible pores or fine lines, and anyone who wants no downtime and can go straight back to their day.
 avoid_th: ตั้งครรภ์ วางแผนตั้งครรภ์ หรือให้นมบุตร ใส่เครื่องกระตุ้นหัวใจหรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย มีโลหะฝังในบริเวณที่จะทำ มีแผล โรคผิวหนัง หรือการติดเชื้อบริเวณที่จะทำ ผิวรับความรู้สึกผิดปกติ เบาหวาน มะเร็งเม็ดเลือดหรือความผิดปกติของเกล็ดเลือด และควรเว้นระยะก่อนทำถ้าเพิ่งฉีดโบทูลินัมท็อกซินภายใน 3 เดือน ร้อยไหมภายใน 6 เดือน ทำเลเซอร์ลอกผิวหรือพีลลึกภายใน 3 เดือน หรือทานยารักษาสิว isotretinoin ภายใน 12 เดือน
 avoid_en: Pregnancy, planning a pregnancy, or breastfeeding; a pacemaker or other implanted electronic device; metal implants in the area; a wound, skin disease or infection in the area; reduced skin sensation; diabetes; blood cancer or a platelet disorder. Please wait before treatment if you have had botulinum toxin within 3 months, a thread lift within 6 months, ablative laser or a deep peel within 3 months, or isotretinoin within 12 months.
 featured: false
