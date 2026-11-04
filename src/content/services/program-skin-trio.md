@@ -18,8 +18,8 @@ prices:
     price: "20900"
     note_th: Ejal40 Italy Bioremodeling + Definisse Italy Hydrobooster + Vitaran PN2% 2 c.c.
     note_en: Ejal40 Italy Bioremodeling + Definisse Italy Hydrobooster + Vitaran PN2% 2 c.c.
-suits_th: ผิวที่เริ่มแห้งและขาดน้ำ ผิวดูโทรมหรือไม่อิ่มฟูเหมือนเดิม รูขุมขนกว้าง หรืออยากให้ผิวแข็งแรงและดูแน่นขึ้นจากโครงสร้างด้านใน
-suits_en: Skin that is becoming dry and dehydrated, looks tired or less plump than before, has visible pores, or needs strength and firmness from the structure within.
+suits_th: ผิวที่เริ่มแห้งและขาดน้ำ ผิวดูโทรมหรือไม่อิ่มฟูเหมือนเดิม รูขุมขนกว้าง หรืออยากให้ผิวแข็งแรงและดูแน่นขึ้นจากโครงสร้างด้านใน รวมถึงคนที่อยากให้หน้าดูอิ่มขึ้นแต่ยังไม่พร้อมฉีดฟิลเลอร์
+suits_en: Skin that is becoming dry and dehydrated, looks tired or less plump than before, has visible pores, or needs strength and firmness from the structure within, including anyone who wants a fuller look but is not ready for filler.
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ไฮยาลูรอนิก ยาชา หรือแพ้ปลาและอาหารทะเล (PN สกัดจากปลาแซลมอน) มีการติดเชื้อ สิวอักเสบ หรือเริมบริเวณที่จะฉีด มีแนวโน้มเกิดแผลเป็นนูน และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือดหรือยาต้านเกล็ดเลือด มีโรคภูมิคุ้มกัน หรือเพิ่งทำเลเซอร์หรือพีลลึก
 avoid_en: Pregnancy or breastfeeding; allergy to hyaluronic acid, local anaesthetic, or fish and seafood (PN is derived from salmon); infection, inflamed acne or cold sores at the area; a tendency to raised scars. Please tell the doctor first if you take blood thinners or antiplatelet drugs, have an autoimmune condition, or have recently had laser or a deep peel.
 featured: true
@@ -36,7 +36,11 @@ body_en: |
 
   **Why Dr. PP recommends this formula**
 
-  Combined in one session, the three actives support each other, so the result covers plumpness, hydration and skin structure together, rather than one of them alone. Dr. PP adjusts the proportion and placement of each active to your skin, and at CHANUN every Skin Trio is treated by Dr. PP himself.
+  Combined in one session, the three actives support each other, so the result covers plumpness, hydration and skin structure together, rather than one of them alone.
+
+  Dr. PP's injection technique also helps the face look lifted and fuller in a natural way. That makes Skin Trio a good fit for anyone who wants a fuller look but is not ready for mid-layer filler, or worries that filler might feel lumpy: the actives in Skin Trio are light skin boosters that spread through the skin, not a filler gel.
+
+  Dr. PP adjusts the proportion and placement of each active to your skin, and at CHANUN every Skin Trio is treated by Dr. PP himself.
 
   **Two versions**
 
@@ -59,7 +63,11 @@ Program Skin Trio คือสูตรที่คุณหมอปิงป�
 
 **ทำไมคุณหมอแนะนำสูตรนี้**
 
-เมื่อรวม 3 ตัวไว้ในครั้งเดียว แต่ละตัวจะช่วยเสริมกัน ผลลัพธ์จึงครอบคลุมทั้งความอิ่มฟู ความชุ่มชื้น และโครงสร้างผิวไปพร้อมกัน มากกว่าการเลือกทำตัวใดตัวหนึ่ง คุณหมอปรับสัดส่วนและตำแหน่งของแต่ละตัวให้เข้ากับผิวของคุณ และที่ CHANUN ทุกเคสของ Skin Trio ทำโดยคุณหมอปิงปองเอง
+เมื่อรวม 3 ตัวไว้ในครั้งเดียว แต่ละตัวจะช่วยเสริมกัน ผลลัพธ์จึงครอบคลุมทั้งความอิ่มฟู ความชุ่มชื้น และโครงสร้างผิวไปพร้อมกัน มากกว่าการเลือกทำตัวใดตัวหนึ่ง
+
+เทคนิคการฉีดของคุณหมอปิงปองยังช่วยให้หน้าดูยกกระชับและอิ่มขึ้นอย่างเป็นธรรมชาติ จึงเหมาะกับคนที่อยากให้หน้าดูอิ่มขึ้น แต่ยังไม่พร้อมฉีดฟิลเลอร์ในชั้นกลาง หรือกังวลว่าฟิลเลอร์จะเป็นก้อน เพราะสารใน Skin Trio เป็นสารบำรุงผิวเนื้อบางที่กระจายตัวไปกับผิว ไม่ได้เป็นเนื้อเจลแบบฟิลเลอร์
+
+คุณหมอปรับสัดส่วนและตำแหน่งของแต่ละตัวให้เข้ากับผิวของคุณ และที่ CHANUN ทุกเคสของ Skin Trio ทำโดยคุณหมอปิงปองเอง
 
 **เลือกได้ 2 สูตร**
 
