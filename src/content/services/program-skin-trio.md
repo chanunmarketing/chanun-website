@@ -2,6 +2,7 @@
 name_en: Program Skin Trio
 name_th: โปรแกรมดูแลผิว 3 ชั้น
 category: skin
+subgroup: signature
 image: /uploads/service-skin-trio.jpg
 summary_th: "ฉีดบำรุงผิว 3 ชนิดในครั้งเดียว แต่ละตัวทำงานคนละชั้น แพทย์ปรับสัดส่วนให้พอดีกับผิวของคุณ"
 summary_en: "Three skin injectables in one visit, each working at a different depth, blended by the doctor to suit your skin."

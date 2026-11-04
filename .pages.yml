@@ -42,6 +42,19 @@ content:
             - { name: hair, label: "Hair & Scalp Longevity" }
             - { name: body, label: "Figure Contour" }
             - { name: wellness, label: "Longevity Wellness" }
+      - name: subgroup
+        label: หมวดย่อย (เฉพาะ Derma Longevity)
+        description: "หมวดอื่นไม่ต้องเลือก"
+        type: select
+        options:
+          values:
+            - { name: signature, label: "Signature Layers" }
+            - { name: hydration, label: "Deep Hydration (HYA)" }
+            - { name: regeneration, label: "Skin Regeneration (PN)" }
+            - { name: pore, label: "Pore & Texture (Botulinum Toxin)" }
+            - { name: mesotherapy, label: "Mesotherapy" }
+            - { name: devices, label: "Device-Based Longevity" }
+            - { name: acne, label: "Acne Care" }
       - name: image
         label: รูปประกอบ
         description: แนวตั้ง สัดส่วน 4:5 กว้างไม่เกิน 2000px
@@ -434,6 +447,15 @@ content:
           - { name: name, label: ชื่อหมวด (ภาษาอังกฤษ ใช้ทั้งสองภาษา), type: string }
           - { name: desc_th, label: คำอธิบาย (TH), type: text }
           - { name: desc_en, label: คำอธิบาย (EN), type: text }
+          - name: subgroups
+            label: หมวดย่อย
+            type: object
+            list: true
+            fields:
+              - { name: id, label: "รหัส (ห้ามแก้)", type: string }
+              - { name: name, label: ชื่อหมวดย่อย, type: string }
+              - { name: desc_th, label: บรรทัดรอง (TH), type: string }
+              - { name: desc_en, label: บรรทัดรอง (EN), type: string }
   - name: site
     label: ข้อมูลคลินิก (ที่อยู่ เวลา โซเชียล)
     type: file

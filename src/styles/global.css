@@ -443,3 +443,8 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
 .menu-ask { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; padding: 1.5rem 1.75rem; background: var(--sand); border-radius: 6px; }
 .menu-ask p { margin: 0; max-width: 40rem; color: var(--muted); }
 .menu-note { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 0.15rem; }
+/* Sub-groups inside a category */
+.menu-sub + .menu-sub { margin-top: 3rem; }
+.menu-sub-head { margin-bottom: 1.25rem; }
+.menu-sub-title { font-family: var(--f-display); font-weight: 400; font-size: 1.3rem; margin: 0 0 0.25rem; }
+.menu-sub-head p { margin: 0; font-size: 0.92rem; }

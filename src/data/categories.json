@@ -4,37 +4,86 @@
       "id": "lifting",
       "name": "Facial Contour",
       "desc_th": "ยกกระชับและปรับสัดส่วนใบหน้าตามโครงสร้าง 5 ชั้นของใบหน้า ดูแลตั้งแต่ชั้นชิดกระดูก เอ็นยึดใบหน้า ไปจนถึงชั้น SMAS ด้วยเครื่องมือยกกระชับและงานฉีด คุณหมอวางแผนทีละจุดตามโครงหน้า ให้ผลลัพธ์ยังเป็นตัวคุณ ในแบบที่ได้สัดส่วนและดูเป็นธรรมชาติ",
-      "desc_en": "Lifting and facial balancing based on the five layers of the face, from the layer closest to the bone and the retaining ligaments up to the SMAS, using lifting devices and injectables. The doctor plans point by point around your bone structure, so you still look like you, balanced and natural."
+      "desc_en": "Lifting and facial balancing based on the five layers of the face, from the layer closest to the bone and the retaining ligaments up to the SMAS, using lifting devices and injectables. The doctor plans point by point around your bone structure, so you still look like you, balanced and natural.",
+      "subgroups": []
     },
     {
       "id": "skin",
       "name": "Derma Longevity",
       "desc_th": "ดูแลผิวตามโครงสร้าง 5 ชั้นของใบหน้า ด้วยเทคนิค Triple Derma Layer ของคุณหมอปิงปอง ที่ดูแลผิวพร้อมกันทั้ง 3 ชั้น ตั้งแต่ผิวด้านบนลงไปถึงชั้นลึก ที่ซึ่งคอลลาเจน อีลาสติน และ ECM ช่วยค้ำผิวไว้ ให้ผิวแข็งแรงและสวยได้นาน",
-      "desc_en": "Skin care built on the five layers of the face, using Dr. PP's Triple Derma Layer technique to treat three layers of the skin together, from the surface down to the deep layer where collagen, elastin and the ECM hold your skin up, so it stays healthy and beautiful for longer."
+      "desc_en": "Skin care built on the five layers of the face, using Dr. PP's Triple Derma Layer technique to treat three layers of the skin together, from the surface down to the deep layer where collagen, elastin and the ECM hold your skin up, so it stays healthy and beautiful for longer.",
+      "subgroups": [
+        {
+          "id": "signature",
+          "name": "Signature Layers",
+          "desc_th": "โปรแกรมผสมตามเทคนิค Triple Derma Layer",
+          "desc_en": "Combination programmes built on the Triple Derma Layer technique"
+        },
+        {
+          "id": "hydration",
+          "name": "Deep Hydration",
+          "desc_th": "Hyaluronic Acid (HYA)",
+          "desc_en": "Hyaluronic Acid (HYA)"
+        },
+        {
+          "id": "regeneration",
+          "name": "Skin Regeneration",
+          "desc_th": "Polynucleotide (PN)",
+          "desc_en": "Polynucleotide (PN)"
+        },
+        {
+          "id": "pore",
+          "name": "Pore & Texture",
+          "desc_th": "Botulinum Toxin สำหรับผิว ดูแลรูขุมขน ความมัน และเนื้อผิว",
+          "desc_en": "Botulinum toxin for the skin: pores, oil and texture"
+        },
+        {
+          "id": "mesotherapy",
+          "name": "Mesotherapy",
+          "desc_th": "ผลักสารบำรุงลงสู่ผิว",
+          "desc_en": "Delivering nourishing actives into the skin"
+        },
+        {
+          "id": "devices",
+          "name": "Device-Based Longevity",
+          "desc_th": "เลเซอร์และพลาสมา ดูแลผิวและกำจัดขน",
+          "desc_en": "Laser and plasma for skin care and hair removal"
+        },
+        {
+          "id": "acne",
+          "name": "Acne Care",
+          "desc_th": "ดูแลสิวและผิวที่เป็นสิวง่าย",
+          "desc_en": "Care for acne and acne-prone skin"
+        }
+      ]
     },
     {
       "id": "scar",
       "name": "Scar Revision & Dermatosurgery",
       "desc_th": "แก้ไขหลุมสิวและแผลเป็น รวมถึงผ่าตัดแผลนูนและศัลยกรรมผิวหนังโดยแพทย์ เลือกวิธีตามชนิดของแผลแต่ละแบบ",
-      "desc_en": "Treatment for acne scars and other scars, plus keloid and minor skin surgery by our doctors, with the method chosen for each type of scar."
+      "desc_en": "Treatment for acne scars and other scars, plus keloid and minor skin surgery by our doctors, with the method chosen for each type of scar.",
+      "subgroups": []
     },
     {
       "id": "hair",
       "name": "Hair & Scalp Longevity",
       "desc_th": "ดูแลผมร่วงและผมบาง เริ่มจากตรวจหนังศีรษะและหาสาเหตุ แล้ววางแผนการดูแลให้เหมาะกับคุณ",
-      "desc_en": "Care for hair loss and thinning hair that starts with a scalp check and the cause, then a plan made for you."
+      "desc_en": "Care for hair loss and thinning hair that starts with a scalp check and the cause, then a plan made for you.",
+      "subgroups": []
     },
     {
       "id": "body",
       "name": "Figure Contour",
       "desc_th": "ปรับสัดส่วนรูปร่างเฉพาะจุด ให้เข้ากับรูปร่างของคุณและยังดูเป็นธรรมชาติ",
-      "desc_en": "Targeted body contouring that works with your natural shape."
+      "desc_en": "Targeted body contouring that works with your natural shape.",
+      "subgroups": []
     },
     {
       "id": "wellness",
       "name": "Longevity Wellness",
       "desc_th": "ดูแลสุขภาพจากภายใน ทั้ง IV drip ตรวจเลือด และวัคซีน เพราะความสวยที่อยู่ได้นานเริ่มจากร่างกายที่แข็งแรง",
-      "desc_en": "Care from within, including IV drips, blood tests and vaccines, because beauty that lasts starts with a healthy body."
+      "desc_en": "Care from within, including IV drips, blood tests and vaccines, because beauty that lasts starts with a healthy body.",
+      "subgroups": []
     }
   ]
 }

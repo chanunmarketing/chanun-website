@@ -3,13 +3,23 @@ import Base from '../layouts/Base.astro';
 import ServiceCard from '../components/ServiceCard.astro';
 import site from '../data/site.json';
 import { type Lang, pick, ui } from '../lib/i18n';
-import { catDesc, catName, categoryOrder, getServices } from '../lib/data';
+import { catDesc, catName, categoryOrder, getServices, subgroupsOf } from '../lib/data';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = ui[lang];
 const services = await getServices();
 const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.category)])]
-  .map((c) => ({ id: c, label: catName(c), desc: catDesc(c, lang), items: services.filter((s) => s.data.category === c) }))
+  .map((c) => {
+    const items = services.filter((s) => s.data.category === c);
+    const defs = subgroupsOf(c);
+    const groups = defs.length
+      ? [
+          ...defs.map((g) => ({ id: g.id, name: g.name, desc: lang === 'en' ? g.desc_en || g.desc_th : g.desc_th, items: items.filter((s) => s.data.subgroup === g.id) })),
+          { id: 'other', name: '', desc: '', items: items.filter((s) => !defs.some((g) => g.id === s.data.subgroup)) },
+        ].filter((g) => g.items.length)
+      : [];
+    return { id: c, label: catName(c), desc: catDesc(c, lang), items, groups };
+  })
   .filter((c) => c.items.length || categoryOrder.includes(c.id));
 const intro = lang === 'th'
   ? 'ทุกโปรแกรมเริ่มจากการออกแบบร่วมกับคุณหมอ เพื่อการดูแลที่พอดีกับคุณ ราคาที่แสดงเป็นราคาเริ่มต้น และปรับตามแผนของแต่ละท่าน'
@@ -36,7 +46,19 @@ const ask = lang === 'th'
           <h2 class="menu-group-title is-latin">{c.label}</h2>
           {c.desc && <p class="muted">{c.desc}</p>}
         </div>
-        {c.items.length > 0 ? (
+        {c.groups.length > 0 ? (
+          c.groups.map((g) => (
+            <div class="menu-sub" id={`${c.id}-${g.id}`}>
+              {g.name && (
+                <div class="menu-sub-head">
+                  <h3 class="menu-sub-title is-latin">{g.name}</h3>
+                  {g.desc && <p class="muted">{g.desc}</p>}
+                </div>
+              )}
+              <div class="programs programs-3">{g.items.map((s) => <ServiceCard s={s} lang={lang} />)}</div>
+            </div>
+          ))
+        ) : c.items.length > 0 ? (
           <div class="programs programs-3">{c.items.map((s) => <ServiceCard s={s} lang={lang} />)}</div>
         ) : (
           <div class="menu-ask">

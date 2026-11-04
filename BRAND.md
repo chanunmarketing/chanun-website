@@ -101,6 +101,8 @@
 | Figure Contour | ปรับสัดส่วนรูปร่าง |
 | Longevity Wellness | IV drip, ตรวจเลือด, วัคซีน, Inside-Out Duo |
 
+- หมวดย่อยของ Derma Longevity: Signature Layers · Deep Hydration (HYA) · Skin Regeneration (PN) · Pore & Texture (Botulinum Toxin สำหรับผิว) · Mesotherapy · Device-Based Longevity (Fine Scan, Diode Laser, Plasma Prime) · Acne Care
+- ลดไขมันที่หน้า (Program Mesohyal Precision Slim) อยู่ Facial Contour
 - งานฉีดไม่มีหมวดแยก จัดตามเป้าหมาย: ปรับรูปหน้า → Facial Contour, บำรุงผิว → Derma Longevity
 - ห้ามเขียนชื่อยี่ห้อยาในคำอธิบาย (เช่น ใช้ "งานฉีดปรับรูปหน้า" แทนชื่อยี่ห้อ)
 - ไม่ควรเพิ่มหมวดเกิน 6 บริการใหม่ให้หาที่ลงในหมวดเดิมก่อน

@@ -10,6 +10,7 @@ const services = defineCollection({
     name_en: z.string(),
     name_th: str,
     category: z.string().default('skin'),
+    subgroup: str,
     summary_th: str,
     summary_en: str,
     image: str,

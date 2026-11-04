@@ -22,6 +22,9 @@ export const categoryOrder = categories.map((c) => c.id);
 export function catName(id: string): string {
   return categories.find((c) => c.id === id)?.name ?? id;
 }
+export function subgroupsOf(id: string): { id: string; name: string; desc_th: string; desc_en: string }[] {
+  return ((categories.find((c) => c.id === id) as any)?.subgroups ?? []) as any[];
+}
 export function catDesc(id: string, lang: 'th' | 'en'): string {
   const c: any = categories.find((x) => x.id === id);
   return c ? (lang === 'en' ? c.desc_en || c.desc_th : c.desc_th) : '';

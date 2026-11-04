@@ -2,6 +2,7 @@
 name_en: Program Vera Skin
 name_th: โปรแกรมดูแลผิวต่อเนื่อง
 category: skin
+subgroup: signature
 summary_th: "โปรแกรมดูแลผิวรายเดือน สำหรับคนที่อยากรักษาผิวดีๆ ให้อยู่กับตัวไปนาน"
 summary_en: "A monthly programme for keeping good skin good, for the long run."
 image: /uploads/service-vera-skin.jpg
