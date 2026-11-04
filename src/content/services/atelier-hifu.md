@@ -18,9 +18,9 @@ suits_en: Early laxity, a softer jawline, or cheeks and under-chin starting to d
 avoid_th: มีโลหะหรือฟิลเลอร์ถาวรบริเวณที่ทำ ตั้งครรภ์ มีแผลหรือสิวอักเสบบริเวณนั้น
 avoid_en: Metal implants or permanent fillers in the area, pregnancy, wounds or inflamed acne at the site.
 youtube: ""
-featured: true
+featured: false
 order: 4
-published: true
+published: false
 body_en: |
   HIFU delivers focused ultrasound energy to the deeper layers of the face. The skin responds over the following weeks by producing new collagen, so the lift builds gradually and is usually clearest after 2–3 months.
 

@@ -15,7 +15,7 @@ const services = defineCollection({
     image: str,
     price_from: str,
     prices: z
-      .array(z.object({ item_th: str, item_en: str, price: str }))
+      .array(z.object({ item_th: str, item_en: str, price: str, note_th: str, note_en: str }))
       .nullish()
       .transform((v) => v ?? []),
     suits_th: str,

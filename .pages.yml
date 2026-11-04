@@ -66,7 +66,9 @@ content:
         fields:
           - { name: item_th, label: รายการ (TH), type: string }
           - { name: item_en, label: รายการ (EN), type: string }
-          - { name: price, label: ราคา, description: "ใส่แค่ตัวเลข หรือเว้นว่าง", type: string }
+          - { name: price, label: ราคา, description: "ใส่ตัวเลข เช่น 4900 หรือ 19/shot หรือ 16900/cc / เว้นว่าง = สอบถามราคา / ใส่ - = ไม่แสดงราคา", type: string }
+          - { name: note_th, label: หมายเหตุใต้รายการ (TH), description: "เช่น เฉลี่ย 3,675 บาท/ครั้ง", type: string }
+          - { name: note_en, label: หมายเหตุใต้รายการ (EN), type: string }
       - name: suits_th
         label: เหมาะกับใคร (TH)
         type: text

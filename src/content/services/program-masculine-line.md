@@ -20,7 +20,7 @@ avoid_en: Neuromuscular disorders, infection at the injection site, previous all
 youtube: ""
 featured: false
 order: 6
-published: true
+published: false
 body_en: |
   Men's facial muscles are usually stronger and the brow sits lower and flatter. Injection points and doses differ from those used for women, so the brow does not lift into an arch and the result still looks natural.
 ---

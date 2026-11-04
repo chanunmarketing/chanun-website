@@ -442,3 +442,4 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
 .chip.is-latin { font-family: var(--f-display); }
 .menu-ask { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; padding: 1.5rem 1.75rem; background: var(--sand); border-radius: 6px; }
 .menu-ask p { margin: 0; max-width: 40rem; color: var(--muted); }
+.menu-note { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 0.15rem; }

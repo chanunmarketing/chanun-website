@@ -62,6 +62,8 @@ export function youtubeId(url: string): string {
 export function priceLabel(p: string, lang: Lang): string {
   const v = (p ?? '').toString().trim();
   if (!v) return ui[lang].askPrice;
-  if (/^[\d,\.]+$/.test(v)) return `${Number(v.replace(/,/g, '')).toLocaleString('en-US')} ${ui[lang].baht}`;
+  if (v === '-') return '';
+  const m = v.match(/^([\d,\.]+)\s*(\/\s*\S.*)?$/);
+  if (m) return `${Number(m[1].replace(/,/g, '')).toLocaleString('en-US')} ${ui[lang].baht}${m[2] ? m[2].replace(/\s+/g, '') : ''}`;
   return v;
 }

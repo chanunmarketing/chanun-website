@@ -31,9 +31,9 @@ const summary = pick(d, 'summary', lang);
           <ul class="menu-list compact">
             {d.prices.map((p: any) => (
               <li class="menu-row"><span class="menu-line">
-                <span class="menu-name"><span class="menu-item">{pick(p, 'item', lang)}</span></span>
+                <span class="menu-name"><span class="menu-item">{pick(p, 'item', lang)}</span>{pick(p, 'note', lang) && <span class="menu-note">{pick(p, 'note', lang)}</span>}</span>
                 <span class="menu-leader" aria-hidden="true"></span>
-                <span class={`menu-price ${p.price ? '' : 'is-ask'}`}>{priceLabel(p.price, lang)}</span>
+                {p.price !== '-' && <span class={`menu-price ${p.price ? '' : 'is-ask'}`}>{priceLabel(p.price, lang)}</span>}
               </span></li>
             ))}
           </ul>
