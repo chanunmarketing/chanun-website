@@ -1,7 +1,7 @@
 ---
 name_en: Program Masculine Line
 name_th: ลดริ้วรอยสำหรับผู้ชาย
-category: injectables
+category: lifting
 summary_th: "ฉีดโบทูลินัมท็อกซินโดยวางจุดตามกายวิภาคของผู้ชาย ช่วยลดริ้วรอยโดยยังคงสีหน้าที่ดูเป็นผู้ชาย"
 summary_en: "Botulinum toxin placed for male facial anatomy, to soften lines while keeping a masculine expression."
 image: /uploads/service-masculine.jpg

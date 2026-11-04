@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": "lifting",
+      "name": "Facial Contour",
+      "desc_th": "ยกกระชับและปรับสัดส่วนใบหน้า ทั้งเครื่องมือยกกระชับและงานฉีด คุณหมอวางแผนทีละจุดตามโครงหน้า ให้ผลลัพธ์ยังเป็นตัวคุณ",
+      "desc_en": "Lifting and facial balancing with energy devices and injectables, planned point by point around your bone structure so you still look like you."
+    },
+    {
+      "id": "skin",
+      "name": "Derma Longevity",
+      "desc_th": "ดูแลผิวตั้งแต่ชั้นลึก ที่ซึ่งคอลลาเจน อีลาสติน และ ECM ช่วยค้ำผิวไว้ ให้ผิวแข็งแรงและสวยได้นาน",
+      "desc_en": "Care that reaches the deeper layers, where collagen, elastin and the ECM hold your skin up, so it stays healthy for longer."
+    },
+    {
+      "id": "scar",
+      "name": "Scar Revision & Dermatosurgery",
+      "desc_th": "แก้ไขหลุมสิวและแผลเป็น รวมถึงผ่าตัดแผลนูนและศัลยกรรมผิวหนังโดยแพทย์ เลือกวิธีตามชนิดของแผลแต่ละแบบ",
+      "desc_en": "Treatment for acne scars and other scars, plus keloid and minor skin surgery by our doctors, with the method chosen for each type of scar."
+    },
+    {
+      "id": "hair",
+      "name": "Hair & Scalp Longevity",
+      "desc_th": "ดูแลผมร่วงและผมบาง เริ่มจากตรวจหนังศีรษะและหาสาเหตุ แล้ววางแผนการดูแลให้เหมาะกับคุณ",
+      "desc_en": "Care for hair loss and thinning hair that starts with a scalp check and the cause, then a plan made for you."
+    },
+    {
+      "id": "body",
+      "name": "Figure Contour",
+      "desc_th": "ปรับสัดส่วนรูปร่างเฉพาะจุด ให้เข้ากับรูปร่างของคุณและยังดูเป็นธรรมชาติ",
+      "desc_en": "Targeted body contouring that works with your natural shape."
+    },
+    {
+      "id": "wellness",
+      "name": "Longevity Wellness",
+      "desc_th": "ดูแลสุขภาพจากภายใน ทั้ง IV drip ตรวจเลือด และวัคซีน เพราะความสวยที่อยู่ได้นานเริ่มจากร่างกายที่แข็งแรง",
+      "desc_en": "Care from within, including IV drips, blood tests and vaccines, because beauty that lasts starts with a healthy body."
+    }
+  ]
+}

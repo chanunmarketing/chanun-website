@@ -435,3 +435,8 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
 .ba-program { font-weight: 500; }
 .ba-person { color: var(--accent-ink); }
 .ba-gallery { margin-top: 0; }
+/* Treatment category head (English name + description) */
+.menu-group-head { margin-bottom: 1.75rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
+.menu-group-head .menu-group-title { margin-bottom: 0.5rem; padding-bottom: 0; border-bottom: 0; font-family: var(--f-display); }
+.menu-group-head p { max-width: 46rem; margin: 0; }
+.chip.is-latin { font-family: var(--f-display); }

@@ -16,7 +16,16 @@ export async function getDoctors() {
   return (await getCollection('doctors')).sort((a, b) => a.data.order - b.data.order);
 }
 
-export const categoryOrder = ['lifting', 'skin', 'injectables', 'scar', 'wellness'];
+import categoryData from '../data/categories.json';
+export const categories = categoryData.categories;
+export const categoryOrder = categories.map((c) => c.id);
+export function catName(id: string): string {
+  return categories.find((c) => c.id === id)?.name ?? id;
+}
+export function catDesc(id: string, lang: 'th' | 'en'): string {
+  const c: any = categories.find((x) => x.id === id);
+  return c ? (lang === 'en' ? c.desc_en || c.desc_th : c.desc_th) : '';
+}
 
 export async function getCases() {
   return (await getCollection('cases', (c) => c.data.published)).sort(

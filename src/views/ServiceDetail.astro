@@ -5,6 +5,7 @@ import YouTube from '../components/YouTube.astro';
 import site from '../data/site.json';
 import { type Lang, href, pick, priceLabel, ui } from '../lib/i18n';
 import { md } from '../lib/md';
+import { catName } from '../lib/data';
 interface Props { lang: Lang; s: any }
 const { lang, s } = Astro.props;
 const d = s.data;
@@ -19,7 +20,7 @@ const summary = pick(d, 'summary', lang);
     </div>
     <div class="detail-body">
       <a class="text-link back" href={href(lang, '/services/')}>{t.back}</a>
-      <p class="detail-cat">{(t.cat as any)[d.category] ?? d.category}</p>
+      <p class="detail-cat">{catName(d.category)}</p>
       <h1 class="h-page is-latin">{d.name_en}</h1>
       {lang === 'th' && d.name_th && <p class="detail-th">{d.name_th}</p>}
       <p class="lede">{summary}</p>

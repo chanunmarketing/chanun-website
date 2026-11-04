@@ -36,11 +36,12 @@ content:
         type: select
         options:
           values:
-            - { name: lifting, label: ยกกระชับ }
-            - { name: skin, label: ดูแลผิว }
-            - { name: injectables, label: งานฉีด }
-            - { name: scar, label: แผลเป็นและหลุมสิว }
-            - { name: wellness, label: ดูแลจากภายใน }
+            - { name: lifting, label: "Facial Contour" }
+            - { name: skin, label: "Derma Longevity" }
+            - { name: scar, label: "Scar Revision & Dermatosurgery" }
+            - { name: hair, label: "Hair & Scalp Longevity" }
+            - { name: body, label: "Figure Contour" }
+            - { name: wellness, label: "Longevity Wellness" }
       - name: image
         label: รูปประกอบ
         description: แนวตั้ง สัดส่วน 4:5 กว้างไม่เกิน 2000px
@@ -208,11 +209,12 @@ content:
         required: true
         options:
           values:
-            - { name: lifting, label: "Lifting & Contour (ยกกระชับและปรับกรอบหน้า)" }
-            - { name: skin, label: "Skin Quality (คุณภาพผิว)" }
-            - { name: injectables, label: "Injectables (งานฉีด)" }
-            - { name: scar, label: "Acne Scar (แผลเป็นและหลุมสิว)" }
-            - { name: wellness, label: "Inside-Out Wellness (ดูแลจากภายใน)" }
+            - { name: lifting, label: "Facial Contour" }
+            - { name: skin, label: "Derma Longevity" }
+            - { name: scar, label: "Scar Revision & Dermatosurgery" }
+            - { name: hair, label: "Hair & Scalp Longevity" }
+            - { name: body, label: "Figure Contour" }
+            - { name: wellness, label: "Longevity Wellness" }
       - { name: person, label: ชื่อคนไข้หรือ muse, description: "ไม่ใส่ก็ได้", type: string }
       - { name: is_muse, label: เป็น muse ของคลินิก, type: boolean, default: false }
       - { name: treatment_date, label: วันที่รับบริการ, description: "เช่น 07/04/2025", type: string }
@@ -260,11 +262,12 @@ content:
         type: select
         options:
           values:
-            - { name: lifting, label: ยกกระชับ }
-            - { name: skin, label: ดูแลผิว }
-            - { name: injectables, label: งานฉีด }
-            - { name: scar, label: แผลเป็นและหลุมสิว }
-            - { name: wellness, label: ดูแลจากภายใน }
+            - { name: lifting, label: "Facial Contour" }
+            - { name: skin, label: "Derma Longevity" }
+            - { name: scar, label: "Scar Revision & Dermatosurgery" }
+            - { name: hair, label: "Hair & Scalp Longevity" }
+            - { name: body, label: "Figure Contour" }
+            - { name: wellness, label: "Longevity Wellness" }
       - { name: title_th, label: หัวข้อเคส (TH), type: string, required: true }
       - { name: title_en, label: หัวข้อเคส (EN), type: string }
       - { name: muse_name, label: ชื่อ muse, description: "เฉพาะหมวด Muses", type: string }
@@ -413,6 +416,22 @@ content:
       - { name: terms_th, label: เงื่อนไข (TH), type: text, list: true }
       - { name: terms_en, label: เงื่อนไข (EN), type: text, list: true }
 
+  - name: categories
+    label: หมวดการรักษา (ชื่อและคำอธิบาย)
+    type: file
+    path: src/data/categories.json
+    format: json
+    fields:
+      - name: categories
+        label: หมวด
+        description: "เรียงตามลำดับที่แสดงบนเว็บ ห้ามแก้ช่อง 'รหัส'"
+        type: object
+        list: true
+        fields:
+          - { name: id, label: "รหัส (ห้ามแก้)", type: string }
+          - { name: name, label: ชื่อหมวด (ภาษาอังกฤษ ใช้ทั้งสองภาษา), type: string }
+          - { name: desc_th, label: คำอธิบาย (TH), type: text }
+          - { name: desc_en, label: คำอธิบาย (EN), type: text }
   - name: site
     label: ข้อมูลคลินิก (ที่อยู่ เวลา โซเชียล)
     type: file

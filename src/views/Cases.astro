@@ -4,7 +4,7 @@ import Img from '../components/Img.astro';
 import Lightbox from '../components/Lightbox.astro';
 import site from '../data/site.json';
 import { type Lang, href, pick } from '../lib/i18n';
-import { categoryOrder, getCases, getGallery, refToId } from '../lib/data';
+import { catName, categoryOrder, getCases, getGallery, refToId } from '../lib/data';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const cases = await getCases();
@@ -13,13 +13,6 @@ const muses = cases.filter((c) => c.data.kind === 'muse');
 const notes = cases.filter((c) => c.data.kind !== 'muse');
 const caseIds = new Set(cases.map((c) => c.id));
 
-const CATS: Record<string, { en: string; th: string }> = {
-  lifting: { en: 'Lifting & Contour', th: 'ยกกระชับและปรับกรอบหน้า' },
-  skin: { en: 'Skin Quality', th: 'คุณภาพผิว' },
-  injectables: { en: 'Injectables', th: 'งานฉีด' },
-  scar: { en: 'Acne Scar', th: 'แผลเป็นและหลุมสิว' },
-  wellness: { en: 'Inside-Out Wellness', th: 'ดูแลจากภายใน' },
-};
 const tiles = gallery.flatMap((g) => g.data.images.map((src: string) => ({ src, g })));
 const cats = categoryOrder.filter((k) => tiles.some((t) => t.g.data.category === k));
 
@@ -67,8 +60,7 @@ const caseLink = (g: any) => {
               <button type="button" class="cat-btn" data-gfilter="all" aria-pressed="true"><span class="cat-en">{t.all}</span></button>
               {cats.map((k) => (
                 <button type="button" class="cat-btn" data-gfilter={k} aria-pressed="false">
-                  <span class="cat-en">{CATS[k]?.en ?? k}</span>
-                  <span class="cat-th">{CATS[k]?.th ?? ''}</span>
+                  <span class="cat-en">{catName(k)}</span>
                 </button>
               ))}
             </div>

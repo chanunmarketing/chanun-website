@@ -3,13 +3,13 @@ import Base from '../layouts/Base.astro';
 import ServiceCard from '../components/ServiceCard.astro';
 import site from '../data/site.json';
 import { type Lang, pick, ui } from '../lib/i18n';
-import { categoryOrder, getServices } from '../lib/data';
+import { catDesc, catName, categoryOrder, getServices } from '../lib/data';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = ui[lang];
 const services = await getServices();
 const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.category)])]
-  .map((c) => ({ id: c, label: (t.cat as any)[c] ?? c, items: services.filter((s) => s.data.category === c) }))
+  .map((c) => ({ id: c, label: catName(c), desc: catDesc(c, lang), items: services.filter((s) => s.data.category === c) }))
   .filter((c) => c.items.length);
 const intro = lang === 'th'
   ? 'ทุกโปรแกรมของ Atelier ออกแบบเฉพาะคนหลังพบแพทย์ ราคาด้านล่างเป็นราคาเริ่มต้น ราคาจริงขึ้นอยู่กับแผนการดูแลของแต่ละคน'
@@ -22,14 +22,17 @@ const intro = lang === 'th'
       <h1 class="h-page is-latin">{t.services}</h1>
       <p class="lede">{intro}</p>
       <nav class="chips" aria-label={t.services}>
-        {cats.map((c) => <a class="chip" href={`#${c.id}`}>{c.label}</a>)}
+        {cats.map((c) => <a class="chip is-latin" href={`#${c.id}`}>{c.label}</a>)}
       </nav>
     </div>
   </section>
   <div class="wrap services-page">
     {cats.map((c) => (
       <section class="menu-group" id={c.id}>
-        <h2 class="menu-group-title">{c.label}</h2>
+        <div class="menu-group-head">
+          <h2 class="menu-group-title is-latin">{c.label}</h2>
+          {c.desc && <p class="muted">{c.desc}</p>}
+        </div>
         <div class="programs programs-3">{c.items.map((s) => <ServiceCard s={s} lang={lang} />)}</div>
       </section>
     ))}
