@@ -27,7 +27,7 @@ export function formatDate(d: Date, lang: Lang): string {
 
 export const ui = {
   th: {
-    home: 'หน้าแรก', muses: 'Muses', membership: 'The Circle', services: 'The Collection', servicesSub: 'โปรแกรมและราคา', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'The Atelier', aboutSub: 'เกี่ยวกับ CHANUN', contact: 'Visit', contactTitle: 'Visit the Atelier', contactSub: 'ติดต่อและการเดินทาง',
+    home: 'หน้าแรก', muses: 'Muses', membership: 'The Circle', services: 'The Collection', servicesSub: 'Longevity Programs & Pricing', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'The Atelier', aboutSub: 'เกี่ยวกับ CHANUN', contact: 'Visit', contactTitle: 'Visit the Atelier', contactSub: 'ติดต่อและการเดินทาง',
     book: 'นัดหมายทาง LINE', call: 'โทร', askPrice: 'สอบถามราคา', from: 'เริ่มต้น', baht: 'บาท',
     allServices: 'ดู The Collection ทั้งหมด', allArticles: 'อ่าน The Atelier Journal', readMore: 'อ่านต่อ',
     viewDetails: 'ดูรายละเอียด', priceList: 'ราคา', suits: 'เหมาะกับใคร', avoid: 'ไม่ควรทำถ้า',
@@ -39,7 +39,7 @@ export const ui = {
     noArticles: 'ยังไม่มีเรื่องในหมวดนี้',
   },
   en: {
-    home: 'Home', muses: 'Muses', membership: 'The Circle', services: 'The Collection', servicesSub: 'Programmes & prices', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'The Atelier', aboutSub: 'About CHANUN', contact: 'Visit', contactTitle: 'Visit the Atelier', contactSub: 'Contact & directions',
+    home: 'Home', muses: 'Muses', membership: 'The Circle', services: 'The Collection', servicesSub: 'Longevity Programs & Pricing', articles: 'Journal', journalTitle: 'The Atelier Journal', about: 'The Atelier', aboutSub: 'About CHANUN', contact: 'Visit', contactTitle: 'Visit the Atelier', contactSub: 'Contact & directions',
     book: 'Book on LINE', call: 'Call', askPrice: 'Price on request', from: 'From', baht: 'THB',
     allServices: 'Explore the Collection', allArticles: 'Read the Atelier Journal', readMore: 'Read',
     viewDetails: 'Details', priceList: 'Prices', suits: 'Who it suits', avoid: 'Not suitable if',

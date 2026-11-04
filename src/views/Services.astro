@@ -10,10 +10,13 @@ const t = ui[lang];
 const services = await getServices();
 const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.category)])]
   .map((c) => ({ id: c, label: catName(c), desc: catDesc(c, lang), items: services.filter((s) => s.data.category === c) }))
-  .filter((c) => c.items.length);
+  .filter((c) => c.items.length || categoryOrder.includes(c.id));
 const intro = lang === 'th'
-  ? 'ทุกโปรแกรมของ Atelier ออกแบบเฉพาะคนหลังพบแพทย์ ราคาด้านล่างเป็นราคาเริ่มต้น ราคาจริงขึ้นอยู่กับแผนการดูแลของแต่ละคน'
-  : 'Every Atelier programme is made to measure after you see the doctor. Prices shown are starting prices; your final price depends on your plan.';
+  ? 'ทุกโปรแกรมเริ่มจากการออกแบบร่วมกับคุณหมอ เพื่อการดูแลที่พอดีกับคุณ ราคาที่แสดงเป็นราคาเริ่มต้น และปรับตามแผนของแต่ละท่าน'
+  : 'Every programme is designed together with the doctor, so your care fits you. Prices shown are starting prices and are adjusted to each plan.';
+const ask = lang === 'th'
+  ? { text: 'โปรแกรมในหมวดนี้คุณหมอออกแบบให้เฉพาะคนหลังตรวจประเมิน ทัก LINE เพื่อสอบถามรายละเอียดและนัดพบคุณหมอ', btn: 'สอบถามทาง LINE' }
+  : { text: 'Programmes in this category are designed for each person after an assessment. Message us on LINE for details or to book a consultation.', btn: 'Ask on LINE' };
 ---
 <Base lang={lang} title={`${t.services} | ${t.servicesSub}`}>
   <section class="page-head sand">
@@ -33,7 +36,14 @@ const intro = lang === 'th'
           <h2 class="menu-group-title is-latin">{c.label}</h2>
           {c.desc && <p class="muted">{c.desc}</p>}
         </div>
-        <div class="programs programs-3">{c.items.map((s) => <ServiceCard s={s} lang={lang} />)}</div>
+        {c.items.length > 0 ? (
+          <div class="programs programs-3">{c.items.map((s) => <ServiceCard s={s} lang={lang} />)}</div>
+        ) : (
+          <div class="menu-ask">
+            <p>{ask.text}</p>
+            <a class="btn btn-ghost btn-sm" href={site.line_url} target="_blank" rel="noopener">{ask.btn}</a>
+          </div>
+        )}
       </section>
     ))}
     <p class="fineprint">{pick(site, 'disclaimer', lang)}</p>
