@@ -1,10 +1,10 @@
 ---
 name_en: Program Mono-RF (Exilis Elite)
-name_th: Monopolar RF ทั่วหน้าและคอ
+name_th: Monopolar RF มาตรฐานยุโรป ทั่วหน้าและคอ
 category: lifting
 image: /uploads/service-exilis-rf.jpg
-summary_th: "ส่งคลื่นวิทยุความถี่สูงคู่กับอัลตราซาวด์ อุ่นผิวชั้นในทั่วทั้งหน้าและคอ ให้ผิวค่อยๆ สร้างคอลลาเจนใหม่ คุณหมอปรับพลังงานตามผิวของแต่ละคน"
-summary_en: "High-frequency radio waves paired with ultrasound gently warm the deeper skin across the face and neck, so it slowly builds new collagen. The doctor sets the energy for your skin."
+summary_th: "Monopolar RF มาตรฐาน CE ยุโรป รุ่นที่เน้นกระชับผิวพร้อมจัดเรียงคอลลาเจนใต้ผิว ได้ทั้งเรื่องผิว ความกระชับ และกระตุ้นคอลลาเจนชั้นตื้นในครั้งเดียว ไม่ต้องพักฟื้น จึงทำได้สม่ำเสมอตามที่คุณหมอแนะนำ"
+summary_en: "A CE-marked European Monopolar RF that tightens the skin while reorganising the collagen beneath it, working on skin quality, firmness and shallow collagen in one session. With no downtime, it can be repeated regularly as the doctor advises."
 price_from: "4900"
 prices:
   - item_th: Mono-RF ทั่วหน้าและคอ 1 ครั้ง
@@ -32,13 +32,15 @@ prices:
     note_en: Full-face and neck Mono-RF up to once a week + 500 HIFU shots across the year
 suits_th: ผิวเริ่มหย่อน รูขุมขนกว้าง ริ้วรอยตื้นๆ และคนที่ไม่อยากหยุดงาน
 suits_en: Skin that is starting to loosen, visible pores, fine lines, and anyone who cannot take time off.
-avoid_th: ตั้งครรภ์ ใส่เครื่องกระตุ้นหัวใจหรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย มีโลหะฝังในบริเวณที่จะทำ มีแผลหรือการติดเชื้อบริเวณที่จะทำ
-avoid_en: Pregnancy; a pacemaker or other implanted electronic device; metal implants in the treatment area; a wound or infection in the area.
+avoid_th: ตั้งครรภ์ วางแผนตั้งครรภ์ หรือให้นมบุตร ใส่เครื่องกระตุ้นหัวใจหรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย มีโลหะฝังในบริเวณที่จะทำ มีแผล โรคผิวหนัง หรือการติดเชื้อบริเวณที่จะทำ ผิวรับความรู้สึกผิดปกติ เบาหวาน มะเร็งเม็ดเลือดหรือความผิดปกติของเกล็ดเลือด และควรเว้นระยะก่อนทำถ้าเพิ่งฉีดโบทูลินัมท็อกซินภายใน 3 เดือน ร้อยไหมภายใน 6 เดือน ทำเลเซอร์ลอกผิวหรือพีลลึกภายใน 3 เดือน หรือทานยารักษาสิว isotretinoin ภายใน 12 เดือน
+avoid_en: Pregnancy, planning a pregnancy, or breastfeeding; a pacemaker or other implanted electronic device; metal implants in the area; a wound, skin disease or infection in the area; reduced skin sensation; diabetes; blood cancer or a platelet disorder. Please wait before treatment if you have had botulinum toxin within 3 months, a thread lift within 6 months, ablative laser or a deep peel within 3 months, or isotretinoin within 12 months.
 featured: false
 order: 2
 published: true
 body_en: |
-  Program Mono-RF uses the Exilis Elite, which sends high-frequency radio waves (Monopolar RF) together with ultrasound to warm the deeper skin across the whole face and neck. As the skin warms, it slowly builds new collagen, so the face looks firmer and smoother, with results that become clearer over 2–3 months.
+  Program Mono-RF uses the Exilis Elite, which holds the European CE mark and is FDA-cleared in the United States for the treatment of wrinkles. It sends high-frequency radio waves (Monopolar RF) together with ultrasound to warm the deeper skin across the whole face and neck.
+
+  This model focuses on tightening the skin while reorganising the collagen beneath it, so one session works on skin quality, firmness and shallow collagen together. The face looks gradually firmer and smoother, with results clearer over 2–3 months. With no downtime, it can be repeated every 1–2 weeks as the doctor advises.
 
   **During and after**
 
@@ -51,7 +53,9 @@ body_en: |
 
   Full-face and neck Mono-RF up to once a week for 12 months, plus 500 HIFU shots to use across the year. Members can add more HIFU at 9 THB per shot. *For one person only, valid 12 months from purchase. Missed weeks do not carry over. Please book in advance. HIFU sessions are spaced as the doctor advises.*
 ---
-Program Mono-RF ใช้เครื่อง Exilis Elite ส่งคลื่นวิทยุความถี่สูง (Monopolar RF) คู่กับอัลตราซาวด์ อุ่นผิวชั้นในทั่วทั้งหน้าและคอ เมื่อผิวได้รับความร้อนพอดี จะค่อยๆ สร้างคอลลาเจนใหม่ ผิวจึงดูกระชับและเรียบขึ้น ผลจะค่อยๆ ชัดขึ้นภายใน 2–3 เดือน
+Program Mono-RF ใช้เครื่อง Exilis Elite ซึ่งได้รับมาตรฐาน CE ของยุโรป และผ่านการรับรองจาก FDA สหรัฐอเมริกาสำหรับการดูแลริ้วรอย เครื่องส่งคลื่นวิทยุความถี่สูง (Monopolar RF) คู่กับอัลตราซาวด์ อุ่นผิวชั้นในทั่วทั้งหน้าและคอ
+
+รุ่นนี้เน้นกระชับผิวพร้อมจัดเรียงคอลลาเจนใต้ผิว ครั้งเดียวจึงได้ทั้งเรื่องผิว ความกระชับ และการกระตุ้นคอลลาเจนชั้นตื้น ผิวจะค่อยๆ ดูกระชับและเรียบขึ้น และเห็นชัดขึ้นภายใน 2–3 เดือน เพราะไม่ต้องพักฟื้น จึงทำซ้ำได้ทุก 1–2 สัปดาห์ตามที่คุณหมอแนะนำ
 
 **ระหว่างทำและหลังทำ**
 

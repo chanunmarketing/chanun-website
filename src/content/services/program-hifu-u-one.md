@@ -1,10 +1,10 @@
 ---
 name_en: Program HIFU U-One
-name_th: HIFU เลือกจุดได้ จ่ายตามจุดที่ต้องการ
+name_th: HIFU Premium จากเกาหลี ใช้ shot น้อยแต่ตรงจุด
 category: lifting
 image: /uploads/service-u-one-hifu.jpg
-summary_th: "HIFU รวมคลื่นอัลตราซาวด์เป็นจุดเล็กๆ ลงลึกถึงชั้น SMAS คุณหมอเลือกยิงเฉพาะจุดที่ต้องการตามโครงหน้า และคุณจ่ายตามจำนวน shot ที่ใช้จริง"
-summary_en: "HIFU focuses ultrasound into tiny points that reach the SMAS. The doctor treats only the areas your face needs, and you pay for the shots actually used."
+summary_th: "HIFU Premium จากเกาหลี ลงลึกถึงชั้น SMAS คุณหมอปิงปองวางพลังงานทีละจุดตามโครงหน้าและความลึกของแต่ละชั้น จึงใช้จำนวน shot ไม่มาก แต่พลังงานลงตรงตำแหน่งที่ช่วยยกกระชับ และคุณจ่ายตามจำนวน shot ที่ใช้จริง"
+summary_en: "Premium HIFU from Korea that reaches the SMAS. Dr. PP places the energy point by point to suit your bone structure and the depth of each layer, so fewer shots are needed and the energy lands exactly where it lifts. You pay only for the shots used."
 price_from: "19/shot"
 prices:
   - item_th: HIFU U-One
@@ -29,15 +29,15 @@ prices:
     note_en: Full-face and neck Mono-RF up to once a week + 500 HIFU shots across the year
 suits_th: กรอบหน้าเริ่มไม่ชัด แก้มเริ่มตก เหนียงหรือใต้คางเริ่มพับ เส้นข้างแก้มลึกขึ้น (คุณหมอประเมินรายบุคคล)
 suits_en: A jawline that is losing definition, cheeks that are starting to drop, a softening under-chin, or deepening lines beside the mouth (assessed person by person).
-avoid_th: ตั้งครรภ์ มีแผล การติดเชื้อ หรือสิวอักเสบบริเวณที่จะทำ มีโลหะหรืออุปกรณ์ฝังในบริเวณที่จะทำ
-avoid_en: Pregnancy; a wound, infection or inflamed acne in the area; metal or implanted devices in the treatment area.
+avoid_th: ตั้งครรภ์หรือให้นมบุตร มีแผลเปิด สิวอักเสบ ผื่นหรือโรคผิวหนังที่กำลังกำเริบ หรือการติดเชื้อบริเวณที่จะทำ มีโลหะ ใส่เครื่องกระตุ้นหัวใจ หรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย ผิวหย่อนคล้อยมากจนการผ่าตัดเหมาะกว่า และควรแจ้งคุณหมอก่อนถ้ามีประวัติแผลเป็นนูนหรือคีลอยด์ แผลหายช้า หรือสูบบุหรี่จัด
+avoid_en: Pregnancy or breastfeeding; an open wound, inflamed acne, a flaring skin condition or infection in the area; metal, a pacemaker or other implanted electronic device; skin laxity so advanced that surgery is the better option. Please tell the doctor first if you have a history of raised or keloid scars, slow wound healing, or are a heavy smoker.
 featured: true
 order: 1
 published: true
 body_en: |
   HIFU (High-Intensity Focused Ultrasound) gathers ultrasound energy into tiny points that reach the SMAS, the deeper layer that holds the face up. It works deeper than RF, which makes it a good fit for the jawline, cheeks that are starting to drop and the under-chin.
 
-  With Program HIFU U-One you are not tied to a fixed package. The doctor maps the lines and depth for your face, treats only where it is needed, and you pay per shot.
+  Program HIFU U-One uses a premium HIFU device from Korea, but what matters most is where the energy goes. Dr. PP chooses the lines, depth and number of shots for each face, so the energy lands where it lifts without needing a large number of shots. There is no fixed package: you pay per shot.
 
   **During and after**
 
@@ -57,7 +57,7 @@ body_en: |
 ---
 HIFU (High-Intensity Focused Ultrasound) รวมคลื่นอัลตราซาวด์เป็นจุดเล็กๆ ลงลึกถึงชั้น SMAS ซึ่งเป็นชั้นที่ช่วยพยุงใบหน้า ลงลึกกว่า RF จึงเหมาะกับการเก็บกรอบหน้า แก้มที่เริ่มตก และใต้คาง
 
-Program HIFU U-One ไม่ต้องซื้อเป็นแพ็กเกจตายตัว คุณหมอวางแนวและความลึกตามโครงหน้าของคุณ ยิงเฉพาะจุดที่ต้องการ และคิดตามจำนวน shot ที่ใช้จริง
+Program HIFU U-One ใช้เครื่อง HIFU Premium จากเกาหลี จุดสำคัญอยู่ที่การวางพลังงาน คุณหมอปิงปองเลือกแนว ความลึก และจำนวน shot ตามโครงหน้าของแต่ละคน พลังงานจึงลงตรงตำแหน่งที่ช่วยยกกระชับ โดยไม่ต้องยิงจำนวนมาก คุณไม่ต้องซื้อเป็นแพ็กเกจตายตัว และจ่ายตามจำนวน shot ที่ใช้จริง
 
 **ระหว่างทำและหลังทำ**
 
