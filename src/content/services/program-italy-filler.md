@@ -1,5 +1,5 @@
 ---
-name_en: Program Italy Filler
+name_en: Program Definisse Italy Filler
 name_th: ฟิลเลอร์ปรับรูปหน้า เนียนไปกับผิว
 category: lifting
 image: /uploads/service-italy-filler.jpg
@@ -7,23 +7,23 @@ summary_th: "ฟิลเลอร์จากอิตาลี เนื้อ
 summary_en: "An Italian filler that blends softly into the skin, paired with Dr. PP’s technique of placing it point by point along the layers of the face. Less product, a clear and natural shape: the result comes from both the doctor’s hand and the quality of the filler."
 price_from: "14900/cc"
 prices:
-  - item_th: Italy Filler CORE
-    item_en: Italy Filler CORE
+  - item_th: Definisse Italy Filler CORE
+    item_en: Definisse Italy Filler CORE
     price: "16900/cc"
     note_th: เนื้อแน่น ชั้นชิดกระดูก ยกหน้า เสริมคาง เก็บ jawline
     note_en: Firm, for the deep layer near the bone, lifting, chin and jawline
-  - item_th: Italy Filler RESTORE
-    item_en: Italy Filler RESTORE
+  - item_th: Definisse Italy Filler RESTORE
+    item_en: Definisse Italy Filler RESTORE
     price: "16900/cc"
     note_th: ยืดหยุ่นสูง ชั้นกลาง ปรับรูปปาก คาง และขมับ
     note_en: Highly flexible, for the middle layer, lips, chin and temples
-  - item_th: Italy Filler TOUCH
-    item_en: Italy Filler TOUCH
+  - item_th: Definisse Italy Filler TOUCH
+    item_en: Definisse Italy Filler TOUCH
     price: "14900/cc"
     note_th: เนื้อนุ่ม ชั้นตื้นและริมฝีปาก
     note_en: Soft, for the shallow layer and the lips
-  - item_th: "Course Privilege · ฉีดฟิลเลอร์ 2 cc รับสิทธิ์ Hydrobooster 1 cc"
-    item_en: "Course Privilege · with 2 cc of filler, receive 1 cc of Hydrobooster"
+  - item_th: "Course Privilege · ฉีดฟิลเลอร์ 2 cc รับสิทธิ์ Definisse Italy Hydrobooster (HMW-HA) 1 cc"
+    item_en: "Course Privilege · with 2 cc of filler, receive 1 cc of Definisse Italy Hydrobooster (HMW-HA)"
     price: "-"
     note_th: Hydrobooster มูลค่า 8,900 บาท
     note_en: Hydrobooster valued at 8,900 THB
@@ -35,7 +35,7 @@ featured: false
 order: 3
 published: true
 body_en: |
-  Program Italy Filler uses a filler from Italy with a smooth texture that settles softly into the skin and holds its shape well. It comes in a glass syringe.
+  Program Definisse Italy Filler uses a filler from Italy with a smooth texture that settles softly into the skin and holds its shape well. It comes in a glass syringe.
 
   Dr. PP injects according to the five layers of the face, matching each filler type to the layer it goes into and placing only as much as is needed. Less product, a clear shape: the result comes from both the doctor’s hand and the quality of the filler.
 
@@ -54,7 +54,7 @@ body_en: |
   - Contact the clinic straight away if swelling lasts more than a week, or if you notice unusual pain, pale skin or changes in vision
   - Results last around 12–18 months, depending on the area and the person
 ---
-Program Italy Filler ใช้ฟิลเลอร์จากอิตาลี เนื้อเนียนกลืนไปกับผิว ดูละมุนเป็นธรรมชาติ และคงรูปได้ดี บรรจุในหลอดแก้ว (glass syringe)
+Program Definisse Italy Filler ใช้ฟิลเลอร์จากอิตาลี เนื้อเนียนกลืนไปกับผิว ดูละมุนเป็นธรรมชาติ และคงรูปได้ดี บรรจุในหลอดแก้ว (glass syringe)
 
 คุณหมอปิงปองฉีดตามหลักโครงสร้าง 5 ชั้นของใบหน้า เลือกชนิดของฟิลเลอร์ให้ตรงกับชั้นที่ฉีด และวางทีละจุดเท่าที่จำเป็น จึงใช้ปริมาณน้อยแต่ได้รูปทรงที่ชัด ผลลัพธ์มาจากทั้งฝีมือแพทย์และคุณภาพของตัวฟิลเลอร์ไปพร้อมกัน
 
