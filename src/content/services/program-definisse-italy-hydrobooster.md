@@ -42,9 +42,9 @@ faq:
     q_en: How is Hydrobooster different from Ejal40?
     a_en: Hydrobooster works in the upper dermis, focusing on hydration and texture. Ejal40 works in the deeper dermis, focusing on collagen and the ECM. They can be used together, and both are part of Program Skin Trio.
   - q_th: ฉีดใต้ตาได้ไหม
-    a_th: ได้ คุณหมอใช้ cannula เกลี่ยเนื้อให้เรียบในบริเวณใต้ตาหรือจุดที่ต้องการความอิ่ม เหมาะกับคนที่ยังไม่อยากฉีดฟิลเลอร์ ผิวจะดูอิ่มน้ำและฉ่ำขึ้น แต่จะไม่เพิ่มรูปทรงชัดเท่าฟิลเลอร์
+    a_th: ได้ และเป็นบริเวณที่ได้ผลดีมาก คุณหมอใช้ cannula เกลี่ยเนื้อให้เรียบใต้ตาหรือจุดที่ต้องการความอิ่ม เหมาะกับคนที่ยังไม่อยากฉีดฟิลเลอร์ ผิวใต้ตาจะดูอิ่มน้ำและฉ่ำขึ้น ด้วยเทคนิคของคุณหมอปิงปอง ยังใช้ Ejal40 ฉีดใต้ตาได้ด้วย ซึ่งเป็นเทคนิคเฉพาะที่ต้องอาศัยความชำนาญ คุณหมอจะเลือกตัวที่เหมาะกับผิวใต้ตาของแต่ละคน
     q_en: Can it be used under the eyes?
-    a_en: Yes. The doctor uses a cannula to spread it smoothly under the eyes or wherever more fullness is needed, which suits people not ready for filler. The skin looks plumper and dewier, though it does not add shape as clearly as filler.
+    a_en: Yes, and it works very well there. The doctor uses a cannula to spread it smoothly under the eyes or wherever more fullness is needed, which suits people not ready for filler, and the under-eye skin looks plumper and dewier. With Dr. PP's technique, Ejal40 can also be used under the eyes, a specialised technique that takes experience. The doctor will choose the one that suits your under-eye skin.
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ไฮยาลูรอนิกหรือกลีเซอรอล มีการติดเชื้อ สิวอักเสบ หรือเริมบริเวณที่จะฉีด มีแนวโน้มเกิดแผลเป็นนูน โรคภูมิคุ้มกันที่กำลังกำเริบ และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือดหรือยาต้านเกล็ดเลือด มีภาวะเลือดออกง่าย หรือเพิ่งทำเลเซอร์หรือพีลลึก
 avoid_en: Pregnancy or breastfeeding; allergy to hyaluronic acid or glycerol; infection, inflamed acne or cold sores at the area; a tendency to raised scars; an active autoimmune flare. Please tell the doctor first if you take blood thinners or antiplatelet drugs, bruise or bleed easily, or have recently had laser or a deep peel.
 featured: false
