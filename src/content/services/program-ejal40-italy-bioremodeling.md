@@ -21,30 +21,34 @@ suits_en: Skin that is starting to loosen and thin, dehydrated skin, fine lines,
 seo_title_th: "Ejal40 ฉีดผิว Bioremodeling ฟื้นฟูโครงสร้างผิว สุขุมวิท 61"
 seo_title_en: "Ejal40 Bioremodeling Skin Booster in Bangkok"
 faq:
-  - q_th: Ejal40 ต่างจากฟิลเลอร์อย่างไร
-    a_th: ฟิลเลอร์เป็นเจล HA ที่เชื่อมโมเลกุลไว้ ใช้เพิ่มรูปทรง เช่น คางหรือกรอบหน้า ส่วน Ejal40 เป็น HA ที่ไม่ผ่านการเชื่อมโมเลกุล เนื้อจะกระจายตัวไปในผิว ไม่ได้เพิ่มรูปทรง แต่ช่วยเรื่องความชุ่มชื้น ความแน่น และคุณภาพผิวจากด้านใน
-    q_en: How is Ejal40 different from filler?
-    a_en: Filler is a cross-linked HA gel used to add shape, such as to the chin or jawline. Ejal40 is non-cross-linked HA that spreads through the skin. It does not add shape; it improves hydration, firmness and skin quality from within.
-  - q_th: ใช้แทนฟิลเลอร์ได้ไหม
-    a_th: ใช้แทนได้ในบางชั้นและบางตำแหน่ง และในหลายจุดยังได้ผลที่เป็นธรรมชาติกว่า เพราะเนื้อ HA กระจายตัวไปกับผิว ลดโอกาสเป็นก้อน และยังช่วยปรับสภาพผิวบริเวณนั้นให้แข็งแรงและดูสดใสขึ้นอีกด้วย คุณหมอปิงปองจึงมักแนะนำ combined technique คือใช้ Ejal40 ร่วมกับฟิลเลอร์ในปริมาณที่น้อยลง ได้ทั้งรูปทรงที่ต้องการและคุณภาพผิวที่ดีขึ้นไปพร้อมกัน
-    q_en: Can it be used instead of filler?
-    a_en: In some layers and areas, yes, and in many places the result looks more natural, because the HA spreads through the skin, lowering the chance of lumps, while also improving the quality of the skin in that area. That is why Dr. PP often recommends a combined technique, using Ejal40 together with a smaller amount of filler, to get the shape you want and better skin at the same time.
-  - q_th: ฉีดใต้ตาได้ไหม
-    a_th: ได้ ด้วยเทคนิคของคุณหมอปิงปองที่ใช้ cannula เกลี่ยเนื้อ HA ให้เรียบใต้ตา ซึ่งเป็นเทคนิคเฉพาะที่ต้องอาศัยความชำนาญ ผิวใต้ตาจะดูแน่นและอิ่มขึ้น และคุณภาพผิวบริเวณนั้นดีขึ้นด้วย ถ้าต้องการความฉ่ำมากกว่า คุณหมออาจเลือก Hydrobooster หรือใช้ทั้งสองตัวร่วมกัน
-    q_en: Can it be used under the eyes?
-    a_en: Yes, with Dr. PP's technique of spreading the HA smoothly under the eyes with a cannula, a specialised technique that takes experience. The under-eye skin looks firmer and fuller, and its quality improves too. For a dewier result, the doctor may choose Hydrobooster or combine the two.
-  - q_th: ต้องทำกี่ครั้ง และผลอยู่ได้นานแค่ไหน
-    a_th: โดยทั่วไปทำ 2–3 ครั้ง ห่างกันประมาณ 1 เดือน แล้วทำต่อเนื่องทุก 3–4 เดือนเพื่อรักษาผล จำนวนครั้งขึ้นอยู่กับอายุและสภาพผิว คุณหมอจะประเมินให้แต่ละคน
-    q_en: How many sessions do I need, and how long do results last?
-    a_en: Usually 2–3 sessions about a month apart, then a maintenance session every 3–4 months. The exact plan depends on your age and skin, and the doctor will assess it for you.
-  - q_th: ฉีดแล้วเจ็บไหม ต้องพักฟื้นหรือเปล่า
-    a_th: คุณหมอทายาชาก่อนฉีด ระหว่างฉีดอาจรู้สึกตึงหรือเจ็บเล็กน้อย หลังฉีดจะเห็นเป็นตุ่มนูนตรงจุดที่ฉีด ซึ่งยุบเองภายในไม่กี่ชั่วโมงถึง 1 วัน ส่วนใหญ่กลับไปทำงานได้ตามปกติ
-    q_en: Does it hurt, and is there downtime?
-    a_en: Numbing cream is applied first. You may feel slight pressure or discomfort during the injections. Small bumps appear at each point and settle within a few hours to a day. Most people go straight back to work.
-  - q_th: Ejal40 กับ Definisse Italy Hydrobooster ต่างกันอย่างไร
-    a_th: Ejal40 ทำงานในชั้นหนังแท้ส่วนลึก เน้นกระตุ้นคอลลาเจนและดูแลโครงสร้าง ECM ส่วน Hydrobooster ทำงานในชั้นหนังแท้ส่วนบน เน้นความชุ่มชื้นและเนื้อผิว ทั้งสองตัวใช้คู่กันได้ และอยู่ใน Program Skin Trio ด้วย
-    q_en: How is Ejal40 different from Definisse Italy Hydrobooster?
-    a_en: Ejal40 works in the deeper dermis, focusing on collagen and the ECM. Hydrobooster works in the upper dermis, focusing on hydration and texture. They can be used together, and both are part of Program Skin Trio.
+  - q_th: "Ejal40 ต่างจากฟิลเลอร์อย่างไร"
+    a_th: "ฟิลเลอร์เป็นเจล HA ที่เชื่อมโมเลกุลไว้ ใช้เพิ่มรูปทรง เช่น คางหรือกรอบหน้า Ejal40 เป็น HA ที่ไม่ได้เชื่อมโมเลกุล เนื้อจะกระจายไปในผิว ไม่ได้เพิ่มรูปทรง แต่ทำให้ผิวชุ่มชื้น แน่นขึ้น และคุณภาพดีขึ้นจากด้านใน"
+    q_en: "How is Ejal40 different from filler?"
+    a_en: "Filler is a cross-linked HA gel that adds shape, to the chin or jawline for example. Ejal40 is non-cross-linked HA that spreads through the skin. It does not add shape; it makes the skin more hydrated, firmer and better in quality from within."
+  - q_th: "ใช้แทนฟิลเลอร์ได้ไหม"
+    a_th: "ในบางชั้นและบางจุดใช้แทนได้ และหลายจุดยังดูเป็นธรรมชาติกว่าด้วย เพราะเนื้อ HA กระจายไปกับผิว โอกาสเป็นก้อนน้อย และผิวบริเวณนั้นยังแข็งแรงและดูสดใสขึ้นด้วย
+
+คุณหมอปิงปองจึงชอบใช้ combined technique คือ Ejal40 คู่กับฟิลเลอร์ปริมาณน้อยลง ได้ทั้งรูปทรงที่ต้องการและผิวที่ดีขึ้น"
+    q_en: "Can it be used instead of filler?"
+    a_en: "In some layers and spots, yes, and it often looks more natural, because the HA spreads with the skin, lumps are less likely, and the skin there grows stronger and brighter too.
+
+That is why Dr. PP likes a combined technique: Ejal40 alongside a smaller amount of filler, for the shape you want and better skin as well."
+  - q_th: "ฉีดใต้ตาได้ไหม"
+    a_th: "ได้ คุณหมอปิงปองใช้ cannula เกลี่ยเนื้อ HA ให้เรียบใต้ตา เป็นเทคนิคที่ต้องใช้ความชำนาญ ผิวใต้ตาจะดูแน่นและอิ่มขึ้น เนื้อผิวก็ดีขึ้นด้วย ถ้าอยากได้ความฉ่ำมากกว่านี้ อาจเลือก Hydrobooster หรือใช้สองตัวคู่กัน"
+    q_en: "Can it be used under the eyes?"
+    a_en: "Yes. Dr. PP spreads the HA smoothly under the eyes with a cannula, a technique that takes experience. The under-eye skin looks firmer and fuller, and its texture improves. For more dewiness, Hydrobooster or a mix of the two may suit you."
+  - q_th: "ต้องทำกี่ครั้ง และผลอยู่ได้นานแค่ไหน"
+    a_th: "ส่วนใหญ่ทำ 2–3 ครั้ง ห่างกันประมาณ 1 เดือน แล้วมาทำต่อทุก 3–4 เดือนเพื่อรักษาผล อายุและสภาพผิวมีผล คุณหมอจะวางแผนให้ตามผิวของคุณ"
+    q_en: "How many sessions do I need, and how long do results last?"
+    a_en: "Usually 2–3 sessions about a month apart, then a top-up every 3–4 months. Age and skin condition matter, so the doctor will plan around your skin."
+  - q_th: "ฉีดแล้วเจ็บไหม ต้องพักฟื้นหรือเปล่า"
+    a_th: "ทายาชาก่อนฉีด ระหว่างฉีดอาจรู้สึกตึงหรือเจ็บนิดหน่อย หลังฉีดจะเห็นตุ่มนูนตรงจุดที่ฉีด ไม่กี่ชั่วโมงถึง 1 วันก็ยุบ ส่วนใหญ่กลับไปทำงานได้เลย"
+    q_en: "Does it hurt, and is there downtime?"
+    a_en: "Numbing cream goes on first. You may feel some pressure or a little discomfort. Small bumps show at each point and settle within a few hours to a day. Most people go straight back to work."
+  - q_th: "Ejal40 กับ Definisse Italy Hydrobooster ต่างกันอย่างไร"
+    a_th: "Ejal40 ทำงานในหนังแท้ชั้นลึก เน้นคอลลาเจนและ ECM ส่วน Hydrobooster ทำงานในหนังแท้ชั้นบน เน้นความชุ่มชื้นและเนื้อผิว ใช้คู่กันได้ และทั้งสองตัวอยู่ใน Skin Trio"
+    q_en: "How is Ejal40 different from Definisse Italy Hydrobooster?"
+    a_en: "Ejal40 works in the deeper dermis, on collagen and the ECM. Hydrobooster works in the upper dermis, on hydration and texture. They pair well, and both are in Skin Trio."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ไฮยาลูรอนิก มีการติดเชื้อ สิวอักเสบ หรือเริมบริเวณที่จะฉีด มีแนวโน้มเกิดแผลเป็นนูน โรคภูมิคุ้มกันที่กำลังกำเริบ และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือดหรือยาต้านเกล็ดเลือด มีภาวะเลือดออกง่าย หรือเพิ่งทำเลเซอร์หรือพีลลึก
 avoid_en: Pregnancy or breastfeeding; allergy to hyaluronic acid; infection, inflamed acne or cold sores at the area; a tendency to raised scars; an active autoimmune flare. Please tell the doctor first if you take blood thinners or antiplatelet drugs, bruise or bleed easily, or have recently had laser or a deep peel.
 featured: false

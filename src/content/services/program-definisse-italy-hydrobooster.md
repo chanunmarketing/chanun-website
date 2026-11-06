@@ -21,30 +21,34 @@ suits_en: Dry or dehydrated skin, dull skin that has lost its glow, fine lines a
 seo_title_th: "Hydrobooster ฉีดผิวชุ่มชื้น HA ผสมกลีเซอรอล สุขุมวิท 61"
 seo_title_en: "Definisse Hydrobooster Skin Booster in Bangkok"
 faq:
-  - q_th: Hydrobooster คืออะไร
-    a_th: Hydrobooster เป็นสกินบูสเตอร์ของ Definisse จากอิตาลี ทำจากไฮยาลูรอนิกโมเลกุลใหญ่สายยาวผสมกลีเซอรอล ฉีดในชั้นหนังแท้ส่วนบน เพื่อให้ผิวชุ่มชื้นและเนื้อผิวเรียบเนียนขึ้น
-    q_en: What is Hydrobooster?
-    a_en: Hydrobooster is a skin booster by Definisse from Italy, made of long-chain, high-molecular-weight hyaluronic acid with glycerol. It is injected into the upper dermis to hydrate the skin and smooth its texture.
-  - q_th: กลีเซอรอลช่วยอะไร
-    a_th: กลีเซอรอลเป็นสารดูดความชุ่มชื้นตามธรรมชาติที่ผิวเองก็มีอยู่ ช่วยดึงน้ำและเก็บความชุ่มชื้นไว้ในผิว เมื่อทำงานคู่กับไฮยาลูรอนิก ผิวจึงอุ้มน้ำได้ดีขึ้น
-    q_en: What does glycerol do?
-    a_en: Glycerol is a natural humectant that the skin itself contains. It draws in water and keeps it in the skin, so together with hyaluronic acid the skin holds moisture better.
-  - q_th: ต้องทำกี่ครั้ง
-    a_th: แนะนำ 3 ครั้ง ห่างกันประมาณ 3 สัปดาห์ และทำซ้ำได้ปีละประมาณ 2 รอบ คุณหมอจะปรับแผนตามสภาพผิวของแต่ละคน
-    q_en: How many sessions do I need?
-    a_en: Ideally 3 sessions about 3 weeks apart, repeated around twice a year. The doctor will adjust the plan to your skin.
-  - q_th: ฉีดบริเวณไหนได้บ้าง
-    a_th: หน้าผาก รอบดวงตา แก้ม กรอบหน้า รอบริมฝีปาก และคอ
-    q_en: Which areas can be treated?
-    a_en: The forehead, around the eyes, cheeks, jawline, around the lips and the neck.
-  - q_th: Hydrobooster กับ Ejal40 ต่างกันอย่างไร
-    a_th: Hydrobooster ทำงานในชั้นหนังแท้ส่วนบน เน้นความชุ่มชื้นและเนื้อผิว ส่วน Ejal40 ทำงานในชั้นหนังแท้ส่วนลึก เน้นกระตุ้นคอลลาเจนและโครงสร้าง ECM ทั้งสองตัวใช้คู่กันได้ และอยู่ใน Program Skin Trio ด้วย
-    q_en: How is Hydrobooster different from Ejal40?
-    a_en: Hydrobooster works in the upper dermis, focusing on hydration and texture. Ejal40 works in the deeper dermis, focusing on collagen and the ECM. They can be used together, and both are part of Program Skin Trio.
-  - q_th: ฉีดใต้ตาได้ไหม
-    a_th: ได้ และเป็นบริเวณที่ได้ผลดีมาก คุณหมอใช้ cannula เกลี่ยเนื้อให้เรียบใต้ตาหรือจุดที่ต้องการความอิ่ม เหมาะกับคนที่ยังไม่อยากฉีดฟิลเลอร์ ผิวใต้ตาจะดูอิ่มน้ำและฉ่ำขึ้น ด้วยเทคนิคของคุณหมอปิงปอง ยังใช้ Ejal40 ฉีดใต้ตาได้ด้วย ซึ่งเป็นเทคนิคเฉพาะที่ต้องอาศัยความชำนาญ คุณหมอจะเลือกตัวที่เหมาะกับผิวใต้ตาของแต่ละคน
-    q_en: Can it be used under the eyes?
-    a_en: Yes, and it works very well there. The doctor uses a cannula to spread it smoothly under the eyes or wherever more fullness is needed, which suits people not ready for filler, and the under-eye skin looks plumper and dewier. With Dr. PP's technique, Ejal40 can also be used under the eyes, a specialised technique that takes experience. The doctor will choose the one that suits your under-eye skin.
+  - q_th: "Hydrobooster คืออะไร"
+    a_th: "Hydrobooster เป็นสกินบูสเตอร์ของ Definisse จากอิตาลี ทำจากไฮยาลูรอนิกโมเลกุลใหญ่สายยาวผสมกลีเซอรอล ฉีดในหนังแท้ชั้นบน ให้ผิวชุ่มชื้นและเรียบเนียนขึ้น"
+    q_en: "What is Hydrobooster?"
+    a_en: "Hydrobooster is a skin booster by Definisse from Italy, made of long-chain, high-molecular-weight hyaluronic acid with glycerol. It goes into the upper dermis to hydrate and smooth the skin."
+  - q_th: "กลีเซอรอลช่วยอะไร"
+    a_th: "กลีเซอรอลเป็นสารดูดความชุ่มชื้นที่ผิวเราก็มีอยู่แล้ว ช่วยดึงน้ำเข้ามาและเก็บไว้ในผิว พอทำงานคู่กับไฮยาลูรอนิก ผิวเลยอุ้มน้ำได้ดีขึ้น ดูฉ่ำขึ้น"
+    q_en: "What does glycerol do?"
+    a_en: "Glycerol is a moisture-attracting molecule your skin already has. It pulls water in and holds it there, so alongside hyaluronic acid the skin stays plumper and dewier."
+  - q_th: "ต้องทำกี่ครั้ง"
+    a_th: "แนะนำ 3 ครั้ง ห่างกันประมาณ 3 สัปดาห์ ทำซ้ำได้ปีละประมาณ 2 รอบ คุณหมอปรับแผนตามผิวของแต่ละคน"
+    q_en: "How many sessions do I need?"
+    a_en: "Ideally 3 sessions about 3 weeks apart, repeated around twice a year. The doctor adjusts the plan to your skin."
+  - q_th: "ฉีดบริเวณไหนได้บ้าง"
+    a_th: "หน้าผาก รอบดวงตา แก้ม กรอบหน้า รอบริมฝีปาก และคอ"
+    q_en: "Which areas can be treated?"
+    a_en: "Forehead, around the eyes, cheeks, jawline, around the lips and the neck."
+  - q_th: "Hydrobooster กับ Ejal40 ต่างกันอย่างไร"
+    a_th: "Hydrobooster อยู่ในหนังแท้ชั้นบน เน้นความชุ่มชื้นและเนื้อผิว Ejal40 อยู่ลึกกว่า เน้นคอลลาเจนและ ECM ใช้คู่กันได้ และทั้งสองตัวอยู่ใน Skin Trio"
+    q_en: "How is Hydrobooster different from Ejal40?"
+    a_en: "Hydrobooster sits in the upper dermis and works on hydration and texture. Ejal40 goes deeper, working on collagen and the ECM. They pair well, and both are in Skin Trio."
+  - q_th: "ฉีดใต้ตาได้ไหม"
+    a_th: "ได้ และใต้ตาเป็นจุดที่ได้ผลดีมาก คุณหมอใช้ cannula เกลี่ยเนื้อให้เรียบ เหมาะกับคนที่ยังไม่อยากฉีดฟิลเลอร์ ผิวใต้ตาจะดูอิ่มน้ำและฉ่ำขึ้น
+
+ด้วยเทคนิคของคุณหมอปิงปอง Ejal40 ก็ฉีดใต้ตาได้เหมือนกัน เป็นเทคนิคที่ต้องใช้ความชำนาญ คุณหมอจะเลือกตัวที่เหมาะกับใต้ตาของแต่ละคน"
+    q_en: "Can it be used under the eyes?"
+    a_en: "Yes, and the under-eye area responds very well. The doctor spreads it smoothly with a cannula, which suits people not ready for filler. The skin there looks plumper and dewier.
+
+With Dr. PP's technique, Ejal40 can be used under the eyes too, a technique that takes experience. The doctor will choose what suits your under-eyes."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ไฮยาลูรอนิกหรือกลีเซอรอล มีการติดเชื้อ สิวอักเสบ หรือเริมบริเวณที่จะฉีด มีแนวโน้มเกิดแผลเป็นนูน โรคภูมิคุ้มกันที่กำลังกำเริบ และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือดหรือยาต้านเกล็ดเลือด มีภาวะเลือดออกง่าย หรือเพิ่งทำเลเซอร์หรือพีลลึก
 avoid_en: Pregnancy or breastfeeding; allergy to hyaluronic acid or glycerol; infection, inflamed acne or cold sores at the area; a tendency to raised scars; an active autoimmune flare. Please tell the doctor first if you take blood thinners or antiplatelet drugs, bruise or bleed easily, or have recently had laser or a deep peel.
 featured: false

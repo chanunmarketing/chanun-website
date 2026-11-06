@@ -31,21 +31,33 @@ suits_th: อยากปรับสัดส่วนใบหน้า เช
 suits_en: Anyone who wants to rebalance the face, such as the chin, jawline, temples, lips or deepening folds, while still looking natural.
 faq:
   - q_th: "CORE, RESTORE และ TOUCH เลือกอย่างไร"
-    a_th: "คุณหมอปิงปองเลือกตามปัญหาและชั้นที่ฉีด CORE เนื้อแน่นสำหรับชั้นชิดกระดูก เช่น คางและ jawline RESTORE ยืดหยุ่นสูงสำหรับชั้นกลาง เช่น ปาก คาง และขมับ TOUCH เนื้อนุ่มสำหรับชั้นตื้นและริมฝีปาก และใช้ในปริมาณเท่าที่จำเป็น เพื่อให้ได้ผลชัดโดยไม่เกิด overfill syndrome และหน้ายังดูเป็นธรรมชาติ"
+    a_th: "คุณหมอปิงปองเลือกจากปัญหาและชั้นที่จะฉีด
+
+- CORE เนื้อแน่น ฉีดชั้นชิดกระดูก เช่น คางและ jawline
+- RESTORE ยืดหยุ่นสูง ใช้ชั้นกลาง เช่น ปาก คาง ขมับ
+- TOUCH เนื้อนุ่ม ใช้ชั้นตื้นและริมฝีปาก
+
+ใส่แค่เท่าที่จำเป็น เพื่อไม่ให้เกิด overfill syndrome หน้าจะยังดูเป็นธรรมชาติ"
     q_en: "How are CORE, RESTORE and TOUCH chosen?"
-    a_en: "Dr. PP chooses by your concern and the layer being treated. CORE is firm, for the deep layer near the bone such as the chin and jawline. RESTORE is highly flexible, for the middle layer such as the lips, chin and temples. TOUCH is soft, for the shallow layer and the lips. He uses only as much as is needed, for a clear result without overfill syndrome, so the face still looks natural."
+    a_en: "Dr. PP chooses by your concern and the layer being treated.
+
+- CORE is firm, for the deep layer near the bone, such as the chin and jawline
+- RESTORE is highly flexible, for the middle layer, such as the lips, chin and temples
+- TOUCH is soft, for the shallow layer and the lips
+
+He uses only what is needed, to avoid overfill syndrome and keep the face natural."
   - q_th: "ฉีดฟิลเลอร์อยู่ได้นานแค่ไหน"
-    a_th: "ประมาณ 12–18 เดือน ขึ้นอยู่กับตำแหน่งที่ฉีด ชนิดของฟิลเลอร์ และร่างกายของแต่ละคน บริเวณที่ขยับบ่อย เช่น ริมฝีปาก มักอยู่ได้สั้นกว่าบริเวณที่ขยับน้อย"
+    a_th: "ประมาณ 12–18 เดือน ขึ้นกับตำแหน่ง ชนิดฟิลเลอร์ และร่างกายของแต่ละคน จุดที่ขยับบ่อยอย่างริมฝีปาก มักอยู่ได้สั้นกว่าจุดที่ขยับน้อย"
     q_en: "How long does filler last?"
-    a_en: "About 12–18 months, depending on the area, the type of filler and your body. Areas that move a lot, such as the lips, usually last less long than areas that move little."
+    a_en: "Around 12–18 months, depending on the area, the type of filler and your body. Areas that move a lot, like the lips, tend to fade sooner."
   - q_th: "ถ้าไม่ชอบผลลัพธ์ แก้ไขได้ไหม"
-    a_th: "ได้ Definisse Italy Filler เป็นไฮยาลูรอนิก คุณหมอสามารถฉีดเอนไซม์ hyaluronidase เพื่อสลายเนื้อฟิลเลอร์ได้ถ้าจำเป็น"
+    a_th: "ได้ Definisse Italy Filler เป็นไฮยาลูรอนิก ถ้าจำเป็นคุณหมอฉีดเอนไซม์ hyaluronidase สลายออกได้"
     q_en: "Can it be corrected if I don't like the result?"
-    a_en: "Yes. Definisse Italy Filler is hyaluronic acid, so the doctor can inject the enzyme hyaluronidase to dissolve it if needed."
+    a_en: "Yes. Definisse Italy Filler is hyaluronic acid, so if needed the doctor can dissolve it with the enzyme hyaluronidase."
   - q_th: "ฉีดฟิลเลอร์คาง กรอบหน้า หรือขมับ ต้องใช้กี่ c.c."
-    a_th: "ขึ้นอยู่กับปัญหาของแต่ละบริเวณ คุณหมอจะบอกปริมาณที่แนะนำหลังตรวจประเมิน และบางบริเวณอาจได้ผลดีและสวยกว่าเมื่อใช้หัตถการอื่นร่วมด้วย เช่น HIFU หรือ Ejal40 ถ้าฉีดฟิลเลอร์ครบ 2 c.c. จะได้รับสิทธิ์ Definisse Italy Hydrobooster 1 c.c."
+    a_th: "แต่ละบริเวณใช้ไม่เท่ากัน คุณหมอจะบอกได้หลังดูหน้าจริง บางจุดใช้หัตถการอื่นช่วย เช่น HIFU หรือ Ejal40 จะสวยกว่าการเติมฟิลเลอร์อย่างเดียว ฉีดฟิลเลอร์ครบ 2 c.c. รับสิทธิ์ Definisse Italy Hydrobooster 1 c.c."
     q_en: "How many c.c. are needed for the chin, jawline or temples?"
-    a_en: "It depends on each area. The doctor will recommend an amount after the assessment, and some areas look better when combined with another treatment, such as HIFU or Ejal40. With 2 c.c. of filler, you receive 1 c.c. of Definisse Italy Hydrobooster."
+    a_en: "Each area is different, and the doctor can only tell after seeing your face. Some spots look better with help from another treatment, such as HIFU or Ejal40, rather than filler alone. With 2 c.c. of filler, you receive 1 c.c. of Definisse Italy Hydrobooster."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ไฮยาลูรอนิก ยาชากลุ่มลิโดเคน หรือเคยแพ้รุนแรงจนช็อก มีการติดเชื้อ สิวอักเสบ หรือเริมบริเวณที่จะฉีด มีแนวโน้มเกิดแผลเป็นนูน โรคลมชักที่ยังควบคุมไม่ได้ โรคพอร์ฟิเรีย เคยฉีดสารชนิดที่ร่างกายสลายไม่ได้ (เช่น ซิลิโคน) ในบริเวณนั้น และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือด ยาต้านเกล็ดเลือด ยาแก้ปวดกลุ่ม NSAIDs หรืออาหารเสริมอย่างกระเทียมหรือแปะก๊วย มีโรคภูมิคุ้มกันหรือทานยากดภูมิ แพ้หลายอย่าง หรือเพิ่งทำเลเซอร์หรือพีลลึก
 avoid_en: Pregnancy or breastfeeding; allergy to hyaluronic acid or lidocaine-type anaesthetics, or a history of anaphylaxis; infection, inflamed acne or cold sores at the area; a tendency to raised scars; uncontrolled epilepsy; porphyria; non-dissolvable fillers (such as silicone) previously injected in the area. Please tell the doctor first if you take blood thinners, antiplatelet drugs, NSAID painkillers or supplements such as garlic or ginkgo; have an autoimmune condition or take immunosuppressants; have multiple allergies; or have recently had laser or a deep peel.
 featured: false

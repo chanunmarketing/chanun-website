@@ -34,21 +34,25 @@ suits_th: ผิวที่เริ่มหย่อนคล้อย รู
 suits_en: Skin that is starting to loosen, visible pores or fine lines, and anyone who wants no downtime and can go straight back to their day.
 faq:
   - q_th: "Monopolar RF ต่างจาก RF ทั่วไปอย่างไร"
-    a_th: "ต่างที่การปล่อยพลังงาน Exilis Elite ปล่อยพลังงานได้เสถียร และกระจายเป็นวงรัศมี ครั้งเดียวจึงได้ทั้งความยกกระชับ การกระตุ้นคอลลาเจน และการจัดเรียงคอลลาเจนใหม่ อีกจุดเด่นคือช่วยลดความมันบนใบหน้า ซึ่งงานวิจัยจากภาควิชาตจวิทยา คณะแพทยศาสตร์ศิริราชพยาบาล พบว่า Monopolar RF ช่วยลดความมันและรูขุมขนบนใบหน้าในคนไทย"
+    a_th: "ต่างที่วิธีปล่อยพลังงาน Exilis Elite ปล่อยพลังงานได้นิ่ง และแผ่ออกเป็นวงรัศมี ทำครั้งเดียวได้ทั้งความกระชับ การกระตุ้นคอลลาเจน และการเรียงคอลลาเจนใหม่
+
+อีกข้อที่หลายคนชอบคือช่วยลดความมันบนหน้า งานวิจัยของภาควิชาตจวิทยา ศิริราช พบว่า Monopolar RF ช่วยลดความมันและรูขุมขนบนใบหน้าในคนไทย"
     q_en: "How is Monopolar RF different from regular RF?"
-    a_en: "The difference is in how the energy is delivered. Exilis Elite delivers stable energy that spreads in a radial pattern, so one session lifts, stimulates collagen and reorganises it. It also helps reduce facial oiliness: research from the Department of Dermatology, Faculty of Medicine Siriraj Hospital, found that monopolar RF reduced facial oil and pores in Thai patients."
+    a_en: "It is in how the energy comes out. Exilis Elite delivers steady energy that spreads in a radial pattern, so one session tightens, stimulates collagen and helps it reorganise.
+
+Many people also like that it cuts down facial oil. Research from Siriraj's Department of Dermatology found that monopolar RF reduced oiliness and pores in Thai patients."
   - q_th: "ทำ RF บ่อยแค่ไหน"
-    a_th: "เพราะไม่ต้องพักหน้า จึงทำต่อเนื่องได้ทุก 1–2 สัปดาห์ตามที่คุณหมอแนะนำ การทำเป็นคอร์สช่วยให้ผิวสร้างคอลลาเจนได้ต่อเนื่อง ผลจึงชัดและอยู่ได้นานขึ้น"
+    a_th: "ทำได้ทุก 1–2 สัปดาห์ตามที่คุณหมอแนะนำ เพราะไม่ต้องพักหน้า การทำเป็นคอร์สช่วยให้คอลลาเจนสร้างต่อเนื่อง ผลจะชัดและอยู่ได้นานกว่า"
     q_en: "How often can I have RF?"
-    a_en: "With no downtime, it can be repeated every 1–2 weeks as the doctor advises. A course keeps collagen building, so results are clearer and last longer."
+    a_en: "Every 1–2 weeks, as the doctor advises, since there is no downtime. A course keeps collagen building, so the result is clearer and lasts longer."
   - q_th: "ทำแล้วหน้าแดงไหม แต่งหน้าได้เลยไหม"
-    a_th: "หน้าอาจแดงเรื่อๆ ไม่เกิน 1–2 ชั่วโมง ทามอยส์เจอไรเซอร์หลังทำ และกลับไปทำงานหรือแต่งหน้าได้ตามปกติ"
+    a_th: "หน้าอาจแดงเรื่อๆ ไม่เกิน 1–2 ชั่วโมง ทามอยส์เจอไรเซอร์แล้วกลับไปทำงานหรือแต่งหน้าได้ตามปกติ"
     q_en: "Will my face be red? Can I wear make-up afterwards?"
-    a_en: "Your face may look slightly flushed for no more than 1–2 hours. Apply a moisturiser afterwards, and you can go back to work and wear make-up as usual."
+    a_en: "You may look a little flushed for an hour or two. Put on moisturiser and carry on with work and make-up as usual."
   - q_th: "ทำคู่กับ HIFU ได้ไหม"
-    a_th: "ได้ และเป็นการผสมที่นิยม RF ดูแลผิวทั้งหน้า ส่วน HIFU เก็บจุดที่ต้องการยกกระชับ ทำทั้งสองอย่างในนัดเดียวได้ด้วย The Duo"
+    a_th: "ได้ และเป็นคู่ที่คุณหมอแนะนำบ่อย RF ดูแลผิวทั้งหน้า HIFU เก็บจุดที่อยากยก ถ้าอยากทำในนัดเดียวเลือก The Duo"
     q_en: "Can I combine it with HIFU?"
-    a_en: "Yes, and it is a popular combination: RF for the whole face, HIFU for the areas that need lifting. You can have both in one visit with The Duo."
+    a_en: "Yes, and the doctor recommends it often. RF looks after the whole face while HIFU lifts the spots you care about. For both in one visit, choose The Duo."
 avoid_th: ตั้งครรภ์ วางแผนตั้งครรภ์ หรือให้นมบุตร ใส่เครื่องกระตุ้นหัวใจหรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย มีโลหะฝังในบริเวณที่จะทำ มีแผล โรคผิวหนัง หรือการติดเชื้อบริเวณที่จะทำ ผิวรับความรู้สึกผิดปกติ เบาหวาน มะเร็งเม็ดเลือดหรือความผิดปกติของเกล็ดเลือด และควรเว้นระยะก่อนทำถ้าเพิ่งฉีดโบทูลินัมท็อกซินภายใน 3 เดือน ร้อยไหมภายใน 6 เดือน ทำเลเซอร์ลอกผิวหรือพีลลึกภายใน 3 เดือน หรือทานยารักษาสิว isotretinoin ภายใน 12 เดือน
 avoid_en: Pregnancy, planning a pregnancy, or breastfeeding; a pacemaker or other implanted electronic device; metal implants in the area; a wound, skin disease or infection in the area; reduced skin sensation; diabetes; blood cancer or a platelet disorder. Please wait before treatment if you have had botulinum toxin within 3 months, a thread lift within 6 months, ablative laser or a deep peel within 3 months, or isotretinoin within 12 months.
 featured: false

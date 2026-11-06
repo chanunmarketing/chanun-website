@@ -31,21 +31,21 @@ suits_th: กรอบหน้าเริ่มไม่ชัด แก้ม
 suits_en: A jawline that is losing definition, cheeks that are starting to drop, a softening under-chin, or deepening lines beside the mouth (assessed person by person).
 faq:
   - q_th: "HIFU คืออะไร ทำงานอย่างไร"
-    a_th: "HIFU (High-Intensity Focused Ultrasound) คือการรวมคลื่นอัลตราซาวด์ให้เป็นจุดเล็กๆ ลงไปถึงชั้น SMAS ซึ่งเป็นชั้นที่ช่วยพยุงใบหน้า ความร้อนที่จุดนั้นทำให้เนื้อเยื่อหดตัวและกระตุ้นการสร้างคอลลาเจนใหม่ โดยไม่มีแผลที่ผิว"
+    a_th: "HIFU (High-Intensity Focused Ultrasound) คือการรวมคลื่นอัลตราซาวด์ให้เป็นจุดเล็กๆ ลงไปถึงชั้น SMAS ซึ่งเป็นชั้นที่พยุงหน้าไว้ ความร้อนตรงจุดนั้นทำให้เนื้อเยื่อหดตัว และกระตุ้นให้สร้างคอลลาเจนใหม่ ผิวด้านนอกไม่มีแผล"
     q_en: "What is HIFU and how does it work?"
-    a_en: "HIFU (High-Intensity Focused Ultrasound) focuses ultrasound into tiny points that reach the SMAS, the layer that supports the face. The heat at each point tightens the tissue and stimulates new collagen, without any wound on the skin."
+    a_en: "HIFU (High-Intensity Focused Ultrasound) gathers ultrasound into tiny points that reach the SMAS, the layer that holds the face up. The heat at each point tightens the tissue and triggers new collagen, with no wound on the surface."
   - q_th: "ทำ HIFU ต้องใช้กี่ shot"
-    a_th: "ขึ้นอยู่กับปัญหาของแต่ละคน ที่ CHANUN คุณหมอปิงปองใช้เทคนิควางพลังงานแบบตาข่าย ให้พลังงานกระจายครอบคลุมทั่วบริเวณที่ต้องการ จึงใช้จำนวน shot น้อย แต่ได้ผลที่คุ้มค่า และคุณจ่ายตามจำนวนที่ใช้จริง ถ้าต้องการหลายบริเวณ Course Privilege 200 + 50 shots จะคุ้มกว่า"
+    a_th: "ขึ้นกับปัญหาของแต่ละคน ที่ CHANUN คุณหมอปิงปองวางพลังงานเป็นแบบตาข่าย ให้พลังงานกระจายคลุมทั้งบริเวณ จึงไม่ต้องยิงเยอะก็ได้ผลคุ้ม คิดเงินตาม shot ที่ใช้จริง ถ้าจะทำหลายจุด Course Privilege 200 + 50 shots คุ้มกว่า"
     q_en: "How many HIFU shots will I need?"
-    a_en: "It depends on your concerns. At CHANUN, Dr. PP uses a mesh-pattern technique that spreads the energy evenly across the area, so fewer shots are needed for a worthwhile result, and you pay only for what is used. For several areas, the 200 + 50 shot Course Privilege is better value."
+    a_en: "That depends on your concerns. At CHANUN, Dr. PP lays the energy out in a mesh pattern so it covers the whole area evenly, which means fewer shots for a worthwhile result. You pay for the shots used. For several areas, the 200 + 50 shot Course Privilege is better value."
   - q_th: "HIFU เห็นผลเมื่อไหร่"
-    a_th: "เริ่มเห็นผลตั้งแต่วันรุ่งขึ้น และจะค่อยๆ ชัดขึ้นภายใน 1 เดือน หลังจากนั้นผิวยังกระชับขึ้นต่อเนื่องจากคอลลาเจนที่สร้างใหม่ คุณหมอจะแนะนำว่าควรทำซ้ำเมื่อไหร่"
+    a_th: "วันรุ่งขึ้นก็เริ่มเห็นแล้ว และจะชัดขึ้นเรื่อยๆ ภายใน 1 เดือน หลังจากนั้นคอลลาเจนใหม่ยังทำงานต่อ ผิวจะค่อยๆ กระชับขึ้นอีก"
     q_en: "When will I see HIFU results?"
-    a_en: "You can start to see a difference the next day, and it becomes clearer within a month. After that, the skin keeps firming as new collagen forms. The doctor will advise when to repeat."
+    a_en: "You will start to notice it the next day, and it gets clearer over the first month. After that, new collagen keeps working and the skin keeps firming."
   - q_th: "ทำ HIFU เจ็บไหม"
-    a_th: "มีความรู้สึกเจ็บบ้าง โดยเฉพาะตรงแนวกระดูก แต่คุณประเมินความเจ็บร่วมกับคุณหมอได้ตลอด ถ้ารู้สึกเจ็บมาก คุณหมอจะลดพลังงานลงแล้วเพิ่มจำนวน shot แทน หลังทำอาจแดงหรือบวมเล็กน้อยและหายเองในไม่กี่วัน"
+    a_th: "เจ็บบ้าง โดยเฉพาะตรงแนวกระดูก แต่บอกคุณหมอได้ตลอดว่ารู้สึกยังไง ถ้าเจ็บมาก คุณหมอจะลดพลังงานลงแล้วยิงเพิ่มจำนวน shot แทน หลังทำอาจแดงหรือบวมนิดหน่อย ไม่กี่วันก็หาย"
     q_en: "Does HIFU hurt?"
-    a_en: "There is some discomfort, especially along the bone, but you can tell the doctor how it feels at any point. If it is too much, the doctor lowers the energy and adds more shots instead. Mild redness or swelling afterwards settles within a few days."
+    a_en: "It can, especially along the bone, but you can tell the doctor how it feels at any time. If it is too much, the doctor turns the energy down and adds shots instead. You may be a little red or swollen afterwards, which settles within a few days."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร มีแผลเปิด สิวอักเสบ ผื่นหรือโรคผิวหนังที่กำลังกำเริบ หรือการติดเชื้อบริเวณที่จะทำ มีโลหะ ใส่เครื่องกระตุ้นหัวใจ หรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย ผิวหย่อนคล้อยมากจนการผ่าตัดเหมาะกว่า และควรแจ้งคุณหมอก่อนถ้ามีประวัติแผลเป็นนูนหรือคีลอยด์ แผลหายช้า หรือสูบบุหรี่จัด
 avoid_en: Pregnancy or breastfeeding; an open wound, inflamed acne, a flaring skin condition or infection in the area; metal, a pacemaker or other implanted electronic device; skin laxity so advanced that surgery is the better option. Please tell the doctor first if you have a history of raised or keloid scars, slow wound healing, or are a heavy smoker.
 featured: true
