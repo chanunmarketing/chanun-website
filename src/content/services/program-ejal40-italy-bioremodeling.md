@@ -26,9 +26,9 @@ faq:
     q_en: How is Ejal40 different from filler?
     a_en: Filler is a cross-linked HA gel used to add shape, such as to the chin or jawline. Ejal40 is non-cross-linked HA that spreads through the skin. It does not add shape; it improves hydration, firmness and skin quality from within.
   - q_th: ใช้แทนฟิลเลอร์ได้ไหม
-    a_th: ใช้กับบริเวณที่ต้องการความอิ่ม แต่ยังไม่พร้อมฉีดฟิลเลอร์ได้ เช่น ใต้ตา โดยคุณหมอใช้ cannula เกลี่ยเนื้อ HA ให้เรียบ ผลที่ได้คือผิวดูอิ่มและแน่นขึ้นอย่างเป็นธรรมชาติ แต่จะไม่เพิ่มรูปทรงชัดเท่าฟิลเลอร์
+    a_th: ใช้แทนได้ในบางชั้นและบางตำแหน่ง และในหลายจุดยังได้ผลที่เป็นธรรมชาติกว่า เพราะเนื้อ HA กระจายตัวไปกับผิว ลดโอกาสเป็นก้อน และยังช่วยปรับสภาพผิวบริเวณนั้นให้แข็งแรงและดูสดใสขึ้นอีกด้วย คุณหมอปิงปองจึงมักแนะนำ combined technique คือใช้ Ejal40 ร่วมกับฟิลเลอร์ในปริมาณที่น้อยลง ได้ทั้งรูปทรงที่ต้องการและคุณภาพผิวที่ดีขึ้นไปพร้อมกัน
     q_en: Can it be used instead of filler?
-    a_en: It can be used in areas that need fullness when you are not ready for filler, such as under the eyes, with the doctor spreading the HA smoothly using a cannula. The skin looks fuller and firmer in a natural way, though it does not add shape as clearly as filler.
+    a_en: In some layers and areas, yes, and in many places the result looks more natural, because the HA spreads through the skin, lowering the chance of lumps, while also improving the quality of the skin in that area. That is why Dr. PP often recommends a combined technique, using Ejal40 together with a smaller amount of filler, to get the shape you want and better skin at the same time.
   - q_th: ต้องทำกี่ครั้ง และผลอยู่ได้นานแค่ไหน
     a_th: โดยทั่วไปทำ 2–3 ครั้ง ห่างกันประมาณ 1 เดือน แล้วทำต่อเนื่องทุก 3–4 เดือนเพื่อรักษาผล จำนวนครั้งขึ้นอยู่กับอายุและสภาพผิว คุณหมอจะประเมินให้แต่ละคน
     q_en: How many sessions do I need, and how long do results last?
