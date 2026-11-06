@@ -88,6 +88,18 @@ content:
       - name: suits_en
         label: เหมาะกับใคร (EN)
         type: text
+      - { name: seo_title_th, label: "ชื่อหน้าสำหรับ Google (TH)", description: "ไม่ใส่ก็ได้ เช่น Ejal40 ฉีดผิวฟื้นฟูโครงสร้าง (ระบบเติม | CHANUN ให้เอง)", type: string }
+      - { name: seo_title_en, label: "ชื่อหน้าสำหรับ Google (EN)", type: string }
+      - name: faq
+        label: คำถามที่พบบ่อย (FAQ)
+        description: "ช่วยเรื่อง SEO ใส่ 3–6 ข้อ"
+        type: object
+        list: true
+        fields:
+          - { name: q_th, label: คำถาม (TH), type: string }
+          - { name: a_th, label: คำตอบ (TH), type: text }
+          - { name: q_en, label: คำถาม (EN), type: string }
+          - { name: a_en, label: คำตอบ (EN), type: text }
       - name: avoid_th
         label: ไม่ควรทำถ้า (TH)
         type: text

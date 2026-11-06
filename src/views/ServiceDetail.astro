@@ -11,9 +11,14 @@ const { lang, s } = Astro.props;
 const d = s.data;
 const t = ui[lang];
 const body = lang === 'en' && d.body_en ? d.body_en : s.body;
+const faq = (d.faq ?? []).map((f: any) => ({ q: pick(f, 'q', lang), a: pick(f, 'a', lang) })).filter((f: any) => f.q && f.a);
+const faqTitle = lang === 'th' ? 'คำถามที่พบบ่อย' : 'Frequently asked questions';
 const summary = pick(d, 'summary', lang);
 ---
-<Base lang={lang} title={d.name_en} description={summary} image={d.image}>
+<Base lang={lang} title={pick(d, 'seo_title', lang) || d.name_en} description={summary} image={d.image} jsonld={faq.length ? {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+} : undefined}>
   <article class="wrap detail">
     <div class="detail-media">
       <Img src={d.image} alt={d.name_en} ratio="4 / 5" eager />
@@ -46,6 +51,17 @@ const summary = pick(d, 'summary', lang);
       </div>
 
       {body && <div class="prose" set:html={md(body)} />}
+      {faq.length > 0 && (
+        <section class="faq mt">
+          <h2 class="h-small">{faqTitle}</h2>
+          {faq.map((f: any) => (
+            <details>
+              <summary>{f.q}</summary>
+              <div set:html={md(f.a)} />
+            </details>
+          ))}
+        </section>
+      )}
       {d.youtube && <YouTube url={d.youtube} title={d.name_en} class="mt" />}
 
       <div class="actions mt">
