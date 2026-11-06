@@ -20,6 +20,29 @@ prices:
     note_en: Ejal40 Italy Bioremodeling + Definisse Italy Hydrobooster + Vitaran PN2% 2 c.c.
 suits_th: ผิวที่เริ่มแห้งและขาดน้ำ ผิวดูโทรมหรือไม่อิ่มฟูเหมือนเดิม รูขุมขนกว้าง หรืออยากให้ผิวแข็งแรงและดูแน่นขึ้นจากโครงสร้างด้านใน รวมถึงคนที่อยากให้หน้าดูอิ่มขึ้นแต่ยังไม่พร้อมฉีดฟิลเลอร์
 suits_en: Skin that is becoming dry and dehydrated, looks tired or less plump than before, has visible pores, or needs strength and firmness from the structure within, including anyone who wants a fuller look but is not ready for filler.
+seo_title_th: "Skin Trio ฉีดผิว 3 ชั้น PN + HA สกินบูสเตอร์ สุขุมวิท 61"
+seo_title_en: "Skin Trio: PN and HA Skin Booster in Bangkok"
+faq:
+  - q_th: "Skin Trio ต่างจากการฉีด skin booster ทีละตัวอย่างไร"
+    a_th: "Skin Trio รวมสาร 3 ตัวที่ทำงานต่างกันไว้ในการฉีดครั้งเดียว ตามหลัก Triple Derma Layer แต่ละตัวช่วยเสริมกัน ผิวจึงได้ทั้งความอิ่มฟู ความชุ่มชื้น และการดูแลโครงสร้าง ECM ไปพร้อมกัน โดยไม่ต้องแยกทำทีละตัวหลายครั้ง"
+    q_en: "How is Skin Trio different from having skin boosters one at a time?"
+    a_en: "Skin Trio combines three actives that work differently into a single session, based on the Triple Derma Layer principle. They support each other, so the skin gets plumpness, hydration and support for the ECM together, without separate treatments."
+  - q_th: "Luna Healer PN2% กับ Vitaran PN2% ต่างกันอย่างไร"
+    a_th: "ทั้งสองสูตรมี Ejal40 Italy Bioremodeling และ Definisse Italy Hydrobooster เหมือนกัน ต่างกันที่ PN สูตร Luna Healer PN2% มีปริมาณรวม 7 c.c. ส่วนสูตร Vitaran PN2% มีปริมาณรวม 5 c.c. คุณหมอจะช่วยเลือกสูตรที่เหมาะกับสภาพผิวและบริเวณที่ต้องการดูแล"
+    q_en: "What is the difference between Luna Healer PN2% and Vitaran PN2%?"
+    a_en: "Both versions contain Ejal40 Italy Bioremodeling and Definisse Italy Hydrobooster. They differ in the PN: the Luna Healer PN2% version totals 7 c.c., and the Vitaran PN2% version totals 5 c.c. The doctor will help you choose the one that suits your skin and the areas to treat."
+  - q_th: "ไม่อยากฉีดฟิลเลอร์ Skin Trio ช่วยได้ไหม"
+    a_th: "ได้ เทคนิคการฉีดของคุณหมอปิงปองช่วยให้หน้าดูยกกระชับและอิ่มขึ้นอย่างเป็นธรรมชาติ จึงเหมาะกับคนที่อยากให้หน้าดูอิ่มขึ้น แต่ยังไม่พร้อมฉีดฟิลเลอร์ในชั้นกลาง หรือกังวลว่าฟิลเลอร์จะเป็นก้อน"
+    q_en: "I don't want filler. Can Skin Trio help?"
+    a_en: "Yes. Dr. PP's injection technique helps the face look lifted and fuller in a natural way, so it suits anyone who wants a fuller look but is not ready for mid-layer filler, or worries that filler might feel lumpy."
+  - q_th: "แพ้อาหารทะเล ทำ Skin Trio ได้ไหม"
+    a_th: "ต้องแจ้งคุณหมอก่อน เพราะ PN สกัดจากปลาแซลมอน คนที่แพ้ปลาหรืออาหารทะเลอาจไม่เหมาะกับสูตรนี้ คุณหมอจะประเมินและแนะนำทางเลือกอื่นที่ปลอดภัยให้"
+    q_en: "I'm allergic to seafood. Can I have Skin Trio?"
+    a_en: "Please tell the doctor first. PN is derived from salmon, so people allergic to fish or seafood may not be suited to this formula. The doctor will assess you and suggest a safe alternative."
+  - q_th: "ฉีดแล้วเจ็บไหม ต้องพักฟื้นหรือเปล่า"
+    a_th: "คุณหมอทายาชาประมาณ 30 นาทีก่อนเริ่ม ระหว่างฉีดอาจรู้สึกเจ็บเล็กน้อย หลังฉีดจะเห็นตุ่มนูนเล็กๆ ที่ยุบเองในไม่กี่ชั่วโมง อาจมีจ้ำเขียวจุดเล็กๆ ได้ 2–3 วัน ส่วนใหญ่กลับไปทำงานได้ตามปกติ งดแต่งหน้า 12 ชั่วโมง"
+    q_en: "Does it hurt, and is there downtime?"
+    a_en: "Numbing cream is applied for about 30 minutes first. You may feel slight discomfort during the injections. Small bumps settle within a few hours, and pinpoint bruising is possible for 2–3 days. Most people go straight back to work; no make-up for 12 hours."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ไฮยาลูรอนิก ยาชา หรือแพ้ปลาและอาหารทะเล (PN สกัดจากปลาแซลมอน) มีการติดเชื้อ สิวอักเสบ หรือเริมบริเวณที่จะฉีด มีแนวโน้มเกิดแผลเป็นนูน และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือดหรือยาต้านเกล็ดเลือด มีโรคภูมิคุ้มกัน หรือเพิ่งทำเลเซอร์หรือพีลลึก
 avoid_en: Pregnancy or breastfeeding; allergy to hyaluronic acid, local anaesthetic, or fish and seafood (PN is derived from salmon); infection, inflamed acne or cold sores at the area; a tendency to raised scars. Please tell the doctor first if you take blood thinners or antiplatelet drugs, have an autoimmune condition, or have recently had laser or a deep peel.
 featured: true

@@ -99,6 +99,50 @@
           "desc_th": "ดูแลสิวและผิวที่เป็นสิวง่าย",
           "desc_en": "Care for acne and acne-prone skin"
         }
+      ],
+      "faq": [
+        {
+          "q_th": "Skin booster คืออะไร ต่างจากฟิลเลอร์อย่างไร",
+          "a_th": "Skin booster คือการฉีดสารบำรุงผิว เช่น ไฮยาลูรอนิกที่ไม่ผ่านการเชื่อมโมเลกุล หรือ PN เข้าไปในชั้นผิว เพื่อให้ผิวชุ่มชื้น แข็งแรง และมีคุณภาพดีขึ้นจากด้านใน เนื้อสารกระจายตัวไปกับผิว ส่วนฟิลเลอร์เป็นเจลที่เชื่อมโมเลกุลไว้ ใช้ค้ำโครงสร้างและปรับรูปทรง ทั้งสองจึงทำหน้าที่ต่างกัน และใช้ร่วมกันได้",
+          "q_en": "What is a skin booster, and how is it different from filler?",
+          "a_en": "A skin booster injects skin-nourishing actives, such as non-cross-linked hyaluronic acid or PN, into the skin so it becomes more hydrated, stronger and better in quality from within. It spreads through the skin. Filler is a cross-linked gel used to support structure and reshape. They do different jobs and can be used together."
+        },
+        {
+          "q_th": "Triple Derma Layer คืออะไร",
+          "a_th": "Triple Derma Layer คือเทคนิคของคุณหมอปิงปองที่ดูแลผิวพร้อมกัน 3 ชั้น ได้แก่ **Superficial Dermis** (หนังแท้ชั้นบน) ดูแลเนื้อผิว ความเรียบ และความชุ่มชื้น **Deep Dermis** (หนังแท้ชั้นลึก) ดูแลคอลลาเจน อีลาสติน และ ECM ที่ค้ำผิว และ **Subcutis** (ชั้นไขมันใต้ผิว) ซึ่งเป็นฐานรองรับผิว ทำให้หน้าดูอิ่มและไม่ตอบ การดูแลครบทั้ง 3 ชั้นทำให้ผิวดีขึ้นทั้งที่มองเห็นและโครงสร้างด้านใน",
+          "q_en": "What is the Triple Derma Layer?",
+          "a_en": "Triple Derma Layer is Dr. PP's technique for caring for three layers of the skin at once: the **Superficial Dermis**, for texture, smoothness and hydration; the **Deep Dermis**, for the collagen, elastin and ECM that hold the skin up; and the **Subcutis**, the supporting base that keeps the face full rather than hollow. Caring for all three improves both how the skin looks and the structure beneath it."
+        },
+        {
+          "q_th": "ECM คืออะไร ทำไมสำคัญกับผิว",
+          "a_th": "ECM (Extracellular Matrix) คือโครงสร้างที่อยู่ระหว่างเซลล์ในชั้นหนังแท้ ประกอบด้วยคอลลาเจน อีลาสติน และไฮยาลูรอนิก ทำหน้าที่เหมือนโครงค้ำที่ทำให้ผิวแน่น ยืดหยุ่น และอุ้มน้ำได้ เมื่ออายุมากขึ้นและโดนแดดสะสม ECM จะค่อยๆ เสื่อมลง ผิวจึงบาง หย่อน และแห้งง่าย การดูแล ECM จึงเป็นแกนหลักของ Derma Longevity",
+          "q_en": "What is the ECM, and why does it matter for skin?",
+          "a_en": "The ECM (extracellular matrix) is the structure between the cells of the dermis, made of collagen, elastin and hyaluronic acid. It works like a scaffold that keeps the skin firm, elastic and hydrated. With age and sun exposure, the ECM gradually breaks down, so the skin becomes thinner, looser and drier. Caring for the ECM is the heart of Derma Longevity."
+        },
+        {
+          "q_th": "ควรเริ่มจากโปรแกรมไหนดี",
+          "a_th": "ขึ้นอยู่กับผิวและสิ่งที่อยากแก้ ถ้าอยากได้ครบในครั้งเดียว **Program Skin Trio** ดูแลทั้ง 3 ชั้น ถ้าเน้นผิวฉ่ำวาวและชุ่มชื้น **Definisse Italy Hydrobooster** เหมาะกว่า ถ้าเน้นความแน่นและโครงสร้างผิว **Ejal40 Italy Bioremodeling** เหมาะกว่า คุณหมอปิงปองจะตรวจผิวก่อน แล้วแนะนำโปรแกรมที่พอดีกับคุณ",
+          "q_en": "Which programme should I start with?",
+          "a_en": "It depends on your skin and what you want to improve. For everything in one session, **Program Skin Trio** covers all three layers. For a dewy, well-hydrated glow, **Definisse Italy Hydrobooster** suits better. For firmness and skin structure, **Ejal40 Italy Bioremodeling** suits better. Dr. PP examines your skin first, then recommends what fits you."
+        },
+        {
+          "q_th": "ผิวแห้ง ขาดน้ำ ดูโทรม ควรทำอะไร",
+          "a_th": "ผิวแห้งและดูโทรมมักมาจากผิวเก็บน้ำได้น้อยลง และโครงสร้างใต้ผิวเริ่มเสื่อม การฉีดไฮยาลูรอนิกเข้าไปในผิว เช่น Hydrobooster หรือ Skin Trio ช่วยให้ผิวกลับมาอุ้มน้ำและดูอิ่มฟูขึ้น ควรดูแลควบคู่กับการทาครีมกันแดดและมอยส์เจอไรเซอร์ทุกวัน",
+          "q_en": "My skin is dry, dehydrated and tired-looking. What should I do?",
+          "a_en": "Dry, tired-looking skin usually holds less water and its underlying structure has started to break down. Injecting hyaluronic acid into the skin, such as Hydrobooster or Skin Trio, helps it hold water and look plumper again. Daily sunscreen and moisturiser should go alongside."
+        },
+        {
+          "q_th": "ทำ skin booster บ่อยแค่ไหน",
+          "a_th": "โดยทั่วไปเริ่มด้วยการทำเป็นคอร์ส 2–3 ครั้ง ห่างกันประมาณ 3–4 สัปดาห์ แล้วทำต่อเนื่องเป็นระยะเพื่อรักษาผล ระยะห่างจะต่างกันตามโปรแกรมและสภาพผิวของแต่ละคน คุณหมอจะวางแผนให้",
+          "q_en": "How often should I have a skin booster?",
+          "a_en": "Usually a course of 2–3 sessions about 3–4 weeks apart, then regular maintenance to keep the result. The interval varies by programme and skin, and the doctor will plan it for you."
+        },
+        {
+          "q_th": "ทำคู่กับ HIFU หรือ RF ได้ไหม",
+          "a_th": "ได้ และเป็นการผสมที่ดี HIFU และ RF ดูแลความกระชับของโครงหน้า ส่วนโปรแกรมในหมวด Derma Longevity ดูแลคุณภาพผิว คุณหมอจะวางลำดับและระยะห่างของแต่ละอย่างให้เสริมกัน",
+          "q_en": "Can I combine it with HIFU or RF?",
+          "a_en": "Yes, and it is a good combination. HIFU and RF tighten the facial structure, while Derma Longevity programmes improve skin quality. The doctor will plan the order and spacing so they work together."
+        }
       ]
     },
     {
