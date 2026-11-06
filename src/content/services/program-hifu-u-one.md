@@ -35,17 +35,17 @@ faq:
     q_en: "What is HIFU and how does it work?"
     a_en: "HIFU (High-Intensity Focused Ultrasound) focuses ultrasound into tiny points that reach the SMAS, the layer that supports the face. The heat at each point tightens the tissue and stimulates new collagen, without any wound on the skin."
   - q_th: "ทำ HIFU ต้องใช้กี่ shot"
-    a_th: "ขึ้นอยู่กับบริเวณและสภาพผิวของแต่ละคน คุณหมอปิงปองวางพลังงานทีละจุดให้ตรงตำแหน่ง จึงใช้จำนวน shot ไม่มาก และคุณจ่ายตามจำนวนที่ใช้จริง ถ้าต้องการหลายบริเวณ Course Privilege 200 + 50 shots จะคุ้มกว่า"
+    a_th: "ขึ้นอยู่กับปัญหาของแต่ละคน ที่ CHANUN คุณหมอปิงปองใช้เทคนิควางพลังงานแบบตาข่าย ให้พลังงานกระจายครอบคลุมทั่วบริเวณที่ต้องการ จึงใช้จำนวน shot น้อย แต่ได้ผลที่คุ้มค่า และคุณจ่ายตามจำนวนที่ใช้จริง ถ้าต้องการหลายบริเวณ Course Privilege 200 + 50 shots จะคุ้มกว่า"
     q_en: "How many HIFU shots will I need?"
-    a_en: "It depends on the areas and your skin. Dr. PP places the energy point by point, so fewer shots are needed and you pay only for what is used. For several areas, the 200 + 50 shot Course Privilege is better value."
+    a_en: "It depends on your concerns. At CHANUN, Dr. PP uses a mesh-pattern technique that spreads the energy evenly across the area, so fewer shots are needed for a worthwhile result, and you pay only for what is used. For several areas, the 200 + 50 shot Course Privilege is better value."
   - q_th: "HIFU เห็นผลเมื่อไหร่"
-    a_th: "บางคนรู้สึกว่าผิวกระชับขึ้นตั้งแต่หลังทำ แต่ผลจากคอลลาเจนใหม่จะค่อยๆ ชัดขึ้น และเห็นชัดที่สุดช่วงประมาณ 3 เดือน คุณหมอจะแนะนำว่าควรทำซ้ำเมื่อไหร่"
+    a_th: "เริ่มเห็นผลตั้งแต่วันรุ่งขึ้น และจะค่อยๆ ชัดขึ้นภายใน 1 เดือน หลังจากนั้นผิวยังกระชับขึ้นต่อเนื่องจากคอลลาเจนที่สร้างใหม่ คุณหมอจะแนะนำว่าควรทำซ้ำเมื่อไหร่"
     q_en: "When will I see HIFU results?"
-    a_en: "Some people feel firmer straight away, but the result from new collagen builds gradually and is clearest at around 3 months. The doctor will advise when to repeat."
+    a_en: "You can start to see a difference the next day, and it becomes clearer within a month. After that, the skin keeps firming as new collagen forms. The doctor will advise when to repeat."
   - q_th: "ทำ HIFU เจ็บไหม"
-    a_th: "ระหว่างยิงอาจรู้สึกเจ็บหรือปวดตรงแนวกระดูก ความรู้สึกต่างกันในแต่ละคนและแต่ละบริเวณ คุณหมอปรับพลังงานให้พอดีกับผิวของคุณ หลังทำอาจแดงหรือบวมเล็กน้อยและหายเองในไม่กี่วัน"
+    a_th: "มีความรู้สึกเจ็บบ้าง โดยเฉพาะตรงแนวกระดูก แต่คุณประเมินความเจ็บร่วมกับคุณหมอได้ตลอด ถ้ารู้สึกเจ็บมาก คุณหมอจะลดพลังงานลงแล้วเพิ่มจำนวน shot แทน หลังทำอาจแดงหรือบวมเล็กน้อยและหายเองในไม่กี่วัน"
     q_en: "Does HIFU hurt?"
-    a_en: "You may feel aching along the bone during the shots; it varies by person and area. The doctor adjusts the energy to suit your skin. Mild redness or swelling afterwards settles within a few days."
+    a_en: "There is some discomfort, especially along the bone, but you can tell the doctor how it feels at any point. If it is too much, the doctor lowers the energy and adds more shots instead. Mild redness or swelling afterwards settles within a few days."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร มีแผลเปิด สิวอักเสบ ผื่นหรือโรคผิวหนังที่กำลังกำเริบ หรือการติดเชื้อบริเวณที่จะทำ มีโลหะ ใส่เครื่องกระตุ้นหัวใจ หรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย ผิวหย่อนคล้อยมากจนการผ่าตัดเหมาะกว่า และควรแจ้งคุณหมอก่อนถ้ามีประวัติแผลเป็นนูนหรือคีลอยด์ แผลหายช้า หรือสูบบุหรี่จัด
 avoid_en: Pregnancy or breastfeeding; an open wound, inflamed acne, a flaring skin condition or infection in the area; metal, a pacemaker or other implanted electronic device; skin laxity so advanced that surgery is the better option. Please tell the doctor first if you have a history of raised or keloid scars, slow wound healing, or are a heavy smoker.
 featured: true
@@ -54,13 +54,13 @@ published: true
 body_en: |
   HIFU (High-Intensity Focused Ultrasound) gathers ultrasound energy into tiny points that reach the SMAS, the deeper layer that holds the face up. It works deeper than RF, which makes it a good fit for the jawline, cheeks that are starting to drop and the under-chin.
 
-  Program U-One HIFU uses a premium HIFU device from Korea, but what matters most is where the energy goes. Dr. PP chooses the lines, depth and number of shots for each face, so the energy lands where it lifts without needing a large number of shots. There is no fixed package: you pay per shot.
+  Program U-One HIFU uses a premium HIFU device from Korea, but what matters most is where the energy goes. Dr. PP chooses the lines, depth and number of shots for each face and places the energy in a mesh pattern for even coverage, so it lands where it lifts without needing a large number of shots. There is no fixed package: you pay per shot.
 
   **During and after**
 
   - You may feel aching or discomfort along the bone while the shots are given
   - Mild redness or swelling can follow and settles by itself within a few days
-  - Results build gradually and are clearest at around 3 months
+  - You can see a difference the next day, clearer within a month, and the skin keeps firming as new collagen forms
 
   **The Year Edit · 12-month programme**
 
@@ -74,13 +74,13 @@ body_en: |
 ---
 HIFU (High-Intensity Focused Ultrasound) รวมคลื่นอัลตราซาวด์เป็นจุดเล็กๆ ลงลึกถึงชั้น SMAS ซึ่งเป็นชั้นที่ช่วยพยุงใบหน้า ลงลึกกว่า RF จึงเหมาะกับการเก็บกรอบหน้า แก้มที่เริ่มตก และใต้คาง
 
-Program U-One HIFU ใช้เครื่อง HIFU Premium จากเกาหลี จุดสำคัญอยู่ที่การวางพลังงาน คุณหมอปิงปองเลือกแนว ความลึก และจำนวน shot ตามโครงหน้าของแต่ละคน พลังงานจึงลงตรงตำแหน่งที่ช่วยยกกระชับ โดยไม่ต้องยิงจำนวนมาก คุณไม่ต้องซื้อเป็นแพ็กเกจตายตัว และจ่ายตามจำนวน shot ที่ใช้จริง
+Program U-One HIFU ใช้เครื่อง HIFU Premium จากเกาหลี จุดสำคัญอยู่ที่การวางพลังงาน คุณหมอปิงปองเลือกแนว ความลึก และจำนวน shot ตามโครงหน้าของแต่ละคน และวางพลังงานแบบตาข่ายให้กระจายครอบคลุม พลังงานจึงลงตรงตำแหน่งที่ช่วยยกกระชับ โดยไม่ต้องยิงจำนวนมาก คุณไม่ต้องซื้อเป็นแพ็กเกจตายตัว และจ่ายตามจำนวน shot ที่ใช้จริง
 
 **ระหว่างทำและหลังทำ**
 
 - ระหว่างยิงอาจรู้สึกเจ็บหรือปวดตรงแนวกระดูก
 - หลังทำอาจแดงหรือบวมเล็กน้อย และหายเองภายในไม่กี่วัน
-- ผลจะค่อยๆ ชัดขึ้น และเห็นชัดช่วงประมาณ 3 เดือน
+- เริ่มเห็นผลตั้งแต่วันรุ่งขึ้น ชัดขึ้นภายใน 1 เดือน และผิวยังกระชับขึ้นต่อเนื่องจากคอลลาเจนที่สร้างใหม่
 
 **The Year Edit · โปรแกรม 12 เดือน**
 

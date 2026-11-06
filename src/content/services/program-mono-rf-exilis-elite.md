@@ -34,9 +34,9 @@ suits_th: ผิวที่เริ่มหย่อนคล้อย รู
 suits_en: Skin that is starting to loosen, visible pores or fine lines, and anyone who wants no downtime and can go straight back to their day.
 faq:
   - q_th: "Monopolar RF ต่างจาก RF ทั่วไปอย่างไร"
-    a_th: "RF แบบทั่วไป (bipolar) ส่งพลังงานระหว่างขั้วสองขั้วที่อยู่ใกล้กัน ความร้อนจึงอยู่ตื้น ส่วน Monopolar RF ส่งพลังงานลงได้ลึกและสม่ำเสมอกว่า และ Exilis Elite ยังใช้คู่กับอัลตราซาวด์ ช่วยให้ความร้อนกระจายในผิวชั้นในได้ดี"
+    a_th: "ต่างที่การปล่อยพลังงาน Exilis Elite ปล่อยพลังงานได้เสถียร และกระจายเป็นวงรัศมี ครั้งเดียวจึงได้ทั้งความยกกระชับ การกระตุ้นคอลลาเจน และการจัดเรียงคอลลาเจนใหม่ อีกจุดเด่นคือช่วยลดความมันบนใบหน้า ซึ่งงานวิจัยจากภาควิชาตจวิทยา คณะแพทยศาสตร์ศิริราชพยาบาล พบว่า Monopolar RF ช่วยลดความมันและรูขุมขนบนใบหน้าในคนไทย"
     q_en: "How is Monopolar RF different from regular RF?"
-    a_en: "Regular (bipolar) RF passes energy between two nearby poles, so the heat stays shallow. Monopolar RF delivers energy deeper and more evenly, and Exilis Elite pairs it with ultrasound to spread the heat well through the deeper skin."
+    a_en: "The difference is in how the energy is delivered. Exilis Elite delivers stable energy that spreads in a radial pattern, so one session lifts, stimulates collagen and reorganises it. It also helps reduce facial oiliness: research from the Department of Dermatology, Faculty of Medicine Siriraj Hospital, found that monopolar RF reduced facial oil and pores in Thai patients."
   - q_th: "ทำ RF บ่อยแค่ไหน"
     a_th: "เพราะไม่ต้องพักหน้า จึงทำต่อเนื่องได้ทุก 1–2 สัปดาห์ตามที่คุณหมอแนะนำ การทำเป็นคอร์สช่วยให้ผิวสร้างคอลลาเจนได้ต่อเนื่อง ผลจึงชัดและอยู่ได้นานขึ้น"
     q_en: "How often can I have RF?"
@@ -57,7 +57,7 @@ published: true
 body_en: |
   Program Exilis Elite Monopolar-RF uses a device that holds the European CE mark and is FDA-cleared in the United States for the treatment of wrinkles. It sends high-frequency radio waves (Monopolar RF) together with ultrasound to warm the deeper skin across the whole face and neck.
 
-  This model focuses on tightening the skin while reorganising the collagen beneath it, so one session works on skin quality, firmness and shallow collagen together. The face looks gradually firmer and smoother, with results clearer over 2–3 months. With no downtime, it can be repeated every 1–2 weeks as the doctor advises.
+  This model focuses on tightening the skin while reorganising the collagen beneath it, so one session works on skin quality, firmness and shallow collagen together. The face looks gradually firmer and smoother, with results clearer over 2–3 months. It also helps reduce facial oiliness: a 2023 study from the Department of Dermatology, Faculty of Medicine Siriraj Hospital, found that monopolar RF reduced facial oil and pores in Thai patients. With no downtime, it can be repeated every 1–2 weeks as the doctor advises.
 
   **During and after**
 
@@ -72,7 +72,7 @@ body_en: |
 ---
 Program Exilis Elite Monopolar-RF ใช้เครื่องที่ได้รับมาตรฐาน CE ของยุโรป และผ่านการรับรองจาก FDA สหรัฐอเมริกาสำหรับการดูแลริ้วรอย เครื่องส่งคลื่นวิทยุความถี่สูง (Monopolar RF) คู่กับอัลตราซาวด์ อุ่นผิวชั้นในทั่วทั้งหน้าและคอ
 
-รุ่นนี้เน้นกระชับผิวพร้อมจัดเรียงคอลลาเจนใต้ผิว ครั้งเดียวจึงได้ทั้งเรื่องผิว ความกระชับ และการกระตุ้นคอลลาเจนชั้นตื้น ผิวจะค่อยๆ ดูกระชับและเรียบขึ้น และเห็นชัดขึ้นภายใน 2–3 เดือน เพราะไม่ต้องพักฟื้น จึงทำซ้ำได้ทุก 1–2 สัปดาห์ตามที่คุณหมอแนะนำ
+รุ่นนี้เน้นกระชับผิวพร้อมจัดเรียงคอลลาเจนใต้ผิว ครั้งเดียวจึงได้ทั้งเรื่องผิว ความกระชับ และการกระตุ้นคอลลาเจนชั้นตื้น ผิวจะค่อยๆ ดูกระชับและเรียบขึ้น และเห็นชัดขึ้นภายใน 2–3 เดือน นอกจากนี้ยังช่วยลดความมันบนใบหน้า ซึ่งงานวิจัยจากภาควิชาตจวิทยา คณะแพทยศาสตร์ศิริราชพยาบาล (2023) พบว่า Monopolar RF ช่วยลดความมันและรูขุมขนบนใบหน้าในคนไทย เพราะไม่ต้องพักฟื้น จึงทำซ้ำได้ทุก 1–2 สัปดาห์ตามที่คุณหมอแนะนำ
 
 **ระหว่างทำและหลังทำ**
 

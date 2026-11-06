@@ -19,21 +19,21 @@ suits_th: ไขมันสะสมที่แก้ม เหนียง �
 suits_en: Fullness from fat in the cheeks, jowls or under the chin that softens the jawline, for anyone who wants a slimmer-looking face without surgery.
 faq:
   - q_th: "ฉีดลดไขมันหน้าต่างจากการดูดไขมันอย่างไร"
-    a_th: "การดูดไขมันเป็นการผ่าตัด ส่วน Program Mesohyal Precision Slim เป็นการฉีดจุดเล็กๆ ไม่มีแผลผ่าตัด ผลจะค่อยๆ เห็นหลังทำต่อเนื่องตามที่คุณหมอประเมิน และใช้ชีวิตได้ตามปกติหลังทำ"
+    a_th: "การดูดไขมันเป็นการผ่าตัด ต้องพักฟื้นและมีความเสี่ยงแบบงานผ่าตัด ส่วน Program Mesohyal Precision Slim เป็นการฉีดจุดเล็กๆ เจ็บตัวน้อย ไม่ต้องพักฟื้น และใช้ชีวิตได้ตามปกติหลังทำ"
     q_en: "How is fat-reduction injection different from liposuction?"
-    a_en: "Liposuction is surgery. Program Mesohyal Precision Slim uses small injections with no surgical wound. Results appear gradually over the sessions the doctor recommends, and you can go about your day afterwards."
+    a_en: "Liposuction is surgery, with recovery time and surgical risks. Program Mesohyal Precision Slim uses small injections, with little discomfort and no downtime, so you can go about your day afterwards."
   - q_th: "ต้องทำกี่ครั้ง"
-    a_th: "จำนวนครั้งและระยะห่างขึ้นอยู่กับปริมาณไขมันและบริเวณที่ทำ คุณหมอจะประเมินและวางแผนให้แต่ละคน"
+    a_th: "ขึ้นอยู่กับปริมาณไขมันของแต่ละคนและแต่ละบริเวณ คุณหมอจะประเมินและวางแผนให้"
     q_en: "How many sessions will I need?"
-    a_en: "The number of sessions and the interval depend on the amount of fat and the areas treated. The doctor will assess and plan this for you."
+    a_en: "It depends on the amount of fat in each person and each area. The doctor will assess and plan this for you."
   - q_th: "ฉีดเหนียงและใต้คางได้ไหม"
-    a_th: "ได้ บริเวณที่ทำได้คือแก้ม เหนียง และใต้คาง ถ้าทำหลายบริเวณในครั้งเดียว ขนาด 20 c.c. จะเหมาะกว่า"
+    a_th: "ได้ ฉีดได้ทุกจุดบนใบหน้าที่มีไขมันสะสม เช่น แก้ม เหนียง และใต้คาง ถ้าทำหลายบริเวณในครั้งเดียว ขนาด 20 c.c. จะเหมาะกว่า"
     q_en: "Can it be used on the jowls and under the chin?"
-    a_en: "Yes. The areas treated are the cheeks, jowls and under the chin. For several areas in one visit, the 20 c.c. size suits better."
+    a_en: "Yes, on any area of the face with fat build-up, such as the cheeks, jowls and under the chin. For several areas in one visit, the 20 c.c. size suits better."
   - q_th: "หลังฉีดบวมไหม หน้าจะหย่อนหรือเปล่า"
-    a_th: "อาจบวม เจ็บเล็กน้อย หรือมีจ้ำเขียวได้ 2–3 วัน Mesohyal Melilot ช่วยเรื่องการไหลเวียนและลดบวม และทั้งสองสูตรมีไฮยาลูรอนิกช่วยดูแลผิวบริเวณที่ฉีด เมื่อไขมันลดลง ผิวจึงไม่ดูหย่อน"
+    a_th: "บวมน้อย เพราะคุณหมอผสม 2 สูตรเข้าด้วยกัน Carnitine ช่วยลดไขมัน Melilot ช่วยลดบวม และไฮยาลูรอนิกช่วยดูแลผิวให้กระชับ แต่ถ้าลดไขมันในปริมาณมากโดยไม่ใช้เครื่องยกกระชับร่วมด้วย ผิวอาจหย่อนได้ในอนาคต คุณหมอจึงมักแนะนำให้ทำคู่กับ HIFU หรือ Monopolar-RF"
     q_en: "Will it swell? Will my skin look loose afterwards?"
-    a_en: "Mild swelling, tenderness or small bruises are possible for 2–3 days. Mesohyal Melilot supports circulation and reduces swelling, and both formulas contain hyaluronic acid to care for the skin, so the area does not look loose as the fat reduces."
+    a_en: "Swelling is minimal because the doctor blends two formulas: Carnitine to reduce fat, Melilot to reduce swelling, and hyaluronic acid to keep the skin firm. But if a lot of fat is reduced without a lifting device, the skin may loosen later, so the doctor usually recommends combining it with HIFU or Monopolar-RF."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ส่วนประกอบของสาร มีการติดเชื้อหรือสิวอักเสบบริเวณที่จะฉีด โรคตับหรือไตรุนแรง โรคหัวใจหรือลมชักที่ยังควบคุมไม่ได้ และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือดหรือยาต้านเกล็ดเลือด มีภาวะเลือดออกง่าย หรือมีโรคประจำตัว
 avoid_en: Pregnancy or breastfeeding; allergy to any ingredient; infection or inflamed acne at the area; severe liver or kidney disease; uncontrolled heart disease or epilepsy. Please tell the doctor first if you take blood thinners or antiplatelet drugs, bruise or bleed easily, or have any long-term condition.
 featured: false
