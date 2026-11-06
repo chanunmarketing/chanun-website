@@ -459,6 +459,16 @@ content:
           - { name: name, label: ชื่อหมวด (ภาษาอังกฤษ ใช้ทั้งสองภาษา), type: string }
           - { name: desc_th, label: คำอธิบาย (TH), type: text }
           - { name: desc_en, label: คำอธิบาย (EN), type: text }
+          - name: faq
+            label: คำถามที่พบบ่อยของหมวด (FAQ)
+            description: "แสดงท้ายหมวดในหน้า The Collection ช่วยเรื่อง SEO"
+            type: object
+            list: true
+            fields:
+              - { name: q_th, label: คำถาม (TH), type: string }
+              - { name: a_th, label: คำตอบ (TH), type: text }
+              - { name: q_en, label: คำถาม (EN), type: string }
+              - { name: a_en, label: คำตอบ (EN), type: text }
           - name: subgroups
             label: หมวดย่อย
             type: object

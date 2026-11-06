@@ -29,6 +29,23 @@ prices:
     note_en: Full-face and neck Monopolar-RF up to once a week + 500 HIFU shots across the year
 suits_th: กรอบหน้าเริ่มไม่ชัด แก้มเริ่มตก เหนียงหรือใต้คางเริ่มพับ เส้นข้างแก้มลึกขึ้น (คุณหมอประเมินรายบุคคล)
 suits_en: A jawline that is losing definition, cheeks that are starting to drop, a softening under-chin, or deepening lines beside the mouth (assessed person by person).
+faq:
+  - q_th: "HIFU คืออะไร ทำงานอย่างไร"
+    a_th: "HIFU (High-Intensity Focused Ultrasound) คือการรวมคลื่นอัลตราซาวด์ให้เป็นจุดเล็กๆ ลงไปถึงชั้น SMAS ซึ่งเป็นชั้นที่ช่วยพยุงใบหน้า ความร้อนที่จุดนั้นทำให้เนื้อเยื่อหดตัวและกระตุ้นการสร้างคอลลาเจนใหม่ โดยไม่มีแผลที่ผิว"
+    q_en: "What is HIFU and how does it work?"
+    a_en: "HIFU (High-Intensity Focused Ultrasound) focuses ultrasound into tiny points that reach the SMAS, the layer that supports the face. The heat at each point tightens the tissue and stimulates new collagen, without any wound on the skin."
+  - q_th: "ทำ HIFU ต้องใช้กี่ shot"
+    a_th: "ขึ้นอยู่กับบริเวณและสภาพผิวของแต่ละคน คุณหมอปิงปองวางพลังงานทีละจุดให้ตรงตำแหน่ง จึงใช้จำนวน shot ไม่มาก และคุณจ่ายตามจำนวนที่ใช้จริง ถ้าต้องการหลายบริเวณ Course Privilege 200 + 50 shots จะคุ้มกว่า"
+    q_en: "How many HIFU shots will I need?"
+    a_en: "It depends on the areas and your skin. Dr. PP places the energy point by point, so fewer shots are needed and you pay only for what is used. For several areas, the 200 + 50 shot Course Privilege is better value."
+  - q_th: "HIFU เห็นผลเมื่อไหร่"
+    a_th: "บางคนรู้สึกว่าผิวกระชับขึ้นตั้งแต่หลังทำ แต่ผลจากคอลลาเจนใหม่จะค่อยๆ ชัดขึ้น และเห็นชัดที่สุดช่วงประมาณ 3 เดือน คุณหมอจะแนะนำว่าควรทำซ้ำเมื่อไหร่"
+    q_en: "When will I see HIFU results?"
+    a_en: "Some people feel firmer straight away, but the result from new collagen builds gradually and is clearest at around 3 months. The doctor will advise when to repeat."
+  - q_th: "ทำ HIFU เจ็บไหม"
+    a_th: "ระหว่างยิงอาจรู้สึกเจ็บหรือปวดตรงแนวกระดูก ความรู้สึกต่างกันในแต่ละคนและแต่ละบริเวณ คุณหมอปรับพลังงานให้พอดีกับผิวของคุณ หลังทำอาจแดงหรือบวมเล็กน้อยและหายเองในไม่กี่วัน"
+    q_en: "Does HIFU hurt?"
+    a_en: "You may feel aching along the bone during the shots; it varies by person and area. The doctor adjusts the energy to suit your skin. Mild redness or swelling afterwards settles within a few days."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร มีแผลเปิด สิวอักเสบ ผื่นหรือโรคผิวหนังที่กำลังกำเริบ หรือการติดเชื้อบริเวณที่จะทำ มีโลหะ ใส่เครื่องกระตุ้นหัวใจ หรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย ผิวหย่อนคล้อยมากจนการผ่าตัดเหมาะกว่า และควรแจ้งคุณหมอก่อนถ้ามีประวัติแผลเป็นนูนหรือคีลอยด์ แผลหายช้า หรือสูบบุหรี่จัด
 avoid_en: Pregnancy or breastfeeding; an open wound, inflamed acne, a flaring skin condition or infection in the area; metal, a pacemaker or other implanted electronic device; skin laxity so advanced that surgery is the better option. Please tell the doctor first if you have a history of raised or keloid scars, slow wound healing, or are a heavy smoker.
 featured: true

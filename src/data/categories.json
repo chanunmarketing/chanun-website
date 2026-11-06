@@ -5,7 +5,51 @@
       "name": "Facial Contour",
       "desc_th": "ยกกระชับและปรับสัดส่วนใบหน้าตามโครงสร้าง 5 ชั้นของใบหน้า ดูแลตั้งแต่ชั้นชิดกระดูก เอ็นยึดใบหน้า ไปจนถึงชั้น SMAS ด้วยเครื่องมือยกกระชับและงานฉีด คุณหมอวางแผนทีละจุดตามโครงหน้า ให้ผลลัพธ์ยังเป็นตัวคุณ ในแบบที่ได้สัดส่วนและดูเป็นธรรมชาติ",
       "desc_en": "Lifting and facial balancing based on the five layers of the face, from the layer closest to the bone and the retaining ligaments up to the SMAS, using lifting devices and injectables. The doctor plans point by point around your bone structure, so you still look like you, balanced and natural.",
-      "subgroups": []
+      "subgroups": [],
+      "faq": [
+        {
+          "q_th": "ยกกระชับหน้าแบบไม่ผ่าตัดที่ CHANUN มีอะไรบ้าง",
+          "a_th": "ในหมวด Facial Contour มี 4 แบบหลัก คือ **Program U-One HIFU** ยกกระชับจากชั้น SMAS, **Program Exilis Elite Monopolar-RF** กระชับผิวและกระตุ้นคอลลาเจนชั้นตื้น, **Program Definisse Italy Filler** ปรับรูปทรงโครงหน้า และ **Program Mesohyal Precision Slim** ลดไขมันเฉพาะจุด คุณหมอปิงปองจะประเมินโครงหน้าก่อน แล้วเลือกหรือผสมวิธีให้เหมาะกับแต่ละคน",
+          "q_en": "What non-surgical face lifting options does CHANUN offer?",
+          "a_en": "Facial Contour has four main options: **Program U-One HIFU** lifts from the SMAS, **Program Exilis Elite Monopolar-RF** tightens the skin and stimulates shallow collagen, **Program Definisse Italy Filler** reshapes the facial structure, and **Program Mesohyal Precision Slim** reduces fat in specific areas. Dr. PP assesses your face first, then chooses or combines the options that suit you."
+        },
+        {
+          "q_th": "โครงสร้าง 5 ชั้นของใบหน้าคืออะไร",
+          "a_th": "ใบหน้าประกอบด้วย 5 ชั้น เรียงจากด้านนอกเข้าด้านใน คือ ผิวหนัง ไขมันใต้ผิว ชั้น SMAS เอ็นยึดใบหน้า และชั้นชิดกระดูก เมื่ออายุมากขึ้น แต่ละชั้นเปลี่ยนไปไม่เหมือนกัน บางชั้นหย่อน บางชั้นบางลง หรือปริมาณลดลง คุณหมอจึงวางแผนตามชั้นที่เปลี่ยนจริง แทนการรักษาแบบเดียวกันทั้งหน้า",
+          "q_en": "What are the five layers of the face?",
+          "a_en": "From the outside in, the face has five layers: skin, the fat beneath it, the SMAS, the retaining ligaments, and the deep layer next to the bone. With age, each layer changes differently: some loosen, some thin, some lose volume. So the doctor plans around the layers that have actually changed, rather than treating the whole face the same way."
+        },
+        {
+          "q_th": "HIFU กับ RF ต่างกันอย่างไร ควรเลือกแบบไหน",
+          "a_th": "HIFU รวมพลังงานเป็นจุดลงลึกถึงชั้น SMAS เหมาะกับกรอบหน้า แก้มที่เริ่มตก และใต้คาง ส่วน Monopolar-RF อุ่นผิวเป็นวงกว้างในชั้นที่ตื้นกว่า เหมาะกับผิวที่เริ่มหย่อน รูขุมขน และเนื้อผิว และทำได้บ่อยเพราะไม่ต้องพักหน้า หลายคนเหมาะกับการทำทั้งสองอย่าง อย่าง The Duo ที่ทำ RF และ HIFU ในนัดเดียว",
+          "q_en": "What is the difference between HIFU and RF, and which should I choose?",
+          "a_en": "HIFU focuses energy into points that reach the SMAS, which suits the jawline, cheeks that are starting to drop and the under-chin. Monopolar-RF warms a wider, shallower area, which suits loosening skin, pores and texture, and with no downtime it can be done often. Many people benefit from both, as in The Duo, which combines RF and HIFU in one visit."
+        },
+        {
+          "q_th": "ฟิลเลอร์กับ HIFU ต่างกันอย่างไร",
+          "a_th": "HIFU ใช้พลังงานกระตุ้นให้เนื้อเยื่อกระชับและยกขึ้น ไม่ได้เพิ่มปริมาตร ส่วนฟิลเลอร์ช่วยเสริมโครงสร้างในจุดที่ขาดหรือยุบลง เช่น คาง ขมับ และกรอบหน้า ทั้งสองอย่างจึงทำหน้าที่ต่างกัน และมักใช้ร่วมกันเพื่อให้ได้ทั้งความกระชับและสัดส่วนที่ต้องการ",
+          "q_en": "How is filler different from HIFU?",
+          "a_en": "HIFU uses energy to tighten and lift tissue; it does not add volume. Filler supports the structure where it has been lost or hollowed, such as the chin, temples and jawline. They do different jobs and are often combined to achieve both firmness and the proportions you want."
+        },
+        {
+          "q_th": "อยากให้หน้าเรียวขึ้น ต้องทำอะไร",
+          "a_th": "ขึ้นอยู่กับสาเหตุ ถ้าเป็นไขมันสะสมที่แก้ม เหนียง หรือใต้คาง Program Mesohyal Precision Slim ช่วยลดไขมันเฉพาะจุด ถ้าเป็นเพราะผิวและเนื้อเยื่อเริ่มหย่อน HIFU และ RF ช่วยยกกระชับ ถ้าโครงคางหรือกรอบหน้าไม่ชัด ฟิลเลอร์ช่วยปรับรูปทรง ถ้าเกิดจากกล้ามเนื้อกราม คุณหมอจะประเมินและแนะนำวิธีที่เหมาะ หลายคนมีหลายสาเหตุรวมกัน การให้คุณหมอตรวจก่อนจึงสำคัญ",
+          "q_en": "I want a slimmer-looking face. What should I do?",
+          "a_en": "It depends on the cause. For fat in the cheeks, jowls or under the chin, Program Mesohyal Precision Slim reduces fat in those areas. If the skin and tissue are loosening, HIFU and RF help lift and tighten. If the chin or jawline lacks definition, filler can reshape it. If the jaw muscle is the cause, the doctor will assess it and suggest the right approach. Many people have more than one cause, so an assessment comes first."
+        },
+        {
+          "q_th": "ทำหลายอย่างในวันเดียวได้ไหม",
+          "a_th": "ได้ในหลายกรณี เช่น The Duo ที่ทำ Monopolar-RF และ HIFU ในนัดเดียว หรือทำเครื่องยกกระชับร่วมกับงานฉีด คุณหมอจะวางลำดับและระยะห่างของแต่ละอย่างให้ เพื่อให้ผลลัพธ์ดีและปลอดภัย",
+          "q_en": "Can I have more than one treatment on the same day?",
+          "a_en": "Often, yes. The Duo combines Monopolar-RF and HIFU in one visit, and energy devices can be combined with injectables. The doctor plans the order and spacing of each treatment so the result is good and safe."
+        },
+        {
+          "q_th": "ผลลัพธ์จะดูเป็นธรรมชาติไหม",
+          "a_th": "หลักของ CHANUN คือพอดี ไม่เกิน คุณหมอวางแผนทีละจุดตามโครงหน้า และใช้ปริมาณเท่าที่จำเป็น ผลลัพธ์จึงยังเป็นตัวคุณ เพียงดูได้สัดส่วนและสดชื่นขึ้น",
+          "q_en": "Will the result look natural?",
+          "a_en": "CHANUN works on the principle of never overdone. The doctor plans point by point around your face and uses only as much as is needed, so you still look like you, only more balanced and refreshed."
+        }
+      ]
     },
     {
       "id": "skin",

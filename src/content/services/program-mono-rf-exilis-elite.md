@@ -32,6 +32,23 @@ prices:
     note_en: Full-face and neck Monopolar-RF up to once a week + 500 HIFU shots across the year
 suits_th: ผิวที่เริ่มหย่อนคล้อย รูขุมขนกว้าง หรือมีริ้วรอยตื้นๆ และคนที่ไม่อยากพักหน้า ทำเสร็จแล้วกลับไปใช้ชีวิตได้ตามปกติ
 suits_en: Skin that is starting to loosen, visible pores or fine lines, and anyone who wants no downtime and can go straight back to their day.
+faq:
+  - q_th: "Monopolar RF ต่างจาก RF ทั่วไปอย่างไร"
+    a_th: "RF แบบทั่วไป (bipolar) ส่งพลังงานระหว่างขั้วสองขั้วที่อยู่ใกล้กัน ความร้อนจึงอยู่ตื้น ส่วน Monopolar RF ส่งพลังงานลงได้ลึกและสม่ำเสมอกว่า และ Exilis Elite ยังใช้คู่กับอัลตราซาวด์ ช่วยให้ความร้อนกระจายในผิวชั้นในได้ดี"
+    q_en: "How is Monopolar RF different from regular RF?"
+    a_en: "Regular (bipolar) RF passes energy between two nearby poles, so the heat stays shallow. Monopolar RF delivers energy deeper and more evenly, and Exilis Elite pairs it with ultrasound to spread the heat well through the deeper skin."
+  - q_th: "ทำ RF บ่อยแค่ไหน"
+    a_th: "เพราะไม่ต้องพักหน้า จึงทำต่อเนื่องได้ทุก 1–2 สัปดาห์ตามที่คุณหมอแนะนำ การทำเป็นคอร์สช่วยให้ผิวสร้างคอลลาเจนได้ต่อเนื่อง ผลจึงชัดและอยู่ได้นานขึ้น"
+    q_en: "How often can I have RF?"
+    a_en: "With no downtime, it can be repeated every 1–2 weeks as the doctor advises. A course keeps collagen building, so results are clearer and last longer."
+  - q_th: "ทำแล้วหน้าแดงไหม แต่งหน้าได้เลยไหม"
+    a_th: "หน้าอาจแดงเรื่อๆ ไม่เกิน 1–2 ชั่วโมง ทามอยส์เจอไรเซอร์หลังทำ และกลับไปทำงานหรือแต่งหน้าได้ตามปกติ"
+    q_en: "Will my face be red? Can I wear make-up afterwards?"
+    a_en: "Your face may look slightly flushed for no more than 1–2 hours. Apply a moisturiser afterwards, and you can go back to work and wear make-up as usual."
+  - q_th: "ทำคู่กับ HIFU ได้ไหม"
+    a_th: "ได้ และเป็นการผสมที่นิยม RF ดูแลผิวทั้งหน้า ส่วน HIFU เก็บจุดที่ต้องการยกกระชับ ทำทั้งสองอย่างในนัดเดียวได้ด้วย The Duo"
+    q_en: "Can I combine it with HIFU?"
+    a_en: "Yes, and it is a popular combination: RF for the whole face, HIFU for the areas that need lifting. You can have both in one visit with The Duo."
 avoid_th: ตั้งครรภ์ วางแผนตั้งครรภ์ หรือให้นมบุตร ใส่เครื่องกระตุ้นหัวใจหรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย มีโลหะฝังในบริเวณที่จะทำ มีแผล โรคผิวหนัง หรือการติดเชื้อบริเวณที่จะทำ ผิวรับความรู้สึกผิดปกติ เบาหวาน มะเร็งเม็ดเลือดหรือความผิดปกติของเกล็ดเลือด และควรเว้นระยะก่อนทำถ้าเพิ่งฉีดโบทูลินัมท็อกซินภายใน 3 เดือน ร้อยไหมภายใน 6 เดือน ทำเลเซอร์ลอกผิวหรือพีลลึกภายใน 3 เดือน หรือทานยารักษาสิว isotretinoin ภายใน 12 เดือน
 avoid_en: Pregnancy, planning a pregnancy, or breastfeeding; a pacemaker or other implanted electronic device; metal implants in the area; a wound, skin disease or infection in the area; reduced skin sensation; diabetes; blood cancer or a platelet disorder. Please wait before treatment if you have had botulinum toxin within 3 months, a thread lift within 6 months, ablative laser or a deep peel within 3 months, or isotretinoin within 12 months.
 featured: false

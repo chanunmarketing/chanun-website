@@ -3,6 +3,8 @@ import Base from '../layouts/Base.astro';
 import ServiceCard from '../components/ServiceCard.astro';
 import site from '../data/site.json';
 import { type Lang, pick, ui } from '../lib/i18n';
+import { md } from '../lib/md';
+import categoryData from '../data/categories.json';
 import { catDesc, catName, categoryOrder, getServices, subgroupsOf } from '../lib/data';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -18,7 +20,9 @@ const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.catego
           { id: 'other', name: '', desc: '', items: items.filter((s) => !defs.some((g) => g.id === s.data.subgroup)) },
         ].filter((g) => g.items.length || g.id !== 'other')
       : [];
-    return { id: c, label: catName(c), desc: catDesc(c, lang), items, groups };
+    const faq = (((categoryData.categories as any[]).find((x) => x.id === c)?.faq ?? []) as any[])
+      .map((f) => ({ q: pick(f, 'q', lang), a: pick(f, 'a', lang) })).filter((f) => f.q && f.a);
+    return { id: c, label: catName(c), desc: catDesc(c, lang), items, groups, faq };
   })
   .filter((c) => c.items.length || categoryOrder.includes(c.id));
 const intro = lang === 'th'
@@ -28,7 +32,10 @@ const ask = lang === 'th'
   ? { text: 'โปรแกรมในหมวดนี้คุณหมอออกแบบให้เฉพาะคนหลังตรวจประเมิน ทัก LINE เพื่อสอบถามรายละเอียดและนัดพบคุณหมอ', btn: 'สอบถามทาง LINE' }
   : { text: 'Programmes in this category are designed for each person after an assessment. Message us on LINE for details or to book a consultation.', btn: 'Ask on LINE' };
 ---
-<Base lang={lang} title={`${t.services} | ${t.servicesSub}`}>
+<Base lang={lang} title={`${t.services} | ${t.servicesSub}`} jsonld={cats.some((c) => c.faq.length) ? {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: cats.flatMap((c) => c.faq).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+} : undefined}>
   <section class="page-head sand">
     <div class="wrap">
       <p class="hero-kicker dark">{t.servicesSub}</p>
@@ -71,6 +78,17 @@ const ask = lang === 'th'
           <div class="menu-ask">
             <p>{ask.text}</p>
             <a class="btn btn-ghost btn-sm" href={site.line_url} target="_blank" rel="noopener">{ask.btn}</a>
+          </div>
+        )}
+        {c.faq.length > 0 && (
+          <div class="faq menu-faq">
+            <h3 class="menu-sub-title is-latin">{lang === 'th' ? `${c.label} · คำถามที่พบบ่อย` : `${c.label} · FAQ`}</h3>
+            {c.faq.map((f) => (
+              <details>
+                <summary>{f.q}</summary>
+                <div set:html={md(f.a)} />
+              </details>
+            ))}
           </div>
         )}
       </section>

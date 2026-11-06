@@ -458,3 +458,5 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
 .faq details[open] summary::after { content: "–"; }
 .faq details > div { margin-top: 0.6rem; color: var(--muted); }
 .faq details > div p { margin: 0.4rem 0 0; }
+.menu-faq { margin-top: 3rem; max-width: 52rem; }
+.menu-faq .menu-sub-title { margin-bottom: 0.5rem; }
