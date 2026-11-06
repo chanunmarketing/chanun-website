@@ -6,13 +6,16 @@ subgroup: hydration
 image: /uploads/service-ejal40.jpg
 summary_th: "ไฮยาลูรอนิกเข้มข้น 40 มก. ต่อ 2 มล. จากอิตาลี ไม่ผ่านการเชื่อมโมเลกุล ช่วยให้ผิวอุ้มน้ำและกระตุ้นให้ผิวสร้างคอลลาเจนกับอีลาสตินใหม่ คุณหมอปิงปองฉีดเฉพาะจุดตามโครงสร้างใบหน้า ผิวจึงดูแน่น อิ่มฟู และกระชับขึ้นอย่างเป็นธรรมชาติ"
 summary_en: "Concentrated, non-cross-linked hyaluronic acid from Italy (40 mg per 2 ml) that helps the skin hold water and encourages it to build new collagen and elastin. Dr. PP injects only at selected points along the structure of your face, so the skin looks firmer, plumper and naturally tighter."
-price_from: ""
+price_from: "9900"
 prices:
-  - item_th: Program Ejal40 Italy Bioremodeling
-    item_en: Program Ejal40 Italy Bioremodeling
-    price: ""
-    note_th: 1 หลอด 2 c.c.
-    note_en: 1 syringe, 2 c.c.
+  - item_th: Program Ejal40 Italy Bioremodeling · 1 กล่อง (2 c.c.)
+    item_en: Program Ejal40 Italy Bioremodeling · 1 box (2 c.c.)
+    price: "9900"
+  - item_th: "Course Privilege · 3 กล่อง"
+    item_en: "Course Privilege · 3 boxes"
+    price: "21900"
+    note_th: เฉลี่ย 7,300 บาท/กล่อง
+    note_en: About 7,300 THB per box
 suits_th: ผิวที่เริ่มหย่อนและบางลง ผิวขาดน้ำ ริ้วรอยเล็กๆ กรอบหน้าเริ่มไม่ชัด หรืออยากให้ผิวแข็งแรงจากโครงสร้างด้านใน โดยไม่ต้องการเพิ่มรูปทรงแบบฟิลเลอร์
 suits_en: Skin that is starting to loosen and thin, dehydrated skin, fine lines, a softening jawline, or anyone who wants stronger skin from the structure within without adding shape like a filler.
 seo_title_th: "Ejal40 ฉีดผิว Bioremodeling ฟื้นฟูโครงสร้างผิว สุขุมวิท 61"
@@ -22,6 +25,10 @@ faq:
     a_th: ฟิลเลอร์เป็นเจล HA ที่เชื่อมโมเลกุลไว้ ใช้เพิ่มรูปทรง เช่น คางหรือกรอบหน้า ส่วน Ejal40 เป็น HA ที่ไม่ผ่านการเชื่อมโมเลกุล เนื้อจะกระจายตัวไปในผิว ไม่ได้เพิ่มรูปทรง แต่ช่วยเรื่องความชุ่มชื้น ความแน่น และคุณภาพผิวจากด้านใน
     q_en: How is Ejal40 different from filler?
     a_en: Filler is a cross-linked HA gel used to add shape, such as to the chin or jawline. Ejal40 is non-cross-linked HA that spreads through the skin. It does not add shape; it improves hydration, firmness and skin quality from within.
+  - q_th: ใช้แทนฟิลเลอร์ได้ไหม
+    a_th: ใช้กับบริเวณที่ต้องการความอิ่ม แต่ยังไม่พร้อมฉีดฟิลเลอร์ได้ เช่น ใต้ตา โดยคุณหมอใช้ cannula เกลี่ยเนื้อ HA ให้เรียบ ผลที่ได้คือผิวดูอิ่มและแน่นขึ้นอย่างเป็นธรรมชาติ แต่จะไม่เพิ่มรูปทรงชัดเท่าฟิลเลอร์
+    q_en: Can it be used instead of filler?
+    a_en: It can be used in areas that need fullness when you are not ready for filler, such as under the eyes, with the doctor spreading the HA smoothly using a cannula. The skin looks fuller and firmer in a natural way, though it does not add shape as clearly as filler.
   - q_th: ต้องทำกี่ครั้ง และผลอยู่ได้นานแค่ไหน
     a_th: โดยทั่วไปทำ 2–3 ครั้ง ห่างกันประมาณ 1 เดือน แล้วทำต่อเนื่องทุก 3–4 เดือนเพื่อรักษาผล จำนวนครั้งขึ้นอยู่กับอายุและสภาพผิว คุณหมอจะประเมินให้แต่ละคน
     q_en: How many sessions do I need, and how long do results last?
@@ -61,7 +68,12 @@ body_en: |
 
   **Dr. PP's technique**
 
-  Instead of many small injections across the face, Dr. PP chooses a few points on each side based on your bone structure and where the skin needs support, such as the cheekbones, in front of the ears, the jaw angle and around the mouth. The gel then spreads through the surrounding skin. Neck and hands can also be treated after assessment.
+  Dr. PP chooses the technique for each person's concern. The two main approaches are:
+
+  - **Five points on the face.** Dr. PP designs the position and depth of each point for you, based on your bone structure and where the skin needs support, such as the cheekbones, in front of the ears, the jaw angle and around the mouth. The HA then spreads through the surrounding skin, so no two treatments use exactly the same points.
+  - **Cannula (blunt-tip needle).** For areas that need more fullness, such as under the eyes, or areas that would usually call for filler when the patient does not want filler yet. A cannula spreads the HA smoothly along a line and lowers the chance of bruising.
+
+  The neck and the backs of the hands can also be treated after assessment.
 
   **What to expect**
 
@@ -91,7 +103,12 @@ Ejal40 ทำงานหลักในชั้น **Deep Dermis** (หนั�
 
 **เทคนิคของคุณหมอปิงปอง**
 
-คุณหมอไม่ได้ฉีดกระจายเป็นจุดเล็กๆ ทั่วหน้า แต่เลือกจุดฉีดเพียงไม่กี่จุดในแต่ละข้าง ตามโครงหน้าและตำแหน่งที่ผิวต้องการการพยุง เช่น โหนกแก้ม หน้าใบหู มุมกราม และรอบปาก จากนั้นเนื้อ HA จะกระจายตัวไปยังผิวรอบๆ เอง นอกจากใบหน้ายังทำที่คอและหลังมือได้ตามการประเมินของคุณหมอ
+คุณหมอเลือกเทคนิคตามปัญหาของแต่ละคน หลักๆ มี 2 แบบ
+
+- **ฉีด 5 จุดบนใบหน้า** คุณหมอออกแบบตำแหน่งและความลึกของแต่ละจุดเฉพาะบุคคล ตามโครงหน้าและบริเวณที่ผิวต้องการการพยุง เช่น โหนกแก้ม หน้าใบหู มุมกราม และรอบปาก จากนั้นเนื้อ HA จะกระจายตัวไปยังผิวรอบๆ เอง แต่ละคนจึงไม่ได้ฉีดตำแหน่งเดียวกัน
+- **ใช้ cannula (เข็มปลายมน)** สำหรับบริเวณที่ต้องการความอิ่ม เช่น ใต้ตา หรือบริเวณที่ปกติต้องใช้ฟิลเลอร์ แต่คนไข้ยังไม่ต้องการฉีดฟิลเลอร์ เข็มปลายมนช่วยเกลี่ยเนื้อ HA ได้เป็นแนวและเรียบเนียน และลดโอกาสช้ำ
+
+นอกจากใบหน้า ยังทำที่คอและหลังมือได้ตามการประเมินของคุณหมอ
 
 **สิ่งที่คาดหวังได้**
 

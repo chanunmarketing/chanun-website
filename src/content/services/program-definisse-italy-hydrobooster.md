@@ -4,16 +4,19 @@ name_th: HA โมเลกุลใหญ่ผสมกลีเซอรอ�
 category: skin
 subgroup: hydration
 image: /uploads/service-hydrobooster.jpg
-summary_th: "สกินบูสเตอร์จากอิตาลี ไฮยาลูรอนิกโมเลกุลใหญ่สายยาวผสมกลีเซอรอล ฉีดในชั้นหนังแท้ส่วนบน ช่วยให้ผิวชุ่มชื้น เรียบเนียน และดูมีน้ำมีนวล รวมถึงริ้วรอยเล็กๆ รอบดวงตาและริมฝีปาก คุณหมอปิงปองเลือกจุดฉีดตามสภาพผิวของแต่ละคน"
-summary_en: "An Italian skin booster of long-chain, high-molecular-weight hyaluronic acid with glycerol, injected into the upper dermis. It helps the skin look hydrated, smooth and dewy, and softens fine lines around the eyes and lips. Dr. PP chooses the injection points for your skin."
-price_from: ""
+summary_th: "สกินบูสเตอร์จากอิตาลี ไฮยาลูรอนิกโมเลกุลใหญ่สายยาวผสมกลีเซอรอล ช่วยปรับสมดุลน้ำในผิวให้ดีขึ้น เน้นผิวฉ่ำวาว อิ่มน้ำ และปรับสภาพแวดล้อมของผิวให้สมดุล รวมถึงริ้วรอยเล็กๆ รอบดวงตาและริมฝีปาก คุณหมอปิงปองเลือกเทคนิคและจุดฉีดตามสภาพผิวของแต่ละคน"
+summary_en: "An Italian skin booster of long-chain, high-molecular-weight hyaluronic acid with glycerol. It helps rebalance water in the skin for a dewy, well-hydrated glow and a more balanced skin environment, and softens fine lines around the eyes and lips. Dr. PP chooses the technique and injection points for your skin."
+price_from: "8900"
 prices:
-  - item_th: Program Definisse Italy Hydrobooster (HMW-HA)
-    item_en: Program Definisse Italy Hydrobooster (HMW-HA)
-    price: ""
-    note_th: 1 หลอด 1 c.c.
-    note_en: 1 syringe, 1 c.c.
-suits_th: ผิวแห้ง ขาดน้ำ ผิวดูหมองหรือไม่มีน้ำมีนวล ริ้วรอยเล็กๆ รอบดวงตา หน้าผาก และรอบปาก รวมถึงคอที่เริ่มมีริ้วรอย
+  - item_th: Program Definisse Italy Hydrobooster (HMW-HA) · 1 กล่อง (1 c.c.)
+    item_en: Program Definisse Italy Hydrobooster (HMW-HA) · 1 box (1 c.c.)
+    price: "8900"
+  - item_th: "Course Privilege · 3 กล่อง"
+    item_en: "Course Privilege · 3 boxes"
+    price: "16900"
+    note_th: เฉลี่ยประมาณ 5,633 บาท/กล่อง
+    note_en: About 5,633 THB per box
+suits_th: ผิวแห้ง ขาดน้ำ ผิวดูหมองหรือไม่ฉ่ำวาว ริ้วรอยเล็กๆ รอบดวงตา หน้าผาก และรอบปาก รวมถึงคอที่เริ่มมีริ้วรอย
 suits_en: Dry or dehydrated skin, dull skin that has lost its glow, fine lines around the eyes, forehead and lips, and a neck that is starting to show lines.
 seo_title_th: "Hydrobooster ฉีดผิวชุ่มชื้น HA ผสมกลีเซอรอล สุขุมวิท 61"
 seo_title_en: "Definisse Hydrobooster Skin Booster in Bangkok"
@@ -38,6 +41,10 @@ faq:
     a_th: Hydrobooster ทำงานในชั้นหนังแท้ส่วนบน เน้นความชุ่มชื้นและเนื้อผิว ส่วน Ejal40 ทำงานในชั้นหนังแท้ส่วนลึก เน้นกระตุ้นคอลลาเจนและโครงสร้าง ECM ทั้งสองตัวใช้คู่กันได้ และอยู่ใน Program Skin Trio ด้วย
     q_en: How is Hydrobooster different from Ejal40?
     a_en: Hydrobooster works in the upper dermis, focusing on hydration and texture. Ejal40 works in the deeper dermis, focusing on collagen and the ECM. They can be used together, and both are part of Program Skin Trio.
+  - q_th: ฉีดใต้ตาได้ไหม
+    a_th: ได้ คุณหมอใช้ cannula เกลี่ยเนื้อให้เรียบในบริเวณใต้ตาหรือจุดที่ต้องการความอิ่ม เหมาะกับคนที่ยังไม่อยากฉีดฟิลเลอร์ ผิวจะดูอิ่มน้ำและฉ่ำขึ้น แต่จะไม่เพิ่มรูปทรงชัดเท่าฟิลเลอร์
+    q_en: Can it be used under the eyes?
+    a_en: Yes. The doctor uses a cannula to spread it smoothly under the eyes or wherever more fullness is needed, which suits people not ready for filler. The skin looks plumper and dewier, though it does not add shape as clearly as filler.
 avoid_th: ตั้งครรภ์หรือให้นมบุตร แพ้ไฮยาลูรอนิกหรือกลีเซอรอล มีการติดเชื้อ สิวอักเสบ หรือเริมบริเวณที่จะฉีด มีแนวโน้มเกิดแผลเป็นนูน โรคภูมิคุ้มกันที่กำลังกำเริบ และควรแจ้งคุณหมอก่อนถ้าทานยาละลายลิ่มเลือดหรือยาต้านเกล็ดเลือด มีภาวะเลือดออกง่าย หรือเพิ่งทำเลเซอร์หรือพีลลึก
 avoid_en: Pregnancy or breastfeeding; allergy to hyaluronic acid or glycerol; infection, inflamed acne or cold sores at the area; a tendency to raised scars; an active autoimmune flare. Please tell the doctor first if you take blood thinners or antiplatelet drugs, bruise or bleed easily, or have recently had laser or a deep peel.
 featured: false
@@ -54,6 +61,11 @@ body_en: |
   - **Glycerol** is a natural humectant that the skin already contains. It draws water in and helps keep the skin hydrated and smooth.
 
   Together, they help the skin hold moisture for longer and give it a dewy, smoother look.
+
+  **Dr. PP's technique**
+
+  - **Points designed for you.** Dr. PP chooses the position and depth for your skin, so water balance improves evenly across the face.
+  - **Cannula (blunt-tip needle).** For areas that need more fullness, such as under the eyes, or areas that would usually call for filler when the patient does not want filler yet. The idea is similar to Ejal40, but Hydrobooster gives a dewier, more water-plump result because the glycerol helps hold moisture.
 
   **How it fits the Triple Derma Layer**
 
@@ -76,6 +88,11 @@ Hydrobooster เป็นสกินบูสเตอร์ของ Definisse
 - **กลีเซอรอล** เป็นสารดูดความชุ่มชื้นตามธรรมชาติที่ผิวเองก็มีอยู่ ช่วยดึงน้ำเข้ามาและทำให้ผิวชุ่มชื้นและเรียบเนียน
 
 เมื่อทำงานคู่กัน ผิวจะเก็บความชุ่มชื้นได้นานขึ้น และดูมีน้ำมีนวล เรียบเนียนขึ้น
+
+**เทคนิคของคุณหมอปิงปอง**
+
+- **ฉีดตามจุดที่ออกแบบเฉพาะบุคคล** คุณหมอเลือกตำแหน่งและความลึกตามสภาพผิวของแต่ละคน เพื่อปรับสมดุลน้ำในผิวให้ทั่วถึง
+- **ใช้ cannula (เข็มปลายมน)** สำหรับบริเวณที่ต้องการความอิ่ม เช่น ใต้ตา หรือบริเวณที่ปกติต้องใช้ฟิลเลอร์ แต่คนไข้ยังไม่ต้องการฉีดฟิลเลอร์ หลักการคล้าย Ejal40 แต่ Hydrobooster จะให้ผิวฉ่ำวาวและอิ่มน้ำมากกว่า เพราะมีกลีเซอรอลช่วยเก็บความชุ่มชื้น
 
 **อยู่ตรงไหนใน Triple Derma Layer**
 
