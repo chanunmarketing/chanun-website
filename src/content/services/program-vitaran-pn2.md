@@ -6,8 +6,11 @@ subgroup: regeneration
 image: /uploads/service-vitaran.jpg
 summary_th: "PN 2% (20 มก./มล.) สายสั้น เนื้อเบา กระจายตัวในผิวได้ง่าย ช่วยฟื้นฟูผิวให้แข็งแรง ชุ่มชื้น และซ่อมแซมตัวเองได้ดีขึ้น ใช้ได้ทั้งผิวบาง ผิวแพ้ง่าย รอยสิว ใต้ตา และผิวหลังเลเซอร์ คุณหมอปิงปองเลือกจุดฉีดตามสภาพผิวของแต่ละคน"
 summary_en: "PN 2% (20 mg/ml) with shorter chains: light, and it spreads through the skin easily. It helps the skin grow stronger, more hydrated and better at repairing itself, for thin or sensitive skin, acne marks, the under-eye area and skin after laser. Dr. PP chooses the injection points for your skin."
-price_from: "8900"
+price_from: "5900"
 prices:
+  - item_th: "Program Vitaran PN2% · 1 หลอด (1 c.c.)"
+    item_en: "Program Vitaran PN2% · 1 syringe (1 c.c.)"
+    price: "5900"
   - item_th: "Program Vitaran PN2% · 1 กล่อง (2 c.c.)"
     item_en: "Program Vitaran PN2% · 1 box (2 c.c.)"
     price: "8900"
@@ -54,7 +57,7 @@ published: true
 body_en: |
   **About Vitaran PN2%**
 
-  Vitaran is a 2% PN (20 mg/ml), CE-marked. Its PN chains are shorter, so it feels light and spreads through the skin easily. One box contains 2 c.c.
+  Vitaran is a 2% PN (20 mg/ml), CE-marked. Its PN chains are shorter, so it feels light and spreads through the skin easily. One box contains 2 c.c. (two 1 c.c. syringes), and you can start with a single syringe.
 
   **How PN works**
 
@@ -73,7 +76,7 @@ body_en: |
 ---
 **ข้อมูลของ Vitaran PN2%**
 
-Vitaran เป็น PN ความเข้มข้น 2% (20 มก./มล.) ได้มาตรฐาน CE จุดเด่นคือสาย PN ที่สั้นกว่า เนื้อเบาและกระจายตัวในผิวได้ง่าย 1 กล่องมี 2 c.c.
+Vitaran เป็น PN ความเข้มข้น 2% (20 มก./มล.) ได้มาตรฐาน CE จุดเด่นคือสาย PN ที่สั้นกว่า เนื้อเบาและกระจายตัวในผิวได้ง่าย 1 กล่องมี 2 c.c. (2 หลอด หลอดละ 1 c.c.) เลือกทำทีละหลอดได้
 
 **PN ทำงานอย่างไร**
 
