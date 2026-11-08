@@ -2,7 +2,7 @@
 name_en: "Program EPN: Skin Reset"
 name_th: ผลักวิตามินด้วยไฟฟ้าร่วมกับไมโครนีดเดิล
 category: skin
-subgroup: mesotherapy
+subgroup: pore
 summary_th: "ใช้ไมโครนีดเดิลเปิดช่องเล็กๆ แล้วใช้ไฟฟ้าช่วยผลักสารบำรุงลงสู่ผิว แพทย์เลือกสูตรตามสภาพผิวในวันนั้น"
 summary_en: "Microneedling opens tiny channels and electroporation helps nutrients through, with a formula chosen for your skin on the day."
 image: /uploads/service-epn.jpg

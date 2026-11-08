@@ -51,8 +51,7 @@ content:
             - { name: signature, label: "Signature Layers" }
             - { name: hydration, label: "Deep Hydration (HYA)" }
             - { name: regeneration, label: "Skin Regeneration (PN)" }
-            - { name: pore, label: "Pore & Texture (Botulinum Toxin)" }
-            - { name: mesotherapy, label: "Mesotherapy" }
+            - { name: pore, label: "Pore, Texture & Lines" }
             - { name: devices, label: "Device-Based Longevity" }
             - { name: acne, label: "Acne Care" }
       - name: image
@@ -478,6 +477,15 @@ content:
               - { name: name, label: ชื่อหมวดย่อย, type: string }
               - { name: desc_th, label: บรรทัดรอง (TH), type: string }
               - { name: desc_en, label: บรรทัดรอง (EN), type: string }
+              - name: faq
+                label: คำถามที่พบบ่อยของหมวดย่อย (FAQ)
+                type: object
+                list: true
+                fields:
+                  - { name: q_th, label: คำถาม (TH), type: string }
+                  - { name: a_th, label: คำตอบ (TH), type: text }
+                  - { name: q_en, label: คำถาม (EN), type: string }
+                  - { name: a_en, label: คำตอบ (EN), type: text }
   - name: site
     label: ข้อมูลคลินิก (ที่อยู่ เวลา โซเชียล)
     type: file

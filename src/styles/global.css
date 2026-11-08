@@ -460,3 +460,6 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
 .faq details > div p { margin: 0.4rem 0 0; }
 .menu-faq { margin-top: 3rem; max-width: 52rem; }
 .menu-faq .menu-sub-title { margin-bottom: 0.5rem; }
+
+.menu-faq-sub { margin-top: 1.75rem; }
+.menu-faq-label { font-family: var(--f-display); font-size: 1.05rem; margin: 0 0 0.25rem; }

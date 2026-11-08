@@ -16,8 +16,8 @@ const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.catego
     const defs = subgroupsOf(c);
     const groups = defs.length
       ? [
-          ...defs.map((g) => ({ id: g.id, name: g.name, desc: lang === 'en' ? g.desc_en || g.desc_th : g.desc_th, items: items.filter((s) => s.data.subgroup === g.id) })),
-          { id: 'other', name: '', desc: '', items: items.filter((s) => !defs.some((g) => g.id === s.data.subgroup)) },
+          ...defs.map((g: any) => ({ id: g.id, name: g.name, desc: lang === 'en' ? g.desc_en || g.desc_th : g.desc_th, items: items.filter((s) => s.data.subgroup === g.id), faq: ((g.faq ?? []) as any[]).map((f) => ({ q: pick(f, 'q', lang), a: pick(f, 'a', lang) })).filter((f) => f.q && f.a) })),
+          { id: 'other', name: '', desc: '', faq: [] as { q: string; a: string }[], items: items.filter((s) => !defs.some((g) => g.id === s.data.subgroup)) },
         ].filter((g) => g.items.length || g.id !== 'other')
       : [];
     const faq = (((categoryData.categories as any[]).find((x) => x.id === c)?.faq ?? []) as any[])
@@ -32,9 +32,9 @@ const ask = lang === 'th'
   ? { text: 'โปรแกรมในหมวดนี้คุณหมอออกแบบให้เฉพาะคนหลังตรวจประเมิน ทัก LINE เพื่อสอบถามรายละเอียดและนัดพบคุณหมอ', btn: 'สอบถามทาง LINE' }
   : { text: 'Programmes in this category are designed for each person after an assessment. Message us on LINE for details or to book a consultation.', btn: 'Ask on LINE' };
 ---
-<Base lang={lang} title={`${t.services} | ${t.servicesSub}`} jsonld={cats.some((c) => c.faq.length) ? {
+<Base lang={lang} title={`${t.services} | ${t.servicesSub}`} jsonld={cats.some((c) => c.faq.length || c.groups.some((g: any) => g.faq.length)) ? {
   '@context': 'https://schema.org', '@type': 'FAQPage',
-  mainEntity: cats.flatMap((c) => c.faq).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  mainEntity: cats.flatMap((c) => [...c.groups.flatMap((g: any) => g.faq), ...c.faq]).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
 } : undefined}>
   <section class="page-head sand">
     <div class="wrap">
@@ -68,6 +68,17 @@ const ask = lang === 'th'
                 <div class="menu-ask menu-ask-sm">
                   <p>{ask.text}</p>
                   <a class="btn btn-ghost btn-sm" href={site.line_url} target="_blank" rel="noopener">{ask.btn}</a>
+                </div>
+              )}
+              {g.faq.length > 0 && (
+                <div class="faq menu-faq menu-faq-sub">
+                  <p class="menu-faq-label">{lang === 'th' ? `${g.name} · คำถามที่พบบ่อย` : `${g.name} · FAQ`}</p>
+                  {g.faq.map((f: any) => (
+                    <details>
+                      <summary>{f.q}</summary>
+                      <div set:html={md(f.a)} />
+                    </details>
+                  ))}
                 </div>
               )}
             </div>

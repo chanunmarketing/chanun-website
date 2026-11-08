@@ -77,15 +77,47 @@
         },
         {
           "id": "pore",
-          "name": "Pore & Texture",
-          "desc_th": "Botulinum Toxin สำหรับผิว ดูแลรูขุมขน ความมัน และเนื้อผิว",
-          "desc_en": "Botulinum toxin for the skin: pores, oil and texture"
-        },
-        {
-          "id": "mesotherapy",
-          "name": "Mesotherapy",
-          "desc_th": "ผลักสารบำรุงลงสู่ผิว",
-          "desc_en": "Delivering nourishing actives into the skin"
+          "name": "Pore, Texture & Lines",
+          "desc_th": "ดูแลรูขุมขน ความมัน เนื้อผิว และริ้วรอย ด้วยโบทูลินัมท็อกซิน EPN, Fine Scan Laser และ Plasma Prime",
+          "desc_en": "Pores, oil, texture and lines, with botulinum toxin, EPN, Fine Scan Laser and Plasma Prime",
+          "faq": [
+            {
+              "q_th": "รูขุมขนกว้างเกิดจากอะไร รักษาอย่างไร",
+              "a_th": "รูขุมขนกว้างมักมาจาก 2 อย่างรวมกัน คือผิวผลิตน้ำมันเยอะ และโครงคอลลาเจนรอบรูขุมขนเริ่มหย่อน พอโครงรอบๆ ไม่แน่น รูก็ดูกว้างขึ้น\n\nการรักษาจึงต้องทำทั้งสองด้าน ลดความมันด้วยโบทูลินัมท็อกซินสำหรับผิว และกระตุ้นให้ผิวแน่นขึ้นด้วย Fine Scan Laser, Plasma Prime หรือ EPN แล้วเสริมโครงด้านในด้วย PN, Ejal40 หรือ Hydrobooster คุณหมอปิงปองจะดูผิวก่อน แล้วเลือกจับคู่ให้",
+              "q_en": "What causes large pores, and how are they treated?",
+              "a_en": "Large pores usually come from two things together: the skin makes a lot of oil, and the collagen around each pore starts to loosen. When the support around a pore weakens, it looks wider.\n\nSo treatment works on both. Botulinum toxin for the skin reduces oil, Fine Scan Laser, Plasma Prime or EPN tighten the skin, and PN, Ejal40 or Hydrobooster rebuild the support beneath. Dr. PP looks at your skin first, then chooses the combination."
+            },
+            {
+              "q_th": "ฉีดโบทูลินัมท็อกซินสำหรับผิวช่วยอะไร",
+              "a_th": "เป็นการฉีดตื้นๆ ในชั้นผิวทั่วหน้า ช่วยลดการทำงานของต่อมไขมัน หน้าจึงมันน้อยลง รูขุมขนดูเล็กลง และผิวดูเรียบเนียนขึ้น ต่างจากการฉีดลดริ้วรอยที่ฉีดลงกล้ามเนื้อ ทำเสร็จแล้วไม่ต้องพักหน้า",
+              "q_en": "What does botulinum toxin for the skin do?",
+              "a_en": "It is injected very shallowly into the skin across the face. It calms the oil glands, so the face is less oily, pores look smaller and the skin looks smoother. This differs from wrinkle treatment, which goes into the muscle. There is no downtime."
+            },
+            {
+              "q_th": "ริ้วรอยหน้าผาก หางตา และระหว่างคิ้ว ทำอะไรได้บ้าง",
+              "a_th": "ริ้วรอยที่เกิดเวลาขยับหน้า เช่น ยักคิ้ว หรี่ตา ขมวดคิ้ว ใช้โบทูลินัมท็อกซินช่วยให้กล้ามเนื้อคลายลง ริ้วรอยจะดูจางลง\n\nถ้าเป็นริ้วรอยที่เห็นแม้ไม่ได้ขยับหน้า แปลว่าผิวบริเวณนั้นเริ่มบาง ต้องดูแลผิวด้วย คุณหมอมักใช้ร่วมกับ skin booster หรือเลเซอร์ ให้ผิวกลับมาแน่นขึ้น",
+              "q_en": "What can be done for forehead lines, crow's feet and frown lines?",
+              "a_en": "Lines that appear when you move your face, like raising your brows, squinting or frowning, respond to botulinum toxin, which relaxes the muscle so the lines soften.\n\nLines that show even at rest mean the skin there has thinned, so the skin itself needs care too. The doctor usually adds a skin booster or laser to firm it up."
+            },
+            {
+              "q_th": "ทำไมต้องใช้ combined technique",
+              "a_th": "รูขุมขนและเนื้อผิวเป็นปัญหาของโครงสร้างผิว ถ้าทำแค่ที่ผิวด้านบน ผลจะอยู่ได้ไม่นาน คุณหมอปิงปองจึงใช้เครื่องหรือโบทูลินัมท็อกซินดูแลด้านบน คู่กับ PN, Ejal40 หรือ Hydrobooster ที่ช่วยสร้างโครง ECM ด้านใน ตามหลัก Triple Derma Layer ผิวจะดีขึ้นทั้งที่มองเห็นและที่อยู่ข้างใต้ ผลจึงอยู่ได้นานกว่า",
+              "q_en": "Why a combined technique?",
+              "a_en": "Pores and texture are problems of skin structure. Treat only the surface and the result does not last. So Dr. PP uses devices or botulinum toxin for the surface, paired with PN, Ejal40 or Hydrobooster to rebuild the ECM underneath, following the Triple Derma Layer. The skin improves on the surface and below it, and the result lasts longer."
+            },
+            {
+              "q_th": "EPN คืออะไร",
+              "a_th": "EPN คือการทำ 2 ขั้นต่อกัน ใช้เข็มขนาดเล็กมากเปิดช่องทางบนผิวก่อน แล้วใช้กระแสไฟฟ้าอ่อนๆ ช่วยให้สารบำรุงซึมลงไปได้ทั่วถึงขึ้น เหมาะกับผิวหมอง ผิวไม่เรียบ และรูขุมขนกว้าง หลังทำผิวอาจแดงเรื่อๆ ไม่กี่ชั่วโมง",
+              "q_en": "What is EPN?",
+              "a_en": "EPN is two steps in a row: very fine needles open tiny channels in the skin, then a gentle electric current helps the serum spread through more evenly. It suits dull or uneven skin and large pores. The skin may look pink for a few hours afterwards."
+            },
+            {
+              "q_th": "ผิวมันและรูขุมขนกว้าง ควรเริ่มจากอะไร",
+              "a_th": "ส่วนใหญ่เริ่มจากคุมความมันก่อนด้วยโบทูลินัมท็อกซินสำหรับผิว เพราะเห็นผลเร็วและไม่ต้องพักหน้า จากนั้นค่อยเสริมเครื่องหรือ skin booster เพื่อให้รูขุมขนกระชับขึ้นในระยะยาว แต่ผิวแต่ละคนไม่เหมือนกัน ให้คุณหมอดูก่อนจะตรงจุดกว่า",
+              "q_en": "My skin is oily with large pores. Where should I start?",
+              "a_en": "Most people start by controlling oil with botulinum toxin for the skin, since it works quickly with no downtime, then add a device or skin booster to tighten pores over time. Every skin is different, though, so let the doctor take a look first."
+            }
+          ]
         },
         {
           "id": "devices",
