@@ -101,7 +101,7 @@
 | Figure Contour | ปรับสัดส่วนรูปร่าง |
 | Longevity Wellness | IV drip, ตรวจเลือด, วัคซีน, Inside-Out Duo |
 
-- หมวดย่อยของ Derma Longevity: Signature Layers · Deep Hydration (HYA) · Skin Regeneration (PN) · Pore, Texture & Lines (โบทูลินัมท็อกซิน, EPN, Fine Scan Laser, Plasma Prime; มัก combined กับ PN/Ejal40/Hydrobooster) · Device-Based Longevity (Diode Laser) · Acne Care
+- หมวดย่อยของ Derma Longevity: Signature Layers · Deep Hydration (HYA) · Skin Regeneration (PN) · Pore, Texture & Lines (โบทูลินัมท็อกซิน, EPN, Fine Scan Laser, Plasma Prime; มัก combined กับ PN/Ejal40/Hydrobooster) · Pigment & Tone (ฝ้า กระ จุดด่างดำ; เขียนว่า "ดูแลและควบคุมฝ้า" ห้าม "หายขาด" "ผิวขาว") · Device-Based Longevity (Diode Laser) · Acne Care
 - ลดไขมันที่หน้า (Program Mesohyal Precision Slim) อยู่ Facial Contour
 - งานฉีดไม่มีหมวดแยก จัดตามเป้าหมาย: ปรับรูปหน้า → Facial Contour, บำรุงผิว → Derma Longevity
 - ชื่อผลิตภัณฑ์ที่ใช้บนเว็บ (PP กำหนด): Ejal40 Italy Bioremodeling · Luna Healer PN2% (โปรแกรมเดี่ยว: Program Luna Healer PN2%) · Vitaran PN2% (Program Vitaran PN2%) · Definisse Italy Filler (CORE / RESTORE / TOUCH) · Definisse Italy Hydrobooster (HMW-HA) · Mesohyal (Carnitine / Melilot)

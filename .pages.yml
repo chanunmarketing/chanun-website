@@ -52,6 +52,7 @@ content:
             - { name: hydration, label: "Deep Hydration (HYA)" }
             - { name: regeneration, label: "Skin Regeneration (PN)" }
             - { name: pore, label: "Pore, Texture & Lines" }
+            - { name: pigment, label: "Pigment & Tone (ฝ้า กระ จุดด่างดำ)" }
             - { name: devices, label: "Device-Based Longevity" }
             - { name: acne, label: "Acne Care" }
       - name: image

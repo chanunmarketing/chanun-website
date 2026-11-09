@@ -120,6 +120,50 @@
           ]
         },
         {
+          "id": "pigment",
+          "name": "Pigment & Tone",
+          "desc_th": "ดูแลฝ้า กระ จุดด่างดำ และสีผิวที่ไม่สม่ำเสมอ",
+          "desc_en": "Care for melasma, freckles, dark spots and uneven skin tone",
+          "faq": [
+            {
+              "q_th": "ฝ้าเกิดจากอะไร",
+              "a_th": "ฝ้าเกิดจากเม็ดสีในผิวทำงานมากเกินไป ตัวกระตุ้นหลักคือแดด ทั้งรังสี UV และแสงที่มองเห็นได้ รวมถึงความร้อน ฮอร์โมน เช่น ช่วงตั้งครรภ์หรือทานยาคุม และกรรมพันธุ์ ผู้หญิงเอเชียเป็นฝ้ากันได้บ่อย",
+              "q_en": "What causes melasma?",
+              "a_en": "Melasma happens when the pigment cells in the skin become overactive. The main triggers are sunlight, both UV and visible light, plus heat, hormones such as pregnancy or the contraceptive pill, and genetics. It is common in Asian women."
+            },
+            {
+              "q_th": "ฝ้ารักษาให้หายได้ไหม",
+              "a_th": "ฝ้าเป็นภาวะเรื้อรัง ถ้าเจอตัวกระตุ้นอีกก็กลับมาได้ เป้าหมายของการรักษาจึงเป็นการทำให้ฝ้าจางลง และควบคุมไม่ให้กลับมาเข้มอีก ต้องดูแลต่อเนื่องทั้งที่คลินิกและที่บ้าน",
+              "q_en": "Can melasma be cured for good?",
+              "a_en": "Melasma is a long-term condition and can return when triggers come back. So the aim is to lighten it and keep it from darkening again, with ongoing care both at the clinic and at home."
+            },
+            {
+              "q_th": "ฝ้า กระ และจุดด่างดำ ต่างกันอย่างไร",
+              "a_th": "ฝ้ามักเป็นปื้นสีน้ำตาลขอบไม่ชัด ขึ้นสองข้างคล้ายกันที่โหนกแก้ม หน้าผาก หรือเหนือริมฝีปาก กระเป็นจุดเล็กๆ ขอบชัดกว่า เกิดจากแดดสะสม ส่วนจุดด่างดำหลังสิวเป็นรอยที่ค้างหลังสิวอักเสบ ทั้งสามแบบรักษาไม่เหมือนกัน คุณหมอจึงต้องดูให้แน่ก่อนว่าเป็นแบบไหน",
+              "q_en": "How are melasma, freckles and dark spots different?",
+              "a_en": "Melasma usually appears as brown patches with soft edges, on both sides of the face, on the cheekbones, forehead or above the lip. Freckles are small spots with clearer edges, caused by sun exposure. Dark spots after acne are marks left behind by inflamed spots. Each is treated differently, so the doctor confirms which one you have first."
+            },
+            {
+              "q_th": "รักษาฝ้าด้วยเลเซอร์ได้ไหม",
+              "a_th": "ได้ แต่ต้องเลือกเครื่องและตั้งค่าให้เหมาะ ฝ้าไวต่อความร้อน ถ้าใช้พลังงานแรงเกินไป ฝ้าอาจเข้มขึ้นแทน คุณหมอจึงใช้พลังงานที่พอดี และมักใช้เลเซอร์ร่วมกับวิธีอื่นในแผนเดียวกัน",
+              "q_en": "Can melasma be treated with laser?",
+              "a_en": "Yes, but the device and settings must be chosen carefully. Melasma is sensitive to heat, and too much energy can make it darker instead. So the doctor uses just the right energy and usually combines laser with other methods in one plan."
+            },
+            {
+              "q_th": "ทำไมต้องทากันแดดทุกวัน",
+              "a_th": "เพราะแดดคือตัวกระตุ้นฝ้าที่สำคัญที่สุด ควรทากันแดดทุกวันแม้อยู่ในบ้าน และทาซ้ำระหว่างวัน กันแดดที่มีสีผสม (มี iron oxide) ช่วยกันแสงที่มองเห็นได้ ซึ่งกระตุ้นฝ้าได้เหมือนกัน ถ้าไม่กันแดด การรักษาในคลินิกจะได้ผลไม่เต็มที่",
+              "q_en": "Why do I need sunscreen every day?",
+              "a_en": "Because sunlight is the biggest trigger for melasma. Wear sunscreen every day, even indoors, and reapply during the day. A tinted sunscreen with iron oxide also blocks visible light, which can trigger melasma too. Without sun protection, clinic treatments cannot work fully."
+            },
+            {
+              "q_th": "ดูแลฝ้าที่ CHANUN เป็นอย่างไร",
+              "a_th": "คุณหมอปิงปองจะตรวจดูก่อนว่าเป็นฝ้าชนิดไหนและลึกแค่ไหน แล้ววางแผนผสมหลายวิธีให้เหมาะกับผิวของคุณ ทั้งการรักษาในคลินิกและการดูแลที่บ้าน และนัดติดตามผลต่อเนื่อง เพราะฝ้าต้องดูแลระยะยาว",
+              "q_en": "How is melasma treated at CHANUN?",
+              "a_en": "Dr. PP first checks the type and depth of your melasma, then combines several methods into a plan for your skin, covering both clinic treatments and home care, with regular follow-ups, because melasma needs long-term care."
+            }
+          ]
+        },
+        {
           "id": "devices",
           "name": "Device-Based Longevity",
           "desc_th": "เลเซอร์และพลาสมา ดูแลผิวและกำจัดขน",
