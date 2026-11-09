@@ -1,11 +1,11 @@
 ---
 name_en: Program Plasma Prime
-name_th: พลาสมาเย็น ดูแลสิว รูขุมขน และผิวกระจ่างใส ทั้งหน้าและตัว
+name_th: Cold Plasma ดูแลสิว รูขุมขน และผิวกระจ่างใส ทั้งหน้าและตัว
 category: skin
 subgroup: pore
 also_in: [acne, pigment]
 image: /uploads/service-plasma-prime.jpg
-summary_th: "พลาสมาเย็นจากเครื่อง Plasmalis ช่วยลดเชื้อแบคทีเรียที่ก่อสิว ลดการอักเสบ กระชับรูขุมขน และลดความมัน ผิวจึงดูกระจ่างใสขึ้น ผิวไม่ร้อนและไม่ต้องพักฟื้น ทำได้ทั้งใบหน้า ใต้วงแขน และแผ่นหลัง"
+summary_th: "Cold Plasma จากเครื่อง Plasmalis ช่วยลดเชื้อแบคทีเรียที่ก่อสิว ลดการอักเสบ กระชับรูขุมขน และลดความมัน ผิวจึงดูกระจ่างใสขึ้น ผิวไม่ร้อนและไม่ต้องพักฟื้น ทำได้ทั้งใบหน้า ใต้วงแขน และแผ่นหลัง"
 summary_en: "Cold plasma from the Plasmalis device helps reduce acne-causing bacteria, calm inflammation, tighten pores and reduce oil, for brighter-looking skin. No heat on the skin and no downtime, for the face, underarms and back."
 price_from: "1000"
 prices:
@@ -75,15 +75,15 @@ seo_title_th: "Plasma Prime พลาสมาเย็นรักษาสิ�
 seo_title_en: "Plasma Prime: Cold Plasma (Plasmalis) for Acne and Skin in Bangkok"
 faq:
   - q_th: "Plasma Prime คืออะไร"
-    a_th: "Plasma Prime ใช้เครื่อง Plasmalis ซึ่งเป็นเทคโนโลยีพลาสมาเย็น (Cold Atmospheric Plasma) เครื่องเปลี่ยนอากาศรอบหัวเครื่องให้เป็นพลาสมา เกิดโมเลกุลที่ช่วยลดเชื้อแบคทีเรียและลดการอักเสบบนผิว อุณหภูมิที่ผิวใกล้เคียงอุณหภูมิร่างกาย จึงไม่ได้ใช้ความร้อนแบบเลเซอร์"
+    a_th: "Plasma Prime ใช้เครื่อง Plasmalis ซึ่งเป็นเทคโนโลยี Cold Plasma (พลาสมาเย็น) เครื่องเปลี่ยนอากาศรอบหัวเครื่องให้เป็นพลาสมา เกิดโมเลกุลที่ช่วยลดเชื้อแบคทีเรียและลดการอักเสบบนผิว อุณหภูมิที่ผิวใกล้เคียงอุณหภูมิร่างกาย จึงไม่ได้ใช้ความร้อนแบบเลเซอร์"
     q_en: "What is Plasma Prime?"
     a_en: "Plasma Prime uses the Plasmalis device, a cold atmospheric plasma technology. It turns the air around the handpiece into plasma, producing molecules that help reduce bacteria and calm inflammation on the skin. The temperature at the skin stays close to body temperature, so it does not rely on heat the way lasers do."
-  - q_th: "พลาสมาเย็นรักษาสิวได้จริงไหม มีงานวิจัยไหม"
-    a_th: "มีครับ งานวิจัยแบบสุ่มเปรียบเทียบครึ่งหน้า (split-face) ตีพิมพ์ปี 2021 พบว่าฝั่งที่ทำพลาสมาเย็นมีสิวอักเสบลดลงชัดเจนกว่าฝั่งที่ไม่ได้ทำ และไม่พบผลข้างเคียงร้ายแรง พลาสมาเย็นเด่นเรื่องสิวอักเสบ ส่วนสิวอุดตัน คุณหมอมักใช้ร่วมกับวิธีอื่น"
+  - q_th: "Cold Plasma (พลาสมาเย็น) รักษาสิวได้จริงไหม มีงานวิจัยไหม"
+    a_th: "มีครับ งานวิจัยแบบสุ่มเปรียบเทียบครึ่งหน้า (split-face) ตีพิมพ์ปี 2021 พบว่าฝั่งที่ทำCold Plasmaมีสิวอักเสบลดลงชัดเจนกว่าฝั่งที่ไม่ได้ทำ และไม่พบผลข้างเคียงร้ายแรง Cold Plasmaเด่นเรื่องสิวอักเสบ ส่วนสิวอุดตัน คุณหมอมักใช้ร่วมกับวิธีอื่น"
     q_en: "Does cold plasma really work for acne? Is there research?"
     a_en: "Yes. A randomised split-face trial published in 2021 found that inflammatory acne fell significantly more on the plasma-treated side than on the untreated side, with no serious side effects. Cold plasma works best on inflamed spots; for clogged pores, the doctor usually combines it with other methods."
   - q_th: "Plasma Prime ต่างจากเลเซอร์อย่างไร"
-    a_th: "เลเซอร์ใช้พลังงานแสงและความร้อน ส่วนพลาสมาเย็นใช้โมเลกุลที่เกิดจากพลาสมา ผิวไม่ร้อน จึงเหมาะกับผิวที่มีสิวอักเสบหรือผิวที่ไวต่อความร้อน และไม่ต้องพักหน้า ทำเสร็จแต่งหน้าได้ตามปกติ"
+    a_th: "เลเซอร์ใช้พลังงานแสงและความร้อน ส่วนCold Plasmaใช้โมเลกุลที่เกิดจากพลาสมา ผิวไม่ร้อน จึงเหมาะกับผิวที่มีสิวอักเสบหรือผิวที่ไวต่อความร้อน และไม่ต้องพักหน้า ทำเสร็จแต่งหน้าได้ตามปกติ"
     q_en: "How is Plasma Prime different from laser?"
     a_en: "Lasers use light and heat. Cold plasma works through the molecules plasma creates, without heating the skin, so it suits inflamed acne or heat-sensitive skin. There is no downtime, and you can wear make-up afterwards."
   - q_th: "รักแร้ดำ มีกลิ่น หรือขนคุด ทำได้ไหม"
@@ -133,7 +133,7 @@ body_en: |
 ---
 **Plasma Prime คืออะไร**
 
-Plasma Prime ใช้เครื่อง Plasmalis ซึ่งเป็นเทคโนโลยีพลาสมาเย็น (Cold Atmospheric Plasma) เครื่องเปลี่ยนอากาศรอบหัวเครื่องให้เป็นพลาสมา เกิดโมเลกุลที่ช่วยลดเชื้อแบคทีเรียบนผิว รวมถึงเชื้อที่เกี่ยวกับสิว และช่วยลดการอักเสบ อุณหภูมิที่ผิวอยู่ราว 35–40 องศา ใกล้เคียงอุณหภูมิร่างกาย จึงไม่ได้ใช้ความร้อนแบบเลเซอร์ และไม่ต้องพักหน้า
+Plasma Prime ใช้เครื่อง Plasmalis ซึ่งเป็นเทคโนโลยี Cold Plasma (พลาสมาเย็น) เครื่องเปลี่ยนอากาศรอบหัวเครื่องให้เป็นพลาสมา เกิดโมเลกุลที่ช่วยลดเชื้อแบคทีเรียบนผิว รวมถึงเชื้อที่เกี่ยวกับสิว และช่วยลดการอักเสบ อุณหภูมิที่ผิวอยู่ราว 35–40 องศา ใกล้เคียงอุณหภูมิร่างกาย จึงไม่ได้ใช้ความร้อนแบบเลเซอร์ และไม่ต้องพักหน้า
 
 **4 โปรแกรมตามปัญหา**
 
@@ -146,7 +146,7 @@ Plasma Prime ใช้เครื่อง Plasmalis ซึ่งเป็น�
 
 **งานวิจัยว่าอย่างไร**
 
-งานวิจัยแบบสุ่มเปรียบเทียบครึ่งหน้า (split-face) ตีพิมพ์ปี 2021 พบว่าฝั่งที่ทำพลาสมาเย็นมีสิวอักเสบลดลงชัดเจนกว่าฝั่งที่ไม่ได้ทำ และไม่พบผลข้างเคียงร้ายแรง บทความทบทวนด้านพลาสมาในงานผิวหนังยังอธิบายว่าพลาสมาเย็นช่วยลดเชื้อ ลดการอักเสบ และช่วยการฟื้นตัวของผิว หลักฐานชัดที่สุดคือสิวอักเสบ คุณหมอปิงปองจึงมักใช้ร่วมกับวิธีอื่นเมื่อต้องดูแลสิวอุดตันและรอยสิว
+งานวิจัยแบบสุ่มเปรียบเทียบครึ่งหน้า (split-face) ตีพิมพ์ปี 2021 พบว่าฝั่งที่ทำCold Plasmaมีสิวอักเสบลดลงชัดเจนกว่าฝั่งที่ไม่ได้ทำ และไม่พบผลข้างเคียงร้ายแรง บทความทบทวนด้านพลาสมาในงานผิวหนังยังอธิบายว่าCold Plasmaช่วยลดเชื้อ ลดการอักเสบ และช่วยการฟื้นตัวของผิว หลักฐานชัดที่สุดคือสิวอักเสบ คุณหมอปิงปองจึงมักใช้ร่วมกับวิธีอื่นเมื่อต้องดูแลสิวอุดตันและรอยสิว
 
 **Combined technique ของคุณหมอปิงปอง**
 
