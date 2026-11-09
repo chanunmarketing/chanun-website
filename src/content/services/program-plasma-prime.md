@@ -8,67 +8,47 @@ image: /uploads/service-plasma-prime.jpg
 summary_th: "Cold Plasma จากเครื่อง Plasmalis ช่วยลดเชื้อแบคทีเรียที่ก่อสิว ลดการอักเสบ กระชับรูขุมขน และลดความมัน ผิวจึงดูกระจ่างใสขึ้น ผิวไม่ร้อนและไม่ต้องพักฟื้น ทำได้ทั้งใบหน้า ใต้วงแขน และแผ่นหลัง"
 summary_en: "Cold plasma from the Plasmalis device helps reduce acne-causing bacteria, calm inflammation, tighten pores and reduce oil, for brighter-looking skin. No heat on the skin and no downtime, for the face, underarms and back."
 price_from: "1000"
-prices:
-  - item_th: "Plasma Acne Clear · 1 ครั้ง"
-    item_en: "Plasma Acne Clear · 1 session"
-    price: "1900"
-    note_th: "ดูแลสิวบนใบหน้า"
-    note_en: "Acne on the face"
-  - item_th: "Plasma Acne Clear · Course Privilege 3 + 1"
-    item_en: "Plasma Acne Clear · Course Privilege 3 + 1"
-    price: "5700"
-    note_th: "ชำระ 3 ครั้ง รับสิทธิ์ 4 ครั้ง · เฉลี่ย 1,425 บาท/ครั้ง"
-    note_en: "Pay for 3, receive 4 · about 1,425 THB per session"
-  - item_th: "Plasma Acne Clear · Course Privilege 5 + 2"
-    item_en: "Plasma Acne Clear · Course Privilege 5 + 2"
-    price: "9500"
-    note_th: "ชำระ 5 ครั้ง รับสิทธิ์ 7 ครั้ง · เฉลี่ย 1,357 บาท/ครั้ง"
-    note_en: "Pay for 5, receive 7 · about 1,357 THB per session"
-  - item_th: "Plasma Bright · 1 ครั้ง"
-    item_en: "Plasma Bright · 1 session"
-    price: "1000"
-    note_th: "ผิวหน้ากระจ่างใส รูขุมขน และความมัน"
-    note_en: "Brighter skin, pores and oil"
-  - item_th: "Plasma Bright · Course Privilege 3 + 1"
-    item_en: "Plasma Bright · Course Privilege 3 + 1"
-    price: "3000"
-    note_th: "ชำระ 3 ครั้ง รับสิทธิ์ 4 ครั้ง · เฉลี่ย 750 บาท/ครั้ง"
-    note_en: "Pay for 3, receive 4 · about 750 THB per session"
-  - item_th: "Plasma Bright · Course Privilege 5 + 2"
-    item_en: "Plasma Bright · Course Privilege 5 + 2"
-    price: "5000"
-    note_th: "ชำระ 5 ครั้ง รับสิทธิ์ 7 ครั้ง · เฉลี่ย 714 บาท/ครั้ง"
-    note_en: "Pay for 5, receive 7 · about 714 THB per session"
-  - item_th: "Plasma Armpit area · 1 ครั้ง"
-    item_en: "Plasma Armpit area · 1 session"
-    price: "1000"
-    note_th: "ใต้วงแขน: รอยดำ กลิ่น และขนคุด"
-    note_en: "Underarms: darkening, odour and ingrown hairs"
-  - item_th: "Plasma Armpit area · Course Privilege 3 + 1"
-    item_en: "Plasma Armpit area · Course Privilege 3 + 1"
-    price: "3000"
-    note_th: "ชำระ 3 ครั้ง รับสิทธิ์ 4 ครั้ง · เฉลี่ย 750 บาท/ครั้ง"
-    note_en: "Pay for 3, receive 4 · about 750 THB per session"
-  - item_th: "Plasma Armpit area · Course Privilege 5 + 2"
-    item_en: "Plasma Armpit area · Course Privilege 5 + 2"
-    price: "5000"
-    note_th: "ชำระ 5 ครั้ง รับสิทธิ์ 7 ครั้ง · เฉลี่ย 714 บาท/ครั้ง"
-    note_en: "Pay for 5, receive 7 · about 714 THB per session"
-  - item_th: "Plasma Back area · 1 ครั้ง"
-    item_en: "Plasma Back area · 1 session"
-    price: "3000"
-    note_th: "แผ่นหลัง: สิวที่หลังและขนคุด"
-    note_en: "Back: back acne and ingrown hairs"
-  - item_th: "Plasma Back area · Course Privilege 3 + 1"
-    item_en: "Plasma Back area · Course Privilege 3 + 1"
-    price: "9000"
-    note_th: "ชำระ 3 ครั้ง รับสิทธิ์ 4 ครั้ง · เฉลี่ย 2,250 บาท/ครั้ง"
-    note_en: "Pay for 3, receive 4 · about 2,250 THB per session"
-  - item_th: "Plasma Back area · Course Privilege 5 + 2"
-    item_en: "Plasma Back area · Course Privilege 5 + 2"
-    price: "15000"
-    note_th: "ชำระ 5 ครั้ง รับสิทธิ์ 7 ครั้ง · เฉลี่ย 2,143 บาท/ครั้ง"
-    note_en: "Pay for 5, receive 7 · about 2,143 THB per session"
+prices: []
+price_grid:
+  columns:
+    - { th: "1 ครั้ง", en: "1 session" }
+    - { th: "คอร์ส 3+1", en: "Course 3+1" }
+    - { th: "คอร์ส 5+2", en: "Course 5+2" }
+  rows:
+    - name_th: "Plasma Acne Clear"
+      name_en: "Plasma Acne Clear"
+      note_th: "ดูแลสิวบนใบหน้า"
+      note_en: "Acne on the face"
+      cells:
+        - { price: "1900" }
+        - { price: "5700", note_th: "เฉลี่ย 1,425/ครั้ง", note_en: "1,425 per session" }
+        - { price: "9500", note_th: "เฉลี่ย 1,357/ครั้ง", note_en: "1,357 per session" }
+    - name_th: "Plasma Bright"
+      name_en: "Plasma Bright"
+      note_th: "หน้ากระจ่างใส รูขุมขน ความมัน"
+      note_en: "Brighter skin, pores and oil"
+      cells:
+        - { price: "1000" }
+        - { price: "3000", note_th: "เฉลี่ย 750/ครั้ง", note_en: "750 per session" }
+        - { price: "5000", note_th: "เฉลี่ย 714/ครั้ง", note_en: "714 per session" }
+    - name_th: "Plasma Armpit area"
+      name_en: "Plasma Armpit area"
+      note_th: "รักแร้ดำ กลิ่น ขนคุด"
+      note_en: "Underarm darkening, odour, ingrown hairs"
+      cells:
+        - { price: "1000" }
+        - { price: "3000", note_th: "เฉลี่ย 750/ครั้ง", note_en: "750 per session" }
+        - { price: "5000", note_th: "เฉลี่ย 714/ครั้ง", note_en: "714 per session" }
+    - name_th: "Plasma Back area"
+      name_en: "Plasma Back area"
+      note_th: "สิวที่หลัง ขนคุด"
+      note_en: "Back acne, ingrown hairs"
+      cells:
+        - { price: "3000" }
+        - { price: "9000", note_th: "เฉลี่ย 2,250/ครั้ง", note_en: "2,250 per session" }
+        - { price: "15000", note_th: "เฉลี่ย 2,143/ครั้ง", note_en: "2,143 per session" }
+  footnote_th: "ราคาเป็นบาท · Course Privilege 3+1 ชำระ 3 ครั้ง รับสิทธิ์ 4 ครั้ง · 5+2 ชำระ 5 ครั้ง รับสิทธิ์ 7 ครั้ง"
+  footnote_en: "Prices in THB · Course Privilege 3+1: pay for 3 sessions, receive 4 · 5+2: pay for 5, receive 7"
 suits_th: สิวอักเสบ ผิวมัน รูขุมขนกว้าง รอยแดงหรือรอยดำหลังสิว ผิวหมอง รักแร้ดำ มีกลิ่น หรือขนคุด และสิวที่หลัง รวมถึงคนที่ไม่อยากพักหน้า
 suits_en: Inflamed acne, oily skin, large pores, red or dark marks after acne, dull skin, dark underarms, odour or ingrown hairs, back acne, and anyone who wants no downtime.
 seo_title_th: "Plasma Prime พลาสมาเย็นรักษาสิว Plasmalis ลดรอยสิว รักแร้ดำ สุขุมวิท 61"

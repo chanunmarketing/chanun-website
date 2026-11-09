@@ -16,6 +16,17 @@ const services = defineCollection({
     summary_en: str,
     image: str,
     price_from: str,
+    price_grid: z
+      .object({
+        columns: z.array(z.object({ th: str, en: str })).nullish().transform((v) => v ?? []),
+        rows: z
+          .array(z.object({ name_th: str, name_en: str, note_th: str, note_en: str,
+            cells: z.array(z.object({ price: str, note_th: str, note_en: str })).nullish().transform((v) => v ?? []) }))
+          .nullish().transform((v) => v ?? []),
+        footnote_th: str,
+        footnote_en: str,
+      })
+      .nullish(),
     prices: z
       .array(z.object({ item_th: str, item_en: str, price: str, note_th: str, note_en: str }))
       .nullish()

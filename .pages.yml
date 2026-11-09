@@ -83,6 +83,37 @@ content:
         label: ราคาเริ่มต้น
         description: ใส่แค่ตัวเลข เช่น 4900 ถ้าเว้นว่างจะขึ้นว่า "สอบถามราคา"
         type: string
+      - name: price_grid
+        label: ตารางราคาแบบหลายคอลัมน์ (ไม่ใส่ก็ได้)
+        description: "ใช้เมื่อโปรแกรมมีหลายแบบ และแต่ละแบบมีราคา 1 ครั้ง / คอร์ส เช่น Plasma Prime"
+        type: object
+        fields:
+          - name: columns
+            label: หัวคอลัมน์
+            type: object
+            list: true
+            fields:
+              - { name: th, label: หัวคอลัมน์ (TH), type: string }
+              - { name: en, label: หัวคอลัมน์ (EN), type: string }
+          - name: rows
+            label: แถว
+            type: object
+            list: true
+            fields:
+              - { name: name_th, label: ชื่อ (TH), type: string }
+              - { name: name_en, label: ชื่อ (EN), type: string }
+              - { name: note_th, label: คำอธิบายสั้น (TH), type: string }
+              - { name: note_en, label: คำอธิบายสั้น (EN), type: string }
+              - name: cells
+                label: ราคาแต่ละคอลัมน์ (เรียงตามหัวคอลัมน์)
+                type: object
+                list: true
+                fields:
+                  - { name: price, label: ราคา, type: string }
+                  - { name: note_th, label: หมายเหตุ (TH) เช่น เฉลี่ย 1,425/ครั้ง, type: string }
+                  - { name: note_en, label: หมายเหตุ (EN), type: string }
+          - { name: footnote_th, label: หมายเหตุใต้ตาราง (TH), type: string }
+          - { name: footnote_en, label: หมายเหตุใต้ตาราง (EN), type: string }
       - name: prices
         label: ตารางราคา
         type: object

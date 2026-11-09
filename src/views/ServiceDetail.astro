@@ -30,6 +30,34 @@ const summary = pick(d, 'summary', lang);
       {lang === 'th' && d.name_th && <p class="detail-th">{d.name_th}</p>}
       <p class="lede">{summary}</p>
 
+      {d.price_grid && d.price_grid.rows.length > 0 && (
+        <section class="price-box">
+          <h2 class="h-small">{t.priceList}</h2>
+          <div class="price-grid" style={`--cols:${d.price_grid.columns.length}`}>
+            <div class="pg-row pg-head" aria-hidden="true">
+              <span class="pg-name"></span>
+              {d.price_grid.columns.map((c: any) => <span class="pg-col">{lang === 'en' ? c.en : c.th}</span>)}
+            </div>
+            {d.price_grid.rows.map((r: any) => (
+              <div class="pg-row">
+                <div class="pg-name">
+                  <span class="pg-title">{pick(r, 'name', lang)}</span>
+                  {pick(r, 'note', lang) && <span class="pg-note">{pick(r, 'note', lang)}</span>}
+                </div>
+                {r.cells.map((cell: any, i: number) => (
+                  <div class="pg-cell">
+                    <span class="pg-label">{lang === 'en' ? d.price_grid.columns[i]?.en : d.price_grid.columns[i]?.th}</span>
+                    <span class="pg-price">{/^\d[\d,]*$/.test(cell.price) ? Number(cell.price.replace(/,/g, '')).toLocaleString('en-US') : priceLabel(cell.price, lang)}</span>
+                    {pick(cell, 'note', lang) && <span class="pg-sub">{pick(cell, 'note', lang)}</span>}
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+          {pick(d.price_grid, 'footnote', lang) && <p class="pg-foot">{pick(d.price_grid, 'footnote', lang)}</p>}
+        </section>
+      )}
+
       {d.prices.length > 0 && (
         <section class="price-box">
           <h2 class="h-small">{t.priceList}</h2>
