@@ -16,7 +16,7 @@ const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.catego
     const defs = subgroupsOf(c);
     const groups = defs.length
       ? [
-          ...defs.map((g: any) => ({ id: g.id, name: g.name, desc: lang === 'en' ? g.desc_en || g.desc_th : g.desc_th, items: items.filter((s) => s.data.subgroup === g.id), faq: ((g.faq ?? []) as any[]).map((f) => ({ q: pick(f, 'q', lang), a: pick(f, 'a', lang) })).filter((f) => f.q && f.a) })),
+          ...defs.map((g: any) => ({ id: g.id, name: g.name, desc: lang === 'en' ? g.desc_en || g.desc_th : g.desc_th, items: items.filter((s) => s.data.subgroup === g.id || (s.data.also_in ?? []).includes(g.id)), faq: ((g.faq ?? []) as any[]).map((f) => ({ q: pick(f, 'q', lang), a: pick(f, 'a', lang) })).filter((f) => f.q && f.a) })),
           { id: 'other', name: '', desc: '', faq: [] as { q: string; a: string }[], items: items.filter((s) => !defs.some((g) => g.id === s.data.subgroup)) },
         ].filter((g) => g.items.length || g.id !== 'other')
       : [];

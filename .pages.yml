@@ -55,6 +55,20 @@ content:
             - { name: pigment, label: "Pigment & Tone (ฝ้า กระ จุดด่างดำ)" }
             - { name: devices, label: "Device-Based Longevity" }
             - { name: acne, label: "Acne Care" }
+      - name: also_in
+        label: แสดงในหมวดย่อยอื่นด้วย
+        description: "ไม่ใส่ก็ได้ ใช้เมื่อโปรแกรมเดียวดูแลหลายปัญหา"
+        type: select
+        options:
+          multiple: true
+          values:
+            - { name: signature, label: "Signature Layers" }
+            - { name: hydration, label: "Deep Hydration (HYA)" }
+            - { name: regeneration, label: "Skin Regeneration (PN)" }
+            - { name: pore, label: "Pore, Texture & Lines" }
+            - { name: pigment, label: "Pigment & Tone" }
+            - { name: devices, label: "Device-Based Longevity" }
+            - { name: acne, label: "Acne Care" }
       - name: image
         label: รูปประกอบ
         description: แนวตั้ง สัดส่วน 4:5 กว้างไม่เกิน 2000px

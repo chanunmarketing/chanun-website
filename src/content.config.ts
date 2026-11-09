@@ -11,6 +11,7 @@ const services = defineCollection({
     name_th: str,
     category: z.string().default('skin'),
     subgroup: str,
+    also_in: z.array(z.string()).nullish().transform((v) => v ?? []),
     summary_th: str,
     summary_en: str,
     image: str,
