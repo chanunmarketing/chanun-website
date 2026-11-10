@@ -59,11 +59,11 @@ faq:
     q_en: "What is Plasma Prime?"
     a_en: "Plasma Prime uses the Plasmalis device, a cold atmospheric plasma technology. It turns the air around the handpiece into plasma, producing molecules that help reduce bacteria and calm inflammation on the skin. The temperature at the skin stays close to body temperature, so it does not rely on heat the way lasers do."
   - q_th: "Cold Plasma (พลาสมาเย็น) รักษาสิวได้จริงไหม มีงานวิจัยไหม"
-    a_th: "มีครับ งานวิจัยแบบสุ่มเปรียบเทียบครึ่งหน้า (split-face) ตีพิมพ์ปี 2021 พบว่าฝั่งที่ทำCold Plasmaมีสิวอักเสบลดลงชัดเจนกว่าฝั่งที่ไม่ได้ทำ และไม่พบผลข้างเคียงร้ายแรง Cold Plasmaเด่นเรื่องสิวอักเสบ ส่วนสิวอุดตัน คุณหมอมักใช้ร่วมกับวิธีอื่น"
+    a_th: "มีครับ งานวิจัยแบบสุ่มเปรียบเทียบครึ่งหน้า (split-face) ตีพิมพ์ปี 2021 พบว่าฝั่งที่ทำ Cold Plasma มีสิวอักเสบลดลงชัดเจนกว่าฝั่งที่ไม่ได้ทำ และไม่พบผลข้างเคียงร้ายแรง Cold Plasma เด่นเรื่องสิวอักเสบ ส่วนสิวอุดตัน คุณหมอมักใช้ร่วมกับวิธีอื่น"
     q_en: "Does cold plasma really work for acne? Is there research?"
     a_en: "Yes. A randomised split-face trial published in 2021 found that inflammatory acne fell significantly more on the plasma-treated side than on the untreated side, with no serious side effects. Cold plasma works best on inflamed spots; for clogged pores, the doctor usually combines it with other methods."
   - q_th: "Plasma Prime ต่างจากเลเซอร์อย่างไร"
-    a_th: "เลเซอร์ใช้พลังงานแสงและความร้อน ส่วนCold Plasmaใช้โมเลกุลที่เกิดจากพลาสมา ผิวไม่ร้อน จึงเหมาะกับผิวที่มีสิวอักเสบหรือผิวที่ไวต่อความร้อน และไม่ต้องพักหน้า ทำเสร็จแต่งหน้าได้ตามปกติ"
+    a_th: "เลเซอร์ใช้พลังงานแสงและความร้อน ส่วน Cold Plasma ใช้โมเลกุลที่เกิดจากพลาสมา ผิวไม่ร้อน จึงเหมาะกับผิวที่มีสิวอักเสบหรือผิวที่ไวต่อความร้อน และไม่ต้องพักหน้า ทำเสร็จแต่งหน้าได้ตามปกติ"
     q_en: "How is Plasma Prime different from laser?"
     a_en: "Lasers use light and heat. Cold plasma works through the molecules plasma creates, without heating the skin, so it suits inflamed acne or heat-sensitive skin. There is no downtime, and you can wear make-up afterwards."
   - q_th: "รักแร้ดำ มีกลิ่น หรือขนคุด ทำได้ไหม"
@@ -88,12 +88,14 @@ body_en: |
 
   Plasma Prime uses the Plasmalis device, a cold atmospheric plasma technology. The device turns the air around the handpiece into plasma, producing reactive molecules that help reduce bacteria on the skin, including the bacteria linked to acne, and calm inflammation. The temperature at the skin stays close to body temperature (around 35–40°C), so it does not rely on heat like a laser, and there is no downtime.
 
-  **Four programmes**
+  **Four programmes, five steps each**
 
-  - **Plasma Acne Clear:** acne on the face
-  - **Plasma Bright:** brighter skin, pores and oil
-  - **Plasma Armpit area:** underarm darkening, odour and ingrown hairs
-  - **Plasma Back area:** back acne and ingrown hairs
+  Each programme follows its own steps, matched to the concern. Tap a programme to see its steps.
+
+  <details class="step-box"><summary><span class="sb-name">Plasma Acne Clear</span><span class="sb-count">5 steps</span></summary><ol class="step-list"><li><strong>Oxygen Prelude</strong><span>An oxygen bubble cleanse that clears the skin and readies it for what follows</span></li><li><strong>Plasma Prime</strong><span>Cold plasma from Plasmalis to reduce bacteria, calm inflammation and help the skin recover</span></li><li><strong>Collagen Calm</strong><span>Five minutes of collagen to soothe the skin</span></li><li><strong>Jelly Seal</strong><span>CHANUN's signature jelly mask for 15 minutes, sealing moisture in</span></li><li><strong>Atelier Finish</strong><span>CHANUN Skin Care, finished with sunscreen</span></li></ol></details>
+  <details class="step-box"><summary><span class="sb-name">Plasma Bright</span><span class="sb-count">5 steps</span></summary><ol class="step-list"><li><strong>Oxygen Prelude</strong><span>An oxygen bubble cleanse that clears the skin and readies it for what follows</span></li><li><strong>Glycolic Refine</strong><span>A glycolic acid cleanse that lifts away dead cells for smoother, more even skin</span></li><li><strong>Plasma Prime</strong><span>Cold plasma from Plasmalis to reduce bacteria, calm inflammation and help the skin recover</span></li><li><strong>Collagen Calm</strong><span>Five minutes of collagen to soothe the skin</span></li><li><strong>Atelier Finish</strong><span>CHANUN Skin Care, finished with sunscreen</span></li></ol></details>
+  <details class="step-box"><summary><span class="sb-name">Plasma Armpit area</span><span class="sb-count">5 steps</span></summary><ol class="step-list"><li><strong>Glycolic Refine</strong><span>A glycolic acid cleanse that lifts away dead cells for smoother, more even skin</span></li><li><strong>Keratin Release</strong><span>5% urea to dissolve the keratin that clogs pores and hair follicles</span></li><li><strong>Plasma Prime</strong><span>Cold plasma from Plasmalis to reduce bacteria, calm inflammation and help the skin recover</span></li><li><strong>Collagen Calm</strong><span>Five minutes of collagen to soothe the skin</span></li><li><strong>Atelier Finish</strong><span>Finished with CHANUN Skin Care</span></li></ol></details>
+  <details class="step-box"><summary><span class="sb-name">Plasma Back area</span><span class="sb-count">5 steps</span></summary><ol class="step-list"><li><strong>Glycolic Refine</strong><span>A glycolic acid cleanse that lifts away dead cells for smoother, more even skin</span></li><li><strong>Keratin Release</strong><span>5% urea to dissolve the keratin that clogs pores and hair follicles</span></li><li><strong>Plasma Prime</strong><span>Cold plasma from Plasmalis to reduce bacteria, calm inflammation and help the skin recover</span></li><li><strong>Triwave Smooth</strong><span>Triwave Diode to treat fine hair across the back</span></li><li><strong>Atelier Finish</strong><span>Finished with CHANUN Skin Care</span></li></ol></details>
 
   It can also be used on the neck, arms and legs.
 
@@ -115,18 +117,20 @@ body_en: |
 
 Plasma Prime ใช้เครื่อง Plasmalis ซึ่งเป็นเทคโนโลยี Cold Plasma (พลาสมาเย็น) เครื่องเปลี่ยนอากาศรอบหัวเครื่องให้เป็นพลาสมา เกิดโมเลกุลที่ช่วยลดเชื้อแบคทีเรียบนผิว รวมถึงเชื้อที่เกี่ยวกับสิว และช่วยลดการอักเสบ อุณหภูมิที่ผิวอยู่ราว 35–40 องศา ใกล้เคียงอุณหภูมิร่างกาย จึงไม่ได้ใช้ความร้อนแบบเลเซอร์ และไม่ต้องพักหน้า
 
-**4 โปรแกรมตามปัญหา**
+**4 โปรแกรม 5 ขั้นตอน**
 
-- **Plasma Acne Clear:** ดูแลสิวบนใบหน้า
-- **Plasma Bright:** ผิวหน้ากระจ่างใส รูขุมขน และความมัน
-- **Plasma Armpit area:** ใต้วงแขน ดูแลรอยดำ กลิ่น และขนคุด
-- **Plasma Back area:** แผ่นหลัง ดูแลสิวที่หลังและขนคุด
+แต่ละโปรแกรมออกแบบขั้นตอนให้ตรงกับปัญหา กดดูขั้นตอนของโปรแกรมที่สนใจได้เลย
+
+<details class="step-box"><summary><span class="sb-name">Plasma Acne Clear</span><span class="sb-count">5 ขั้นตอน</span></summary><ol class="step-list"><li><strong>Oxygen Prelude</strong><span>ล้างผิวด้วยฟองออกซิเจน เปิดผิวให้สะอาดและพร้อมรับขั้นต่อไป</span></li><li><strong>Plasma Prime</strong><span>Cold Plasma จากเครื่อง Plasmalis ลดเชื้อ ลดการอักเสบ ฟื้นผิว</span></li><li><strong>Collagen Calm</strong><span>ปลอบผิวด้วยคอลลาเจน 5 นาที</span></li><li><strong>Jelly Seal</strong><span>มาสก์เจลลี่สูตรเฉพาะของ CHANUN 15 นาที ล็อกความชุ่มชื้นไว้ในผิว</span></li><li><strong>Atelier Finish</strong><span>บำรุงด้วย CHANUN Skin Care และปิดท้ายด้วยกันแดด</span></li></ol></details>
+<details class="step-box"><summary><span class="sb-name">Plasma Bright</span><span class="sb-count">5 ขั้นตอน</span></summary><ol class="step-list"><li><strong>Oxygen Prelude</strong><span>ล้างผิวด้วยฟองออกซิเจน เปิดผิวให้สะอาดและพร้อมรับขั้นต่อไป</span></li><li><strong>Glycolic Refine</strong><span>ทำความสะอาดด้วยกรดไกลโคลิก ผลัดเซลล์ผิวเก่าให้ผิวเรียบและสม่ำเสมอขึ้น</span></li><li><strong>Plasma Prime</strong><span>Cold Plasma จากเครื่อง Plasmalis ลดเชื้อ ลดการอักเสบ ฟื้นผิว</span></li><li><strong>Collagen Calm</strong><span>ปลอบผิวด้วยคอลลาเจน 5 นาที</span></li><li><strong>Atelier Finish</strong><span>บำรุงด้วย CHANUN Skin Care และปิดท้ายด้วยกันแดด</span></li></ol></details>
+<details class="step-box"><summary><span class="sb-name">Plasma Armpit area</span><span class="sb-count">5 ขั้นตอน</span></summary><ol class="step-list"><li><strong>Glycolic Refine</strong><span>ทำความสะอาดด้วยกรดไกลโคลิก ผลัดเซลล์ผิวเก่าให้ผิวเรียบและสม่ำเสมอขึ้น</span></li><li><strong>Keratin Release</strong><span>ยูเรีย 5% ช่วยละลายเคราตินที่อุดตันรูขุมขน</span></li><li><strong>Plasma Prime</strong><span>Cold Plasma จากเครื่อง Plasmalis ลดเชื้อ ลดการอักเสบ ฟื้นผิว</span></li><li><strong>Collagen Calm</strong><span>ปลอบผิวด้วยคอลลาเจน 5 นาที</span></li><li><strong>Atelier Finish</strong><span>บำรุงด้วย CHANUN Skin Care</span></li></ol></details>
+<details class="step-box"><summary><span class="sb-name">Plasma Back area</span><span class="sb-count">5 ขั้นตอน</span></summary><ol class="step-list"><li><strong>Glycolic Refine</strong><span>ทำความสะอาดด้วยกรดไกลโคลิก ผลัดเซลล์ผิวเก่าให้ผิวเรียบและสม่ำเสมอขึ้น</span></li><li><strong>Keratin Release</strong><span>ยูเรีย 5% ช่วยละลายเคราตินที่อุดตันรูขุมขน</span></li><li><strong>Plasma Prime</strong><span>Cold Plasma จากเครื่อง Plasmalis ลดเชื้อ ลดการอักเสบ ฟื้นผิว</span></li><li><strong>Triwave Smooth</strong><span>Triwave Diode ดูแลขนอ่อนบนแผ่นหลัง</span></li><li><strong>Atelier Finish</strong><span>บำรุงด้วย CHANUN Skin Care</span></li></ol></details>
 
 นอกจากนี้ยังทำได้ที่คอ แขน และขา
 
 **งานวิจัยว่าอย่างไร**
 
-งานวิจัยแบบสุ่มเปรียบเทียบครึ่งหน้า (split-face) ตีพิมพ์ปี 2021 พบว่าฝั่งที่ทำCold Plasmaมีสิวอักเสบลดลงชัดเจนกว่าฝั่งที่ไม่ได้ทำ และไม่พบผลข้างเคียงร้ายแรง บทความทบทวนด้านพลาสมาในงานผิวหนังยังอธิบายว่าCold Plasmaช่วยลดเชื้อ ลดการอักเสบ และช่วยการฟื้นตัวของผิว หลักฐานชัดที่สุดคือสิวอักเสบ คุณหมอปิงปองจึงมักใช้ร่วมกับวิธีอื่นเมื่อต้องดูแลสิวอุดตันและรอยสิว
+งานวิจัยแบบสุ่มเปรียบเทียบครึ่งหน้า (split-face) ตีพิมพ์ปี 2021 พบว่าฝั่งที่ทำ Cold Plasma มีสิวอักเสบลดลงชัดเจนกว่าฝั่งที่ไม่ได้ทำ และไม่พบผลข้างเคียงร้ายแรง บทความทบทวนด้านพลาสมาในงานผิวหนังยังอธิบายว่า Cold Plasma ช่วยลดเชื้อ ลดการอักเสบ และช่วยการฟื้นตัวของผิว หลักฐานชัดที่สุดคือสิวอักเสบ คุณหมอปิงปองจึงมักใช้ร่วมกับวิธีอื่นเมื่อต้องดูแลสิวอุดตันและรอยสิว
 
 **Combined technique ของคุณหมอปิงปอง**
 

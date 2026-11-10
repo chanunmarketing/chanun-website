@@ -485,3 +485,18 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
   .pg-price { font-size: 0.95rem; }
   .pg-sub { font-size: 0.68rem; white-space: nowrap; }
 }
+/* Programme steps (collapsible) */
+.prose .step-box { border-bottom: 1px solid var(--line); padding: 0.85rem 0; }
+.prose .step-box:first-of-type { border-top: 1px solid var(--line); }
+.prose .step-box:last-of-type { margin-bottom: 1.4rem; }
+.prose .step-box summary { cursor: pointer; list-style: none; display: flex; align-items: baseline; gap: 0.75rem; }
+.prose .step-box summary::-webkit-details-marker { display: none; }
+.prose .step-box summary::after { content: "+"; margin-left: auto; color: var(--accent-ink); }
+.prose .step-box[open] summary::after { content: "–"; }
+.prose .sb-name { font-weight: 500; }
+.prose .sb-count { font-size: 0.82rem; color: var(--muted); }
+.prose .step-list { counter-reset: st; list-style: none; padding: 0; margin: 0.9rem 0 0.3rem; }
+.prose .step-list li { counter-increment: st; display: grid; grid-template-columns: 1.8rem 1fr; column-gap: 0.4rem; padding: 0.35rem 0; }
+.prose .step-list li::before { content: counter(st); grid-row: 1 / span 2; font-family: var(--f-display); color: var(--accent-ink); font-size: 1.05rem; }
+.prose .step-list strong { font-family: var(--f-display); font-weight: 400; font-size: 1.02rem; }
+.prose .step-list span { font-size: 0.9rem; color: var(--muted); }
