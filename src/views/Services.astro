@@ -12,7 +12,7 @@ const t = ui[lang];
 const services = await getServices();
 const cats = [...new Set([...categoryOrder, ...services.map((s) => s.data.category)])]
   .map((c) => {
-    const items = services.filter((s) => s.data.category === c);
+    const items = services.filter((s) => s.data.category === c || (s.data.also_in ?? []).includes(c));
     const defs = subgroupsOf(c);
     const groups = defs.length
       ? [

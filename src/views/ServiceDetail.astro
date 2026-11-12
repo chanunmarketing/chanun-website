@@ -33,7 +33,7 @@ const summary = pick(d, 'summary', lang);
       {d.price_grid && d.price_grid.rows.length > 0 && (
         <section class="price-box">
           <h2 class="h-small">{t.priceList}</h2>
-          <div class="price-grid" style={`--cols:${d.price_grid.columns.length}`}>
+          <div class={`price-grid ${d.price_grid.columns.length === 1 ? 'pg-single' : ''}`} style={`--cols:${d.price_grid.columns.length}`}>
             <div class="pg-row pg-head" aria-hidden="true">
               <span class="pg-name"></span>
               {d.price_grid.columns.map((c: any) => <span class="pg-col">{lang === 'en' ? c.en : c.th}</span>)}
