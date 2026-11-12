@@ -5,7 +5,7 @@ category: skin
 subgroup: pore
 also_in: [lifting]
 image: /uploads/service-botulinum.jpg
-summary_th: "โบทูลินัมท็อกซินให้เลือก 6 ยี่ห้อจากเกาหลี ยุโรป และอเมริกา คิดราคาเหมาทั้งขวด เปิดกล่องใหม่ต่อหน้าคุณ คุณหมอปิงปองฉีดตามจุดบกพร่องทางกายวิภาคและรูปหน้าของแต่ละคน แยกลักษณะชายและหญิง ผลจึงดูเป็นธรรมชาติ"
+summary_th: "โบทูลินัมท็อกซินให้เลือก 6 แบรนด์จากเกาหลี ยุโรป และอเมริกา คิดราคาเหมาทั้งขวด เปิดกล่องใหม่ต่อหน้าคุณ คุณหมอปิงปองฉีดตามจุดบกพร่องทางกายวิภาคและรูปหน้าของแต่ละคน แยกลักษณะชายและหญิง ผลจึงดูเป็นธรรมชาติ"
 summary_en: "Botulinum toxin in six brands from Korea, Europe and the USA, priced by the whole vial and opened in front of you. Dr. PP injects according to each person's anatomy and face shape, treating male and female features differently, for a natural result."
 price_from: "4900"
 price_grid:
@@ -67,11 +67,11 @@ faq:
     q_en: "What is botulinum toxin, and where can it be used?"
     a_en: "Botulinum toxin temporarily relaxes the muscle or gland it is injected into. It can be used in many places: forehead lines, crow's feet, frown lines, the jaw, slimming the face, the skin for pores and oil, underarm sweating, calves and tight shoulders. Dr. PP treats every area, but always assesses first where to inject and how much."
   - q_th: "แต่ละยี่ห้อต่างกันอย่างไร เลือกยี่ห้อไหนดี"
-    a_th: "ทุกยี่ห้อเป็นโบทูลินัมท็อกซินชนิด A เหมือนกัน ต่างกันที่แหล่งผลิต กระบวนการทำให้บริสุทธิ์ และการกระจายตัว เช่น Program Xeomin ไม่มีโปรตีนห่อหุ้ม Program InBo เน้นความบริสุทธิ์และกระจายตัวแคบ ส่วน Program Hutox เหมาะกับบริเวณกล้ามเนื้อใหญ่อย่างรักแร้ น่อง และไหล่ คุณหมอจะแนะนำยี่ห้อตามบริเวณที่ฉีด ประวัติการฉีด และงบประมาณของคุณ"
+    a_th: "ทุกแบรนด์เป็นโบทูลินัมท็อกซินชนิด A เหมือนกัน ต่างกันที่แหล่งผลิต กระบวนการทำให้บริสุทธิ์ และการกระจายตัว เช่น Program Xeomin ไม่มีโปรตีนห่อหุ้ม Program InBo เน้นความบริสุทธิ์และกระจายตัวแคบ ส่วน Program Hutox เหมาะกับบริเวณกล้ามเนื้อใหญ่อย่างรักแร้ น่อง และไหล่ คุณหมอจะแนะนำแบรนด์ตามบริเวณที่ฉีด ประวัติการฉีด และงบประมาณของคุณ"
     q_en: "How do the brands differ, and which should I choose?"
     a_en: "All are botulinum toxin type A. They differ in where they are made, how they are purified and how they spread. Program Xeomin has no complexing proteins, Program InBo focuses on purity and a narrow spread, and Program Hutox suits larger muscles like the underarms, calves and shoulders. The doctor recommends a brand based on the area, your history and your budget."
   - q_th: "ทำไมคิดราคาเหมาทั้งขวด"
-    a_th: "เพราะเราอยากให้คุณมั่นใจ ทุกครั้งเปิดกล่องใหม่ต่อหน้าคุณ ใช้ทั้งขวดกับคุณคนเดียว และนำกล่องกลับบ้านได้ คุณจะเห็นชื่อยี่ห้อ เลขล็อต และวันหมดอายุบนกล่องเองทั้งหมด"
+    a_th: "เพราะเราอยากให้คุณมั่นใจ ทุกครั้งเปิดกล่องใหม่ต่อหน้าคุณ ใช้ทั้งขวดกับคุณคนเดียว และนำกล่องกลับบ้านได้ คุณจะเห็นชื่อแบรนด์ เลขล็อต และวันหมดอายุบนกล่องเองทั้งหมด"
     q_en: "Why is the price for the whole vial?"
     a_en: "So you can be sure of what you receive. Every time, a new box is opened in front of you, the whole vial is used for you alone, and you can take the box home, with the brand, lot number and expiry date there for you to see."
   - q_th: "ฉีดแล้วอยู่ได้นานแค่ไหน"
@@ -79,7 +79,7 @@ faq:
     q_en: "How long does it last?"
     a_en: "Usually around 3–6 months, depending on the area, the dose and your body. You will start to see it within a few days, with the full effect at about two weeks."
   - q_th: "ดื้อโบคืออะไร ป้องกันได้อย่างไร"
-    a_th: "ดื้อโบคือร่างกายสร้างภูมิคุ้มกันต่อตัวยา ฉีดแล้วได้ผลน้อยลง การเลือกยี่ห้อที่บริสุทธิ์สูง ไม่ฉีดเติมถี่เกินไป และเว้นระยะอย่างน้อยประมาณ 3 เดือน ช่วยลดความเสี่ยงได้ คุณหมอจะวางแผนให้ตามประวัติการฉีดของคุณ"
+    a_th: "ดื้อโบคือร่างกายสร้างภูมิคุ้มกันต่อตัวยา ฉีดแล้วได้ผลน้อยลง การเลือกแบรนด์ที่บริสุทธิ์สูง ไม่ฉีดเติมถี่เกินไป และเว้นระยะอย่างน้อยประมาณ 3 เดือน ช่วยลดความเสี่ยงได้ คุณหมอจะวางแผนให้ตามประวัติการฉีดของคุณ"
     q_en: "What is toxin resistance, and how can it be prevented?"
     a_en: "Resistance happens when the body makes antibodies to the toxin, so it works less well. Choosing a high-purity brand, avoiding frequent top-ups and waiting at least about three months between treatments help lower the risk. The doctor plans around your injection history."
   - q_th: "ทำไมฉีดผู้ชายกับผู้หญิงต่างกัน"
@@ -152,12 +152,12 @@ body_en: |
 
 **เหมาทั้งขวด เปิดกล่องต่อหน้าคุณ**
 
-ราคาเป็นแบบเหมาทั้งขวด เปิดกล่องใหม่ต่อหน้าคุณทุกครั้ง ใช้ทั้งขวดกับคุณคนเดียว และนำกล่องกลับบ้านได้ คุณจะเห็นชื่อยี่ห้อ เลขล็อต และวันหมดอายุเองทั้งหมด
+ราคาเป็นแบบเหมาทั้งขวด เปิดกล่องใหม่ต่อหน้าคุณทุกครั้ง ใช้ทั้งขวดกับคุณคนเดียว และนำกล่องกลับบ้านได้ คุณจะเห็นชื่อแบรนด์ เลขล็อต และวันหมดอายุเองทั้งหมด
 
-**ยี่ห้อที่ให้เลือก**
+**แบรนด์ที่ให้เลือก**
 
 - **Program Hutox (เกาหลี):** เหมาะกับบริเวณกล้ามเนื้อใหญ่ เช่น ลดเหงื่อรักแร้ น่อง และไหล่จาก office syndrome
-- **Program Neuronox และ Program Nabota (เกาหลี):** ยี่ห้อเกาหลีที่ใช้กันแพร่หลาย
+- **Program Neuronox และ Program Nabota (เกาหลี):** แบรนด์เกาหลีที่ใช้กันแพร่หลาย
 - **Program InBo (เกาหลี–สวีเดน):** ใช้สายพันธุ์เชื้อจากสวีเดน ผู้ผลิตระบุว่าบริสุทธิ์สูงถึง 99.99% ลดโปรตีนส่วนเกิน ช่วยลดโอกาสดื้อโบในระยะยาว และกระจายตัวแคบ ไม่ลามไปจุดที่ไม่ต้องการ ลดปัญหาหน้าแข็ง ยิ้มไม่เป็นธรรมชาติ
 - **Program Xeomin (เยอรมนี):** ไม่มีโปรตีนห่อหุ้ม (complexing proteins) มีแต่ตัวยาที่ออกฤทธิ์
 - **Program Allergan (อเมริกา):** มีขนาด 50 และ 100 Units
