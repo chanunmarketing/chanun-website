@@ -4,8 +4,8 @@ name_th: เลเซอร์กำจัดขน 3 ความยาวค�
 category: skin
 subgroup: devices
 image: /uploads/service-triwave.jpg
-summary_th: "Diode Laser กำจัดขนแบบ 3 ความยาวคลื่น (755, 810 และ 1064 nm) ในหัวยิงเดียว จับได้ทั้งขนเส้นเล็ก ขนรากลึก และใช้ได้กับผิวสีแทน ทำได้ทั้งหน้าและตัว ช่วยลดขนคุด คุณหมอตั้งค่าพลังงานตามสีผิวและสีขนของแต่ละคน"
-summary_en: "Diode laser hair removal with three wavelengths (755, 810 and 1064 nm) in one handpiece, treating fine hair, deep-rooted hair and tanned skin, on the face and body. It also helps ingrown hairs. The doctor sets the energy for your skin and hair."
+summary_th: "Diode Laser กำจัดขนแบบ 3 ความยาวคลื่น (755, 810 และ 1064 nm) ในหัวยิงเดียว จับได้ทั้งขนเส้นเล็ก ขนรากลึก และใช้ได้กับผิวสีแทน ทำได้ทั้งหน้าและตัว ช่วยลดขนคุด ตั้งค่าพลังงานตามสีผิวและสีขนของแต่ละคน"
+summary_en: "Diode laser hair removal with three wavelengths (755, 810 and 1064 nm) in one handpiece, treating fine hair, deep-rooted hair and tanned skin, on the face and body. It also helps ingrown hairs. Energy is set for your skin and hair."
 price_from: "390"
 price_grid:
   columns:
@@ -237,9 +237,9 @@ faq:
     q_en: "How is Triwave Diode different from regular laser hair removal?"
     a_en: "Regular lasers often use a single wavelength. Triwave Diode fires three at once, 755, 810 and 1064 nm, each reaching a different depth and absorbing pigment differently, so it treats fine hair, deep-rooted hair and darker skin tones."
   - q_th: "ผิวสีแทนหรือผิวคล้ำทำได้ไหม"
-    a_th: "ได้ คลื่น 1064 nm ลงลึกและถูกดูดซับโดยเม็ดสีที่ผิวน้อยกว่า จึงเหมาะกับผิวคล้ำ งานวิจัยในอินเดียกับผู้ที่มีผิวสีเข้ม (Fitzpatrick IV–V) 25 คน ทำครบ 6 ครั้ง พบว่าได้ผลดีและปลอดภัย คุณหมอจะปรับพลังงานตามสีผิวของคุณ"
+    a_th: "ได้ คลื่น 1064 nm ลงลึกและถูกดูดซับโดยเม็ดสีที่ผิวน้อยกว่า จึงเหมาะกับผิวคล้ำ งานวิจัยในอินเดียกับผู้ที่มีผิวสีเข้ม (Fitzpatrick IV–V) 25 คน ทำครบ 6 ครั้ง พบว่าได้ผลดีและปลอดภัย ตั้งค่าพลังงานตามสีผิวของแต่ละคน"
     q_en: "Can tanned or darker skin be treated?"
-    a_en: "Yes. The 1064 nm wavelength goes deep and is absorbed less by the pigment in the skin, so it suits darker skin. A study in India of 25 people with darker skin (Fitzpatrick IV–V) who completed six sessions found it effective and safe. The doctor adjusts the energy for your skin tone."
+    a_en: "Yes. The 1064 nm wavelength goes deep and is absorbed less by the pigment in the skin, so it suits darker skin. A study in India of 25 people with darker skin (Fitzpatrick IV–V) who completed six sessions found it effective and safe. Energy is set for each person's skin tone."
   - q_th: "ช่วยเรื่องขนคุดไหม"
     a_th: "ช่วยได้ ขนคุดเกิดจากเส้นขนที่ม้วนกลับเข้าไปในผิว เมื่อเลเซอร์ทำให้ขนเล็กลงและน้อยลง ขนคุดก็ลดลงตาม งานวิจัยในผู้ที่มีขนคุดบริเวณเครา พบว่าเลเซอร์ช่วยลดตุ่มขนคุดได้ชัดเจน"
     q_en: "Does it help ingrown hairs?"
