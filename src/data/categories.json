@@ -166,8 +166,8 @@
         {
           "id": "devices",
           "name": "Device-Based Longevity",
-          "desc_th": "เลเซอร์และพลาสมา ดูแลผิวและกำจัดขน",
-          "desc_en": "Laser and plasma for skin care and hair removal"
+          "desc_th": "เลเซอร์ดูแลผิวและกำจัดขน",
+          "desc_en": "Lasers for skin care and hair removal"
         },
         {
           "id": "acne",

@@ -38,7 +38,11 @@ const summary = pick(d, 'summary', lang);
               <span class="pg-name"></span>
               {d.price_grid.columns.map((c: any) => <span class="pg-col">{lang === 'en' ? c.en : c.th}</span>)}
             </div>
-            {d.price_grid.rows.map((r: any) => (
+            {d.price_grid.rows.map((r: any, ri: number) => (
+              <>
+              {pick(r, 'group', lang) && pick(r, 'group', lang) !== pick(d.price_grid.rows[ri - 1] ?? {}, 'group', lang) && (
+                <div class="pg-group">{pick(r, 'group', lang)}</div>
+              )}
               <div class="pg-row">
                 <div class="pg-name">
                   <span class="pg-title">{pick(r, 'name', lang)}</span>
@@ -52,6 +56,7 @@ const summary = pick(d, 'summary', lang);
                   </div>
                 ))}
               </div>
+              </>
             ))}
           </div>
           {pick(d.price_grid, 'footnote', lang) && <p class="pg-foot">{pick(d.price_grid, 'footnote', lang)}</p>}

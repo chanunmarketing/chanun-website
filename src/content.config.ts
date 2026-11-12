@@ -20,7 +20,7 @@ const services = defineCollection({
       .object({
         columns: z.array(z.object({ th: str, en: str })).nullish().transform((v) => v ?? []),
         rows: z
-          .array(z.object({ name_th: str, name_en: str, note_th: str, note_en: str,
+          .array(z.object({ group_th: str, group_en: str, name_th: str, name_en: str, note_th: str, note_en: str,
             cells: z.array(z.object({ price: str, note_th: str, note_en: str })).nullish().transform((v) => v ?? []) }))
           .nullish().transform((v) => v ?? []),
         footnote_th: str,

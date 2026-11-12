@@ -104,6 +104,8 @@ content:
             type: object
             list: true
             fields:
+              - { name: group_th, label: หัวข้อกลุ่ม (TH) ไม่ใส่ก็ได้, type: string }
+              - { name: group_en, label: หัวข้อกลุ่ม (EN), type: string }
               - { name: name_th, label: ชื่อ (TH), type: string }
               - { name: name_en, label: ชื่อ (EN), type: string }
               - { name: note_th, label: คำอธิบายสั้น (TH), type: string }

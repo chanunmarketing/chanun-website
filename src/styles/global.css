@@ -506,3 +506,5 @@ html[lang="th"] .hero-kicker.dark { letter-spacing: 0.03em; font-family: var(--f
 .prose .step-list li::before { content: counter(st); grid-row: 1 / span 2; font-family: var(--f-display); color: var(--accent-ink); font-size: 1.05rem; }
 .prose .step-list strong { font-family: var(--f-display); font-weight: 400; font-size: 1.02rem; }
 .prose .step-list span { font-size: 0.9rem; color: var(--muted); }
+
+.pg-group { padding: 1.4rem 0 0.2rem; font-family: var(--f-display); font-size: 1.02rem; color: var(--accent-ink); border-bottom: 1px solid var(--line); }
