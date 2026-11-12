@@ -16,8 +16,8 @@ price_grid:
   rows:
     - name_th: "Program EPN: Skin Reset"
       name_en: "Program EPN: Skin Reset"
-      note_th: "High Concentration HYA ผ่าน อย. ไทย · ปิดท้ายด้วย Sterile Mask Pure BIM"
-      note_en: "High Concentration HYA, Thai FDA registered · finished with a Pure BIM sterile mask"
+      note_th: "High Concentration HYA · ปิดท้ายด้วย Sterile Mask Pure BIM"
+      note_en: "High Concentration HYA · finished with a Pure BIM sterile mask"
       cells:
         - { price: "8900" }
         - { price: "12900", note_th: "เฉลี่ย 6,450/ครั้ง", note_en: "6,450 per session" }
