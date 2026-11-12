@@ -196,8 +196,8 @@ price_grid:
         - { price: "9900" }
     - group_th: "บิกินีและบราซิลเลียน"
       group_en: "Bikini & Brazilian"
-      name_th: "บราซิลเลียน O รอบทวาร"
-      name_en: "Brazilian O — Perianal"
+      name_th: "บราซิลเลียน O ร่องก้น"
+      name_en: "Brazilian O — Between the buttocks"
       cells:
         - { price: "990" }
         - { price: "2970" }
