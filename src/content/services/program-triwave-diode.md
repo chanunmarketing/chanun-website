@@ -100,10 +100,10 @@ price_grid:
       name_th: "แขนทั้งแขน"
       name_en: "Full Arms"
       cells:
-        - { price: "1880" }
-        - { price: "5640" }
-        - { price: "9400" }
-        - { price: "18800" }
+        - { price: "1890" }
+        - { price: "5670" }
+        - { price: "9450" }
+        - { price: "18900" }
     - group_th: "ลำตัว"
       group_en: "Torso"
       name_th: "หน้าอก"
