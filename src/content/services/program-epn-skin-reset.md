@@ -5,8 +5,8 @@ category: skin
 subgroup: pore
 also_in: [scar, hair]
 image: /uploads/service-epn.jpg
-summary_th: "EPN รวม Microneedling กับ Electroporation ไว้ในครั้งเดียว เปิดช่องบนผิวพร้อมพา HYA เข้มข้นลงสู่ผิวได้ลึกขึ้น ช่วยเรื่องหลุมสิว รูขุมขน เนื้อผิว และกระตุ้น Collagen ใช้ได้ทั้งผิวหน้าและหนังศีรษะ เห็นผลตั้งแต่ครั้งแรก"
-summary_en: "EPN combines Microneedling and Electroporation in one session, opening tiny channels while carrying concentrated HYA deeper into the skin. It helps acne scars, pores and texture and stimulates collagen, on the face or the scalp, with results visible from the first session."
+summary_th: "EPN รวม Microneedling กับ Electroporation ไว้ในครั้งเดียว เปิดช่องบนผิวพร้อมพา High Concentration HYA ลงสู่ผิวได้ลึกขึ้น ช่วยเรื่องหลุมสิว รูขุมขน เนื้อผิว และกระตุ้น Collagen ใช้ได้ทั้งผิวหน้าและหนังศีรษะ เห็นผลตั้งแต่ครั้งแรก"
+summary_en: "EPN combines Microneedling and Electroporation in one session, opening tiny channels while carrying High Concentration HYA deeper into the skin. It helps acne scars, pores and texture and stimulates collagen, on the face or the scalp, with results visible from the first session."
 price_from: "8900"
 price_grid:
   columns:
@@ -16,8 +16,8 @@ price_grid:
   rows:
     - name_th: "Program EPN: Skin Reset"
       name_en: "Program EPN: Skin Reset"
-      note_th: "Fillstime B + Glossy HYA · ปิดท้ายด้วย Sterile Mask Pure BIM"
-      note_en: "Fillstime B + Glossy HYA · finished with a Pure BIM sterile mask"
+      note_th: "High Concentration HYA ผ่าน อย. ไทย · ปิดท้ายด้วย Sterile Mask Pure BIM"
+      note_en: "High Concentration HYA, Thai FDA registered · finished with a Pure BIM sterile mask"
       cells:
         - { price: "8900" }
         - { price: "12900", note_th: "เฉลี่ย 6,450/ครั้ง", note_en: "6,450 per session" }
@@ -65,7 +65,7 @@ body_en: |
 
   **What goes into your skin**
 
-  Every session uses **Fillstime B** and **Glossy HYA**, carried into the skin as the channels open, and finishes with a **Pure BIM sterile mask** to calm the skin.
+  Every session uses **High Concentration HYA**, properly registered with the Thai FDA, carried into the skin as the channels open, and finishes with a **Pure BIM sterile mask** to calm the skin.
 
   **What the research says**
 
@@ -92,7 +92,7 @@ EPN รวม 2 เทคโนโลยีไว้ในหัวเดีย�
 
 **สารบำรุงที่ใช้**
 
-ทุกครั้งใช้ **Fillstime B** และ **Glossy HYA** พาลงสู่ผิวพร้อมกับการเปิดช่อง และปิดท้ายด้วย **Sterile Mask Pure BIM** ทุกเคส เพื่อปลอบผิว
+ทุกครั้งใช้ **High Concentration HYA** ที่ผ่าน อย. ไทยอย่างถูกต้อง พาลงสู่ผิวพร้อมกับการเปิดช่อง และปิดท้ายด้วย **Sterile Mask Pure BIM** ทุกเคส เพื่อปลอบผิว
 
 **งานวิจัยว่าอย่างไร**
 
