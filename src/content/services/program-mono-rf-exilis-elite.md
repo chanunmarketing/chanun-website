@@ -53,7 +53,7 @@ Many people also like that it cuts down facial oil. Research from Siriraj's Depa
     a_th: "ได้ และเป็นคู่ที่คุณหมอแนะนำบ่อย RF ดูแลผิวทั้งหน้า HIFU เก็บจุดที่อยากยก ถ้าอยากทำในนัดเดียวเลือก The Duo"
     q_en: "Can I combine it with HIFU?"
     a_en: "Yes, and the doctor recommends it often. RF looks after the whole face while HIFU lifts the spots you care about. For both in one visit, choose The Duo."
-avoid_th: ตั้งครรภ์ วางแผนตั้งครรภ์ หรือให้นมบุตร ใส่เครื่องกระตุ้นหัวใจหรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย มีโลหะฝังในบริเวณที่จะทำ มีแผล โรคผิวหนัง หรือการติดเชื้อบริเวณที่จะทำ ผิวรับความรู้สึกผิดปกติ เบาหวาน มะเร็งเม็ดเลือดหรือความผิดปกติของเกล็ดเลือด และควรเว้นระยะก่อนทำถ้าเพิ่งฉีดโบทูลินัมท็อกซินภายใน 3 เดือน ร้อยไหมภายใน 6 เดือน ทำเลเซอร์ลอกผิวหรือพีลลึกภายใน 3 เดือน หรือทานยารักษาสิว isotretinoin ภายใน 12 เดือน
+avoid_th: ตั้งครรภ์ วางแผนตั้งครรภ์ หรือให้นมบุตร ใส่เครื่องกระตุ้นหัวใจหรืออุปกรณ์อิเล็กทรอนิกส์ฝังในร่างกาย มีโลหะฝังในบริเวณที่จะทำ มีแผล โรคผิวหนัง หรือการติดเชื้อบริเวณที่จะทำ ผิวรับความรู้สึกผิดปกติ เบาหวาน มะเร็งเม็ดเลือดหรือความผิดปกติของเกล็ดเลือด และควรเว้นระยะก่อนทำถ้าเพิ่งฉีด Botulinum Toxin ภายใน 3 เดือน ร้อยไหมภายใน 6 เดือน ทำเลเซอร์ลอกผิวหรือพีลลึกภายใน 3 เดือน หรือทานยารักษาสิว isotretinoin ภายใน 12 เดือน
 avoid_en: Pregnancy, planning a pregnancy, or breastfeeding; a pacemaker or other implanted electronic device; metal implants in the area; a wound, skin disease or infection in the area; reduced skin sensation; diabetes; blood cancer or a platelet disorder. Please wait before treatment if you have had botulinum toxin within 3 months, a thread lift within 6 months, ablative laser or a deep peel within 3 months, or isotretinoin within 12 months.
 featured: false
 order: 2

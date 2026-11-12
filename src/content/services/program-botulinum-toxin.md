@@ -5,7 +5,7 @@ category: skin
 subgroup: pore
 also_in: [lifting]
 image: /uploads/service-botulinum.jpg
-summary_th: "โบทูลินัมท็อกซินให้เลือก 6 แบรนด์จากเกาหลี ยุโรป และอเมริกา คิดราคาเหมาทั้งขวด เปิดกล่องใหม่ต่อหน้าคุณ คุณหมอปิงปองฉีดตามจุดบกพร่องทางกายวิภาคและรูปหน้าของแต่ละคน แยกลักษณะชายและหญิง ผลจึงดูเป็นธรรมชาติ"
+summary_th: "Botulinum Toxin ให้เลือก 6 แบรนด์จากเกาหลี ยุโรป และอเมริกา คิดราคาเหมาทั้งขวด เปิดกล่องใหม่ต่อหน้าคุณ คุณหมอปิงปองฉีดตามปัญหาทางกายวิภาคและรูปหน้าของแต่ละคน แยกลักษณะชายและหญิง ผลจึงดูเป็นธรรมชาติ"
 summary_en: "Botulinum toxin in six brands from Korea, Europe and the USA, priced by the whole vial and opened in front of you. Dr. PP injects according to each person's anatomy and face shape, treating male and female features differently, for a natural result."
 price_from: "4900"
 price_grid:
@@ -62,12 +62,12 @@ suits_en: Forehead lines, crow's feet, frown lines, a wide jaw, a slimmer-lookin
 seo_title_th: "ฉีดโบทูลินัมท็อกซิน เลือกยี่ห้อได้ เปิดขวดต่อหน้า สุขุมวิท 61"
 seo_title_en: "Botulinum Toxin in Bangkok: Choose Your Brand, Opened in Front of You"
 faq:
-  - q_th: "โบทูลินัมท็อกซินคืออะไร ฉีดตรงไหนได้บ้าง"
-    a_th: "โบทูลินัมท็อกซินช่วยให้กล้ามเนื้อหรือต่อมที่ฉีดคลายการทำงานลงชั่วคราว ใช้ได้หลายส่วน เช่น ริ้วรอยหน้าผาก หางตา ระหว่างคิ้ว ลดกราม ปรับหน้าให้ดูเรียว ฉีดผิวเพื่อรูขุมขนและความมัน ลดเหงื่อรักแร้ ปรับน่อง และคลายไหล่ คุณหมอปิงปองฉีดได้ทุกส่วน แต่จะประเมินก่อนเสมอว่าจุดไหนควรฉีดและฉีดเท่าไหร่"
+  - q_th: "Botulinum Toxin (โบทูลินัมท็อกซิน) คืออะไร ฉีดตรงไหนได้บ้าง"
+    a_th: "Botulinum Toxin ช่วยให้กล้ามเนื้อหรือต่อมที่ฉีดคลายการทำงานลงชั่วคราว ใช้ได้หลายส่วน เช่น ริ้วรอยหน้าผาก หางตา ระหว่างคิ้ว ลดกราม ปรับหน้าให้ดูเรียว ฉีดผิวเพื่อรูขุมขนและความมัน ลดเหงื่อรักแร้ ปรับน่อง และคลายไหล่ คุณหมอปิงปองฉีดได้ทุกส่วน แต่จะประเมินก่อนเสมอว่าจุดไหนควรฉีดและฉีดเท่าไหร่"
     q_en: "What is botulinum toxin, and where can it be used?"
     a_en: "Botulinum toxin temporarily relaxes the muscle or gland it is injected into. It can be used in many places: forehead lines, crow's feet, frown lines, the jaw, slimming the face, the skin for pores and oil, underarm sweating, calves and tight shoulders. Dr. PP treats every area, but always assesses first where to inject and how much."
   - q_th: "แต่ละยี่ห้อต่างกันอย่างไร เลือกยี่ห้อไหนดี"
-    a_th: "ทุกแบรนด์เป็นโบทูลินัมท็อกซินชนิด A เหมือนกัน ต่างกันที่แหล่งผลิต กระบวนการทำให้บริสุทธิ์ และการกระจายตัว เช่น Program Xeomin ไม่มีโปรตีนห่อหุ้ม Program InBo เน้นความบริสุทธิ์และกระจายตัวแคบ ส่วน Program Hutox เหมาะกับบริเวณกล้ามเนื้อใหญ่อย่างรักแร้ น่อง และไหล่ คุณหมอจะแนะนำแบรนด์ตามบริเวณที่ฉีด ประวัติการฉีด และงบประมาณของคุณ"
+    a_th: "ทุกแบรนด์เป็น Botulinum Toxin ชนิด A เหมือนกัน ต่างกันที่แหล่งผลิต กระบวนการทำให้บริสุทธิ์ และการกระจายตัว เช่น Program Xeomin ไม่มีโปรตีนห่อหุ้ม Program InBo เน้นความบริสุทธิ์และกระจายตัวแคบ ส่วน Program Hutox เหมาะกับบริเวณกล้ามเนื้อใหญ่อย่างรักแร้ น่อง และไหล่ คุณหมอจะแนะนำแบรนด์ตามบริเวณที่ฉีด ประวัติการฉีด และงบประมาณของคุณ"
     q_en: "How do the brands differ, and which should I choose?"
     a_en: "All are botulinum toxin type A. They differ in where they are made, how they are purified and how they spread. Program Xeomin has no complexing proteins, Program InBo focuses on purity and a narrow spread, and Program Hutox suits larger muscles like the underarms, calves and shoulders. The doctor recommends a brand based on the area, your history and your budget."
   - q_th: "ทำไมคิดราคาเหมาทั้งขวด"
@@ -83,14 +83,14 @@ faq:
     q_en: "What is toxin resistance, and how can it be prevented?"
     a_en: "Resistance happens when the body makes antibodies to the toxin, so it works less well. Choosing a high-purity brand, avoiding frequent top-ups and waiting at least about three months between treatments help lower the risk. The doctor plans around your injection history."
   - q_th: "ทำไมฉีดผู้ชายกับผู้หญิงต่างกัน"
-    a_th: "ผู้ชายมีกล้ามเนื้อหนากว่า คิ้วมักตรงและอยู่ต่ำกว่า ส่วนผู้หญิงคิ้วโค้งกว่า ถ้าฉีดแบบเดียวกันหน้าอาจดูไม่เป็นตัวเอง คุณหมอปิงปองจึงฉีดตามจุดบกพร่องทางกายวิภาคของแต่ละคน และออกแบบตามรูปหน้า แยกลักษณะชายและหญิง สำหรับผู้ชายใช้แนวทาง Masculine Line ที่เก็บคิ้วตรงและกรอบหน้าที่คมแบบผู้ชายไว้"
+    a_th: "ผู้ชายมีกล้ามเนื้อหนากว่า คิ้วมักตรงและอยู่ต่ำกว่า ส่วนผู้หญิงคิ้วโค้งกว่า ถ้าฉีดแบบเดียวกันหน้าอาจดูไม่เป็นตัวเอง คุณหมอปิงปองจึงฉีดตามปัญหาทางกายวิภาคของแต่ละคน และออกแบบตามรูปหน้า แยกลักษณะชายและหญิง สำหรับผู้ชายใช้แนวทาง Masculine Line ที่เก็บคิ้วตรงและกรอบหน้าที่คมแบบผู้ชายไว้"
     q_en: "Why is injecting men different from women?"
     a_en: "Men tend to have thicker muscles and straighter, lower brows, while women's brows are more arched. Using the same pattern for both can make a face look unlike itself. So Dr. PP injects according to each person's anatomy and designs around the face shape, treating male and female features differently. For men, the Masculine Line approach keeps straight brows and a sharp, masculine contour."
   - q_th: "หลังฉีดต้องดูแลตัวเองอย่างไร"
     a_th: "งดนอนราบประมาณ 4 ชั่วโมง ไม่นวดหรือกดบริเวณที่ฉีด งดซาวน่า ออกกำลังกายหนัก และแอลกอฮอล์ประมาณ 24 ชั่วโมง นอกจากนั้นใช้ชีวิตได้ตามปกติ"
     q_en: "How should I look after myself afterwards?"
     a_en: "Stay upright for about 4 hours, don't massage or press the area, and avoid saunas, hard exercise and alcohol for about 24 hours. Otherwise, carry on as normal."
-avoid_th: ตั้งครรภ์หรือให้นมบุตร โรคของระบบประสาทและกล้ามเนื้อ เช่น กล้ามเนื้ออ่อนแรง (Myasthenia gravis) แพ้โบทูลินัมท็อกซินหรือส่วนประกอบของยา มีการติดเชื้อบริเวณที่จะฉีด และควรแจ้งคุณหมอก่อนถ้ากำลังทานยาปฏิชีวนะกลุ่มอะมิโนไกลโคไซด์ ยาละลายลิ่มเลือด หรือเคยฉีดโบทูลินัมท็อกซินมาภายใน 3 เดือน
+avoid_th: ตั้งครรภ์หรือให้นมบุตร โรคของระบบประสาทและกล้ามเนื้อ เช่น กล้ามเนื้ออ่อนแรง (Myasthenia gravis) แพ้ Botulinum Toxin หรือส่วนประกอบของยา มีการติดเชื้อบริเวณที่จะฉีด และควรแจ้งคุณหมอก่อนถ้ากำลังทานยาปฏิชีวนะกลุ่มอะมิโนไกลโคไซด์ ยาละลายลิ่มเลือด หรือเคยฉีด Botulinum Toxin มาภายใน 3 เดือน
 avoid_en: "Pregnancy or breastfeeding; neuromuscular disorders such as myasthenia gravis; allergy to botulinum toxin or any ingredient; infection at the injection site. Please tell the doctor first if you take aminoglycoside antibiotics or blood thinners, or have had botulinum toxin within the last 3 months."
 featured: false
 order: 0
@@ -134,13 +134,13 @@ body_en: |
 ---
 **ฉีดได้ทุกส่วน วางแผนตามหน้าของคุณ**
 
-โบทูลินัมท็อกซินช่วยให้กล้ามเนื้อหรือต่อมที่ฉีดคลายการทำงานลงชั่วคราว คุณหมอปิงปองฉีดได้ทุกส่วน ตั้งแต่ริ้วรอยหน้าผาก หางตา ระหว่างคิ้ว ลดกราม ปรับหน้าให้ดูเรียว ฉีดผิวเพื่อรูขุมขนและความมัน ไปจนถึงลดเหงื่อรักแร้ ปรับน่อง และคลายไหล่ โดยประเมินก่อนทุกครั้ง
+Botulinum Toxin ช่วยให้กล้ามเนื้อหรือต่อมที่ฉีดคลายการทำงานลงชั่วคราว คุณหมอปิงปองฉีดได้ทุกส่วน ตั้งแต่ริ้วรอยหน้าผาก หางตา ระหว่างคิ้ว ลดกราม ปรับหน้าให้ดูเรียว ฉีดผิวเพื่อรูขุมขนและความมัน ไปจนถึงลดเหงื่อรักแร้ ปรับน่อง และคลายไหล่ โดยประเมินก่อนทุกครั้ง
 
 **เทคนิคของคุณหมอปิงปอง**
 
-หน้าแต่ละคนไม่เหมือนกัน คุณหมอจึงฉีดตามจุดบกพร่องทางกายวิภาคของแต่ละคน และออกแบบตามรูปหน้า แยกลักษณะชายและหญิง ผู้ชายกล้ามเนื้อหนากว่าและคิ้วตรงกว่า ต้องใช้แผนต่างจากผู้หญิง ผลที่ได้จึงยังเป็นตัวคุณ
+หน้าแต่ละคนไม่เหมือนกัน คุณหมอจึงฉีดตามปัญหาทางกายวิภาคของแต่ละคน และออกแบบตามรูปหน้า แยกลักษณะชายและหญิง ผู้ชายกล้ามเนื้อหนากว่าและคิ้วตรงกว่า ต้องใช้แผนต่างจากผู้หญิง ผลที่ได้จึงยังเป็นตัวคุณ
 
-**Masculine Line · โบทูลินัมท็อกซินสำหรับผู้ชาย**
+**Masculine Line · Botulinum Toxin สำหรับผู้ชาย**
 
 หน้าผู้ชายไม่ควรถูกฉีดแบบเดียวกับผู้หญิง Masculine Line คือแนวทางที่คุณหมอปิงปองออกแบบสำหรับผู้ชายโดยเฉพาะ
 
