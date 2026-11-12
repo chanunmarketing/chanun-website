@@ -1,6 +1,6 @@
 ---
 name_en: Program Botulinum Toxin
-name_th: เลือกยี่ห้อได้ เปิดขวดใหม่ต่อหน้าคุณ ฉีดตามรูปหน้าของแต่ละคน
+name_th: ออกแบบจุดฉีดเฉพาะคุณ เปิดขวดใหม่ต่อหน้าทุกครั้ง
 category: skin
 subgroup: pore
 also_in: [lifting]
