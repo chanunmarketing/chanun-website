@@ -5,29 +5,29 @@ category: skin
 subgroup: pigment
 also_in: [hydration]
 image: /uploads/service-vera-skin.jpg
-summary_th: "โปรแกรมดูแลผิวที่คุณหมอปิงปองผสมสูตรเอง ใช้ผลิตภัณฑ์ของ Fillstim มี 3 สูตรตามเป้าหมาย Lumière ลดเลือนฝ้า กระ จุดด่างดำ · Soufflé ผิวอิ่มฟู · Glacé ผิวฉ่ำวาว"
-summary_en: "A skin programme with formulas blended by Dr. PP using Fillstim products, in three versions by goal: Lumière for melasma, freckles and dark spots · Soufflé for plump skin · Glacé for a dewy glow."
+summary_th: "โปรแกรมดูแลผิวที่คุณหมอปิงปองผสมสูตรเอง ใช้ผลิตภัณฑ์ของ Fillstim มี 3 สูตรตามเป้าหมาย Bright ลดเลือนฝ้า กระ จุดด่างดำ · Plump ผิวอิ่มฟู · Glow ผิวฉ่ำวาว"
+summary_en: "A skin programme with formulas blended by Dr. PP using Fillstim products, in three versions by goal: Bright for melasma, freckles and dark spots · Plump for plump skin · Glow for a dewy glow."
 price_from: "5900"
 price_grid:
   columns:
     - { th: "1 ครั้ง (5 c.c.)", en: "1 session (5 c.c.)" }
   rows:
-    - name_th: "Vera Skin Lumière"
-      name_en: "Vera Skin Lumière"
+    - name_th: "Vera Skin Bright"
+      name_en: "Vera Skin Bright"
       note_th: "ลดเลือนฝ้า กระ จุดด่างดำ ผิวดูกระจ่างและสม่ำเสมอ"
       note_en: "Softens melasma, freckles and dark spots for a brighter, more even tone"
       cells:
         - { price: "5900" }
-    - name_th: "Vera Skin Soufflé"
-      name_en: "Vera Skin Soufflé"
+    - name_th: "Vera Skin Plump"
+      name_en: "Vera Skin Plump"
       note_th: "ผิวอิ่มฟู ดูนุ่มและเด้งขึ้น"
       note_en: "Plump, soft, bouncy-looking skin"
       cells:
         - { price: "5900" }
-    - name_th: "Vera Skin Glacé"
-      name_en: "Vera Skin Glacé"
-      note_th: "ผิวฉ่ำวาว ชุ่มชื้น แบบ glazed skin"
-      note_en: "Dewy, well-hydrated, glazed-looking skin"
+    - name_th: "Vera Skin Glow"
+      name_en: "Vera Skin Glow"
+      note_th: "ผิวฉ่ำวาว ชุ่มชื้น"
+      note_en: "Dewy, well-hydrated skin"
       cells:
         - { price: "5900" }
   footnote_th: "ราคาเท่ากันทั้ง 3 สูตร · คุณหมอแนะนำสูตรหรือสลับสูตรตามสภาพผิวของแต่ละคน"
@@ -39,17 +39,17 @@ seo_title_th: "Vera Skin 3 สูตร ลดฝ้า กระ จุดด�
 seo_title_en: "Vera Skin: Three Formulas for Pigment, Plumpness and Glow"
 faq:
   - q_th: "Vera Skin คืออะไร"
-    a_th: "Vera Skin เป็นโปรแกรมดูแลผิวที่คุณหมอปิงปองผสมสูตรเอง ใช้ผลิตภัณฑ์ของ Fillstim มี 3 สูตรตามเป้าหมายผิว คือ Lumière สำหรับฝ้า กระ จุดด่างดำ, Soufflé สำหรับผิวอิ่มฟู และ Glacé สำหรับผิวฉ่ำวาว"
+    a_th: "Vera Skin เป็นโปรแกรมดูแลผิวที่คุณหมอปิงปองผสมสูตรเอง ใช้ผลิตภัณฑ์ของ Fillstim มี 3 สูตรตามเป้าหมายผิว คือ Bright สำหรับฝ้า กระ จุดด่างดำ, Plump สำหรับผิวอิ่มฟู และ Glow สำหรับผิวฉ่ำวาว"
     q_en: "What is Vera Skin?"
-    a_en: "Vera Skin is a skin programme with formulas blended by Dr. PP, using Fillstim products. There are three formulas by goal: Lumière for melasma, freckles and dark spots, Soufflé for plump skin, and Glacé for a dewy glow."
+    a_en: "Vera Skin is a skin programme with formulas blended by Dr. PP, using Fillstim products. There are three formulas by goal: Bright for melasma, freckles and dark spots, Plump for plump skin, and Glow for a dewy glow."
   - q_th: "ควรเลือกสูตรไหน"
-    a_th: "เลือกจากเรื่องที่กังวลมากที่สุด ถ้าเป็นฝ้า กระ หรือสีผิวไม่สม่ำเสมอ เลือก Lumière ถ้าผิวดูแฟบ ไม่อิ่ม เลือก Soufflé ถ้าผิวแห้ง หมอง อยากได้ผิวฉ่ำ เลือก Glacé ถ้าไม่แน่ใจ คุณหมอจะดูผิวแล้วแนะนำให้"
+    a_th: "เลือกจากเรื่องที่กังวลมากที่สุด ถ้าเป็นฝ้า กระ หรือสีผิวไม่สม่ำเสมอ เลือก Bright ถ้าผิวดูแฟบ ไม่อิ่ม เลือก Plump ถ้าผิวแห้ง หมอง อยากได้ผิวฉ่ำ เลือก Glow ถ้าไม่แน่ใจ คุณหมอจะดูผิวแล้วแนะนำให้"
     q_en: "Which formula should I choose?"
-    a_en: "Start with your main concern. For melasma, freckles or uneven tone, choose Lumière. If the skin looks flat and lacks bounce, choose Soufflé. If it's dry and dull and you want a dewy look, choose Glacé. If unsure, the doctor will look at your skin and recommend one."
-  - q_th: "Vera Skin Lumière ช่วยเรื่องฝ้าอย่างไร"
-    a_th: "Lumière เป็นสูตรที่คุณหมอออกแบบมาเพื่อช่วยลดเลือนฝ้า กระ และจุดด่างดำ ให้สีผิวดูสม่ำเสมอขึ้น มักใช้คู่กับ Program Melasma Precision ที่ฉีดยาลดฝ้าตรงจุด เพื่อดูแลทั้งเม็ดสีและคุณภาพผิว"
-    q_en: "How does Vera Skin Lumière help melasma?"
-    a_en: "Lumière is the doctor's formula for softening melasma, freckles and dark spots for a more even tone. It's often paired with Program Melasma Precision, which injects melasma-lightening medicine right into the melasma, to care for both pigment and skin quality."
+    a_en: "Start with your main concern. For melasma, freckles or uneven tone, choose Bright. If the skin looks flat and lacks bounce, choose Plump. If it's dry and dull and you want a dewy look, choose Glow. If unsure, the doctor will look at your skin and recommend one."
+  - q_th: "Vera Skin Bright ช่วยเรื่องฝ้าอย่างไร"
+    a_th: "Bright เป็นสูตรที่คุณหมอออกแบบมาเพื่อช่วยลดเลือนฝ้า กระ และจุดด่างดำ ให้สีผิวดูสม่ำเสมอขึ้น มักใช้คู่กับ Program Melasma Precision ที่ฉีดยาลดฝ้าตรงจุด เพื่อดูแลทั้งเม็ดสีและคุณภาพผิว"
+    q_en: "How does Vera Skin Bright help melasma?"
+    a_en: "Bright is the doctor's formula for softening melasma, freckles and dark spots for a more even tone. It's often paired with Program Melasma Precision, which injects melasma-lightening medicine right into the melasma, to care for both pigment and skin quality."
   - q_th: "บอกได้ไหมว่าแต่ละสูตรผสมอะไร"
     a_th: "สัดส่วนและส่วนผสมเป็นสูตรเฉพาะของคุณหมอปิงปอง ทุกตัวเป็นผลิตภัณฑ์ของ Fillstim และคุณหมอจะอธิบายสิ่งที่ผิวคุณจะได้รับตอนประเมิน"
     q_en: "Can you share what's in each formula?"
@@ -64,13 +64,13 @@ body_en: |
 
   Every skin wants something different, so Dr. PP blends Vera Skin into three formulas, each with its own goal. All of them use Fillstim products, and the blend and proportions are the doctor's own.
 
-  - **Vera Skin Lumière:** softens melasma, freckles and dark spots for a brighter, more even tone
-  - **Vera Skin Soufflé:** plump, soft, bouncy-looking skin
-  - **Vera Skin Glacé:** dewy, well-hydrated, glazed-looking skin
+  - **Vera Skin Bright:** softens melasma, freckles and dark spots for a brighter, more even tone
+  - **Vera Skin Plump:** plump, soft, bouncy-looking skin
+  - **Vera Skin Glow:** dewy, well-hydrated skin
 
   **For melasma**
 
-  Lumière is often paired with Program Melasma Precision: the injection works on the signals that make pigment, while Lumière cares for tone and skin quality. Together they look after melasma more completely.
+  Bright is often paired with Program Melasma Precision: the injection works on the signals that make pigment, while Bright cares for tone and skin quality. Together they look after melasma more completely.
 
   **Choosing a formula**
 
@@ -80,13 +80,13 @@ body_en: |
 
 ผิวแต่ละคนต้องการไม่เหมือนกัน คุณหมอปิงปองจึงผสม Vera Skin เป็น 3 สูตรตามเป้าหมาย ทุกสูตรใช้ผลิตภัณฑ์ของ Fillstim ส่วนสัดส่วนและการผสมเป็นสูตรเฉพาะของคุณหมอ
 
-- **Vera Skin Lumière:** ลดเลือนฝ้า กระ จุดด่างดำ ผิวดูกระจ่างและสม่ำเสมอ
-- **Vera Skin Soufflé:** ผิวอิ่มฟู ดูนุ่มและเด้งขึ้น
-- **Vera Skin Glacé:** ผิวฉ่ำวาว ชุ่มชื้น แบบ glazed skin
+- **Vera Skin Bright:** ลดเลือนฝ้า กระ จุดด่างดำ ผิวดูกระจ่างและสม่ำเสมอ
+- **Vera Skin Plump:** ผิวอิ่มฟู ดูนุ่มและเด้งขึ้น
+- **Vera Skin Glow:** ผิวฉ่ำวาว ชุ่มชื้น
 
 **สำหรับคนเป็นฝ้า**
 
-Lumière มักใช้คู่กับ Program Melasma Precision โดยการฉีดยาลดฝ้าช่วยลดสัญญาณที่ทำให้เกิดเม็ดสี ส่วน Lumière ดูแลสีผิวและคุณภาพผิว ทำคู่กันจึงดูแลฝ้าได้ครบกว่า
+Bright มักใช้คู่กับ Program Melasma Precision โดยการฉีดยาลดฝ้าช่วยลดสัญญาณที่ทำให้เกิดเม็ดสี ส่วน Bright ดูแลสีผิวและคุณภาพผิว ทำคู่กันจึงดูแลฝ้าได้ครบกว่า
 
 **เลือกสูตรอย่างไร**
 
