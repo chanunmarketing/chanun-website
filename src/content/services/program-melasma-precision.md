@@ -37,7 +37,7 @@ faq:
     q_en: "Will the melasma come back?"
     a_en: "Melasma is long-term and can return with sun, heat or hormonal triggers. Daily sunscreen and keeping the deeper skin healthy help the result last longer."
   - q_th: "ทำร่วมกับโปรแกรมอื่นได้ไหม"
-    a_th: "ได้ และคุณหมอแนะนำบ่อย มักใช้คู่กับ Program Vera Skin สูตร Bright และเลือก Adjuvant Treatment เช่น PN หรือ Plasma Prime ตามสภาพผิว เพื่อดูแลทั้งเม็ดสีด้านบนและผิวชั้นล่าง"
+    a_th: "ได้ และคุณหมอแนะนำบ่อย มักใช้คู่กับ Program Vera Skin Bright และเลือก Adjuvant Treatment เช่น PN หรือ Plasma Prime ตามสภาพผิว เพื่อดูแลทั้งเม็ดสีด้านบนและผิวชั้นล่าง"
     q_en: "Can it be combined with other programmes?"
     a_en: "Yes, and the doctor often does. It pairs with Program Vera Skin Bright, plus adjuvant treatments such as PN or Plasma Prime depending on your skin, to address both surface pigment and the deeper skin."
 avoid_th: ตั้งครรภ์หรือให้นมบุตร มีประวัติลิ่มเลือดอุดตัน เช่น เส้นเลือดดำ ปอด หัวใจ หรือสมอง โรคเลือดแข็งตัวผิดปกติ แพ้ยาที่ใช้ มีแผล การติดเชื้อ หรือเริมบริเวณที่จะฉีด และควรแจ้งคุณหมอก่อนถ้าทานยาคุมกำเนิดหรือฮอร์โมน สูบบุหรี่ มีโรคไต หรือทานยาละลายลิ่มเลือด
@@ -68,7 +68,7 @@ body_en: |
 
   **Best results come from caring for every layer**
 
-  Melasma isn't only about pigment at the surface. The deeper skin is often weakened by years of sun, so the doctor usually pairs this programme with Program Vera Skin Bright and adjuvant treatments, such as PN or Plasma Prime, chosen for your skin.
+  Melasma isn't only about pigment at the surface. The deeper skin is often weakened by years of sun, so the doctor usually pairs this programme with [Program Vera Skin Bright](/en/services/program-vera-skin-bright/) and adjuvant treatments, such as PN or Plasma Prime, chosen for your skin.
 ---
 **ทำไมต้องฉีดตรงที่ฝ้า**
 
@@ -92,4 +92,4 @@ body_en: |
 
 **ดูแลให้ครบทุกชั้น ผลจึงอยู่ได้นาน**
 
-ฝ้าไม่ได้มีแค่เม็ดสีที่ผิวด้านบน ผิวชั้นล่างที่อ่อนแอจากแดดสะสมก็มีส่วนทำให้ฝ้ากลับมา คุณหมอจึงมักใช้คู่กับ Program Vera Skin สูตร Bright และเลือก Adjuvant Treatment เช่น PN หรือ Plasma Prime ตามสภาพผิวของแต่ละคน
+ฝ้าไม่ได้มีแค่เม็ดสีที่ผิวด้านบน ผิวชั้นล่างที่อ่อนแอจากแดดสะสมก็มีส่วนทำให้ฝ้ากลับมา คุณหมอจึงมักใช้คู่กับ [Program Vera Skin Bright](/services/program-vera-skin-bright/) และเลือก Adjuvant Treatment เช่น PN หรือ Plasma Prime ตามสภาพผิวของแต่ละคน
