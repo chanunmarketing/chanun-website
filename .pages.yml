@@ -529,6 +529,16 @@ content:
               - { name: name, label: ชื่อหมวดย่อย, type: string }
               - { name: desc_th, label: บรรทัดรอง (TH), type: string }
               - { name: desc_en, label: บรรทัดรอง (EN), type: string }
+              - { name: adjuvant_title_th, label: "Adjuvant Treatment · หัวข้อ (TH)", type: string }
+              - { name: adjuvant_title_en, label: "Adjuvant Treatment · หัวข้อ (EN)", type: string }
+              - name: adjuvant
+                label: "Adjuvant Treatment (โปรแกรมเสริม แสดงเป็นแถบลิงก์)"
+                type: object
+                list: true
+                fields:
+                  - { name: service, label: "รหัสโปรแกรม (ชื่อไฟล์ เช่น program-plasma-prime)", type: string }
+                  - { name: why_th, label: ช่วยอย่างไร (TH), type: string }
+                  - { name: why_en, label: ช่วยอย่างไร (EN), type: string }
               - name: faq
                 label: คำถามที่พบบ่อยของหมวดย่อย (FAQ)
                 type: object

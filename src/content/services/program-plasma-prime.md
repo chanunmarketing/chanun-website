@@ -3,7 +3,7 @@ name_en: Program Plasma Prime
 name_th: Cold Plasma ดูแลสิว รูขุมขน และผิวกระจ่างใส ทั้งหน้าและตัว
 category: skin
 subgroup: pore
-also_in: [acne, pigment]
+also_in: [acne]
 image: /uploads/service-plasma-prime.jpg
 summary_th: "Cold Plasma จากเครื่อง Plasmalis ช่วยลดเชื้อแบคทีเรียที่ก่อสิว ลดการอักเสบ กระชับรูขุมขน และลดความมัน ผิวจึงดูกระจ่างใสขึ้น ผิวไม่ร้อนและไม่ต้องพักฟื้น ทำได้ทั้งใบหน้า ใต้วงแขน และแผ่นหลัง"
 summary_en: "Cold plasma from the Plasmalis device helps reduce acne-causing bacteria, calm inflammation, tighten pores and reduce oil, for brighter-looking skin. No heat on the skin and no downtime, for the face, underarms and back."

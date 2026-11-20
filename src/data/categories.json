@@ -122,8 +122,8 @@
         {
           "id": "pigment",
           "name": "Pigment & Tone",
-          "desc_th": "ดูแลฝ้า กระ จุดด่างดำ และสีผิวที่ไม่สม่ำเสมอ",
-          "desc_en": "Care for melasma, freckles, dark spots and uneven skin tone",
+          "desc_th": "ดูแลฝ้า กระ และจุดด่างดำ ทั้งลดเม็ดสีที่ผิวด้านบน และซ่อมผิวชั้นล่างที่ทำให้ฝ้ากลับมา",
+          "desc_en": "Care for melasma, freckles and dark spots: reducing pigment at the surface and repairing the deeper skin that lets melasma return",
           "faq": [
             {
               "q_th": "ฝ้าเกิดจากอะไร",
@@ -160,6 +160,35 @@
               "a_th": "คุณหมอปิงปองจะตรวจดูก่อนว่าเป็นฝ้าชนิดไหนและลึกแค่ไหน แล้ววางแผนผสมหลายวิธีให้เหมาะกับผิวของคุณ ทั้งการรักษาในคลินิกและการดูแลที่บ้าน และนัดติดตามผลต่อเนื่อง เพราะฝ้าต้องดูแลระยะยาว",
               "q_en": "How is melasma treated at CHANUN?",
               "a_en": "Dr. PP first checks the type and depth of your melasma, then combines several methods into a plan for your skin, covering both clinic treatments and home care, with regular follow-ups, because melasma needs long-term care."
+            }
+          ],
+          "adjuvant_title_th": "โปรแกรมเสริมการรักษาฝ้า",
+          "adjuvant_title_en": "Programmes that support melasma care",
+          "adjuvant": [
+            {
+              "service": "program-plasma-prime",
+              "why_th": "ช่วยผลัดเซลล์ผิวชั้นบนที่มีเม็ดสีสะสม ผิวดูกระจ่างและสม่ำเสมอขึ้น",
+              "why_en": "Helps shed surface cells that hold excess pigment, for a brighter, more even look"
+            },
+            {
+              "service": "program-epn-skin-reset",
+              "why_th": "ช่วยนำสารบำรุงลงสู่ผิวชั้นในได้ทั่วถึง และฟื้นฟูผิวให้แข็งแรง",
+              "why_en": "Delivers nourishing actives evenly into the deeper skin and helps it recover"
+            },
+            {
+              "service": "program-vitaran-pn2",
+              "why_th": "ช่วยฟื้นฟูผิวชั้นหนังแท้ที่อ่อนแอจากแดดสะสม",
+              "why_en": "Helps restore a dermis weakened by years of sun"
+            },
+            {
+              "service": "program-luna-healer-pn2",
+              "why_th": "ช่วยฟื้นฟูผิวชั้นหนังแท้ที่อ่อนแอจากแดดสะสม",
+              "why_en": "Helps restore a dermis weakened by years of sun"
+            },
+            {
+              "service": "program-ejal40-italy-bioremodeling",
+              "why_th": "ช่วยซ่อมคอลลาเจนและโครงสร้าง ECM ใต้ผิวที่เสื่อมจากแดด",
+              "why_en": "Helps repair the collagen and ECM beneath sun-damaged skin"
             }
           ]
         },
