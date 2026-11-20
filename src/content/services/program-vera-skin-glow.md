@@ -4,8 +4,8 @@ name_th: สูตรเฉพาะของคุณหมอ ผิวฉ่�
 category: skin
 subgroup: hydration
 image: /uploads/service-vera-glow.jpg
-summary_th: "สูตรเฉพาะที่คุณหมอปิงปองผสมเอง จาก Vera Skin 3 สูตร ใช้ผลิตภัณฑ์ของ Fillstim สำหรับผิวแห้ง หมอง ช่วยให้ผิวชุ่มชื้นและดูฉ่ำวาวขึ้น"
-summary_en: "One of Dr. PP's three Vera Skin formulas, blended with Fillstim products, for dry, dull skin. It helps the skin feel hydrated and look dewy."
+summary_th: "สูตรเฉพาะของคุณหมอปิงปอง จาก Vera Skin 3 สูตร ใช้ผลิตภัณฑ์ของ Fillstim จากประเทศอิตาลี ผ่าน อย. แบบฉีดอย่างถูกต้อง สำหรับผิวแห้ง หมอง ช่วยให้ผิวชุ่มชื้นและดูฉ่ำวาวขึ้น"
+summary_en: "One of Dr. PP's three Vera Skin formulas, made with Fillstim products from Italy, registered with the Thai FDA for injection. For dry, dull skin, it helps the skin feel hydrated and look dewy."
 price_from: "5900"
 prices:
   - item_th: Program Vera Skin Glow · 1 ครั้ง (5 c.c.)
@@ -29,9 +29,9 @@ faq:
     q_en: "Can it be combined with Hydrobooster?"
     a_en: "Yes. Hydrobooster hydrates the upper dermis with high-molecular-weight hyaluronic acid and glycerol. The doctor chooses what suits your skin and goals."
   - q_th: "ใช้ผลิตภัณฑ์อะไร บอกส่วนผสมได้ไหม"
-    a_th: "Vera Skin ทุกสูตรใช้ผลิตภัณฑ์ของ Fillstim ส่วนการผสมและสัดส่วนเป็นสูตรเฉพาะของคุณหมอปิงปอง คุณหมอจะอธิบายสิ่งที่ผิวคุณจะได้รับตอนประเมิน"
+    a_th: "Vera Skin ทุกสูตรใช้ผลิตภัณฑ์ของ Fillstim จากประเทศอิตาลี ผ่าน อย. แบบฉีดอย่างถูกต้อง ส่วนการผสมและสัดส่วนเป็นสูตรเฉพาะของคุณหมอปิงปอง คุณหมอจะอธิบายสิ่งที่ผิวคุณจะได้รับตอนประเมิน"
     q_en: "Which products are used? Can you share the formula?"
-    a_en: "Every Vera Skin formula uses Fillstim products; the blend and proportions are Dr. PP's own. The doctor will explain what your skin will receive during your consultation."
+    a_en: "Every Vera Skin formula uses Fillstim products from Italy, registered with the Thai FDA for injection; the blend and proportions are Dr. PP's own. The doctor will explain what your skin will receive during your consultation."
   - q_th: "ต้องทำกี่ครั้ง"
     a_th: "ขึ้นกับสภาพผิวและเป้าหมายของแต่ละคน คุณหมอจะวางแผนจำนวนครั้งและระยะห่างให้ ส่วนใหญ่ทำต่อเนื่องเป็นคอร์สเพื่อให้ผลชัดและอยู่ได้นาน"
     q_en: "How many sessions do I need?"
@@ -44,7 +44,7 @@ published: true
 body_en: |
   **A formula for dewy skin**
 
-  Vera Skin Glow is one of the three Vera Skin formulas blended by Dr. PP using Fillstim products. It suits dry, dull skin, helping it feel hydrated and look dewy. The blend and proportions are the doctor's own.
+  Vera Skin Glow is one of the three Vera Skin formulas blended by Dr. PP using Fillstim products from Italy, registered with the Thai FDA for injection. It suits dry, dull skin, helping it feel hydrated and look dewy. The blend and proportions are the doctor's own.
 
   **Pairing with other programmes**
 
@@ -57,7 +57,7 @@ body_en: |
 ---
 **สูตรสำหรับผิวฉ่ำวาว**
 
-Vera Skin Glow เป็นหนึ่งใน 3 สูตรของ Vera Skin ที่คุณหมอปิงปองผสมเอง โดยใช้ผลิตภัณฑ์ของ Fillstim สูตรนี้เหมาะกับผิวแห้งและหมอง ช่วยให้ผิวชุ่มชื้นและดูฉ่ำวาวขึ้น ส่วนการผสมและสัดส่วนเป็นสูตรเฉพาะของคุณหมอ
+Vera Skin Glow เป็นหนึ่งใน 3 สูตรของ Vera Skin ที่คุณหมอปิงปองผสมเอง โดยใช้ผลิตภัณฑ์ของ Fillstim จากประเทศอิตาลี ผ่าน อย. แบบฉีดอย่างถูกต้อง สูตรนี้เหมาะกับผิวแห้งและหมอง ช่วยให้ผิวชุ่มชื้นและดูฉ่ำวาวขึ้น ส่วนการผสมและสัดส่วนเป็นสูตรเฉพาะของคุณหมอ
 
 **ทำคู่กับโปรแกรมอื่น**
 
