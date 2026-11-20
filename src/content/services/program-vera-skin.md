@@ -6,7 +6,7 @@ subgroup: pigment
 also_in: [hydration]
 image: /uploads/service-vera-skin.jpg
 summary_th: "โปรแกรมดูแลผิวที่คุณหมอปิงปองผสมสูตรเอง ใช้ผลิตภัณฑ์ของ Fillstim มี 3 สูตรตามเป้าหมาย Bright ลดเลือนฝ้า กระ จุดด่างดำ · Plump ผิวอิ่มฟู · Glow ผิวฉ่ำวาว"
-summary_en: "A skin programme with formulas blended by Dr. PP using Fillstim products, in three versions by goal: Bright for melasma, freckles and dark spots · Plump for plump skin · Glow for a dewy glow."
+summary_en: "A skin programme with formulas blended by Dr. PP using Fillstim products, in three versions by goal: Bright for melasma, freckles and dark spots · Plump for fuller, bouncier skin · Glow for dewy, hydrated skin."
 price_from: "5900"
 price_grid:
   columns:
