@@ -1,5 +1,5 @@
 ---
-name_en: Program The Formulary
+name_en: Program The Formulary IV Drip
 name_th: IV Drip วิตามิน 7 สูตร คุณหมอเลือกสูตรตามร่างกายของคุณ
 category: wellness
 image: /uploads/service-formulary.jpg
@@ -92,14 +92,18 @@ faq:
     a_th: "ขึ้นกับสูตรและเป้าหมายของแต่ละคน คุณหมอจะแนะนำความถี่ให้ หลายคนเลือกทำเป็นคอร์สต่อเนื่องในช่วงที่ร่างกายต้องการมากขึ้น เช่น ช่วงงานหนักหรือช่วงซ้อมวิ่ง"
     q_en: "How often should I come?"
     a_en: "It depends on the formula and your goals; the doctor will advise. Many people do a course during demanding periods, such as a busy stretch at work or a training block."
+  - q_th: "ใช้เวลานานแค่ไหน"
+    a_th: "สูตรทั่วไปใช้เวลาประมาณ 30 นาทีถึง 1 ชั่วโมง ขึ้นกับสูตรและปริมาณ ส่วน The Physician's Reserve ต้องให้ช้ากว่า ใช้เวลาประมาณ 1.5 ชั่วโมง ระหว่างนั้นนั่งพักหรือทำงานเบาๆ บนมือถือได้"
+    q_en: "How long does it take?"
+    a_en: "Most formulas take about 30 minutes to 1 hour, depending on the formula and volume. The Physician's Reserve runs more slowly and takes about 1.5 hours. You can relax or do light work on your phone meanwhile."
   - q_th: "Booster คืออะไร เพิ่มได้กับสูตรไหน"
     a_th: "Booster คือการเพิ่มวิตามินบางตัวเข้าไปในถุงเดิม มี B-Complex Top-Up เพิ่มวิตามินบีรวม (+100 บาท) Tri-B Top-Up เพิ่มวิตามินบี 1 บี 6 บี 12 (+150 บาท) และ Ascorbic Top-Up เพิ่มวิตามินซีอีก 1,000 mg (+250 บาท) เพิ่มได้กับสูตรพื้นฐาน 5 สูตร ส่วน The Formulary Signature และ The Physician's Reserve ไม่ร่วมสิทธิ์ Booster"
     q_en: "What are boosters, and which formulas can have them?"
     a_en: "A booster adds extra vitamins to the same bag: B-Complex Top-Up (+100 THB), Tri-B Top-Up with vitamins B1, B6 and B12 (+150 THB), and Ascorbic Top-Up with another 1,000 mg of vitamin C (+250 THB). They can be added to the five core formulas, but not to The Formulary Signature or The Physician's Reserve."
   - q_th: "The Physician's Reserve ต่างจากสูตรอื่นอย่างไร"
-    a_th: "สูตรนี้ใช้ EDTA ซึ่งจับกับโลหะหนักในเลือดแล้วขับออกทางไต ร่วมกับวิตามินสูตร Signature ต้องให้ช้าๆ ประมาณ 3 ชั่วโมง และแพทย์ดูแลตลอด เพราะ EDTA จับแคลเซียมได้ด้วย คุณหมอจึงตรวจค่าแคลเซียมและการทำงานของไตก่อนทุกครั้ง"
+    a_th: "สูตรนี้ใช้ EDTA ซึ่งจับกับโลหะหนักในเลือดแล้วขับออกทางไต ร่วมกับวิตามินสูตร Signature ต้องให้ช้าๆ ประมาณ 1.5 ชั่วโมง และแพทย์ดูแลตลอด เพราะ EDTA จับแคลเซียมได้ด้วย คุณหมอจึงตรวจค่าแคลเซียมและการทำงานของไตก่อนทุกครั้ง"
     q_en: "How is The Physician's Reserve different?"
-    a_en: "It uses EDTA, which binds heavy metals in the blood so the kidneys can remove them, together with the Signature vitamin formula. It is infused slowly over about 3 hours with a doctor overseeing throughout. Because EDTA also binds calcium, calcium and kidney function are checked before every session."
+    a_en: "It uses EDTA, which binds heavy metals in the blood so the kidneys can remove them, together with the Signature vitamin formula. It is infused slowly over about 1.5 hours with a doctor overseeing throughout. Because EDTA also binds calcium, calcium and kidney function are checked before every session."
   - q_th: "IV Drip ช่วยเรื่องผิวไหม"
     a_th: "วิตามินซีเป็นตัวช่วยสำคัญของเอนไซม์ที่ร่างกายใช้สร้างคอลลาเจน การดูแลจากภายในจึงช่วยเสริมโปรแกรมผิวอื่นๆ ได้ แต่ IV Drip ไม่ได้แทนการรักษาผิวโดยตรง คุณหมอมักแนะนำให้ใช้คู่กับแผนดูแลผิวของแต่ละคน"
     q_en: "Does an IV drip help the skin?"
@@ -127,7 +131,7 @@ body_en: |
   <details class="step-box"><summary><span class="sb-name">The Clarity Formula</span><span class="sb-count">NAC 600 mg</span></summary><ul class="info-list"><li><strong>Contains</strong><span>NAC (N-acetylcysteine) 600 mg with vitamin C and B-complex</span></li><li><strong>Suits</strong><span>City dwellers facing dust, sun and stress every day</span></li></ul></details>
   <details class="step-box"><summary><span class="sb-name">The Fortitude Formula</span><span class="sb-count">Magnesium 1,000 mg + vitamins B1-B6-B12</span></summary><ul class="info-list"><li><strong>Contains</strong><span>Magnesium 1,000 mg with high-dose vitamins B1, B6 and B12</span></li><li><strong>Suits</strong><span>Regular exercisers, people who push their bodies hard, those whose diet lacks variety, and vegetarians</span></li></ul></details>
   <details class="step-box"><summary><span class="sb-name">The Formulary Signature</span><span class="sb-count">Vitamin C 5,000 mg</span></summary><ul class="info-list"><li><strong>Contains</strong><span>The key ingredients of the core formulas in one bag: vitamin C, B-complex, vitamins B1-B6-B12, magnesium and NAC</span></li><li><strong>Suits</strong><span>People who can't visit often, before or after a long trip, and while preparing for a big event</span></li><li><strong>Note</strong><span>Boosters not available · Not suitable for G6PD deficiency or kidney disease</span></li></ul></details>
-  <details class="step-box"><summary><span class="sb-name">The Physician's Reserve</span><span class="sb-count">EDTA + Signature formula</span></summary><ul class="info-list"><li><strong>Contains</strong><span>EDTA with the Signature vitamin formula, infused slowly over about 3 hours with a doctor overseeing throughout</span></li><li><strong>Suits</strong><span>People with possible exposure to, or risk from, heavy metals and pollutants</span></li><li><strong>Note</strong><span>Boosters not available · Calcium and kidney function are checked before every session</span></li></ul></details>
+  <details class="step-box"><summary><span class="sb-name">The Physician's Reserve</span><span class="sb-count">EDTA + Signature formula</span></summary><ul class="info-list"><li><strong>Contains</strong><span>EDTA with the Signature vitamin formula, infused slowly over about 1.5 hours with a doctor overseeing throughout</span></li><li><strong>Suits</strong><span>People with possible exposure to, or risk from, heavy metals and pollutants</span></li><li><strong>Note</strong><span>Boosters not available · Calcium and kidney function are checked before every session</span></li></ul></details>
 
   **Boosters**
 
@@ -139,7 +143,8 @@ body_en: |
 
   **During and after**
 
-  - Relax in a chair while the drip runs; The Physician's Reserve takes about 3 hours
+  - Most formulas take 30 minutes to 1 hour; The Physician's Reserve takes about 1.5 hours
+  - Relax in a chair while the drip runs
   - You may feel coolness or slight tenderness along the vein, and a small bruise is possible at the needle site
   - Drink water and carry on with your day as normal
 
@@ -162,7 +167,7 @@ body_en: |
 <details class="step-box"><summary><span class="sb-name">The Clarity Formula</span><span class="sb-count">NAC 600 mg</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>NAC (N-Acetylcysteine) 600 mg ร่วมกับวิตามินซีและวิตามินบีรวม</span></li><li><strong>เหมาะกับ</strong><span>คนที่ใช้ชีวิตในเมือง เจอฝุ่น แดด และความเครียดทุกวัน</span></li></ul></details>
 <details class="step-box"><summary><span class="sb-name">The Fortitude Formula</span><span class="sb-count">แมกนีเซียม 1,000 mg + วิตามินบี 1-6-12</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>แมกนีเซียม 1,000 mg และวิตามินบี 1, 6, 12 ขนาดสูง</span></li><li><strong>เหมาะกับ</strong><span>คนที่ออกกำลังกายสม่ำเสมอ ใช้ร่างกายหนัก ทานอาหารไม่ครบหมู่ รวมถึงคนที่ทานมังสวิรัติเป็นประจำ</span></li></ul></details>
 <details class="step-box"><summary><span class="sb-name">The Formulary Signature</span><span class="sb-count">วิตามินซี 5,000 mg</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>รวมส่วนผสมหลักของสูตรพื้นฐานไว้ในถุงเดียว ทั้งวิตามินซี วิตามินบีรวม วิตามินบี 1-6-12 แมกนีเซียม และ NAC</span></li><li><strong>เหมาะกับ</strong><span>คนที่มาคลินิกได้ไม่บ่อย ช่วงก่อนหรือหลังทริปยาว และช่วงเตรียมตัวก่อนงานสำคัญ</span></li><li><strong>ข้อควรรู้</strong><span>ไม่ร่วมสิทธิ์ Booster · ไม่เหมาะกับผู้ที่มีภาวะพร่องเอนไซม์ G6PD และผู้ป่วยโรคไต</span></li></ul></details>
-<details class="step-box"><summary><span class="sb-name">The Physician's Reserve</span><span class="sb-count">EDTA + สูตร Signature</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>EDTA ร่วมกับวิตามินสูตร Signature ให้ช้าๆ ประมาณ 3 ชั่วโมง ภายใต้การดูแลของแพทย์ตลอดการรับบริการ</span></li><li><strong>เหมาะกับ</strong><span>คนที่มีโอกาสหรือมีความเสี่ยงต่อการได้รับโลหะหนักและมลพิษ</span></li><li><strong>ข้อควรรู้</strong><span>ไม่ร่วมสิทธิ์ Booster · ตรวจค่าแคลเซียมและการทำงานของไตก่อนทุกครั้ง</span></li></ul></details>
+<details class="step-box"><summary><span class="sb-name">The Physician's Reserve</span><span class="sb-count">EDTA + สูตร Signature</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>EDTA ร่วมกับวิตามินสูตร Signature ให้ช้าๆ ประมาณ 1.5 ชั่วโมง ภายใต้การดูแลของแพทย์ตลอดการรับบริการ</span></li><li><strong>เหมาะกับ</strong><span>คนที่มีโอกาสหรือมีความเสี่ยงต่อการได้รับโลหะหนักและมลพิษ</span></li><li><strong>ข้อควรรู้</strong><span>ไม่ร่วมสิทธิ์ Booster · ตรวจค่าแคลเซียมและการทำงานของไตก่อนทุกครั้ง</span></li></ul></details>
 
 **Booster**
 
@@ -174,7 +179,8 @@ body_en: |
 
 **ระหว่างและหลังรับบริการ**
 
-- นั่งพักสบายๆ ระหว่างให้ ส่วน The Physician's Reserve ใช้เวลาประมาณ 3 ชั่วโมง
+- สูตรทั่วไปใช้เวลาประมาณ 30 นาทีถึง 1 ชั่วโมง ส่วน The Physician's Reserve ประมาณ 1.5 ชั่วโมง
+- นั่งพักสบายๆ ระหว่างให้
 - อาจรู้สึกเย็นหรือตึงเล็กน้อยตามแนวเส้นเลือด และอาจมีรอยช้ำเล็กๆ ตรงจุดที่แทงเข็ม
 - ดื่มน้ำตามปกติ และกลับไปใช้ชีวิตได้ตามปกติ
 
