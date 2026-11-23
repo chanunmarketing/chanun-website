@@ -108,6 +108,7 @@
 - ถ้าผลิตภัณฑ์ขึ้นเดี่ยวๆ เป็นโปรแกรมของตัวเอง ต้องมีคำว่า "Program" นำหน้าทุกครั้ง (เช่น Program Ejal40 Italy Bioremodeling) ถ้าเป็นส่วนประกอบในโปรแกรมอื่น ไม่ต้องใส่
 - ฝ้า (Pigment & Tone): โปรแกรมหลัก 2 ตัว คือ **Program Melasma Precision** (ฉีดยาลดฝ้าตรงจุด 3,900 บาท/5 c.c. — ห้ามเขียนชื่อยาบนเว็บและสื่อ ใช้คำว่า "ยาลดฝ้า" แทน) และ **Program Vera Skin Bright** (ลดเลือนฝ้า กระ จุดด่างดำ) — Vera Skin มี 3 สูตร แยกการ์ดคนละหมวด: Bright อยู่ Pigment & Tone, **Program Vera Skin Plump** (ผิวอิ่มฟู) และ **Program Vera Skin Glow** (ผิวฉ่ำวาว) อยู่ Deep Hydration ราคาเท่ากัน 5,900 บาท/5 c.c. ใช้ผลิตภัณฑ์ Fillstim (บอกชื่อแบรนด์ได้ แต่ไม่บอกส่วนผสมหรือสัดส่วนของแต่ละสูตร)
 - โปรแกรมที่ช่วยทางอ้อมแสดงเป็นแถบ **Adjuvant Treatment** ใต้การ์ดหลัก (ฝ้า: Plasma Prime, EPN, Vitaran / Luna Healer PN2%, Ejal40) ไม่ใช้การ์ดเต็ม เพื่อไม่ให้ดูเหมือนรักษาโดยตรง
+- Longevity Wellness: **Program The Formulary** (IV Drip วิตามิน 7 สูตร: The Restorative · The Ascorbic Reserve 7,500 / 15,000 mg · The Clarity Formula · The Fortitude Formula · The Formulary Signature · The Physician's Reserve) + Booster 3 ตัว (B-Complex / Tri-B / Ascorbic Top-Up) เฉพาะสูตรพื้นฐาน; ห้ามใช้คำว่า "ล้างพิษ/ดีท็อกซ์" กับ The Physician's Reserve ให้อธิบายว่า EDTA จับโลหะหนักและขับออกทางไต
 - ห้ามเขียนชื่อยี่ห้อยาในคำอธิบาย (เช่น ใช้ "งานฉีดปรับรูปหน้า" แทนชื่อยี่ห้อ)
 - ไม่ควรเพิ่มหมวดเกิน 6 บริการใหม่ให้หาที่ลงในหมวดเดิมก่อน
 
