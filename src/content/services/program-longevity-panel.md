@@ -1,10 +1,10 @@
 ---
 name_en: Program Longevity Panel
-name_th: ตรวจเลือดทุก 6 เดือน เห็นความเปลี่ยนแปลงของร่างกายตั้งแต่เนิ่นๆ
+name_th: ตรวจเลือดทุก 6 เดือน วางแผน Longevity จากข้อมูลจริงของร่างกาย
 category: wellness
 image: /uploads/service-longevity-panel.jpg
-summary_th: "ตรวจเลือดทุก 6 เดือนเพื่อติดตามร่างกายอย่างต่อเนื่อง ทั้งน้ำตาล ไขมัน ตับ ไต เกลือแร่ และ Homocysteine เมื่อมีผลเทียบกันหลายครั้ง คุณหมอจะเห็นแนวโน้มตั้งแต่ค่ายังไม่ผิดปกติ รู้ผลภายใน 30–60 นาที และคุณหมออ่านผลให้ด้วยตัวเอง"
-summary_en: "Blood tests every six months to follow your body over time: sugar, lipids, liver, kidneys, electrolytes and homocysteine. With several results to compare, the doctor can spot trends before a value turns abnormal. Results in 30–60 minutes, reviewed by the doctor personally."
+summary_th: "Longevity เริ่มจากการรู้จักร่างกายตัวเองอย่างต่อเนื่อง ตรวจเลือดทุก 6 เดือน ทั้งน้ำตาล ไขมัน ตับ ไต เกลือแร่ และ Homocysteine ผลแต่ละครั้งต่อกันเป็นเส้นทางสุขภาพของคุณ ช่วยให้คุณหมอปรับการดูแลได้ก่อนร่างกายส่งสัญญาณ รู้ผลภายใน 30–60 นาที และคุณหมออ่านผลให้ด้วยตัวเอง"
+summary_en: "Longevity starts with knowing your body, again and again. Test every six months for sugar, lipids, liver, kidneys, electrolytes and homocysteine; together, the results map your health over time, so the doctor can adjust your care before your body sends a signal. Results in 30–60 minutes, reviewed by the doctor personally."
 price_from: "1190"
 price_grid:
   columns:
