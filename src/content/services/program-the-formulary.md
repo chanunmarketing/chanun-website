@@ -92,6 +92,10 @@ faq:
     a_th: "ขึ้นกับสูตรและเป้าหมายของแต่ละคน คุณหมอจะแนะนำความถี่ให้ หลายคนเลือกทำเป็นคอร์สต่อเนื่องในช่วงที่ร่างกายต้องการมากขึ้น เช่น ช่วงงานหนักหรือช่วงซ้อมวิ่ง"
     q_en: "How often should I come?"
     a_en: "It depends on the formula and your goals; the doctor will advise. Many people do a course during demanding periods, such as a busy stretch at work or a training block."
+  - q_th: "ต้องตรวจเลือดก่อนไหม"
+    a_th: "ถ้ายังไม่มีผลเลือดล่าสุด คุณหมอแนะนำให้ตรวจเลือดพื้นฐานก่อน ได้แก่ CBC เกลือแร่ (Electrolytes) การทำงานของไต (BUN, Creatinine) วิตามินดี และ CRP ตรวจได้ที่คลินิก ผลเลือดช่วยให้เลือกสูตรได้ตรงกับร่างกาย และใช้ติดตามผลในระยะยาว"
+    q_en: "Do I need a blood test first?"
+    a_en: "If you don't have recent results, the doctor recommends a basic panel first: CBC, electrolytes, kidney function (BUN, creatinine), vitamin D and CRP, all available at the clinic. The results help match the formula to your body and give a baseline to track over time."
   - q_th: "ใช้เวลานานแค่ไหน"
     a_th: "สูตรทั่วไปใช้เวลาประมาณ 30 นาทีถึง 1 ชั่วโมง ขึ้นกับสูตรและปริมาณ ส่วน The Physician's Reserve ต้องให้ช้ากว่า ใช้เวลาประมาณ 1.5 ชั่วโมง ระหว่างนั้นนั่งพักหรือทำงานเบาๆ บนมือถือได้"
     q_en: "How long does it take?"
@@ -123,6 +127,16 @@ body_en: |
   **The doctor chooses your formula**
 
   Before every session, the doctor asks about long-term conditions, medicines and allergies, and for high-dose vitamin C formulas, about G6PD deficiency and kidney health. Then the formula is matched to what your body needs right now.
+
+  If you don't have recent blood results, the doctor will suggest a basic blood panel at the clinic first, so the formula is chosen from real data about your body rather than guesswork.
+
+  - **CBC (complete blood count):** checks for anaemia and gives an overview of your blood cells
+  - **Electrolytes:** checks the balance of sodium, potassium and other minerals
+  - **BUN and creatinine:** check kidney function, which matters before any high-dose vitamin C
+  - **Vitamin D:** many people in Thailand are low without knowing it, despite year-round sun
+  - **CRP:** shows the level of inflammation in the body
+
+  These results help the doctor plan more precisely, and give a baseline to track over time.
 
   **The seven formulas**
 
@@ -159,6 +173,16 @@ body_en: |
 **คุณหมอเลือกสูตรให้**
 
 ก่อนรับบริการทุกครั้ง คุณหมอจะสอบถามโรคประจำตัว ยาที่ทานอยู่ และประวัติการแพ้ ถ้าเป็นสูตรวิตามินซีขนาดสูง จะถามเรื่องภาวะพร่องเอนไซม์ G6PD และการทำงานของไตด้วย แล้วจึงเลือกสูตรให้ตรงกับสิ่งที่ร่างกายต้องการในช่วงนั้น
+
+ถ้ายังไม่มีผลเลือดล่าสุด คุณหมอจะแนะนำให้ตรวจเลือดพื้นฐานที่คลินิกก่อน เพื่อให้เลือกสูตรจากข้อมูลจริงของร่างกาย ไม่ใช่จากความรู้สึกอย่างเดียว
+
+- **CBC (ความสมบูรณ์ของเม็ดเลือด):** ดูภาวะโลหิตจาง และภาพรวมของเม็ดเลือด
+- **Electrolytes (เกลือแร่ในเลือด):** ดูความสมดุลของโซเดียม โพแทสเซียม และเกลือแร่อื่นๆ
+- **BUN และ Creatinine:** ดูการทำงานของไต ซึ่งสำคัญมากก่อนให้วิตามินซีขนาดสูง
+- **Vitamin D:** คนไทยจำนวนไม่น้อยมีวิตามินดีต่ำโดยไม่รู้ตัว แม้อยู่ในประเทศที่มีแดดทั้งปี
+- **CRP:** ดูระดับการอักเสบในร่างกาย
+
+ผลเลือดชุดนี้ช่วยให้คุณหมอวางแผนได้แม่นขึ้น และใช้ติดตามผลในระยะยาวได้ด้วย
 
 **7 สูตรของ The Formulary**
 
