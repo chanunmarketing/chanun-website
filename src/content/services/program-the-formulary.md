@@ -22,22 +22,6 @@ price_grid:
         - { price: "3450", note_th: "เฉลี่ย 493/ครั้ง", note_en: "493 per session" }
     - group_th: "สูตรพื้นฐาน · เพิ่ม Booster ได้"
       group_en: "Core formulas · Booster available"
-      name_th: "The Ascorbic Reserve 7,500 mg"
-      name_en: "The Ascorbic Reserve 7,500 mg"
-      cells:
-        - { price: "1890" }
-        - { price: "5670", note_th: "เฉลี่ย 1,418/ครั้ง", note_en: "1,418 per session" }
-        - { price: "9450", note_th: "เฉลี่ย 1,350/ครั้ง", note_en: "1,350 per session" }
-    - group_th: "สูตรพื้นฐาน · เพิ่ม Booster ได้"
-      group_en: "Core formulas · Booster available"
-      name_th: "The Ascorbic Reserve 15,000 mg"
-      name_en: "The Ascorbic Reserve 15,000 mg"
-      cells:
-        - { price: "2890" }
-        - { price: "8670", note_th: "เฉลี่ย 2,168/ครั้ง", note_en: "2,168 per session" }
-        - { price: "14450", note_th: "เฉลี่ย 2,064/ครั้ง", note_en: "2,064 per session" }
-    - group_th: "สูตรพื้นฐาน · เพิ่ม Booster ได้"
-      group_en: "Core formulas · Booster available"
       name_th: "The Clarity Formula"
       name_en: "The Clarity Formula"
       cells:
@@ -52,6 +36,22 @@ price_grid:
         - { price: "990" }
         - { price: "2970", note_th: "เฉลี่ย 743/ครั้ง", note_en: "743 per session" }
         - { price: "4950", note_th: "เฉลี่ย 707/ครั้ง", note_en: "707 per session" }
+    - group_th: "สูตรพื้นฐาน · เพิ่ม Booster ได้"
+      group_en: "Core formulas · Booster available"
+      name_th: "The Ascorbic Reserve 7,500 mg"
+      name_en: "The Ascorbic Reserve 7,500 mg"
+      cells:
+        - { price: "1890" }
+        - { price: "5670", note_th: "เฉลี่ย 1,418/ครั้ง", note_en: "1,418 per session" }
+        - { price: "9450", note_th: "เฉลี่ย 1,350/ครั้ง", note_en: "1,350 per session" }
+    - group_th: "สูตรพื้นฐาน · เพิ่ม Booster ได้"
+      group_en: "Core formulas · Booster available"
+      name_th: "The Ascorbic Reserve 15,000 mg"
+      name_en: "The Ascorbic Reserve 15,000 mg"
+      cells:
+        - { price: "2890" }
+        - { price: "8670", note_th: "เฉลี่ย 2,168/ครั้ง", note_en: "2,168 per session" }
+        - { price: "14450", note_th: "เฉลี่ย 2,064/ครั้ง", note_en: "2,064 per session" }
     - group_th: "สูตรพิเศษ · ไม่ร่วมสิทธิ์ Booster"
       group_en: "Special formulas · Booster not available"
       name_th: "The Formulary Signature"
@@ -141,9 +141,9 @@ body_en: |
   **The seven formulas**
 
   <details class="step-box"><summary><span class="sb-name">The Restorative</span><span class="sb-count">Vitamin C 1,000 mg</span></summary><ul class="info-list"><li><strong>Contains</strong><span>Vitamin C, B-complex, magnesium and calcium</span></li><li><strong>Suits</strong><span>People who work hard, sleep little, or are recovering after illness</span></li></ul></details>
-  <details class="step-box"><summary><span class="sb-name">The Ascorbic Reserve</span><span class="sb-count">Vitamin C 7,500 / 15,000 mg</span></summary><ul class="info-list"><li><strong>Contains</strong><span>High-dose vitamin C with B-complex</span></li><li><strong>Suits</strong><span>Frequent travellers, people short on sleep, or anyone in the middle of a skin programme</span></li><li><strong>Note</strong><span>Not suitable for G6PD deficiency or kidney disease</span></li></ul></details>
   <details class="step-box"><summary><span class="sb-name">The Clarity Formula</span><span class="sb-count">NAC 600 mg</span></summary><ul class="info-list"><li><strong>Contains</strong><span>NAC (N-acetylcysteine) 600 mg with vitamin C and B-complex</span></li><li><strong>Suits</strong><span>City dwellers facing dust, sun and stress every day</span></li></ul></details>
   <details class="step-box"><summary><span class="sb-name">The Fortitude Formula</span><span class="sb-count">Magnesium 1,000 mg + vitamins B1-B6-B12</span></summary><ul class="info-list"><li><strong>Contains</strong><span>Magnesium 1,000 mg with high-dose vitamins B1, B6 and B12</span></li><li><strong>Suits</strong><span>Regular exercisers, people who push their bodies hard, those whose diet lacks variety, and vegetarians</span></li></ul></details>
+  <details class="step-box"><summary><span class="sb-name">The Ascorbic Reserve</span><span class="sb-count">Vitamin C 7,500 / 15,000 mg</span></summary><ul class="info-list"><li><strong>Contains</strong><span>High-dose vitamin C with B-complex</span></li><li><strong>Suits</strong><span>Frequent travellers, people short on sleep, or anyone in the middle of a skin programme</span></li><li><strong>Note</strong><span>Not suitable for G6PD deficiency or kidney disease</span></li></ul></details>
   <details class="step-box"><summary><span class="sb-name">The Formulary Signature</span><span class="sb-count">Vitamin C 5,000 mg</span></summary><ul class="info-list"><li><strong>Contains</strong><span>The key ingredients of the core formulas in one bag: vitamin C, B-complex, vitamins B1-B6-B12, magnesium and NAC</span></li><li><strong>Suits</strong><span>People who can't visit often, before or after a long trip, and while preparing for a big event</span></li><li><strong>Note</strong><span>Boosters not available · Not suitable for G6PD deficiency or kidney disease</span></li></ul></details>
   <details class="step-box"><summary><span class="sb-name">The Physician's Reserve</span><span class="sb-count">EDTA + Signature formula</span></summary><ul class="info-list"><li><strong>Contains</strong><span>EDTA with the Signature vitamin formula, infused slowly over about 1.5 hours with a doctor overseeing throughout</span></li><li><strong>Suits</strong><span>People with possible exposure to, or risk from, heavy metals and pollutants</span></li><li><strong>Note</strong><span>Boosters not available · Calcium and kidney function are checked before every session</span></li></ul></details>
 
@@ -187,9 +187,9 @@ body_en: |
 **7 สูตรของ The Formulary**
 
 <details class="step-box"><summary><span class="sb-name">The Restorative</span><span class="sb-count">วิตามินซี 1,000 mg</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>วิตามินซี วิตามินบีรวม แมกนีเซียม และแคลเซียม</span></li><li><strong>เหมาะกับ</strong><span>คนทำงานหนัก พักผ่อนน้อย หรืออยู่ในช่วงพักฟื้นหลังเจ็บป่วย</span></li></ul></details>
-<details class="step-box"><summary><span class="sb-name">The Ascorbic Reserve</span><span class="sb-count">วิตามินซี 7,500 / 15,000 mg</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>วิตามินซีขนาดสูง เสริมด้วยวิตามินบีรวม</span></li><li><strong>เหมาะกับ</strong><span>คนที่เดินทางบ่อย พักผ่อนน้อย หรืออยู่ระหว่างดูแลผิวพรรณ</span></li><li><strong>ข้อควรรู้</strong><span>ไม่เหมาะกับผู้ที่มีภาวะพร่องเอนไซม์ G6PD และผู้ป่วยโรคไต</span></li></ul></details>
 <details class="step-box"><summary><span class="sb-name">The Clarity Formula</span><span class="sb-count">NAC 600 mg</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>NAC (N-Acetylcysteine) 600 mg ร่วมกับวิตามินซีและวิตามินบีรวม</span></li><li><strong>เหมาะกับ</strong><span>คนที่ใช้ชีวิตในเมือง เจอฝุ่น แดด และความเครียดทุกวัน</span></li></ul></details>
 <details class="step-box"><summary><span class="sb-name">The Fortitude Formula</span><span class="sb-count">แมกนีเซียม 1,000 mg + วิตามินบี 1-6-12</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>แมกนีเซียม 1,000 mg และวิตามินบี 1, 6, 12 ขนาดสูง</span></li><li><strong>เหมาะกับ</strong><span>คนที่ออกกำลังกายสม่ำเสมอ ใช้ร่างกายหนัก ทานอาหารไม่ครบหมู่ รวมถึงคนที่ทานมังสวิรัติเป็นประจำ</span></li></ul></details>
+<details class="step-box"><summary><span class="sb-name">The Ascorbic Reserve</span><span class="sb-count">วิตามินซี 7,500 / 15,000 mg</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>วิตามินซีขนาดสูง เสริมด้วยวิตามินบีรวม</span></li><li><strong>เหมาะกับ</strong><span>คนที่เดินทางบ่อย พักผ่อนน้อย หรืออยู่ระหว่างดูแลผิวพรรณ</span></li><li><strong>ข้อควรรู้</strong><span>ไม่เหมาะกับผู้ที่มีภาวะพร่องเอนไซม์ G6PD และผู้ป่วยโรคไต</span></li></ul></details>
 <details class="step-box"><summary><span class="sb-name">The Formulary Signature</span><span class="sb-count">วิตามินซี 5,000 mg</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>รวมส่วนผสมหลักของสูตรพื้นฐานไว้ในถุงเดียว ทั้งวิตามินซี วิตามินบีรวม วิตามินบี 1-6-12 แมกนีเซียม และ NAC</span></li><li><strong>เหมาะกับ</strong><span>คนที่มาคลินิกได้ไม่บ่อย ช่วงก่อนหรือหลังทริปยาว และช่วงเตรียมตัวก่อนงานสำคัญ</span></li><li><strong>ข้อควรรู้</strong><span>ไม่ร่วมสิทธิ์ Booster · ไม่เหมาะกับผู้ที่มีภาวะพร่องเอนไซม์ G6PD และผู้ป่วยโรคไต</span></li></ul></details>
 <details class="step-box"><summary><span class="sb-name">The Physician's Reserve</span><span class="sb-count">EDTA + สูตร Signature</span></summary><ul class="info-list"><li><strong>ส่วนประกอบ</strong><span>EDTA ร่วมกับวิตามินสูตร Signature ให้ช้าๆ ประมาณ 1.5 ชั่วโมง ภายใต้การดูแลของแพทย์ตลอดการรับบริการ</span></li><li><strong>เหมาะกับ</strong><span>คนที่มีโอกาสหรือมีความเสี่ยงต่อการได้รับโลหะหนักและมลพิษ</span></li><li><strong>ข้อควรรู้</strong><span>ไม่ร่วมสิทธิ์ Booster · ตรวจค่าแคลเซียมและการทำงานของไตก่อนทุกครั้ง</span></li></ul></details>
 
