@@ -63,6 +63,22 @@ const summary = pick(d, 'summary', lang);
         </section>
       )}
 
+      {d.addons && d.addons.items.length > 0 && (
+        <section class="price-box addon-box">
+          <h2 class="h-small">{pick(d.addons, 'title', lang) || 'Add-on'}</h2>
+          {pick(d.addons, 'note', lang) && <p class="addon-note">{pick(d.addons, 'note', lang)}</p>}
+          <ul class="addon-grid">
+            {d.addons.items.map((a: any) => (
+              <li class="addon-card">
+                <span class="addon-name is-latin">{a.name}</span>
+                {pick(a, 'desc', lang) && <span class="addon-desc">{pick(a, 'desc', lang)}</span>}
+                <span class="addon-price">{/^\d[\d,]*$/.test(a.price ?? '') ? `+${Number(a.price.replace(/,/g, '')).toLocaleString('en-US')} ${lang === 'en' ? 'THB' : 'บาท'}` : priceLabel(a.price, lang)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {d.prices.length > 0 && (
         <section class="price-box">
           <h2 class="h-small">{t.priceList}</h2>

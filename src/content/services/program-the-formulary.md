@@ -68,8 +68,26 @@ price_grid:
         - { price: "4900" }
         - { price: "14700", note_th: "เฉลี่ย 3,675/ครั้ง", note_en: "3,675 per session" }
         - { price: "24500", note_th: "เฉลี่ย 3,500/ครั้ง", note_en: "3,500 per session" }
-  footnote_th: "ราคาเป็นบาท · Course Privilege 3+1 ชำระ 3 ครั้ง รับสิทธิ์ 4 ครั้ง · 5+2 ชำระ 5 ครั้ง รับสิทธิ์ 7 ครั้ง · Booster เพิ่มได้กับสูตรพื้นฐาน: B-Complex Top-Up +100 · Tri-B Top-Up +150 · Ascorbic Top-Up +250"
-  footnote_en: "Prices in THB · Course Privilege 3+1: pay for 3, receive 4 · 5+2: pay for 5, receive 7 · Boosters for core formulas: B-Complex Top-Up +100 · Tri-B Top-Up +150 · Ascorbic Top-Up +250"
+  footnote_th: "ราคาเป็นบาท · Course Privilege 3+1 ชำระ 3 ครั้ง รับสิทธิ์ 4 ครั้ง · 5+2 ชำระ 5 ครั้ง รับสิทธิ์ 7 ครั้ง"
+  footnote_en: "Prices in THB · Course Privilege 3+1: pay for 3, receive 4 · 5+2: pay for 5, receive 7"
+addons:
+  title_th: Booster
+  title_en: Booster
+  note_th: "เพิ่มวิตามินเข้าไปในถุงเดิม เลือกได้กับสูตรพื้นฐาน 5 สูตร (The Formulary Signature และ The Physician's Reserve ไม่ร่วมสิทธิ์ Booster)"
+  note_en: "Extra vitamins added to the same bag, for the five core formulas (not available with The Formulary Signature or The Physician's Reserve)"
+  items:
+    - name: B-Complex Top-Up
+      desc_th: เพิ่มวิตามินบีรวม
+      desc_en: Extra B-complex
+      price: "100"
+    - name: Tri-B Top-Up
+      desc_th: เพิ่มวิตามินบี 1 บี 6 บี 12
+      desc_en: Extra vitamins B1, B6 and B12
+      price: "150"
+    - name: Ascorbic Top-Up
+      desc_th: เพิ่มวิตามินซีอีก 1,000 mg
+      desc_en: Another 1,000 mg of vitamin C
+      price: "250"
 prices: []
 suits_th: คนทำงานหนัก พักผ่อนน้อย เดินทางบ่อย ออกกำลังกายหนัก ช่วงพักฟื้นหลังเจ็บป่วย และคนที่อยากดูแลร่างกายจากภายในควบคู่กับการดูแลผิว
 suits_en: People who work hard, sleep little, travel often or train hard, those recovering after illness, and anyone who wants care from within alongside their skin care.
@@ -149,7 +167,7 @@ body_en: |
 
   **Boosters**
 
-  Extra vitamins can be added to the five core formulas: B-Complex Top-Up (+100 THB), Tri-B Top-Up with vitamins B1, B6 and B12 (+150 THB) and Ascorbic Top-Up with another 1,000 mg of vitamin C (+250 THB). The Formulary Signature and The Physician's Reserve do not take boosters.
+  Extra vitamins can be added to the core formulas; see the Booster list and prices under the price table.
 
   **Care from within, alongside your skin**
 
@@ -195,7 +213,7 @@ body_en: |
 
 **Booster**
 
-เพิ่มวิตามินเข้าไปในถุงเดิมได้กับสูตรพื้นฐาน 5 สูตร ได้แก่ B-Complex Top-Up เพิ่มวิตามินบีรวม (+100 บาท) Tri-B Top-Up เพิ่มวิตามินบี 1 บี 6 บี 12 (+150 บาท) และ Ascorbic Top-Up เพิ่มวิตามินซีอีก 1,000 mg (+250 บาท) ส่วน The Formulary Signature และ The Physician's Reserve ไม่ร่วมสิทธิ์ Booster
+เลือกเพิ่มวิตามินเข้าไปในถุงเดิมได้กับสูตรพื้นฐาน ดูรายการและราคาได้ในส่วน Booster ใต้ตารางราคา
 
 **ดูแลจากภายใน ควบคู่กับการดูแลผิว**
 

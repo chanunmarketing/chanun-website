@@ -27,6 +27,12 @@ const services = defineCollection({
         footnote_en: str,
       })
       .nullish(),
+    addons: z
+      .object({
+        title_th: str, title_en: str, note_th: str, note_en: str,
+        items: z.array(z.object({ name: str, desc_th: str, desc_en: str, price: str })).nullish().transform((v) => v ?? []),
+      })
+      .nullish(),
     prices: z
       .array(z.object({ item_th: str, item_en: str, price: str, note_th: str, note_en: str }))
       .nullish()

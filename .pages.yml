@@ -87,6 +87,24 @@ content:
         label: ราคาเริ่มต้น
         description: ใส่แค่ตัวเลข เช่น 4900 ถ้าเว้นว่างจะขึ้นว่า "สอบถามราคา"
         type: string
+      - name: addons
+        label: "ตัวเลือกเสริม / Booster (ไม่ใส่ก็ได้)"
+        description: "การ์ดตัวเลือกเสริมใต้ตารางราคา เช่น Booster ของ The Formulary"
+        type: object
+        fields:
+          - { name: title_th, label: หัวข้อ (TH), type: string }
+          - { name: title_en, label: หัวข้อ (EN), type: string }
+          - { name: note_th, label: คำอธิบายสั้น (TH), type: string }
+          - { name: note_en, label: คำอธิบายสั้น (EN), type: string }
+          - name: items
+            label: รายการ
+            type: object
+            list: true
+            fields:
+              - { name: name, label: ชื่อ, type: string }
+              - { name: desc_th, label: รายละเอียด (TH), type: string }
+              - { name: desc_en, label: รายละเอียด (EN), type: string }
+              - { name: price, label: ราคาที่เพิ่ม (ตัวเลข), type: string }
       - name: price_grid
         label: ตารางราคาแบบหลายคอลัมน์ (ไม่ใส่ก็ได้)
         description: "ใช้เมื่อโปรแกรมมีหลายแบบ และแต่ละแบบมีราคา 1 ครั้ง / คอร์ส เช่น Plasma Prime"
