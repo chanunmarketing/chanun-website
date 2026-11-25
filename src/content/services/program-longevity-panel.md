@@ -10,26 +10,56 @@ price_grid:
   columns:
     - { th: "ราคา", en: "Price" }
   rows:
-    - name_th: "Longevity Panel · Metabolic 19"
+    - group_th: "ชุดตรวจ"
+      group_en: "Panels"
+      name_th: "Longevity Panel · Metabolic 19"
       name_en: "Longevity Panel · Metabolic 19"
       note_th: "น้ำตาล ไขมัน ตับ ไต กรดยูริก และ Homocysteine"
       note_en: "Sugar, lipids, liver, kidneys, uric acid and homocysteine"
       cells:
         - { price: "1590" }
-    - name_th: "Longevity Panel · Balance 12"
+    - group_th: "ชุดตรวจ"
+      group_en: "Panels"
+      name_th: "Longevity Panel · Balance 12"
       name_en: "Longevity Panel · Balance 12"
       note_th: "เกลือแร่ แคลเซียม แมกนีเซียม ฟอสฟอรัส และไต"
       note_en: "Electrolytes, calcium, magnesium, phosphorus and kidneys"
       cells:
         - { price: "1190" }
-    - name_th: "Longevity Panel · Complete 27"
+    - group_th: "ชุดตรวจ"
+      group_en: "Panels"
+      name_th: "Longevity Panel · Complete 27"
       name_en: "Longevity Panel · Complete 27"
       note_th: "ตรวจทั้ง 2 ชุดในครั้งเดียว (Metabolic 19 + Balance 12 รายการที่ซ้ำกันตรวจครั้งเดียว)"
       note_en: "Both panels in one draw (Metabolic 19 + Balance 12, shared tests run once)"
       cells:
         - { price: "2490" }
-  footnote_th: "ราคาเป็นบาท · รวมการเจาะเลือด และคุณหมออ่านผลให้ด้วยตัวเอง · งดอาหาร 8 ชั่วโมงก่อนตรวจ"
-  footnote_en: "Prices in THB · Includes the blood draw and results reviewed by the doctor personally · Fast for 8 hours beforehand"
+    - group_th: "ตรวจเพิ่มเฉพาะรายการ"
+      group_en: "Single tests"
+      name_th: "Vitamin D (25-OH Vitamin D)"
+      name_en: "Vitamin D (25-OH Vitamin D)"
+      note_th: "ระดับวิตามินดีในเลือด ดูภาวะขาดวิตามินดี และติดตามผลหลังเสริม"
+      note_en: "Vitamin D level, to check for deficiency and follow up after supplementing"
+      cells:
+        - { price: "1290" }
+    - group_th: "ตรวจเพิ่มเฉพาะรายการ"
+      group_en: "Single tests"
+      name_th: "CRP"
+      name_en: "CRP"
+      note_th: "ระดับการอักเสบในร่างกาย"
+      note_en: "Inflammation in the body"
+      cells:
+        - { price: "590" }
+    - group_th: "ตรวจเพิ่มเฉพาะรายการ"
+      group_en: "Single tests"
+      name_th: "HbA1c"
+      name_en: "HbA1c"
+      note_th: "น้ำตาลสะสมเฉลี่ย 2–3 เดือน ใช้ติดตามระดับน้ำตาลและการดูแลน้ำหนัก"
+      note_en: "Average blood sugar over 2–3 months, for tracking sugar control and weight care"
+      cells:
+        - { price: "490" }
+  footnote_th: "ราคาเป็นบาท · รวมการเจาะเลือด และคุณหมออ่านผลให้ด้วยตัวเอง · ชุดตรวจต้องงดอาหาร 8 ชั่วโมง · ตรวจเพิ่มเฉพาะรายการได้ทั้งแบบเดี่ยวและพร้อมชุดตรวจในการเจาะเลือดครั้งเดียว"
+  footnote_en: "Prices in THB · Includes the blood draw and results reviewed by the doctor personally · Panels require an 8-hour fast · Single tests can be taken alone or added to a panel in the same draw"
 prices: []
 suits_th: คนที่อยากติดตามสุขภาพต่อเนื่องทุก 6 เดือน ไม่ได้ตรวจมานาน กำลังจะเริ่มทำ IV Drip ออกกำลังกายหนัก หรืออยู่ระหว่างปรับอาหารและการใช้ชีวิต
 suits_en: People who want to follow their health every six months, haven't been tested in a while, are starting IV drips, train hard, or are changing their diet and lifestyle.
@@ -52,6 +82,10 @@ faq:
     a_th: "ถ้าอยากรู้ภาพรวมสุขภาพ น้ำตาล ไขมัน ตับ และไต เลือก Metabolic 19 ถ้าออกกำลังกายหนัก เหงื่อออกมาก หรือจะเริ่มทำ IV Drip เลือก Balance 12 ถ้าไม่เคยตรวจมาก่อนหรือเว้นมานาน แนะนำ Complete 27 ที่ตรวจทั้ง 2 ชุดในครั้งเดียว"
     q_en: "Which panel should I choose?"
     a_en: "For an overview of sugar, lipids, liver and kidneys, choose Metabolic 19. If you train hard, sweat a lot or are starting IV drips, choose Balance 12. If you've never been tested or it's been a while, Complete 27 covers both in one draw."
+  - q_th: "ควรตรวจวิตามินดีไหม ตรวจบ่อยแค่ไหน"
+    a_th: "ควรตรวจถ้าทากันแดดทุกวัน เลี่ยงแดด ทำงานในอาคาร หรือเหนื่อยง่ายและปวดเมื่อยบ่อย การสำรวจสุขภาพระดับชาติพบว่าคนไทยราว 1 ใน 3 มีวิตามินดีไม่เพียงพอ ถ้าผลต่ำและเริ่มเสริม คุณหมอจะนัดตรวจซ้ำที่ 3 เดือน เพราะระดับในเลือดใช้เวลาราว 3 เดือนกว่าจะคงที่ เมื่อเข้าเป้าแล้วตรวจทุก 6 เดือนพร้อมชุดตรวจหลัก"
+    q_en: "Should I check my vitamin D, and how often?"
+    a_en: "It's worth checking if you wear sunscreen daily, avoid the sun, work indoors, or often feel tired and achy. A national health survey found about one in three Thais has insufficient vitamin D. If yours is low and you start supplementing, the doctor rechecks at 3 months, since blood levels take about that long to settle; once on target, check every six months with your main panel."
   - q_th: "Homocysteine คืออะไร ทำไมต้องตรวจ"
     a_th: "Homocysteine เป็นสารที่เกิดจากการย่อยโปรตีน ถ้าสูงสัมพันธ์กับความเสี่ยงโรคหลอดเลือดหัวใจ และมักพบในคนที่ขาดวิตามินบี 6, บี 12 หรือโฟเลต คุณหมอใช้ค่านี้ประกอบการประเมินร่วมกับค่าอื่น และช่วยตัดสินใจเรื่องการเสริมวิตามินบี"
     q_en: "What is homocysteine, and why test it?"
@@ -89,6 +123,12 @@ body_en: |
 
   Longevity Panel · Complete 27 includes both panels in one draw; the tests they share are run once.
 
+  **Single tests**
+
+  - **Vitamin D:** about one in three Thais has insufficient vitamin D, and Bangkok residents have lower levels than other regions. People who wear sunscreen daily, avoid the sun or work indoors are the most likely to be low. Vitamin D helps the body absorb calcium, supports bones and muscles, and plays a part in immunity. If your level is low, the doctor plans supplementation and rechecks at 3 months.
+  - **CRP:** shows inflammation in the body, read alongside values such as lipids and homocysteine to assess vascular risk.
+  - **HbA1c:** average blood sugar over the past 2–3 months, with no fasting needed; useful for tracking sugar control or during weight care with the doctor.
+
   **Before you come**
 
   - Fast from food and drinks for 8 hours
@@ -117,6 +157,12 @@ body_en: |
 <details class="step-box"><summary><span class="sb-name">Longevity Panel · Balance 12</span><span class="sb-count">เกลือแร่ แคลเซียม แมกนีเซียม ฟอสฟอรัส และไต</span></summary><ul class="info-list"><li><strong>เกลือแร่</strong><span>Sodium, Potassium, Chloride, CO2 (ไบคาร์บอเนต) และ Anion gap ดูสมดุลน้ำ เกลือแร่ และกรด-ด่างในร่างกาย</span></li><li><strong>แร่ธาตุ</strong><span>Calcium, Magnesium และ Phosphorus สำคัญต่อกระดูก กล้ามเนื้อ ระบบประสาท และหัวใจ</span></li><li><strong>ไต</strong><span>BUN, Creatinine และ eGFR (อัตราการกรองของไต)</span></li><li><strong>กรดยูริก</strong><span>Uric acid · ใช้ประเมินความเสี่ยงโรคเกาต์</span></li></ul></details>
 
 Longevity Panel · Complete 27 คือการตรวจทั้ง 2 ชุดในการเจาะเลือดครั้งเดียว รายการที่ซ้ำกันตรวจครั้งเดียว
+
+**ตรวจเพิ่มเฉพาะรายการ**
+
+- **Vitamin D:** คนไทยราว 1 ใน 3 มีวิตามินดีไม่เพียงพอ และคนกรุงเทพมีระดับต่ำกว่าภาคอื่น คนที่ทากันแดดทุกวัน เลี่ยงแดด หรือทำงานในอาคารเป็นกลุ่มที่มีโอกาสขาดมากที่สุด วิตามินดีช่วยดูดซึมแคลเซียม ดูแลกระดูกและกล้ามเนื้อ และเกี่ยวข้องกับระบบภูมิคุ้มกัน ถ้าระดับต่ำ คุณหมอจะวางแผนเสริมให้ และนัดตรวจซ้ำที่ 3 เดือน
+- **CRP:** ดูระดับการอักเสบในร่างกาย ใช้ประกอบกับค่าอื่น เช่น ไขมันและ Homocysteine เพื่อประเมินความเสี่ยงโรคหลอดเลือด
+- **HbA1c:** น้ำตาลสะสมเฉลี่ยย้อนหลัง 2–3 เดือน ไม่ต้องงดอาหาร เหมาะกับคนที่อยากติดตามระดับน้ำตาล หรืออยู่ระหว่างดูแลน้ำหนักกับคุณหมอ
 
 **ก่อนมาตรวจ**
 
