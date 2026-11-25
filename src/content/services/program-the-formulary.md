@@ -1,10 +1,10 @@
 ---
 name_en: Program The Formulary IV Drip
-name_th: IV Drip วิตามิน 7 สูตร คุณหมอเลือกสูตรตามร่างกายของคุณ
+name_th: IV Drip วิตามิน 7 สูตร ออกแบบจากงานวิจัย เลือกให้เหมาะกับร่างกายคุณ
 category: wellness
 image: /uploads/service-formulary.jpg
-summary_th: "IV Drip วิตามินและแร่ธาตุ 7 สูตร ตั้งแต่สูตรฟื้นฟูร่างกายที่อ่อนล้า วิตามินซีขนาดสูง สูตรสำหรับคนออกกำลังกาย ไปจนถึงสูตรที่ดูแลโดยแพทย์ตลอดการรับบริการ คุณหมอซักประวัติและเลือกสูตรให้เหมาะกับร่างกายของแต่ละคน"
-summary_en: "Seven IV vitamin and mineral formulas, from recovery for a tired body and high-dose vitamin C to a formula for active people and one given under a doctor's watch throughout. The doctor takes your history and chooses the formula that suits your body."
+summary_th: "ทุกสูตรของ The Formulary ออกแบบจากงานวิจัยทางการแพทย์ เราเลือกใส่เฉพาะวิตามินและแร่ธาตุที่มีหลักฐานว่าร่างกายนำไปใช้ได้จริง ในขนาดที่เหมาะสม มีให้เลือก 7 สูตร ตั้งแต่ฟื้นฟูร่างกายที่อ่อนล้า ดูแลคนที่ออกกำลังกายหนัก ไปจนถึงสูตรที่แพทย์ดูแลตลอดการรับบริการ ก่อนเริ่ม คุณหมอจะซักประวัติแล้วเลือกสูตรที่เหมาะกับร่างกายของคุณ"
+summary_en: "Every Formulary drip is built on medical research: only vitamins and minerals the body has been shown to use, in doses that make sense. Choose from seven formulas, from recovery for a tired body and support for hard training to a formula given under a doctor's watch throughout. Before you start, the doctor takes your history and picks the formula that suits you."
 price_from: "690"
 price_grid:
   columns:
