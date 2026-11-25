@@ -41,7 +41,7 @@ faq:
     q_en: "How is a blood test at CHANUN different?"
     a_en: "Results are ready 30–60 minutes after the draw, and the doctor reviews them personally rather than just handing you a printout. The doctor explains which values need attention and can plan next steps straight away, such as choosing the right IV drip formula."
   - q_th: "ผลตรวจที่คลินิกเชื่อถือได้เท่าโรงพยาบาลไหม"
-    a_th: "เชื่อถือได้ครับ คลินิกใช้เครื่องวิเคราะห์ชีวเคมีอัตโนมัติ LOC-200 ที่ใช้หลักการวัดแบบเดียวกับห้องปฏิบัติการในโรงพยาบาล เครื่องสอบเทียบน้ำยาและควบคุมคุณภาพอัตโนมัติทุกครั้ง และคุณหมออ่านผลทุกรายการด้วยตัวเอง ข้อดีคือรู้ผลภายใน 1 ชั่วโมง ไม่ต้องรอส่งแล็บข้างนอก"
+    a_th: "เชื่อถือได้ คลินิกใช้เครื่องวิเคราะห์ชีวเคมีอัตโนมัติ LOC-200 ที่ใช้หลักการวัดแบบเดียวกับห้องปฏิบัติการในโรงพยาบาล เครื่องสอบเทียบน้ำยาและควบคุมคุณภาพอัตโนมัติทุกครั้ง และคุณหมออ่านผลทุกรายการด้วยตัวเอง ข้อดีคือรู้ผลภายใน 1 ชั่วโมง ไม่ต้องรอส่งแล็บข้างนอก"
     q_en: "Are clinic results as reliable as a hospital's?"
     a_en: "Yes. The clinic uses the LOC-200 automatic biochemistry analyser, which measures on the same principles as hospital laboratories, with automatic reagent calibration and quality control on every test, and the doctor reviews every result personally. The advantage is results within an hour, with no waiting for an outside lab."
   - q_th: "ต้องงดอาหารก่อนตรวจไหม"
