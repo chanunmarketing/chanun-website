@@ -50,9 +50,9 @@ faq:
     q_en: "Are both done at once? How long does it take?"
     a_en: "Radiance and Clear are done together in one visit, with the drip running while your face mask rests. Active needs you to lie face down for the back plasma first, then sit for the drip, so it takes a little longer."
   - q_th: "ต้องตรวจเลือดก่อนไหม"
-    a_th: "ถ้ายังไม่มีผลเลือดล่าสุด คุณหมอแนะนำให้ตรวจเลือดพื้นฐานก่อน ได้แก่ CBC เกลือแร่ การทำงานของไต วิตามินดี และ CRP โดยเฉพาะคู่ Clear ที่ใช้วิตามินซีขนาดสูง คุณหมอจะถามเรื่องภาวะพร่องเอนไซม์ G6PD และโรคไตทุกครั้ง"
+    a_th: "ถ้ายังไม่มีผลเลือดล่าสุด คุณหมอแนะนำให้ตรวจเลือดก่อน ได้แก่ CBC เกลือแร่ การทำงานของไต วิตามินดี และ CRP โดยเฉพาะคู่ Clear ที่ใช้วิตามินซีขนาดสูง คุณหมอจะถามเรื่องภาวะพร่องเอนไซม์ G6PD และโรคไตทุกครั้ง"
     q_en: "Do I need a blood test first?"
-    a_en: "If you don't have recent results, the doctor recommends a basic panel first: CBC, electrolytes, kidney function, vitamin D and CRP. For Clear, which uses high-dose vitamin C, the doctor always asks about G6PD deficiency and kidney disease."
+    a_en: "If you don't have recent results, the doctor recommends a blood panel first: CBC, electrolytes, kidney function, vitamin D and CRP. For Clear, which uses high-dose vitamin C, the doctor always asks about G6PD deficiency and kidney disease."
   - q_th: "เปลี่ยนสูตร IV หรือแบบ Plasma ในคู่ได้ไหม"
     a_th: "แต่ละคู่จับมาให้ทำงานเสริมกันแล้ว จึงใช้ตามคู่ที่กำหนด ถ้าอยากได้สูตรอื่น เลือกทำ The Formulary IV Drip และ Plasma Prime แยกกันได้ในนัดเดียวกัน"
     q_en: "Can I swap the drip or the plasma in a pair?"
@@ -82,7 +82,7 @@ body_en: |
 
   **Before you come**
 
-  The doctor reviews your history before every session. If you don't have recent blood results, a basic panel is recommended first. Please eat normally and drink water beforehand.
+  The doctor reviews your history before every session. If you don't have recent blood results, a blood panel is recommended first. Please eat normally and drink water beforehand.
 
   **During and after**
 
@@ -111,7 +111,7 @@ body_en: |
 
 **ก่อนมาคลินิก**
 
-คุณหมอจะซักประวัติก่อนทุกครั้ง ถ้ายังไม่มีผลเลือดล่าสุด แนะนำให้ตรวจเลือดพื้นฐานก่อน ทานอาหารและดื่มน้ำได้ตามปกติ
+คุณหมอจะซักประวัติก่อนทุกครั้ง ถ้ายังไม่มีผลเลือดล่าสุด แนะนำให้ตรวจเลือดก่อน ทานอาหารและดื่มน้ำได้ตามปกติ
 
 **ระหว่างทำและหลังทำ**
 

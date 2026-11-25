@@ -1,10 +1,10 @@
 ---
 name_en: Program Longevity Panel
-name_th: ตรวจเลือดพื้นฐาน รู้ผลใน 1 ชั่วโมง คุณหมออ่านผลให้เอง
+name_th: ตรวจเลือดทุก 6 เดือน เห็นความเปลี่ยนแปลงของร่างกายตั้งแต่เนิ่นๆ
 category: wellness
 image: /uploads/service-longevity-panel.jpg
-summary_th: "ตรวจเลือดเพื่อรู้จักร่างกายตัวเองก่อนวางแผนดูแลระยะยาว ทั้งน้ำตาล ไขมัน ตับ ไต เกลือแร่ และ Homocysteine รู้ผลภายใน 30–60 นาที คุณหมออ่านผลให้ด้วยตัวเอง แล้ววางแผนต่อได้ทันที"
-summary_en: "Blood tests to understand your body before planning long-term care: sugar, lipids, liver, kidneys, electrolytes and homocysteine. Results in 30–60 minutes, reviewed by the doctor personally, so the next steps can be planned on the spot."
+summary_th: "ตรวจเลือดทุก 6 เดือนเพื่อติดตามร่างกายอย่างต่อเนื่อง ทั้งน้ำตาล ไขมัน ตับ ไต เกลือแร่ และ Homocysteine เมื่อมีผลเทียบกันหลายครั้ง คุณหมอจะเห็นแนวโน้มตั้งแต่ค่ายังไม่ผิดปกติ รู้ผลภายใน 30–60 นาที และคุณหมออ่านผลให้ด้วยตัวเอง"
+summary_en: "Blood tests every six months to follow your body over time: sugar, lipids, liver, kidneys, electrolytes and homocysteine. With several results to compare, the doctor can spot trends before a value turns abnormal. Results in 30–60 minutes, reviewed by the doctor personally."
 price_from: "1190"
 price_grid:
   columns:
@@ -31,9 +31,9 @@ price_grid:
   footnote_th: "ราคาเป็นบาท · รวมการเจาะเลือด และคุณหมออ่านผลให้ด้วยตัวเอง · งดอาหาร 8 ชั่วโมงก่อนตรวจ"
   footnote_en: "Prices in THB · Includes the blood draw and results reviewed by the doctor personally · Fast for 8 hours beforehand"
 prices: []
-suits_th: คนที่ไม่ได้ตรวจสุขภาพมานาน อยากมีข้อมูลตั้งต้นของร่างกาย กำลังจะเริ่มทำ IV Drip ออกกำลังกายหนัก หรืออยากติดตามสุขภาพเป็นประจำทุกปี
-suits_en: People who haven't had a check-up in a while, want a health baseline, are starting IV drips, train hard, or want a yearly health review.
-seo_title_th: "ตรวจเลือดสุขภาพ รู้ผลใน 1 ชั่วโมง ตับ ไต ไขมัน น้ำตาล สุขุมวิท 61"
+suits_th: คนที่อยากติดตามสุขภาพต่อเนื่องทุก 6 เดือน ไม่ได้ตรวจมานาน กำลังจะเริ่มทำ IV Drip ออกกำลังกายหนัก หรืออยู่ระหว่างปรับอาหารและการใช้ชีวิต
+suits_en: People who want to follow their health every six months, haven't been tested in a while, are starting IV drips, train hard, or are changing their diet and lifestyle.
+seo_title_th: "ตรวจเลือดสุขภาพทุก 6 เดือน รู้ผลใน 1 ชั่วโมง ตับ ไต ไขมัน น้ำตาล สุขุมวิท 61"
 seo_title_en: "Blood Test Health Panel, Results in 1 Hour, Bangkok"
 faq:
   - q_th: "ตรวจเลือดสุขภาพที่ CHANUN ต่างจากที่อื่นอย่างไร"
@@ -52,10 +52,10 @@ faq:
     a_th: "Homocysteine เป็นสารที่เกิดจากการย่อยโปรตีน ถ้าสูงสัมพันธ์กับความเสี่ยงโรคหลอดเลือดหัวใจ และมักพบในคนที่ขาดวิตามินบี 6, บี 12 หรือโฟเลต คุณหมอใช้ค่านี้ประกอบการประเมินร่วมกับค่าอื่น และช่วยตัดสินใจเรื่องการเสริมวิตามินบี"
     q_en: "What is homocysteine, and why test it?"
     a_en: "Homocysteine is produced when the body breaks down protein. High levels are linked to cardiovascular risk and are often seen with low vitamin B6, B12 or folate. The doctor reads it alongside your other results, and it helps guide decisions about B-vitamin support."
-  - q_th: "ควรตรวจบ่อยแค่ไหน"
-    a_th: "คนสุขภาพดีส่วนใหญ่ตรวจปีละครั้ง ถ้าพบค่าที่ผิดปกติ หรืออยู่ระหว่างทำ IV Drip เป็นคอร์ส คุณหมออาจนัดตรวจซ้ำเร็วขึ้นเพื่อติดตามผล"
-    q_en: "How often should I be tested?"
-    a_en: "Most healthy people test once a year. If a value is abnormal, or you're on an IV drip course, the doctor may recheck sooner to track it."
+  - q_th: "ทำไมต้องตรวจทุก 6 เดือน"
+    a_th: "ค่าในเลือดเปลี่ยนตามการกิน การนอน ความเครียด และการออกกำลังกาย การตรวจทุก 6 เดือนทำให้เห็นแนวโน้ม เช่น ไขมันหรือน้ำตาลที่ค่อยๆ ขยับขึ้นทั้งที่ยังอยู่ในเกณฑ์ปกติ จึงปรับการดูแลได้ก่อนเป็นปัญหา และเห็นผลของสิ่งที่ปรับไปแล้วด้วย ถ้าพบค่าผิดปกติ คุณหมออาจนัดตรวจซ้ำเร็วกว่านั้น"
+    q_en: "Why test every six months?"
+    a_en: "Blood values shift with diet, sleep, stress and exercise. Testing every six months shows trends, such as lipids or sugar creeping up while still within the normal range, so care can be adjusted before it becomes a problem, and you can see the effect of changes you've made. If a value is abnormal, the doctor may recheck sooner."
   - q_th: "รับผลอย่างไร"
     a_th: "คุณหมออ่านผลด้วยตัวเอง แล้วแจ้งผลพร้อมคำแนะนำผ่านระบบของคลินิก ผลเลือดเป็นข้อมูลส่วนบุคคล คลินิกจึงเก็บในระบบเวชระเบียนที่จำกัดคนเข้าถึง"
     q_en: "How do I receive my results?"
@@ -68,7 +68,11 @@ published: true
 body_en: |
   **Know your body before you plan**
 
-  Longevity starts with knowing where your body stands today. A basic blood panel shows how your sugar, lipids, liver, kidneys and mineral balance are doing, so care is planned from real data rather than guesswork. It also gives a baseline to compare against in the years ahead.
+  Longevity starts with knowing where your body stands today. A blood panel shows how your sugar, lipids, liver, kidneys and mineral balance are doing, so care is planned from real data rather than guesswork.
+
+  **Why every six months**
+
+  A single result is a snapshot. Blood values shift with diet, sleep, stress and exercise, and many changes build slowly. Testing every six months lets the doctor compare results over time and spot a trend, such as lipids or sugar creeping up while still within the normal range, then adjust your care early. It also shows whether the changes you've made are working.
 
   **Results within an hour, read by your doctor**
 
@@ -93,7 +97,11 @@ body_en: |
 ---
 **รู้จักร่างกายก่อนวางแผน**
 
-การดูแลระยะยาวเริ่มจากการรู้ว่าร่างกายตอนนี้เป็นอย่างไร ผลเลือดพื้นฐานบอกได้ว่าน้ำตาล ไขมัน ตับ ไต และสมดุลแร่ธาตุของเราอยู่ในระดับไหน คุณหมอจะได้วางแผนจากข้อมูลจริง ไม่ใช่จากการคาดเดา และผลครั้งนี้ยังเป็นค่าตั้งต้นไว้เทียบในปีต่อๆ ไป
+การดูแลระยะยาวเริ่มจากการรู้ว่าร่างกายตอนนี้เป็นอย่างไร ผลเลือดบอกได้ว่าน้ำตาล ไขมัน ตับ ไต และสมดุลแร่ธาตุของเราอยู่ในระดับไหน คุณหมอจะได้วางแผนจากข้อมูลจริง ไม่ใช่จากการคาดเดา
+
+**ทำไมต้องตรวจทุก 6 เดือน**
+
+ผลเลือดครั้งเดียวบอกได้แค่ภาพ ณ วันนั้น ค่าในเลือดเปลี่ยนไปตามการกิน การนอน ความเครียด และการออกกำลังกาย และหลายอย่างค่อยๆ ขยับทีละน้อย การตรวจทุก 6 เดือนทำให้คุณหมอเทียบผลแต่ละครั้งและเห็นแนวโน้ม เช่น ไขมันหรือน้ำตาลที่เริ่มสูงขึ้นทั้งที่ยังอยู่ในเกณฑ์ปกติ จึงปรับการดูแลได้ตั้งแต่เนิ่นๆ และยังได้เห็นว่าสิ่งที่ปรับไปได้ผลหรือไม่
 
 **รู้ผลใน 1 ชั่วโมง คุณหมออ่านผลเอง**
 

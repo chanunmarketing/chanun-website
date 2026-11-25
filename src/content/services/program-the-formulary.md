@@ -111,9 +111,9 @@ faq:
     q_en: "How often should I come?"
     a_en: "It depends on the formula and your goals; the doctor will advise. Many people do a course during demanding periods, such as a busy stretch at work or a training block."
   - q_th: "ต้องตรวจเลือดก่อนไหม"
-    a_th: "ถ้ายังไม่มีผลเลือดล่าสุด คุณหมอแนะนำให้ตรวจเลือดพื้นฐานก่อน ได้แก่ CBC เกลือแร่ (Electrolytes) การทำงานของไต (BUN, Creatinine) วิตามินดี และ CRP ตรวจได้ที่คลินิก ผลเลือดช่วยให้เลือกสูตรได้ตรงกับร่างกาย และใช้ติดตามผลในระยะยาว"
+    a_th: "ถ้ายังไม่มีผลเลือดล่าสุด คุณหมอแนะนำให้ตรวจเลือดก่อน ได้แก่ CBC เกลือแร่ (Electrolytes) การทำงานของไต (BUN, Creatinine) วิตามินดี และ CRP ตรวจได้ที่คลินิก ผลเลือดช่วยให้เลือกสูตรได้ตรงกับร่างกาย และใช้ติดตามผลในระยะยาว"
     q_en: "Do I need a blood test first?"
-    a_en: "If you don't have recent results, the doctor recommends a basic panel first: CBC, electrolytes, kidney function (BUN, creatinine), vitamin D and CRP, all available at the clinic. The results help match the formula to your body and give a baseline to track over time."
+    a_en: "If you don't have recent results, the doctor recommends a blood panel first: CBC, electrolytes, kidney function (BUN, creatinine), vitamin D and CRP, all available at the clinic. The results help match the formula to your body and give a baseline to track over time."
   - q_th: "ใช้เวลานานแค่ไหน"
     a_th: "สูตรทั่วไปใช้เวลาประมาณ 30 นาทีถึง 1 ชั่วโมง ขึ้นกับสูตรและปริมาณ ส่วน The Physician's Reserve ต้องให้ช้ากว่า ใช้เวลาประมาณ 1.5 ชั่วโมง ระหว่างนั้นนั่งพักหรือทำงานเบาๆ บนมือถือได้"
     q_en: "How long does it take?"
@@ -146,7 +146,7 @@ body_en: |
 
   Before every session, the doctor asks about long-term conditions, medicines and allergies, and for high-dose vitamin C formulas, about G6PD deficiency and kidney health. Then the formula is matched to what your body needs right now.
 
-  If you don't have recent blood results, the doctor will suggest a basic blood panel at the clinic first with [Program Longevity Panel](/en/services/program-longevity-panel/), with results within an hour, so the formula is chosen from real data about your body rather than guesswork.
+  If you don't have recent blood results, the doctor will suggest a blood panel at the clinic first with [Program Longevity Panel](/en/services/program-longevity-panel/), with results within an hour, so the formula is chosen from real data about your body rather than guesswork.
 
   - **CBC (complete blood count):** checks for anaemia and gives an overview of your blood cells
   - **Electrolytes:** checks the balance of sodium, potassium and other minerals
@@ -192,7 +192,7 @@ body_en: |
 
 ก่อนรับบริการทุกครั้ง คุณหมอจะสอบถามโรคประจำตัว ยาที่ทานอยู่ และประวัติการแพ้ ถ้าเป็นสูตรวิตามินซีขนาดสูง จะถามเรื่องภาวะพร่องเอนไซม์ G6PD และการทำงานของไตด้วย แล้วจึงเลือกสูตรให้ตรงกับสิ่งที่ร่างกายต้องการในช่วงนั้น
 
-ถ้ายังไม่มีผลเลือดล่าสุด คุณหมอจะแนะนำให้ตรวจเลือดพื้นฐานที่คลินิกก่อน ด้วย [Program Longevity Panel](/services/program-longevity-panel/) ที่รู้ผลภายใน 1 ชั่วโมง เพื่อให้เลือกสูตรจากข้อมูลจริงของร่างกาย ไม่ใช่จากความรู้สึกอย่างเดียว
+ถ้ายังไม่มีผลเลือดล่าสุด คุณหมอจะแนะนำให้ตรวจเลือดที่คลินิกก่อน ด้วย [Program Longevity Panel](/services/program-longevity-panel/) ที่รู้ผลภายใน 1 ชั่วโมง เพื่อให้เลือกสูตรจากข้อมูลจริงของร่างกาย ไม่ใช่จากความรู้สึกอย่างเดียว
 
 - **CBC (ความสมบูรณ์ของเม็ดเลือด):** ดูภาวะโลหิตจาง และภาพรวมของเม็ดเลือด
 - **Electrolytes (เกลือแร่ในเลือด):** ดูความสมดุลของโซเดียม โพแทสเซียม และเกลือแร่อื่นๆ
