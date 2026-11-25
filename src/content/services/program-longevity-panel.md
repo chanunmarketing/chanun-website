@@ -41,9 +41,9 @@ faq:
     q_en: "How is a blood test at CHANUN different?"
     a_en: "Results are ready 30–60 minutes after the draw, and the doctor reviews them personally rather than just handing you a printout. The doctor explains which values need attention and can plan next steps straight away, such as choosing the right IV drip formula."
   - q_th: "ผลตรวจที่คลินิกเชื่อถือได้เท่าโรงพยาบาลไหม"
-    a_th: "เชื่อถือได้ คลินิกใช้เครื่องวิเคราะห์ชีวเคมีอัตโนมัติ LOC-200 ที่ใช้หลักการวัดแบบเดียวกับห้องปฏิบัติการในโรงพยาบาล เครื่องสอบเทียบน้ำยาและควบคุมคุณภาพอัตโนมัติทุกครั้ง และคุณหมออ่านผลทุกรายการด้วยตัวเอง ข้อดีคือรู้ผลภายใน 1 ชั่วโมง ไม่ต้องรอส่งแล็บข้างนอก"
+    a_th: "เชื่อถือได้ คลินิกใช้เครื่องวิเคราะห์ชีวเคมีอัตโนมัติที่ใช้หลักการวัดแบบเดียวกับห้องปฏิบัติการในโรงพยาบาล เครื่องสอบเทียบน้ำยาและควบคุมคุณภาพอัตโนมัติทุกครั้ง และคุณหมออ่านผลทุกรายการด้วยตัวเอง ข้อดีคือรู้ผลภายใน 1 ชั่วโมง ไม่ต้องรอส่งแล็บข้างนอก"
     q_en: "Are clinic results as reliable as a hospital's?"
-    a_en: "Yes. The clinic uses the LOC-200 automatic biochemistry analyser, which measures on the same principles as hospital laboratories, with automatic reagent calibration and quality control on every test, and the doctor reviews every result personally. The advantage is results within an hour, with no waiting for an outside lab."
+    a_en: "Yes. The clinic uses an automatic biochemistry analyser that measures on the same principles as hospital laboratories, with automatic reagent calibration and quality control on every test, and the doctor reviews every result personally. The advantage is results within an hour, with no waiting for an outside lab."
   - q_th: "ต้องงดอาหารก่อนตรวจไหม"
     a_th: "งดอาหารและเครื่องดื่ม 8 ชั่วโมงก่อนตรวจ จิบน้ำเปล่าได้ และถ้ามียาโรคประจำตัว จิบน้ำทานยาได้ตามปกติ การงดอาหารช่วยให้ค่าน้ำตาลและไขมันแม่นยำ"
     q_en: "Do I need to fast?"
@@ -80,7 +80,7 @@ body_en: |
 
   **Lab standard, results within an hour**
 
-  The clinic uses the LOC-200 automatic biochemistry analyser, which measures on the same principles as hospital laboratories. It calibrates its reagents and runs automatic quality control with every test, so results are reliable, and because testing is done in-house, they're ready 30–60 minutes after the draw. The doctor reviews every result personally, explains which values need attention, and sends the results with advice through the clinic's system.
+  The clinic uses an automatic biochemistry analyser that measures on the same principles as hospital laboratories. It calibrates its reagents and runs automatic quality control with every test, so results are reliable, and because testing is done in-house, they're ready 30–60 minutes after the draw. The doctor reviews every result personally, explains which values need attention, and sends the results with advice through the clinic's system.
 
   **What each panel checks**
 
@@ -109,7 +109,7 @@ body_en: |
 
 **มาตรฐานห้องแล็บ รู้ผลใน 1 ชั่วโมง**
 
-คลินิกตรวจด้วยเครื่องวิเคราะห์ชีวเคมีอัตโนมัติ LOC-200 ซึ่งใช้หลักการวัดแบบเดียวกับห้องปฏิบัติการในโรงพยาบาล เครื่องสอบเทียบน้ำยาและควบคุมคุณภาพ (Quality Control) อัตโนมัติทุกครั้งที่ตรวจ ผลจึงเชื่อถือได้ และเพราะตรวจในคลินิกเอง จึงรู้ผลภายใน 30–60 นาทีหลังเจาะเลือด คุณหมออ่านผลทุกรายการด้วยตัวเอง อธิบายว่าค่าไหนควรดูแล แล้วแจ้งผลพร้อมคำแนะนำผ่านระบบของคลินิก
+คลินิกตรวจด้วยเครื่องวิเคราะห์ชีวเคมีอัตโนมัติที่ใช้หลักการวัดแบบเดียวกับห้องปฏิบัติการในโรงพยาบาล เครื่องสอบเทียบน้ำยาและควบคุมคุณภาพ (Quality Control) อัตโนมัติทุกครั้งที่ตรวจ ผลจึงเชื่อถือได้ และเพราะตรวจในคลินิกเอง จึงรู้ผลภายใน 30–60 นาทีหลังเจาะเลือด คุณหมออ่านผลทุกรายการด้วยตัวเอง อธิบายว่าค่าไหนควรดูแล แล้วแจ้งผลพร้อมคำแนะนำผ่านระบบของคลินิก
 
 **แต่ละชุดตรวจอะไรบ้าง**
 
