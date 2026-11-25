@@ -107,6 +107,8 @@ body_en: |
 
   Plasma helps the skin take up serums applied afterwards. Paired with skin boosters such as PN or Hydrobooster, it calms acne on the surface while the boosters repair the structure beneath, following the Triple Derma Layer.
 
+  To care from within at the same time, [Program Inside-Out Duo](/en/services/program-inside-out-duo/) pairs Plasma Prime with an IV vitamin drip in one visit.
+
   **During and after**
 
   - About 30–90 minutes per visit, depending on the programme and area
@@ -135,6 +137,8 @@ Plasma Prime ใช้เครื่อง Plasmalis ซึ่งเป็น�
 **Combined technique ของคุณหมอปิงปอง**
 
 หลังทำพลาสมา ผิวจะรับสารบำรุงที่ทาหรือผลักตามได้ดีขึ้น เมื่อใช้คู่กับ skin booster อย่าง PN หรือ Hydrobooster ผิวจะได้ทั้งการลดสิวที่ผิวด้านบน และการซ่อมแซมโครงสร้างด้านในตามหลัก Triple Derma Layer
+
+ถ้าอยากดูแลจากภายในไปพร้อมกัน [Program Inside-Out Duo](/services/program-inside-out-duo/) จับคู่ Plasma Prime กับ IV Drip วิตามินไว้ในนัดเดียว
 
 **ระหว่างทำและหลังทำ**
 

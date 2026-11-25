@@ -171,7 +171,7 @@ body_en: |
 
   **Care from within, alongside your skin**
 
-  Vitamin C is a key helper for the enzymes that build collagen, so care from within supports the skin programmes you have at CHANUN. It doesn't replace skin treatment, but it gives your skin a body that's ready to repair.
+  Vitamin C is a key helper for the enzymes that build collagen, so care from within supports the skin programmes you have at CHANUN. It doesn't replace skin treatment, but it gives your skin a body that's ready to repair. To care for your skin in the same visit, see [Program Inside-Out Duo](/en/services/program-inside-out-duo/), which pairs an IV drip with Plasma Prime.
 
   **During and after**
 
@@ -217,7 +217,7 @@ body_en: |
 
 **ดูแลจากภายใน ควบคู่กับการดูแลผิว**
 
-วิตามินซีเป็นตัวช่วยสำคัญของเอนไซม์ที่ร่างกายใช้สร้างคอลลาเจน การดูแลจากภายในจึงช่วยเสริมโปรแกรมผิวที่ทำอยู่ที่ CHANUN IV Drip ไม่ได้แทนการรักษาผิวโดยตรง แต่ช่วยให้ร่างกายพร้อมสำหรับการฟื้นฟูผิว
+วิตามินซีเป็นตัวช่วยสำคัญของเอนไซม์ที่ร่างกายใช้สร้างคอลลาเจน การดูแลจากภายในจึงช่วยเสริมโปรแกรมผิวที่ทำอยู่ที่ CHANUN IV Drip ไม่ได้แทนการรักษาผิวโดยตรง แต่ช่วยให้ร่างกายพร้อมสำหรับการฟื้นฟูผิว ถ้าอยากดูแลผิวไปพร้อมกันในนัดเดียว ดู [Program Inside-Out Duo](/services/program-inside-out-duo/) ที่จับคู่ IV Drip กับ Plasma Prime ไว้ให้แล้ว
 
 **ระหว่างและหลังรับบริการ**
 
