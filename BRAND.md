@@ -111,6 +111,7 @@
 - โปรแกรมที่ช่วยทางอ้อมแสดงเป็นแถบ **Adjuvant Treatment** ใต้การ์ดหลัก (ฝ้า: Plasma Prime, EPN, Vitaran / Luna Healer PN2%, Ejal40) ไม่ใช้การ์ดเต็ม เพื่อไม่ให้ดูเหมือนรักษาโดยตรง
 - Longevity Wellness: **Program The Formulary IV Drip** ( วิตามิน 7 สูตร: The Restorative · The Ascorbic Reserve 7,500 / 15,000 mg · The Clarity Formula · The Fortitude Formula · The Formulary Signature · The Physician's Reserve) + Booster 3 ตัว (B-Complex / Tri-B / Ascorbic Top-Up) เฉพาะสูตรพื้นฐาน; ห้ามใช้คำว่า "ล้างพิษ/ดีท็อกซ์" กับ The Physician's Reserve ให้อธิบายว่า EDTA จับโลหะหนักและขับออกทางไต
 - **Program Inside-Out Duo** (Longevity Wellness) = IV Drip + Plasma Prime ในนัดเดียว 3 คู่: Inside-Out Radiance (The Clarity Formula + Plasma Bright) 1,890 · Inside-Out Clear (The Ascorbic Reserve 7,500 mg + Plasma Acne Clear) 3,490 · Inside-Out Active (The Fortitude Formula + Plasma Back area) 3,690; ราคาโปรต่ำสุด 1,690 / 3,190 / 3,390; ไม่ให้เลือกจับคู่เอง ไม่มี Booster; Active ทำ Plasma ก่อนแล้วค่อยดริป คู่อื่นดริประหว่างพักมาสก์; ห้ามแสดงราคาซื้อแยกเทียบ (ถือเป็นราคาขีดฆ่า)
+- **Program Longevity Panel** (ตรวจเลือดด้วยเครื่อง LOC-200 ในคลินิก รู้ผล 30–60 นาที คุณหมออ่านผลเองและแจ้งผลผ่านระบบ เก็บผลใน APSX): Metabolic 19 (Kit 18) 1,590 · Balance 12 (Kit 11) 1,190 · Complete 27 (ทั้งสองชุด) 2,490; ราคาต่ำสุดเวลาทำสิทธิ์ 990 ต่อชุด / 1,890 คู่; งดอาหาร 8 ชม. จิบน้ำทานยาได้; ตัวเลขในชื่อ = จำนวนค่าที่รายงาน (รวมค่าคำนวณ) ไม่ใช่เลข kit
 - ห้ามเขียนชื่อยี่ห้อยาในคำอธิบาย (เช่น ใช้ "งานฉีดปรับรูปหน้า" แทนชื่อยี่ห้อ)
 - ไม่ควรเพิ่มหมวดเกิน 6 บริการใหม่ให้หาที่ลงในหมวดเดิมก่อน
 
