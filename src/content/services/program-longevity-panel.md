@@ -125,9 +125,11 @@ body_en: |
 
   **Single tests**
 
-  - **Vitamin D:** about one in three Thais has insufficient vitamin D, and Bangkok residents have lower levels than other regions. People who wear sunscreen daily, avoid the sun or work indoors are the most likely to be low. Vitamin D helps the body absorb calcium, supports bones and muscles, and plays a part in immunity. If your level is low, the doctor plans supplementation and rechecks at 3 months.
+  - **Vitamin D:** about one in three Thais has insufficient vitamin D, and Bangkok residents have lower levels than other regions. People who wear sunscreen daily, avoid the sun or work indoors are the most likely to be low. Vitamin D helps the body absorb calcium, supports bones and muscles, and plays a part in immunity. If your level is low, the doctor plans supplementation, such as [Program Vitamin D3 Restore](/en/services/program-vitamin-d3-restore/), and rechecks at 3 months.
   - **CRP:** shows inflammation in the body, read alongside values such as lipids and homocysteine to assess vascular risk.
   - **HbA1c:** average blood sugar over the past 2–3 months, with no fasting needed; useful for tracking sugar control or during weight care with the doctor.
+
+  For men, male hormone testing is available in [Program Men's Hormone Panel](/en/services/program-mens-hormone-panel/).
 
   **Before you come**
 
@@ -160,9 +162,11 @@ Longevity Panel · Complete 27 คือการตรวจทั้ง 2 ช�
 
 **ตรวจเพิ่มเฉพาะรายการ**
 
-- **Vitamin D:** คนไทยราว 1 ใน 3 มีวิตามินดีไม่เพียงพอ และคนกรุงเทพมีระดับต่ำกว่าภาคอื่น คนที่ทากันแดดทุกวัน เลี่ยงแดด หรือทำงานในอาคารเป็นกลุ่มที่มีโอกาสขาดมากที่สุด วิตามินดีช่วยดูดซึมแคลเซียม ดูแลกระดูกและกล้ามเนื้อ และเกี่ยวข้องกับระบบภูมิคุ้มกัน ถ้าระดับต่ำ คุณหมอจะวางแผนเสริมให้ และนัดตรวจซ้ำที่ 3 เดือน
+- **Vitamin D:** คนไทยราว 1 ใน 3 มีวิตามินดีไม่เพียงพอ และคนกรุงเทพมีระดับต่ำกว่าภาคอื่น คนที่ทากันแดดทุกวัน เลี่ยงแดด หรือทำงานในอาคารเป็นกลุ่มที่มีโอกาสขาดมากที่สุด วิตามินดีช่วยดูดซึมแคลเซียม ดูแลกระดูกและกล้ามเนื้อ และเกี่ยวข้องกับระบบภูมิคุ้มกัน ถ้าระดับต่ำ คุณหมอจะวางแผนเสริมให้ เช่น [Program Vitamin D3 Restore](/services/program-vitamin-d3-restore/) และนัดตรวจซ้ำที่ 3 เดือน
 - **CRP:** ดูระดับการอักเสบในร่างกาย ใช้ประกอบกับค่าอื่น เช่น ไขมันและ Homocysteine เพื่อประเมินความเสี่ยงโรคหลอดเลือด
 - **HbA1c:** น้ำตาลสะสมเฉลี่ยย้อนหลัง 2–3 เดือน ไม่ต้องงดอาหาร เหมาะกับคนที่อยากติดตามระดับน้ำตาล หรืออยู่ระหว่างดูแลน้ำหนักกับคุณหมอ
+
+สำหรับผู้ชาย ตรวจฮอร์โมนเพศชายได้ที่ [Program Men's Hormone Panel](/services/program-mens-hormone-panel/)
 
 **ก่อนมาตรวจ**
 
