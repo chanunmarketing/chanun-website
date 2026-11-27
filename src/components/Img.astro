@@ -1,8 +1,13 @@
 ---
-interface Props { src?: string; alt: string; class?: string; ratio?: string; eager?: boolean }
-const { src, alt, class: cls = '', ratio = '4 / 5', eager = false } = Astro.props;
+interface Props { src?: string; alt: string; class?: string; ratio?: string; eager?: boolean; mobile?: string }
+const { src, alt, class: cls = '', ratio = '4 / 5', eager = false, mobile = '' } = Astro.props;
 ---
-{src ? (
+{src && mobile ? (
+  <picture>
+    <source media="(max-width: 700px)" srcset={mobile} />
+    <img class={`img ${cls}`} src={src} alt={alt} loading={eager ? 'eager' : 'lazy'} decoding="async" style={`aspect-ratio:${ratio}`} />
+  </picture>
+) : src ? (
   <img class={`img ${cls}`} src={src} alt={alt} loading={eager ? 'eager' : 'lazy'} decoding="async" style={`aspect-ratio:${ratio}`} />
 ) : (
   <div class={`img img-empty ${cls}`} role="img" aria-label={alt} style={`aspect-ratio:${ratio}`}><span>CHANUN</span></div>

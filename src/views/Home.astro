@@ -36,7 +36,7 @@ const jsonld = {
 ---
 <Base lang={lang} jsonld={jsonld}>
   <section class="hero">
-    <Img src={home.hero_image} alt={pick(home, 'hero_image_alt', lang)} class="hero-img" ratio="auto" eager />
+    <Img src={home.hero_image} mobile={home.hero_image_mobile} alt={pick(home, 'hero_image_alt', lang)} class="hero-img" ratio="auto" eager />
     <div class="hero-text">
       <p class="hero-kicker">{pick(home, 'hero_kicker', lang)}</p>
       <h1 class="hero-title">{pick(home, 'hero_title', lang)}</h1>

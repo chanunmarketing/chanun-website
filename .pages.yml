@@ -427,7 +427,8 @@ content:
       - { name: hero_kicker_en, label: "รูปใหญ่บนสุด: ข้อความเล็ก (EN)", type: string }
       - { name: hero_title_th, label: "รูปใหญ่บนสุด: หัวข้อ (TH) กด Enter เพื่อขึ้นบรรทัดใหม่", type: text }
       - { name: hero_title_en, label: "รูปใหญ่บนสุด: หัวข้อ (EN)", type: text }
-      - { name: hero_image, label: "รูปใหญ่บนสุด (แนวนอน กว้าง 2000px ขึ้นไป)", type: image }
+      - { name: hero_image, label: "รูปใหญ่บนสุด · คอมพิวเตอร์ (2880 × 1620 px)", type: image }
+      - { name: hero_image_mobile, label: "รูปใหญ่บนสุด · มือถือ (1080 × 1920 px) ไม่ใส่ก็ได้", type: image }
       - { name: hero_image_alt_th, label: คำอธิบายรูป (TH), type: string }
       - { name: hero_image_alt_en, label: คำอธิบายรูป (EN), type: string }
       - { name: welcome_title_th, label: "ส่วนต้อนรับ: หัวข้อ (TH)", type: string }
