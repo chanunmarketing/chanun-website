@@ -463,6 +463,17 @@ content:
       - { name: interior_image, label: "รูปเต็มจอ (บรรยากาศคลินิก แนวนอน)", type: image }
       - { name: interior_image_alt_th, label: คำอธิบายรูป (TH), type: string }
       - { name: interior_image_alt_en, label: คำอธิบายรูป (EN), type: string }
+      - { name: about_hero_image, label: "หน้าเกี่ยวกับเรา · รูปเต็มจอใต้หัวข้อ (2880 × 1150 px)", type: image }
+      - { name: about_hero_image_alt_th, label: "หน้าเกี่ยวกับเรา · คำอธิบายรูป (TH)", type: string }
+      - { name: about_hero_image_alt_en, label: "หน้าเกี่ยวกับเรา · คำอธิบายรูป (EN)", type: string }
+      - name: about_gallery
+        label: "หน้าเกี่ยวกับเรา · ภาพบรรยากาศ 3 ภาพ (1200 × 1500 px)"
+        type: object
+        list: true
+        fields:
+          - { name: image, label: รูป, type: image }
+          - { name: alt_th, label: คำอธิบายรูป (TH), type: string }
+          - { name: alt_en, label: คำอธิบายรูป (EN), type: string }
       - { name: featured_video, label: ลิงก์ YouTube ที่จะโชว์หน้าแรก, type: string }
       - { name: featured_video_title_th, label: "วิดีโอ: หัวข้อ (TH)", type: string }
       - { name: featured_video_title_en, label: "วิดีโอ: หัวข้อ (EN)", type: string }

@@ -19,6 +19,11 @@ const doctors = await getDoctors();
       <p class="lede">{pick(site, 'clinic_name', lang)}<br />{pick(site, 'tagline', lang)}</p>
     </div>
   </section>
+  {(home as any).about_hero_image && (
+    <figure class="full-photo">
+      <Img src={(home as any).about_hero_image} alt={pick(home as any, 'about_hero_image_alt', lang)} ratio="auto" eager />
+    </figure>
+  )}
   <section class="section">
     <div class="wrap split">
       <h2 class="h-display">{pick(home, 'philosophy_title', lang)}</h2>
@@ -48,4 +53,16 @@ const doctors = await getDoctors();
       </div>
     </div>
   </section>
+  {((home as any).about_gallery ?? []).filter((g: any) => g.image).length > 0 && (
+    <section class="section sand">
+      <div class="wrap">
+        <h2 class="h-section">{lang === 'th' ? 'บรรยากาศของ Atelier' : 'Inside the Atelier'}</h2>
+        <div class="about-gallery">
+          {((home as any).about_gallery ?? []).filter((g: any) => g.image).map((g: any) => (
+            <Img src={g.image} alt={pick(g, 'alt', lang) || ''} ratio="4 / 5" />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 </Base>
