@@ -3,7 +3,7 @@ name_en: Program Definisse Italy Filler
 name_th: ฟิลเลอร์ปรับรูปหน้า เนียนไปกับผิว
 category: lifting
 image: /uploads/service-italy-filler.jpg
-summary_th: "ฟิลเลอร์จากอิตาลี เนื้อเนียนกลืนไปกับผิว คู่กับเทคนิคของคุณหมอปิงปองที่วางทีละจุดตามชั้นโครงสร้างใบหน้า จึงใช้ปริมาณน้อยแต่ได้รูปทรงที่ชัดและเป็นธรรมชาติ ผลลัพธ์มาจากทั้งฝีมือแพทย์และคุณภาพของฟิลเลอร์ไปพร้อมกัน"
+summary_th: "ฟิลเลอร์จากอิตาลี เนื้อเนียนกลืนไปกับผิว คุณหมอวางทีละจุดตามชั้นโครงสร้างใบหน้า จึงใช้ปริมาณไม่มาก แต่ได้รูปหน้าที่ชัดและยังเป็นธรรมชาติ"
 summary_en: "An Italian filler that blends softly into the skin, paired with Dr. PP’s technique of placing it point by point along the layers of the face. Less product, a clear and natural shape: the result comes from both the doctor’s hand and the quality of the filler."
 price_from: "14900/cc"
 prices:

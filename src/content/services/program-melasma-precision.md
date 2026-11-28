@@ -4,7 +4,7 @@ name_th: ฉีดยาลดฝ้าตรงจุด เข้าถึง�
 category: skin
 subgroup: pigment
 image: /uploads/service-melasma.jpg
-summary_th: "ฉีดยาลดฝ้าเข้าชั้นผิวตรงตำแหน่งที่เป็นฝ้า ด้วยเข็มขนาดเล็กมาก ช่วยลดสัญญาณที่กระตุ้นเซลล์สร้างเม็ดสี และลดเส้นเลือดที่อยู่ใต้ฝ้า คุณหมอปิงปองวางจุดฉีดตามแผนที่ฝ้าของแต่ละคน"
+summary_th: "ฉีดยาลดฝ้าเข้าชั้นผิวตรงตำแหน่งที่เป็นฝ้าด้วยเข็มขนาดเล็กมาก ช่วยลดสัญญาณที่กระตุ้นการสร้างเม็ดสีและเส้นเลือดใต้ฝ้า คุณหมอวางจุดฉีดตามฝ้าของแต่ละคน"
 summary_en: "A melasma-lightening medicine injected into the skin right where the melasma is, using a very fine needle. It dampens the signals that switch on pigment cells and the blood vessels beneath melasma. Dr. PP maps the injection points to your melasma."
 price_from: "3900"
 prices:

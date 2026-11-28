@@ -4,7 +4,7 @@ name_th: เลเซอร์กำจัดขน 3 ความยาวค�
 category: skin
 subgroup: devices
 image: /uploads/service-triwave.jpg
-summary_th: "Diode Laser กำจัดขนแบบ 3 ความยาวคลื่น (755, 810 และ 1064 nm) ในหัวยิงเดียว จับได้ทั้งขนเส้นเล็ก ขนรากลึก และใช้ได้กับผิวสีแทน ทำได้ทั้งหน้าและตัว ช่วยลดขนคุด ตั้งค่าพลังงานตามสีผิวและสีขนของแต่ละคน"
+summary_th: "เลเซอร์กำจัดขน 3 ความยาวคลื่นในหัวยิงเดียว ดูแลได้ทั้งขนเส้นเล็ก ขนรากลึก และผิวสีแทน ทั้งหน้าและตัว ช่วยลดขนคุด ตั้งค่าพลังงานตามสีผิวและสีขนของแต่ละคน"
 summary_en: "Diode laser hair removal with three wavelengths (755, 810 and 1064 nm) in one handpiece, treating fine hair, deep-rooted hair and tanned skin, on the face and body. It also helps ingrown hairs. Energy is set for your skin and hair."
 price_from: "390"
 price_grid:

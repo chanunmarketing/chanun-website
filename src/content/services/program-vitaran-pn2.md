@@ -4,7 +4,7 @@ name_th: PN สายสั้น เนื้อเบา กระจายต
 category: skin
 subgroup: regeneration
 image: /uploads/service-vitaran.jpg
-summary_th: "PN 2% (20 มก./มล.) สายสั้น เนื้อเบา กระจายตัวในผิวได้ง่าย ช่วยฟื้นฟูผิวให้แข็งแรง ชุ่มชื้น และซ่อมแซมตัวเองได้ดีขึ้น ใช้ได้ทั้งผิวบาง ผิวแพ้ง่าย รอยสิว ใต้ตา และผิวหลังเลเซอร์ คุณหมอปิงปองเลือกจุดฉีดตามสภาพผิวของแต่ละคน"
+summary_th: "PN 2% สายสั้น เนื้อเบา กระจายตัวในผิวง่าย ช่วยให้ผิวแข็งแรง ชุ่มชื้น และซ่อมแซมตัวเองได้ดีขึ้น เหมาะกับผิวบาง ผิวแพ้ง่าย รอยสิว ใต้ตา และผิวหลังเลเซอร์ คุณหมอเลือกจุดฉีดตามผิวของคุณ"
 summary_en: "PN 2% (20 mg/ml) with shorter chains: light, and it spreads through the skin easily. It helps the skin grow stronger, more hydrated and better at repairing itself, for thin or sensitive skin, acne marks, the under-eye area and skin after laser. Dr. PP chooses the injection points for your skin."
 price_from: "5900"
 prices:

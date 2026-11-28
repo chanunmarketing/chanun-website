@@ -3,7 +3,7 @@ name_en: Program U-One HIFU
 name_th: HIFU Premium จากเกาหลี ใช้ shot น้อยแต่ตรงจุด
 category: lifting
 image: /uploads/service-u-one-hifu.jpg
-summary_th: "HIFU Premium จากเกาหลี ลงลึกถึงชั้น SMAS คุณหมอปิงปองวางพลังงานทีละจุดตามโครงหน้าและความลึกของแต่ละชั้น จึงใช้จำนวน shot ไม่มาก แต่พลังงานลงตรงตำแหน่งที่ช่วยยกกระชับ และคุณจ่ายตามจำนวน shot ที่ใช้จริง"
+summary_th: "HIFU Premium จากเกาหลี ลงลึกถึงชั้น SMAS คุณหมอวางพลังงานทีละจุดตามโครงหน้า จึงใช้ shot ไม่มาก แต่ลงตรงตำแหน่งที่ช่วยยกกระชับ และคุณจ่ายตามจำนวน shot ที่ใช้จริง"
 summary_en: "Premium HIFU from Korea that reaches the SMAS. Dr. PP places the energy point by point to suit your bone structure and the depth of each layer, so fewer shots are needed and the energy lands exactly where it lifts. You pay only for the shots used."
 price_from: "19/shot"
 prices:

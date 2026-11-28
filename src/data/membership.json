@@ -3,7 +3,7 @@
   "kicker_en": "CHANUN Loyalty Program",
   "title_th": "The Atelier Circle",
   "title_en": "The Atelier Circle",
-  "intro_th": "The Atelier Circle คือพื้นที่ส่วนตัวสำหรับคนที่เลือกดูแลตัวเองในระยะยาว ทุกการมาเยือนคือการเติม longevity ให้กับตัวคุณ และพาคุณก้าวสู่การดูแลสุขภาพและความงามแบบองค์รวมที่ลึกซึ้งยิ่งขึ้นในทุกระดับ ตั้งแต่ของขวัญเดือนเกิด จนถึงการดูแลแบบส่วนตัวกับคุณหมอปิงปอง",
+  "intro_th": "The Atelier Circle คือโปรแกรมสมาชิกสำหรับคนที่ดูแลตัวเองกับเราในระยะยาว ยิ่งมาสม่ำเสมอ สิทธิ์ก็ยิ่งมากขึ้น ตั้งแต่ของขวัญเดือนเกิด ไปจนถึงการดูแลแบบส่วนตัวกับคุณหมอปิงปอง",
   "intro_en": "The Atelier Circle is a private space for those who choose long-term care. Every visit adds a little more longevity to you, and each tier opens deeper, more holistic care for your health and beauty, from a birthday-month gift to personal care with Dr. PP.",
   "liff_url": "https://liff.line.me/2012246583-gTIDAHa2",
   "button_th": "สมัครหรือดูบัตรสมาชิกใน LINE",
@@ -34,7 +34,7 @@
       "color": "#F5F2EC",
       "threshold_th": "เริ่มต้นทันทีเมื่อสมัคร",
       "threshold_en": "From the day you join",
-      "desc_th": "จุดเริ่มต้นของผิวที่ได้รับการดูแลอย่างใส่ใจ",
+      "desc_th": "จุดเริ่มต้นของการดูแลกับเรา",
       "desc_en": "Where attentive care begins",
       "privileges_th": [
         "สะสมดาวทุก 5,000 บาท",
@@ -54,7 +54,7 @@
       "color": "#9B918D",
       "threshold_th": "ยอดใช้บริการ 12 เดือน 50,000 บาท (10 ดาว)",
       "threshold_en": "50,000 THB in 12 months (10 stars)",
-      "desc_th": "ความงามที่เป็นเอกลักษณ์ในแบบของคุณ",
+      "desc_th": "สิทธิ์ที่มากขึ้นสำหรับคนที่ดูแลตัวเองกับเราสม่ำเสมอ",
       "desc_en": "Beauty with a signature of your own",
       "privileges_th": [
         "ราคาสมาชิกสำหรับบริการเครื่อง IV เลเซอร์ และพลาสม่า",
@@ -74,7 +74,7 @@
       "color": "#182E56",
       "threshold_th": "ยอดใช้บริการ 12 เดือน 100,000 บาท (20 ดาว)",
       "threshold_en": "100,000 THB in 12 months (20 stars)",
-      "desc_th": "การดูแลที่ออกแบบมาเพื่อคุณโดยเฉพาะ",
+      "desc_th": "การดูแลที่ปรับให้เข้ากับคุณมากขึ้นในทุกนัด",
       "desc_en": "Care designed around you",
       "privileges_th": [
         "ราคาสมาชิกระดับสูงขึ้น ทั้งบริการรายครั้งและคอร์ส",
@@ -94,7 +94,7 @@
       "color": "#141414",
       "threshold_th": "ยอดใช้บริการ 12 เดือน 150,000 บาท (30 ดาว)",
       "threshold_en": "150,000 THB in 12 months (30 stars)",
-      "desc_th": "ความใส่ใจระดับส่วนตัว จากแพทย์ถึงคุณ",
+      "desc_th": "การดูแลแบบส่วนตัวกับคุณหมอปิงปอง",
       "desc_en": "Personal attention, from doctor to you",
       "privileges_th": [
         "ราคาสมาชิกระดับสูงสุด",

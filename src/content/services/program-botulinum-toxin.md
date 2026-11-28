@@ -5,7 +5,7 @@ category: skin
 subgroup: pore
 also_in: [lifting]
 image: /uploads/service-botulinum.jpg
-summary_th: "Botulinum Toxin ให้เลือก 6 แบรนด์จากเกาหลี ยุโรป และอเมริกา คิดราคาเหมาทั้งขวด เปิดกล่องใหม่ต่อหน้าคุณ คุณหมอปิงปองฉีดตามปัญหาทางกายวิภาคและรูปหน้าของแต่ละคน แยกลักษณะชายและหญิง ผลจึงดูเป็นธรรมชาติ"
+summary_th: "Botulinum Toxin 6 แบรนด์จากเกาหลี ยุโรป และอเมริกา คิดราคาเหมาทั้งขวด เปิดกล่องใหม่ต่อหน้าคุณ คุณหมอปิงปองฉีดตามปัญหาทางกายวิภาคและรูปหน้าของแต่ละคน แยกแบบชายและหญิง ผลจึงดูเป็นธรรมชาติ"
 summary_en: "Botulinum toxin in six brands from Korea, Europe and the USA, priced by the whole vial and opened in front of you. Dr. PP injects according to each person's anatomy and face shape, treating male and female features differently, for a natural result."
 price_from: "4900"
 price_grid:

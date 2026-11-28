@@ -4,7 +4,7 @@ name_th: HA โมเลกุลใหญ่ผสมกลีเซอรอ�
 category: skin
 subgroup: hydration
 image: /uploads/service-hydrobooster.jpg
-summary_th: "สกินบูสเตอร์จากอิตาลี ไฮยาลูรอนิกโมเลกุลใหญ่สายยาวผสมกลีเซอรอล ช่วยปรับสมดุลน้ำในผิวให้ดีขึ้น เน้นผิวฉ่ำวาว อิ่มน้ำ และปรับสภาพแวดล้อมของผิวให้สมดุล รวมถึงริ้วรอยเล็กๆ รอบดวงตาและริมฝีปาก คุณหมอปิงปองเลือกเทคนิคและจุดฉีดตามสภาพผิวของแต่ละคน"
+summary_th: "สกินบูสเตอร์จากอิตาลี ไฮยาลูรอนิกโมเลกุลใหญ่ผสมกลีเซอรอล ช่วยให้ผิวอุ้มน้ำได้ดีขึ้น ดูฉ่ำและอิ่มน้ำ ริ้วรอยเล็กๆ รอบตาและปากดูจางลง คุณหมอเลือกเทคนิคและจุดฉีดตามผิวของคุณ"
 summary_en: "An Italian skin booster of long-chain, high-molecular-weight hyaluronic acid with glycerol. It helps rebalance water in the skin for a dewy, well-hydrated glow and a more balanced skin environment, and softens fine lines around the eyes and lips. Dr. PP chooses the technique and injection points for your skin."
 price_from: "8900"
 prices:

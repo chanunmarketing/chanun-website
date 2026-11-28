@@ -67,7 +67,7 @@ seo_title_th: "ตรวจเลือดสุขภาพทุก 6 เด�
 seo_title_en: "Blood Test Health Panel, Results in 1 Hour, Bangkok"
 faq:
   - q_th: "ตรวจเลือดสุขภาพที่ CHANUN ต่างจากที่อื่นอย่างไร"
-    a_th: "รู้ผลภายใน 30–60 นาทีหลังเจาะเลือด และคุณหมออ่านผลให้ด้วยตัวเอง ไม่ใช่แค่ส่งใบผลให้ไปอ่านเอง คุณหมอจะอธิบายว่าค่าไหนควรดูแล และวางแผนต่อได้ทันที เช่น เลือกสูตร IV Drip ให้ตรงกับร่างกาย"
+    a_th: "รู้ผลภายใน 30–60 นาทีหลังเจาะเลือด และคุณหมออ่านผลให้ด้วยตัวเอง พร้อมอธิบายว่าค่าไหนควรดูแล และวางแผนต่อได้ทันที เช่น เลือกสูตร IV Drip ให้ตรงกับร่างกาย"
     q_en: "How is a blood test at CHANUN different?"
     a_en: "Results are ready 30–60 minutes after the draw, and the doctor reviews them personally rather than just handing you a printout. The doctor explains which values need attention and can plan next steps straight away, such as choosing the right IV drip formula."
   - q_th: "ผลตรวจที่คลินิกเชื่อถือได้เท่าโรงพยาบาลไหม"

@@ -4,7 +4,7 @@ name_th: ดูแลผิวครบทั้ง 3 ชั้นในคร�
 category: skin
 subgroup: signature
 image: /uploads/service-skin-trio.jpg
-summary_th: "เทคนิคเฉพาะของคุณหมอปิงปอง รวม PN, HMW-HA กับกลีเซอรอล และ HA สายยาวผสมสายกลางไว้ในการฉีดครั้งเดียว ด้วยหลัก Triple Derma Layer ผิวจึงได้ทั้งความอิ่มฟู ความชุ่มชื้น และการดูแลโครงสร้าง ECM ใต้ผิว ทำโดยคุณหมอปิงปองทุกเคส"
+summary_th: "เทคนิคเฉพาะของคุณหมอปิงปอง ฉีด PN, HA ผสมกลีเซอรอล และ HA สายยาวไว้ในครั้งเดียว ดูแลผิวพร้อมกันทั้ง 3 ชั้นตามหลัก Triple Derma Layer ผิวจึงได้ทั้งความอิ่มฟู ความชุ่มชื้น และโครงสร้างใต้ผิวที่แข็งแรง คุณหมอปิงปองทำเองทุกเคส"
 summary_en: "Dr. PP’s own technique: PN, high-molecular-weight HA with glycerol, and long- and middle-chain HA in a single treatment, built on the Triple Derma Layer principle. Your skin gets plumpness, hydration and support for the ECM beneath it, and every case is treated by Dr. PP."
 price_from: "20900"
 prices:

@@ -5,7 +5,7 @@ category: skin
 subgroup: pore
 also_in: [scar, hair]
 image: /uploads/service-epn.jpg
-summary_th: "EPN รวม Microneedling กับ Electroporation ไว้ในครั้งเดียว เปิดช่องบนผิวพร้อมพา High Concentration HYA ลงสู่ผิวได้ลึกขึ้น ช่วยเรื่องหลุมสิว รูขุมขน เนื้อผิว และกระตุ้น Collagen ใช้ได้ทั้งผิวหน้าและหนังศีรษะ เห็นผลตั้งแต่ครั้งแรก"
+summary_th: "รวม Microneedling กับ Electroporation ไว้ในครั้งเดียว เปิดทางให้ High Concentration HYA ลงสู่ผิวได้ลึกขึ้น ช่วยเรื่องหลุมสิว รูขุมขน และเนื้อผิว ทำได้ทั้งผิวหน้าและหนังศีรษะ"
 summary_en: "EPN combines Microneedling and Electroporation in one session, opening tiny channels while carrying High Concentration HYA deeper into the skin. It helps acne scars, pores and texture and stimulates collagen, on the face or the scalp, with results visible from the first session."
 price_from: "8900"
 price_grid:

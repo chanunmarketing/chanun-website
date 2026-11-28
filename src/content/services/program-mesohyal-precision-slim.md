@@ -3,7 +3,7 @@ name_en: Program Mesohyal Precision Slim
 name_th: ฉีดลดไขมันเฉพาะจุดบนใบหน้า ให้หน้าดูเรียวขึ้น
 category: lifting
 image: /uploads/service-precision-slim.jpg
-summary_th: "ฉีดลดไขมันเฉพาะจุดบนใบหน้าด้วย Mesohyal จากสเปน คุณหมอปิงปองผสม Carnitine กับ Melilot ให้ช่วยทั้งลดไขมัน ลดบวม และมีไฮยาลูรอนิกช่วยดูแลผิวบริเวณที่ฉีดไม่ให้ดูหย่อน"
+summary_th: "ฉีดลดไขมันเฉพาะจุดบนใบหน้าด้วย Mesohyal จากสเปน คุณหมอผสมสูตรที่ช่วยทั้งลดไขมันและลดบวม พร้อมไฮยาลูรอนิกที่ช่วยไม่ให้ผิวดูหย่อนเมื่อไขมันลดลง"
 summary_en: "Targeted fat reduction for the face with Mesohyal from Spain. Dr. PP blends Carnitine and Melilot to reduce fat and swelling together, with hyaluronic acid to support the skin so the area does not look loose."
 price_from: "3900"
 prices:

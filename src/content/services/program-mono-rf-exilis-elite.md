@@ -3,7 +3,7 @@ name_en: Program Exilis Elite Monopolar-RF
 name_th: Monopolar RF มาตรฐานยุโรป ทั่วหน้าและคอ
 category: lifting
 image: /uploads/service-exilis-rf.jpg
-summary_th: "Monopolar RF มาตรฐาน CE ยุโรป รุ่นที่เน้นกระชับผิวพร้อมจัดเรียงคอลลาเจนใต้ผิว ได้ทั้งเรื่องผิว ความกระชับ และกระตุ้นคอลลาเจนชั้นตื้นในครั้งเดียว ไม่ต้องพักฟื้น จึงทำได้สม่ำเสมอตามที่คุณหมอแนะนำ"
+summary_th: "Monopolar RF มาตรฐาน CE ยุโรป ช่วยให้ผิวกระชับและกระตุ้นคอลลาเจนใต้ผิว ไม่ต้องพักฟื้น ทำได้สม่ำเสมอตามที่คุณหมอแนะนำ"
 summary_en: "A CE-marked European Monopolar RF that tightens the skin while reorganising the collagen beneath it, working on skin quality, firmness and shallow collagen in one session. With no downtime, it can be repeated regularly as the doctor advises."
 price_from: "4900"
 prices:

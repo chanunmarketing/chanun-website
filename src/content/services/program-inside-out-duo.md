@@ -3,7 +3,7 @@ name_en: Program Inside-Out Duo
 name_th: IV Drip คู่กับ Plasma Prime ดูแลผิวจากภายในสู่ภายนอกในนัดเดียว
 category: wellness
 also_in: []
-summary_th: "จับคู่ IV Drip วิตามินจาก The Formulary กับ Plasma Prime ไว้ในนัดเดียว ข้างในได้วิตามินที่ร่างกายต้องการ ข้างนอกได้ผิวที่ดูแลตรงจุด มี 3 คู่ตามเป้าหมาย ผิวกระจ่าง ผิวเป็นสิว และคนที่ออกกำลังกายเป็นประจำ"
+summary_th: "จับคู่ IV Drip จาก The Formulary กับ Plasma Prime ไว้ในนัดเดียว ข้างในได้วิตามินที่ร่างกายต้องการ ข้างนอกได้ผิวที่ดูแลตรงจุด เลือกได้ 3 คู่ตามเป้าหมายของคุณ"
 summary_en: "An IV vitamin drip from The Formulary paired with Plasma Prime in one visit: the vitamins your body needs on the inside, targeted skin care on the outside. Three pairs by goal: brighter skin, acne-prone skin, and active lifestyles."
 image: /uploads/service-inside-out.jpg
 price_from: "1890"

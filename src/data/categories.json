@@ -3,7 +3,7 @@
     {
       "id": "lifting",
       "name": "Facial Contour",
-      "desc_th": "ยกกระชับและปรับสัดส่วนใบหน้าตามโครงสร้าง 5 ชั้นของใบหน้า ดูแลตั้งแต่ชั้นชิดกระดูก เอ็นยึดใบหน้า ไปจนถึงชั้น SMAS ด้วยเครื่องมือยกกระชับและงานฉีด คุณหมอวางแผนทีละจุดตามโครงหน้า ให้ผลลัพธ์ยังเป็นตัวคุณ ในแบบที่ได้สัดส่วนและดูเป็นธรรมชาติ",
+      "desc_th": "ยกกระชับและปรับรูปหน้าตามโครงสร้าง 5 ชั้นของใบหน้า ตั้งแต่ชั้นชิดกระดูกจนถึงชั้น SMAS คุณหมอวางแผนทีละจุดตามโครงหน้าของคุณ ให้สัดส่วนชัดขึ้นและยังเป็นตัวคุณ",
       "desc_en": "Lifting and facial balancing based on the five layers of the face, from the layer closest to the bone and the retaining ligaments up to the SMAS, using lifting devices and injectables. The doctor plans point by point around your bone structure, so you still look like you, balanced and natural.",
       "subgroups": [],
       "faq": [
@@ -54,25 +54,25 @@
     {
       "id": "skin",
       "name": "Derma Longevity",
-      "desc_th": "ดูแลผิวตามโครงสร้าง 5 ชั้นของใบหน้า ด้วยเทคนิค Triple Derma Layer ของคุณหมอปิงปอง ที่ดูแลผิวพร้อมกันทั้ง 3 ชั้น ตั้งแต่ผิวด้านบนลงไปถึงชั้นลึก ที่ซึ่งคอลลาเจน อีลาสติน และ ECM ช่วยค้ำผิวไว้ ให้ผิวแข็งแรงและสวยได้นาน",
+      "desc_th": "ดูแลผิวด้วยเทคนิค Triple Derma Layer ของคุณหมอปิงปอง ดูแลพร้อมกันทั้ง 3 ชั้น ตั้งแต่ผิวด้านบนจนถึงชั้นลึกที่คอลลาเจน อีลาสติน และ ECM ช่วยค้ำผิวไว้ ให้ผิวแข็งแรงและสวยได้นาน",
       "desc_en": "Skin care built on the five layers of the face, using Dr. PP's Triple Derma Layer technique to treat three layers of the skin together, from the surface down to the deep layer where collagen, elastin and the ECM hold your skin up, so it stays healthy and beautiful for longer.",
       "subgroups": [
         {
           "id": "signature",
           "name": "Signature Layers",
-          "desc_th": "โปรแกรมผสมตามเทคนิค Triple Derma Layer",
+          "desc_th": "โปรแกรมผสมตามเทคนิค Triple Derma Layer ดูแลผิวครบ 3 ชั้นในครั้งเดียว",
           "desc_en": "Combination programmes built on the Triple Derma Layer technique"
         },
         {
           "id": "hydration",
           "name": "Deep Hydration",
-          "desc_th": "Hyaluronic Acid (HYA)",
+          "desc_th": "Hyaluronic Acid (HYA) · ผิวอิ่มน้ำ ฉ่ำ และดูสุขภาพดี",
           "desc_en": "Hyaluronic Acid (HYA)"
         },
         {
           "id": "regeneration",
           "name": "Skin Regeneration",
-          "desc_th": "Polynucleotide (PN)",
+          "desc_th": "Polynucleotide (PN) · ฟื้นฟูผิวให้แข็งแรงและซ่อมแซมตัวเองได้ดีขึ้น",
           "desc_en": "Polynucleotide (PN)"
         },
         {
@@ -274,7 +274,7 @@
     {
       "id": "wellness",
       "name": "Longevity Wellness",
-      "desc_th": "ดูแลสุขภาพจากภายใน ทั้ง IV drip ตรวจเลือด และวัคซีน เพราะความสวยที่อยู่ได้นานเริ่มจากร่างกายที่แข็งแรง",
+      "desc_th": "ดูแลสุขภาพจากภายใน ทั้ง IV Drip ตรวจเลือด และวัคซีน เพราะผิวที่ดีและอยู่ได้นาน เริ่มจากร่างกายที่แข็งแรง",
       "desc_en": "Care from within, including IV drips, blood tests and vaccines, because beauty that lasts starts with a healthy body.",
       "subgroups": []
     }

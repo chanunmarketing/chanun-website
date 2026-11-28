@@ -10,32 +10,32 @@
   "welcome_title_en": "Welcome to CHANUN",
   "welcome_subtitle_th": "Atelier of Longevity ดูแลคุณแบบ couture จากภายในสู่ภายนอก",
   "welcome_subtitle_en": "Atelier of Longevity. Couture care, from the inside out.",
-  "hero_text_th": "ทุกแผนการดูแลที่ CHANUN เริ่มจากการตรวจประเมินโดยแพทย์ ให้เข้าใจทั้งผิวและสุขภาพของคุณ ก่อนออกแบบการรักษาเฉพาะบุคคล เพื่อผลลัพธ์ที่เป็นธรรมชาติและเหมาะกับคุณในระยะยาว",
+  "hero_text_th": "ทุกแผนการดูแลที่ CHANUN เริ่มจากการพูดคุยและตรวจประเมินโดยแพทย์ เราอยากเข้าใจทั้งผิวและสุขภาพของคุณก่อน แล้วจึงออกแบบการดูแลที่พอดีกับคุณ ให้ผลลัพธ์ดูเป็นธรรมชาติและอยู่กับคุณได้นาน",
   "hero_text_en": "Every plan at CHANUN begins with a doctor's assessment of your skin and your health, before we design personalised treatment for natural results that suit you over the long term.",
   "banner_image": "/uploads/banner.jpg",
   "banner_small_th": "แม่นยำในทุกชั้น",
   "banner_small_en": "Precision in every layer",
-  "banner_title_th": "เลือกดูแลให้ถูกชั้นคือหัวใจของผลลัพธ์ที่เป็นธรรมชาติ",
+  "banner_title_th": "ดูแลให้ถูกชั้น ผลลัพธ์จึงเป็นธรรมชาติ",
   "banner_title_en": "Treating the right layer is the key to a natural result.",
   "pillars": [
     {
       "title_th": "แพทย์ลงมือเองทุกเคส",
       "title_en": "Hand-finished by your doctor",
-      "text_th": "แพทย์ตรวจ วางแผน และลงมือทำเองทุกเคส แนะนำเฉพาะสิ่งที่จำเป็น พร้อมนัดติดตามผลอย่างต่อเนื่อง",
+      "text_th": "คุณหมอตรวจ วางแผน และทำเองทุกขั้นตอน แนะนำเฉพาะสิ่งที่คุณต้องการจริง แล้วนัดติดตามผลต่อเนื่อง",
       "text_en": "Your doctor assesses, plans and performs every treatment, recommends only what you need, and follows up with you over time.",
       "image": "/uploads/pillar-1.jpg"
     },
     {
       "title_th": "ลึกถึงโครงสร้างใต้ผิว",
       "title_en": "Built from within",
-      "text_th": "เราเน้น derma longevity ดูแลคอลลาเจน อีลาสติน และ ECM ใต้ผิว ควบคู่กับการดูแลจากภายใน ให้ผิวทำงานได้ดีไปอีกนาน",
+      "text_th": "เราดูแลคอลลาเจน อีลาสติน และ ECM ที่ค้ำผิวอยู่ด้านใน ควบคู่กับการดูแลจากภายใน ให้ผิวแข็งแรงไปอีกนาน",
       "text_en": "We focus on derma longevity, caring for collagen, elastin and the skin's matrix alongside care from within, so skin keeps working well for longer.",
       "image": "/uploads/pillar-2.jpg"
     },
     {
       "title_th": "ผสานเทคนิคให้ตรงทุกชั้น",
       "title_en": "Layered with precision",
-      "text_th": "แต่ละชั้นของใบหน้าต้องการวิธีต่างกัน แพทย์จึงผสานหลายเทคนิคให้ทำงานเสริมกันในแผนเดียว",
+      "text_th": "ใบหน้าแต่ละชั้นต้องการการดูแลต่างกัน คุณหมอจึงผสานหลายเทคนิคไว้ในแผนเดียว ให้แต่ละอย่างทำงานเสริมกัน",
       "text_en": "Each layer of the face needs a different approach, so your doctor combines techniques that work together in one plan.",
       "image": "/uploads/pillar-3.jpg"
     }
@@ -53,6 +53,6 @@
   "featured_video_text_en": "My show on longevity, told simply and backed by research, on the Just Talk With Dr.PP channel.",
   "cta_title_th": "เริ่ม Longevity Journey ของคุณ",
   "cta_title_en": "Begin your longevity journey",
-  "cta_text_th": "การดูแลที่ดีเริ่มต้นจากการรับฟัง ทัก LINE OA เพื่อนัดตรวจประเมินกับแพทย์ แล้วเราจะออกแบบแผนการดูแลที่เหมาะกับคุณไปด้วยกัน",
+  "cta_text_th": "การดูแลที่ดีเริ่มจากการพูดคุย ทัก LINE OA เพื่อนัดปรึกษาคุณหมอ แล้วเราจะออกแบบแผนที่พอดีกับคุณไปด้วยกัน",
   "cta_text_en": "Fitted care begins with listening. Message our LINE OA to book an assessment with the doctor, and we'll design your plan together."
 }

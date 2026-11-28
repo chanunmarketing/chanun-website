@@ -4,7 +4,7 @@ name_th: HA เข้มข้นจากอิตาลี ฟื้นฟู�
 category: skin
 subgroup: hydration
 image: /uploads/service-ejal40.jpg
-summary_th: "ไฮยาลูรอนิกเข้มข้น 40 มก. ต่อ 2 มล. จากอิตาลี ไม่ผ่านการเชื่อมโมเลกุล ช่วยให้ผิวอุ้มน้ำและกระตุ้นให้ผิวสร้างคอลลาเจนกับอีลาสตินใหม่ คุณหมอปิงปองฉีดเฉพาะจุดตามโครงสร้างใบหน้า ผิวจึงดูแน่น อิ่มฟู และกระชับขึ้นอย่างเป็นธรรมชาติ"
+summary_th: "ไฮยาลูรอนิกเข้มข้นจากอิตาลี ช่วยให้ผิวอุ้มน้ำ และกระตุ้นการสร้างคอลลาเจนกับอีลาสตินใหม่ คุณหมอฉีดเฉพาะจุดตามโครงหน้า ผิวจึงค่อยๆ แน่นและอิ่มขึ้นอย่างเป็นธรรมชาติ"
 summary_en: "Concentrated, non-cross-linked hyaluronic acid from Italy (40 mg per 2 ml) that helps the skin hold water and encourages it to build new collagen and elastin. Dr. PP injects only at selected points along the structure of your face, so the skin looks firmer, plumper and naturally tighter."
 price_from: "9900"
 prices:

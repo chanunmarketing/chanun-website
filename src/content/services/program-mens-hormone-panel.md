@@ -3,7 +3,7 @@ name_en: Program Men's Hormone Panel
 name_th: ตรวจฮอร์โมนเพศชาย Testosterone และ E2 รู้ผลใน 1 ชั่วโมง
 category: wellness
 image: /uploads/service-mens-hormone.jpg
-summary_th: "ตรวจ Testosterone และ E2 คู่กัน ให้คุณหมอเห็นสมดุลฮอร์โมนเพศชายทั้งภาพ ฮอร์โมนเพศชายค่อยๆ ลดลงตามอายุ และส่งผลต่อแรง กล้ามเนื้อ อารมณ์ และความต้องการทางเพศ รู้ผลภายใน 1 ชั่วโมง คุณหมออ่านผลและวางแผนดูแลให้ด้วยตัวเอง"
+summary_th: "ตรวจ Testosterone และ E2 คู่กัน เพื่อดูสมดุลฮอร์โมนเพศชาย ซึ่งค่อยๆ ลดลงตามอายุ และมีผลต่อแรง กล้ามเนื้อ อารมณ์ และความต้องการทางเพศ รู้ผลใน 1 ชั่วโมง คุณหมออ่านผลและวางแผนให้เอง"
 summary_en: "Testosterone and E2 tested together, so the doctor sees your male hormone balance as a whole. Testosterone declines gradually with age and affects energy, muscle, mood and sex drive. Results within an hour, reviewed and planned by the doctor personally."
 price_from: "1590"
 price_grid:

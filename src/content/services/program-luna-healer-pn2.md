@@ -1,10 +1,10 @@
 ---
 name_en: "Program Luna Healer PN2%"
-name_th: PN สายยาว เบสมากกว่า อยู่ในผิวได้นานกว่า
+name_th: "PN สายยาว อยู่ในผิวได้นานกว่า"
 category: skin
 subgroup: regeneration
 image: /uploads/service-luna-healer.jpg
-summary_th: "PN 2% สายยาว มีจำนวนเบส (base pair) มากกว่า เด่นเรื่องการแสดงผลและอยู่ในผิวได้นานกว่า ช่วยฟื้นฟูผิวให้แข็งแรง ชุ่มชื้น และซ่อมแซมตัวเองได้ดีขึ้น ใช้ได้ทั้งผิวบาง ผิวแพ้ง่าย รอยสิว ใต้ตา และผิวหลังเลเซอร์"
+summary_th: "PN 2% สายยาว อยู่ในผิวได้นาน ช่วยให้ผิวแข็งแรง ชุ่มชื้น และซ่อมแซมตัวเองได้ดีขึ้น เหมาะกับผิวบาง ผิวแพ้ง่าย รอยสิว ใต้ตา และผิวหลังเลเซอร์"
 summary_en: "PN 2% with longer chains and more base pairs, for a stronger visible effect that stays in the skin longer. It helps the skin grow stronger, more hydrated and better at repairing itself, for thin or sensitive skin, acne marks, the under-eye area and skin after laser."
 price_from: "6900"
 prices:
