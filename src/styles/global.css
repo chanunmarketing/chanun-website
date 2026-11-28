@@ -359,6 +359,13 @@ html .is-latin { font-family: var(--f-display); }
 }
 .member-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(125deg, rgba(255,255,255,.22), rgba(255,255,255,0) 45%); pointer-events: none; }
 .member-card.on-dark { color: #F4F1EA; }
+.member-card::before {
+  content: ""; position: absolute; right: 5%; bottom: -10%; height: 92%; aspect-ratio: 260 / 298;
+  background-color: currentColor; opacity: .055; pointer-events: none;
+  -webkit-mask: url(/deer-mark.png) no-repeat center / contain; mask: url(/deer-mark.png) no-repeat center / contain;
+}
+.member-card.on-dark::before { opacity: .085; }
+.member-card > * { position: relative; z-index: 1; }
 .member-card-brand { font-family: "Marcellus", serif; letter-spacing: 0.22em; font-size: 0.82rem; opacity: .85; }
 .member-card-name { font-family: "Marcellus", serif; letter-spacing: 0.16em; font-size: clamp(1.25rem, 1.8vw, 1.55rem); }
 .member-card-circle { font-family: "Marcellus", serif; font-size: 0.72rem; letter-spacing: 0.08em; opacity: .75; }
